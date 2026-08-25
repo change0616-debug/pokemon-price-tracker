@@ -1,0 +1,43 @@
+name: Daily price fetch
+
+on:
+  schedule:
+    # 毎日 UTC21:00 = 日本時間 朝6:00 に実行
+    - cron: "0 21 * * *"
+  workflow_dispatch: {}   # 手動で「今すぐ実行」もできるようにする
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch prices and build ranking
+        env:
+          POKEMON_PRICE_API_KEY: ${{ secrets.POKEMON_PRICE_API_KEY }}
+        run: python fetch_and_build.py
+
+      - name: Commit and push updated data
+        if: always()
+        run: |
+          git config user.name "price-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Update price data $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          curl -s \
+            -H "Title: 値上がりウォッチ: 実行に失敗しました" \
+            -H "Priority: high" \
+            -d "GitHub Actionsでエラーが発生しました。Actionsタブでログを確認してください。 ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            "https://ntfy.sh/${{ secrets.NTFY_TOPIC }}"
