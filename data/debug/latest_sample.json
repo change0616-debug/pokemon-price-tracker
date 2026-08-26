@@ -1,1 +1,218 @@
-[]
+[
+  {
+    "character": "ゲッコウガ",
+    "market": "overseas",
+    "raw_response": {
+      "data": [],
+      "metadata": {
+        "total": 0,
+        "count": 0,
+        "limit": 20,
+        "offset": 0,
+        "hasMore": false,
+        "language": "english",
+        "includes": {
+          "priceHistory": true,
+          "ebayData": true,
+          "cardmarketData": false
+        },
+        "historyWindow": {
+          "days": 100,
+          "from": "2026-05-18",
+          "to": "2026-08-26",
+          "maxDataPoints": 180,
+          "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+        },
+        "apiCallsConsumed": {
+          "total": 60,
+          "breakdown": {
+            "cards": 20,
+            "history": 20,
+            "ebay": 20
+          },
+          "costPerCard": 3
+        }
+      }
+    }
+  },
+  {
+    "character": "ゲッコウガ",
+    "market": "japan",
+    "raw_response": {
+      "data": [],
+      "metadata": {
+        "total": 0,
+        "count": 0,
+        "limit": 20,
+        "offset": 0,
+        "hasMore": false,
+        "language": "japanese",
+        "includes": {
+          "priceHistory": true,
+          "ebayData": true,
+          "cardmarketData": false
+        },
+        "historyWindow": {
+          "days": 100,
+          "from": "2026-05-18",
+          "to": "2026-08-26",
+          "maxDataPoints": 180,
+          "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+        },
+        "apiCallsConsumed": {
+          "total": 60,
+          "breakdown": {
+            "cards": 20,
+            "history": 20,
+            "ebay": 20
+          },
+          "costPerCard": 3
+        }
+      }
+    }
+  },
+  {
+    "character": "アルセウス",
+    "market": "overseas",
+    "raw_response": {
+      "data": [],
+      "metadata": {
+        "total": 0,
+        "count": 0,
+        "limit": 20,
+        "offset": 0,
+        "hasMore": false,
+        "language": "english",
+        "includes": {
+          "priceHistory": true,
+          "ebayData": true,
+          "cardmarketData": false
+        },
+        "historyWindow": {
+          "days": 100,
+          "from": "2026-05-18",
+          "to": "2026-08-26",
+          "maxDataPoints": 180,
+          "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+        },
+        "apiCallsConsumed": {
+          "total": 60,
+          "breakdown": {
+            "cards": 20,
+            "history": 20,
+            "ebay": 20
+          },
+          "costPerCard": 3
+        }
+      }
+    }
+  },
+  {
+    "character": "アルセウス",
+    "market": "japan",
+    "raw_response": {
+      "data": [],
+      "metadata": {
+        "total": 0,
+        "count": 0,
+        "limit": 20,
+        "offset": 0,
+        "hasMore": false,
+        "language": "japanese",
+        "includes": {
+          "priceHistory": true,
+          "ebayData": true,
+          "cardmarketData": false
+        },
+        "historyWindow": {
+          "days": 100,
+          "from": "2026-05-18",
+          "to": "2026-08-26",
+          "maxDataPoints": 180,
+          "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+        },
+        "apiCallsConsumed": {
+          "total": 60,
+          "breakdown": {
+            "cards": 20,
+            "history": 20,
+            "ebay": 20
+          },
+          "costPerCard": 3
+        }
+      }
+    }
+  },
+  {
+    "character": "ミュウ",
+    "market": "overseas",
+    "raw_response": {
+      "data": [],
+      "metadata": {
+        "total": 0,
+        "count": 0,
+        "limit": 20,
+        "offset": 0,
+        "hasMore": false,
+        "language": "english",
+        "includes": {
+          "priceHistory": true,
+          "ebayData": true,
+          "cardmarketData": false
+        },
+        "historyWindow": {
+          "days": 100,
+          "from": "2026-05-18",
+          "to": "2026-08-26",
+          "maxDataPoints": 180,
+          "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+        },
+        "apiCallsConsumed": {
+          "total": 60,
+          "breakdown": {
+            "cards": 20,
+            "history": 20,
+            "ebay": 20
+          },
+          "costPerCard": 3
+        }
+      }
+    }
+  },
+  {
+    "character": "ミュウ",
+    "market": "japan",
+    "raw_response": {
+      "data": [],
+      "metadata": {
+        "total": 0,
+        "count": 0,
+        "limit": 20,
+        "offset": 0,
+        "hasMore": false,
+        "language": "japanese",
+        "includes": {
+          "priceHistory": true,
+          "ebayData": true,
+          "cardmarketData": false
+        },
+        "historyWindow": {
+          "days": 100,
+          "from": "2026-05-18",
+          "to": "2026-08-26",
+          "maxDataPoints": 180,
+          "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
+        },
+        "apiCallsConsumed": {
+          "total": 60,
+          "breakdown": {
+            "cards": 20,
+            "history": 20,
+            "ebay": 20
+          },
+          "costPerCard": 3
+        }
+      }
+    }
+  }
+]
