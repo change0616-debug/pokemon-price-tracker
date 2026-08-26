@@ -16,8 +16,9 @@ PSA10の履歴データの正確なJSON構造は、公式ドキュメントの�
 Claudeに見せれば、実際の構造に合わせてすぐに直せる。
 
 【安全装置】
-1日のクレジット上限に近づいた/使い切ったとみられるエラーが返ってきたら、
+1日のクレジット上限に近づいた/使い切ったとみられるエラー(402)が返ってきたら、
 そこで処理を打ち切り、それまでに集まった分だけで summary.json を作る。
+一時的なアクセス過多(429)は、日の上限とは区別して少し待ってリトライする。
 PSA10データが1件も見つからない場合はエラー終了し、
 ntfy.sh経由のスマホ通知(別ステップ)が発火するようにする。
 """
@@ -93,19 +94,31 @@ def fetch_cards(name, language):
     url = API_BASE + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {API_KEY}"})
 
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            body = json.loads(resp.read().decode("utf-8"))
-        return body.get("data") or [], body
-    except urllib.error.HTTPError as e:
-        if e.code in (402, 429):
-            # 402: 支払い/クレジット関連, 429: レート制限 → 上限とみなす
-            raise CreditLimitReached(f"HTTP {e.code} for {name} ({language})")
-        print(f"  [error] {name} ({language}): HTTP {e.code}")
-        return [], None
-    except Exception as e:
-        print(f"  [error] {name} ({language}): {e}")
-        return [], None
+    max_retries = 4
+    for attempt in range(max_retries):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                body = json.loads(resp.read().decode("utf-8"))
+            return body.get("data") or [], body
+        except urllib.error.HTTPError as e:
+            if e.code == 402:
+                # 402: 支払い/1日のクレジット上限に関するエラー → 本当の上限とみなす
+                raise CreditLimitReached(f"HTTP {e.code} for {name} ({language})")
+            if e.code == 429:
+                # 429: 一時的なアクセス過多。少し待ってリトライする(1日の上限とは別物)
+                wait_seconds = 5 * (attempt + 1)
+                print(f"  [warn] {name} ({language}): HTTP 429、{wait_seconds}秒待ってリトライします")
+                time.sleep(wait_seconds)
+                continue
+            print(f"  [error] {name} ({language}): HTTP {e.code}")
+            return [], None
+        except Exception as e:
+            print(f"  [error] {name} ({language}): {e}")
+            return [], None
+
+    # 429のリトライを規定回数繰り返しても解決しなかった場合
+    print(f"  [warn] {name} ({language}): 429のリトライが上限に達したためスキップします")
+    return [], None
 
 
 def get_psa10_current_price(card):
