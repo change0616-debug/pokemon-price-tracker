@@ -10,6 +10,9 @@ PSA10(鑑定済み・満点評価)の価格推移を基準に、3ヶ月前と今
 検索は英語名で行う(このAPIは英語名での検索を前提にしているため。
 name_map.json に日本語名→英語名の対応表がある)。
 
+20キャラ処理するごとに、その時点までの結果を先にGitHubへコミットして
+サイトに反映する(全部終わるまで待たせない)。
+
 【①ライブ検証への備え】
 PSA10の履歴データの正確なJSON構造は、公式ドキュメントのサンプルでしか
 確認できていない(実際に有料APIを呼び出してはまだ確認できていない)。
@@ -28,6 +31,7 @@ ntfy.sh経由のスマホ通知(別ステップ)が発火するようにする�
 import datetime
 import json
 import os
+import subprocess
 import time
 import urllib.error
 import urllib.parse
@@ -51,6 +55,7 @@ MIN_CHANGE_PCT = 100.0      # 2倍以上 = +100%以上
 MIN_YEN_INCREASE = 5000     # 上昇額が5000円未満のものはノイズとして除外
 FALLBACK_USD_JPY = 150.0    # 為替レート取得に失敗した場合の保険用レート
 DEBUG_SAMPLE_LIMIT = 3      # 生データを保存するキャラクター数(最初の数件だけでOK)
+CHECKPOINT_EVERY = 20       # これだけキャラを処理するごとに、途中経過をサイトに反映する
 
 MARKETS = [
     {"key": "overseas", "label": "海外(英語版)", "language": None},
@@ -104,7 +109,7 @@ def fetch_cards(search_name, language):
     url = API_BASE + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {API_KEY}"})
 
-    max_retries = 4
+    max_retries = 2
     for attempt in range(max_retries):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
@@ -116,12 +121,12 @@ def fetch_cards(search_name, language):
                 raise CreditLimitReached(f"HTTP {e.code} for {search_name} ({language})")
             if e.code == 429:
                 # 429: 一時的なアクセス過多。サーバー指定の待ち時間(Retry-After)があれば
-                # それを優先し、無ければ徐々に長くなる待ち時間でリトライする
+                # それを優先し、無ければ短めの待ち時間でリトライする(無駄な長時間待ちを避ける)
                 retry_after = e.headers.get("Retry-After") if e.headers else None
                 if retry_after and retry_after.isdigit():
-                    wait_seconds = int(retry_after) + 1
+                    wait_seconds = min(int(retry_after) + 1, 15)
                 else:
-                    wait_seconds = 8 * (attempt + 1)
+                    wait_seconds = 6 * (attempt + 1)
                 print(f"  [warn] {search_name} ({language}): HTTP 429、{wait_seconds}秒待ってリトライします")
                 time.sleep(wait_seconds)
                 continue
@@ -312,6 +317,43 @@ def save_archive(summary):
         json.dump(kept, f, ensure_ascii=False, indent=2)
 
 
+def git_checkpoint_commit(message):
+    """途中経過を今すぐGitHub上に反映する(失敗しても処理は止めない)"""
+    try:
+        subprocess.run(["git", "add", "data/"], check=True, timeout=30)
+        result = subprocess.run(["git", "commit", "-m", message], timeout=30)
+        if result.returncode != 0:
+            # 差分が無い場合などはコミットが失敗するが、これは問題ない
+            return
+        subprocess.run(["git", "push"], check=True, timeout=60)
+        print(f"  [info] 途中経過をコミットしました: {message}")
+    except Exception as e:
+        print(f"  [warn] 途中経過のコミットに失敗しましたが、処理は続けます: {e}")
+
+
+def build_summary(results, total_characters, usd_jpy_rate, checked_count, stopped_early, psa10_data_found):
+    results_sorted = sorted(results, key=lambda r: r["change_pct"], reverse=True)
+    return {
+        "generated_at": datetime.date.today().isoformat(),
+        "target_days": TARGET_DAYS_AGO,
+        "min_change_pct": MIN_CHANGE_PCT,
+        "min_yen_increase": MIN_YEN_INCREASE,
+        "usd_jpy_rate": usd_jpy_rate,
+        "checked_characters": checked_count,
+        "total_characters": total_characters,
+        "stopped_early": stopped_early,
+        "psa10_data_found": psa10_data_found,
+        "cards": results_sorted,
+    }
+
+
+def write_and_save(summary):
+    os.makedirs("data", exist_ok=True)
+    with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
+        json.dump(summary, f, ensure_ascii=False, indent=2)
+    save_archive(summary)
+
+
 def main():
     characters = load_characters()
     name_map = load_name_map()
@@ -366,6 +408,15 @@ def main():
         if stopped_early:
             break
 
+        # 途中経過をこまめにサイトへ反映する(全部終わるまで待たせない)
+        if (i + 1) % CHECKPOINT_EVERY == 0:
+            save_debug_sample(debug_samples)
+            checkpoint_summary = build_summary(
+                results, len(characters), usd_jpy_rate, i + 1, False, psa10_data_found
+            )
+            write_and_save(checkpoint_summary)
+            git_checkpoint_commit(f"Checkpoint: {i + 1}/{len(characters)} characters processed")
+
     save_debug_sample(debug_samples)
 
     if not psa10_data_found:
@@ -375,26 +426,11 @@ def main():
             "get_psa10_historyの探索先を実際の構造に合わせて修正してください。"
         )
 
-    results.sort(key=lambda r: r["change_pct"], reverse=True)
-
-    summary = {
-        "generated_at": datetime.date.today().isoformat(),
-        "target_days": TARGET_DAYS_AGO,
-        "min_change_pct": MIN_CHANGE_PCT,
-        "min_yen_increase": MIN_YEN_INCREASE,
-        "usd_jpy_rate": usd_jpy_rate,
-        "checked_characters": i + (0 if stopped_early else 1),
-        "total_characters": len(characters),
-        "stopped_early": stopped_early,
-        "psa10_data_found": psa10_data_found,
-        "cards": results,
-    }
-
-    os.makedirs("data", exist_ok=True)
-    with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
-        json.dump(summary, f, ensure_ascii=False, indent=2)
-
-    save_archive(summary)
+    checked_count = i + (0 if stopped_early else 1)
+    summary = build_summary(
+        results, len(characters), usd_jpy_rate, checked_count, stopped_early, psa10_data_found
+    )
+    write_and_save(summary)
 
     print(f"wrote {len(results)} qualifying cards ({'一部のみ' if stopped_early else '全件'} 処理)")
 
