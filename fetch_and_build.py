@@ -1,11 +1,14 @@
 """
 有料プラン(API plan, 1日20,000クレジット, 6ヶ月分の価格履歴)向けのスクリプト。
 
-各キャラクターについて、海外版(英語)・日本版それぞれの上位20枚のカードを取得し、
+各キャラクターについて、海外版(英語)・日本版それぞれの上位8枚のカードを取得し、
 PSA10(鑑定済み・満点評価)の価格推移を基準に、3ヶ月前と今日を比較する。
 3ヶ月で+100%(2倍)以上 かつ 上昇額+5000円以上のカードだけを抽出し、
 「継続上昇」か「直近急騰」かも判定した上で data/summary.json に書き出す。
 過去の結果は data/archive/ 以下に日付ごとに保存し、振り返れるようにする。
+
+検索は英語名で行う(このAPIは英語名での検索を前提にしているため。
+name_map.json に日本語名→英語名の対応表がある)。
 
 【①ライブ検証への備え】
 PSA10の履歴データの正確なJSON構造は、公式ドキュメントのサンプルでしか
@@ -34,13 +37,14 @@ API_KEY = os.environ["POKEMON_PRICE_API_KEY"]
 API_BASE = "https://www.pokemonpricetracker.com/api/v2/cards"
 
 CHARACTERS_FILE = "characters.json"
+NAME_MAP_FILE = "name_map.json"
 SUMMARY_FILE = "data/summary.json"
 ARCHIVE_DIR = "data/archive"
 ARCHIVE_INDEX_FILE = "data/archive/index.json"
 DEBUG_FILE = "data/debug/latest_sample.json"
 ARCHIVE_KEEP_DAYS = 120  # 古いアーカイブはこれより前のものを削除してリポジトリを軽く保つ
 
-CARDS_PER_CHARACTER = 20
+CARDS_PER_CHARACTER = 8    # 1日の credit 予算(20,000)に収まるよう調整済み
 HISTORY_DAYS = 100          # 3ヶ月(90日)より少し多めに取得して余裕を持たせる
 TARGET_DAYS_AGO = 90        # 「3ヶ月前」の定義
 MIN_CHANGE_PCT = 100.0      # 2倍以上 = +100%以上
@@ -63,6 +67,11 @@ def load_characters():
         return json.load(f)
 
 
+def load_name_map():
+    with open(NAME_MAP_FILE, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def fetch_usd_jpy_rate():
     """USD→JPYの為替レートを取得する(取得できなければ保険のレートを使う)"""
     try:
@@ -77,10 +86,11 @@ def fetch_usd_jpy_rate():
     return FALLBACK_USD_JPY
 
 
-def fetch_cards(name, language):
-    """PSA10のデータも含めてカードを検索する(includeEbay=trueでPSA情報を要求)"""
+def fetch_cards(search_name, language):
+    """PSA10のデータも含めてカードを検索する(includeEbay=trueでPSA情報を要求)
+    search_name には英語名を渡す(このAPIは英語名での検索を前提にしているため)"""
     params = {
-        "search": name,
+        "search": search_name,
         "sortBy": "price",
         "sortOrder": "desc",
         "limit": str(CARDS_PER_CHARACTER),
@@ -103,21 +113,26 @@ def fetch_cards(name, language):
         except urllib.error.HTTPError as e:
             if e.code == 402:
                 # 402: 支払い/1日のクレジット上限に関するエラー → 本当の上限とみなす
-                raise CreditLimitReached(f"HTTP {e.code} for {name} ({language})")
+                raise CreditLimitReached(f"HTTP {e.code} for {search_name} ({language})")
             if e.code == 429:
-                # 429: 一時的なアクセス過多。少し待ってリトライする(1日の上限とは別物)
-                wait_seconds = 5 * (attempt + 1)
-                print(f"  [warn] {name} ({language}): HTTP 429、{wait_seconds}秒待ってリトライします")
+                # 429: 一時的なアクセス過多。サーバー指定の待ち時間(Retry-After)があれば
+                # それを優先し、無ければ徐々に長くなる待ち時間でリトライする
+                retry_after = e.headers.get("Retry-After") if e.headers else None
+                if retry_after and retry_after.isdigit():
+                    wait_seconds = int(retry_after) + 1
+                else:
+                    wait_seconds = 8 * (attempt + 1)
+                print(f"  [warn] {search_name} ({language}): HTTP 429、{wait_seconds}秒待ってリトライします")
                 time.sleep(wait_seconds)
                 continue
-            print(f"  [error] {name} ({language}): HTTP {e.code}")
+            print(f"  [error] {search_name} ({language}): HTTP {e.code}")
             return [], None
         except Exception as e:
-            print(f"  [error] {name} ({language}): {e}")
+            print(f"  [error] {search_name} ({language}): {e}")
             return [], None
 
     # 429のリトライを規定回数繰り返しても解決しなかった場合
-    print(f"  [warn] {name} ({language}): 429のリトライが上限に達したためスキップします")
+    print(f"  [warn] {search_name} ({language}): 429のリトライが上限に達したためスキップします")
     return [], None
 
 
@@ -299,6 +314,7 @@ def save_archive(summary):
 
 def main():
     characters = load_characters()
+    name_map = load_name_map()
     usd_jpy_rate = fetch_usd_jpy_rate()
     print(f"USD/JPY rate: {usd_jpy_rate}")
 
@@ -309,9 +325,10 @@ def main():
     i = -1
 
     for i, character in enumerate(characters):
+        search_name = name_map.get(character, character)
         for market in MARKETS:
             try:
-                cards, raw_body = fetch_cards(character, market["language"])
+                cards, raw_body = fetch_cards(search_name, market["language"])
             except CreditLimitReached as e:
                 print(f"credit limit reached, stopping early: {e}")
                 stopped_early = True
@@ -319,7 +336,7 @@ def main():
 
             if i < DEBUG_SAMPLE_LIMIT and raw_body is not None:
                 debug_samples.append(
-                    {"character": character, "market": market["key"], "raw_response": raw_body}
+                    {"character": character, "search_name": search_name, "market": market["key"], "raw_response": raw_body}
                 )
 
             for card in cards:
@@ -345,7 +362,7 @@ def main():
                         **change,
                     }
                 )
-            time.sleep(1.1)  # レート制限(1分60回 = 1秒に1回程度)を守るための間隔
+            time.sleep(1.5)  # レート制限に余裕を持たせるための間隔
         if stopped_early:
             break
 
