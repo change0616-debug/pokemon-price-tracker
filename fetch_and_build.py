@@ -10,8 +10,8 @@ PSA10(鑑定済み・満点評価)の価格推移を基準に、3ヶ月前と今
 検索は英語名で行う(このAPIは英語名での検索を前提にしているため。
 name_map.json に日本語名→英語名の対応表がある)。
 
-PSA10の価格データは、実際のAPI応答で確認した「ebay.psa10.<日付>.average」
-という日付キーの辞書形式から取り出す。
+PSA10の価格データは、実際のAPI応答で確認した
+「ebay.priceHistory.psa10.<日付>.average」という日付キーの辞書形式から取り出す。
 
 20キャラ処理するごとに、その時点までの結果を先にGitHubへコミットして
 サイトに反映する(全部終わるまで待たせない)。
@@ -112,11 +112,8 @@ def fetch_cards(search_name, language):
             return body.get("data") or [], body
         except urllib.error.HTTPError as e:
             if e.code == 402:
-                # 402: 支払い/1日のクレジット上限に関するエラー → 本当の上限とみなす
                 raise CreditLimitReached(f"HTTP {e.code} for {search_name} ({language})")
             if e.code == 429:
-                # 429: 一時的なアクセス過多。サーバー指定の待ち時間(Retry-After)があれば
-                # それを優先し、無ければ短めの待ち時間でリトライする(無駄な長時間待ちを避ける)
                 retry_after = e.headers.get("Retry-After") if e.headers else None
                 if retry_after and retry_after.isdigit():
                     wait_seconds = min(int(retry_after) + 1, 15)
@@ -131,26 +128,29 @@ def fetch_cards(search_name, language):
             print(f"  [error] {search_name} ({language}): {e}")
             return [], None
 
-    # 429のリトライを規定回数繰り返しても解決しなかった場合
     print(f"  [warn] {search_name} ({language}): 429のリトライが上限に達したためスキップします")
     return [], None
 
 
-def find_ebay_container(card):
-    """PSA10などのeBay販売統計が入っているコンテナを探す(名前が複数考えられるため)"""
-    for key in ["ebay", "ebaySales", "salesHistory", "gradedSales", "sales"]:
-        value = card.get(key)
-        if isinstance(value, dict) and isinstance(value.get("psa10"), dict):
-            return value
+def find_ebay_price_history(card):
+    """PSA10などの「日付ごとの価格推移」が入っているコンテナを探す
+    (実データ確認済み: card.ebay.priceHistory.psa10.<日付>.average)"""
+    for container_key in ["ebay", "ebaySales", "salesHistory"]:
+        container = card.get(container_key)
+        if not isinstance(container, dict):
+            continue
+        price_history = container.get("priceHistory")
+        if isinstance(price_history, dict) and isinstance(price_history.get("psa10"), dict):
+            return price_history
     return None
 
 
 def get_psa10_points(card):
     """PSA10の「日付→その日の平均価格」を、{date, price}のリストに変換する"""
-    container = find_ebay_container(card)
-    if not container:
+    price_history = find_ebay_price_history(card)
+    if not price_history:
         return None
-    psa10 = container.get("psa10")
+    psa10 = price_history.get("psa10")
     if not isinstance(psa10, dict) or not psa10:
         return None
 
@@ -239,7 +239,6 @@ def extract_price_change(card):
     if not history_points:
         return None
 
-    # 一番新しい日付の平均価格を「現在価格」として使う
     current = history_points[-1]["price"]
     if current <= 0:
         return None
@@ -314,7 +313,6 @@ def git_checkpoint_commit(message):
         subprocess.run(["git", "add", "data/"], check=True, timeout=30)
         result = subprocess.run(["git", "commit", "-m", message], timeout=30)
         if result.returncode != 0:
-            # 差分が無い場合などはコミットが失敗するが、これは問題ない
             return
         subprocess.run(["git", "push"], check=True, timeout=60)
         print(f"  [info] 途中経過をコミットしました: {message}")
@@ -369,7 +367,7 @@ def main():
 
             if i < DEBUG_SAMPLE_LIMIT and raw_body is not None:
                 trimmed_body = dict(raw_body)
-                trimmed_body["data"] = (raw_body.get("data") or [])[:2]  # 軽量化のため2枚分だけ保存
+                trimmed_body["data"] = (raw_body.get("data") or [])[:2]
                 debug_samples.append(
                     {"character": character, "search_name": search_name, "market": market["key"], "raw_response": trimmed_body}
                 )
@@ -397,11 +395,10 @@ def main():
                         **change,
                     }
                 )
-            time.sleep(1.5)  # レート制限に余裕を持たせるための間隔
+            time.sleep(1.5)
         if stopped_early:
             break
 
-        # 途中経過をこまめにサイトへ反映する(全部終わるまで待たせない)
         if (i + 1) % CHECKPOINT_EVERY == 0:
             save_debug_sample(debug_samples)
             checkpoint_summary = build_summary(
@@ -416,7 +413,7 @@ def main():
         print(
             "[warn] PSA10のデータが1件も見つかりませんでした。"
             f" {DEBUG_FILE} の中身を確認し、必要ならget_psa10_points/"
-            "find_ebay_containerの探索先を実際の構造に合わせて修正してください。"
+            "find_ebay_price_historyの探索先を実際の構造に合わせて修正してください。"
         )
 
     checked_count = i + (0 if stopped_early else 1)
