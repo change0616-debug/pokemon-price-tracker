@@ -10,16 +10,11 @@ PSA10(鑑定済み・満点評価)の価格推移を基準に、3ヶ月前と今
 検索は英語名で行う(このAPIは英語名での検索を前提にしているため。
 name_map.json に日本語名→英語名の対応表がある)。
 
+PSA10の価格データは、実際のAPI応答で確認した「ebay.psa10.<日付>.average」
+という日付キーの辞書形式から取り出す。
+
 20キャラ処理するごとに、その時点までの結果を先にGitHubへコミットして
 サイトに反映する(全部終わるまで待たせない)。
-
-【①ライブ検証への備え】
-PSA10の履歴データの正確なJSON構造は、公式ドキュメントのサンプルでしか
-確認できていない(実際に有料APIを呼び出してはまだ確認できていない)。
-そのため、考えられる複数の場所を順番に探す作りにしてあり、
-実行のたびに最初の数件分の「生のAPI応答」を data/debug/latest_sample.json
-に保存する。もし結果が0件続きで様子がおかしい場合は、このファイルの中身を
-Claudeに見せれば、実際の構造に合わせてすぐに直せる。
 
 【安全装置】
 1日のクレジット上限に近づいた/使い切ったとみられるエラー(402)が返ってきたら、
@@ -54,7 +49,7 @@ TARGET_DAYS_AGO = 90        # 「3ヶ月前」の定義
 MIN_CHANGE_PCT = 100.0      # 2倍以上 = +100%以上
 MIN_YEN_INCREASE = 5000     # 上昇額が5000円未満のものはノイズとして除外
 FALLBACK_USD_JPY = 150.0    # 為替レート取得に失敗した場合の保険用レート
-DEBUG_SAMPLE_LIMIT = 3      # 生データを保存するキャラクター数(最初の数件だけでOK)
+DEBUG_SAMPLE_LIMIT = 1      # 生データを保存するキャラクター数(ファイルサイズを抑えるため最小限に)
 CHECKPOINT_EVERY = 20       # これだけキャラを処理するごとに、途中経過をサイトに反映する
 
 MARKETS = [
@@ -141,41 +136,36 @@ def fetch_cards(search_name, language):
     return [], None
 
 
-def get_psa10_current_price(card):
-    """PSA10の「今日時点の価格」を、考えられる複数の場所から探す"""
-    candidates = [
-        lambda c: c.get("psa10"),
-        lambda c: (c.get("ebay") or {}).get("psa10", {}).get("avg")
-        if isinstance((c.get("ebay") or {}).get("psa10"), dict) else None,
-        lambda c: (c.get("ebay") or {}).get("salesByGrade", {}).get("psa10"),
-        lambda c: (c.get("prices") or {}).get("psa10"),
-    ]
-    for getter in candidates:
-        try:
-            value = getter(card)
-        except Exception:
-            value = None
-        if isinstance(value, (int, float)) and value > 0:
-            return float(value)
+def find_ebay_container(card):
+    """PSA10などのeBay販売統計が入っているコンテナを探す(名前が複数考えられるため)"""
+    for key in ["ebay", "ebaySales", "salesHistory", "gradedSales", "sales"]:
+        value = card.get(key)
+        if isinstance(value, dict) and isinstance(value.get("psa10"), dict):
+            return value
     return None
 
 
-def get_psa10_history(card):
-    """PSA10の「価格推移」を、考えられる複数の場所から探す(見つかった最初のものを使う)"""
-    ph = card.get("priceHistory") or {}
-    conditions = ph.get("conditions") or {}
-    grades = ph.get("grades") or {}
+def get_psa10_points(card):
+    """PSA10の「日付→その日の平均価格」を、{date, price}のリストに変換する"""
+    container = find_ebay_container(card)
+    if not container:
+        return None
+    psa10 = container.get("psa10")
+    if not isinstance(psa10, dict) or not psa10:
+        return None
 
-    candidates = [
-        conditions.get("PSA 10", {}).get("history") if isinstance(conditions.get("PSA 10"), dict) else None,
-        grades.get("psa10", {}).get("history") if isinstance(grades.get("psa10"), dict) else None,
-        ph.get("psa10") if isinstance(ph.get("psa10"), list) else None,
-        (card.get("ebayHistory") or {}).get("psa10") if isinstance(card.get("ebayHistory"), dict) else None,
-    ]
-    for points in candidates:
-        if points:
-            return points
-    return None
+    points = []
+    for date_str, stats in psa10.items():
+        if not isinstance(stats, dict):
+            continue
+        avg = stats.get("average")
+        if isinstance(avg, (int, float)) and avg > 0:
+            points.append({"date": date_str[:10], "price": float(avg)})
+
+    if not points:
+        return None
+    points.sort(key=lambda p: p["date"])
+    return points
 
 
 def find_price_at(history_points, target_date):
@@ -245,12 +235,13 @@ def downsample(history_points, max_points=25):
 
 def extract_price_change(card):
     """カード1件分のデータから、PSA10の90/60/30日前と今日の価格を取り出し、変化率とトレンドを判定する"""
-    current = get_psa10_current_price(card)
-    if current is None:
+    history_points = get_psa10_points(card)
+    if not history_points:
         return None
 
-    history_points = get_psa10_history(card)
-    if not history_points:
+    # 一番新しい日付の平均価格を「現在価格」として使う
+    current = history_points[-1]["price"]
+    if current <= 0:
         return None
 
     today = datetime.date.today()
@@ -377,8 +368,10 @@ def main():
                 break
 
             if i < DEBUG_SAMPLE_LIMIT and raw_body is not None:
+                trimmed_body = dict(raw_body)
+                trimmed_body["data"] = (raw_body.get("data") or [])[:2]  # 軽量化のため2枚分だけ保存
                 debug_samples.append(
-                    {"character": character, "search_name": search_name, "market": market["key"], "raw_response": raw_body}
+                    {"character": character, "search_name": search_name, "market": market["key"], "raw_response": trimmed_body}
                 )
 
             for card in cards:
@@ -422,8 +415,8 @@ def main():
     if not psa10_data_found:
         print(
             "[warn] PSA10のデータが1件も見つかりませんでした。"
-            f" {DEBUG_FILE} の中身を確認し、必要ならget_psa10_current_price/"
-            "get_psa10_historyの探索先を実際の構造に合わせて修正してください。"
+            f" {DEBUG_FILE} の中身を確認し、必要ならget_psa10_points/"
+            "find_ebay_containerの探索先を実際の構造に合わせて修正してください。"
         )
 
     checked_count = i + (0 if stopped_early else 1)
