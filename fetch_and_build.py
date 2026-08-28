@@ -1,7 +1,7 @@
 """
 有料プラン(API plan, 1日20,000クレジット, 6ヶ月分の価格履歴)向けのスクリプト。
 
-各キャラクターについて、海外版(英語)・日本版それぞれの上位8枚のカードを取得し、
+各キャラクターについて、海外版(英語)・日本版それぞれの上位5枚のカードを取得し、
 PSA10(鑑定済み・満点評価)の価格推移を基準に、3ヶ月前と今日を比較する。
 3ヶ月で+100%(2倍)以上 かつ 上昇額+5000円以上のカードだけを抽出し、
 「継続上昇」か「直近急騰」かも判定した上で data/summary.json に書き出す。
@@ -16,12 +16,8 @@ PSA10の価格データは、実際のAPI応答で確認した
 20キャラ処理するごとに、その時点までの結果を先にGitHubへコミットして
 サイトに反映する(全部終わるまで待たせない)。
 
-【安全装置】
-1日のクレジット上限に近づいた/使い切ったとみられるエラー(402)が返ってきたら、
-そこで処理を打ち切り、それまでに集まった分だけで summary.json を作る。
-一時的なアクセス過多(429)は、日の上限とは区別して少し待ってリトライする。
-PSA10データが1件も見つからない場合はエラー終了し、
-ntfy.sh経由のスマホ通知(別ステップ)が発火するようにする。
+429(アクセス過多)がドキュメント記載より頻発するため、間隔を4秒に広げ、
+15回連続で429が続いたら無駄な長時間待機を避けて早期終了する。
 """
 import datetime
 import json
@@ -41,16 +37,16 @@ SUMMARY_FILE = "data/summary.json"
 ARCHIVE_DIR = "data/archive"
 ARCHIVE_INDEX_FILE = "data/archive/index.json"
 DEBUG_FILE = "data/debug/latest_sample.json"
-ARCHIVE_KEEP_DAYS = 120  # 古いアーカイブはこれより前のものを削除してリポジトリを軽く保つ
+ARCHIVE_KEEP_DAYS = 120
 
-CARDS_PER_CHARACTER = 8    # 1日の credit 予算(20,000)に収まるよう調整済み
-HISTORY_DAYS = 100          # 3ヶ月(90日)より少し多めに取得して余裕を持たせる
-TARGET_DAYS_AGO = 90        # 「3ヶ月前」の定義
-MIN_CHANGE_PCT = 100.0      # 2倍以上 = +100%以上
-MIN_YEN_INCREASE = 5000     # 上昇額が5000円未満のものはノイズとして除外
-FALLBACK_USD_JPY = 150.0    # 為替レート取得に失敗した場合の保険用レート
-DEBUG_SAMPLE_LIMIT = 1      # 生データを保存するキャラクター数(ファイルサイズを抑えるため最小限に)
-CHECKPOINT_EVERY = 20       # これだけキャラを処理するごとに、途中経過をサイトに反映する
+CARDS_PER_CHARACTER = 5
+HISTORY_DAYS = 100
+TARGET_DAYS_AGO = 90
+MIN_CHANGE_PCT = 100.0
+MIN_YEN_INCREASE = 5000
+FALLBACK_USD_JPY = 150.0
+DEBUG_SAMPLE_LIMIT = 1
+CHECKPOINT_EVERY = 20
 
 MARKETS = [
     {"key": "overseas", "label": "海外(英語版)", "language": None},
@@ -73,7 +69,6 @@ def load_name_map():
 
 
 def fetch_usd_jpy_rate():
-    """USD→JPYの為替レートを取得する(取得できなければ保険のレートを使う)"""
     try:
         url = "https://api.frankfurter.dev/v1/latest?from=USD&to=JPY"
         with urllib.request.urlopen(url, timeout=10) as resp:
@@ -87,8 +82,6 @@ def fetch_usd_jpy_rate():
 
 
 def fetch_cards(search_name, language):
-    """PSA10のデータも含めてカードを検索する(includeEbay=trueでPSA情報を要求)
-    search_name には英語名を渡す(このAPIは英語名での検索を前提にしているため)"""
     params = {
         "search": search_name,
         "sortBy": "price",
@@ -104,12 +97,12 @@ def fetch_cards(search_name, language):
     url = API_BASE + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {API_KEY}"})
 
-    max_retries = 2
+    max_retries = 1
     for attempt in range(max_retries):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 body = json.loads(resp.read().decode("utf-8"))
-            return body.get("data") or [], body
+            return body.get("data") or [], body, False
         except urllib.error.HTTPError as e:
             if e.code == 402:
                 raise CreditLimitReached(f"HTTP {e.code} for {search_name} ({language})")
@@ -123,18 +116,16 @@ def fetch_cards(search_name, language):
                 time.sleep(wait_seconds)
                 continue
             print(f"  [error] {search_name} ({language}): HTTP {e.code}")
-            return [], None
+            return [], None, False
         except Exception as e:
             print(f"  [error] {search_name} ({language}): {e}")
-            return [], None
+            return [], None, False
 
     print(f"  [warn] {search_name} ({language}): 429のリトライが上限に達したためスキップします")
-    return [], None
+    return [], None, True
 
 
 def find_ebay_price_history(card):
-    """PSA10などの「日付ごとの価格推移」が入っているコンテナを探す
-    (実データ確認済み: card.ebay.priceHistory.psa10.<日付>.average)"""
     for container_key in ["ebay", "ebaySales", "salesHistory"]:
         container = card.get(container_key)
         if not isinstance(container, dict):
@@ -146,7 +137,6 @@ def find_ebay_price_history(card):
 
 
 def get_psa10_points(card):
-    """PSA10の「日付→その日の平均価格」を、{date, price}のリストに変換する"""
     price_history = find_ebay_price_history(card)
     if not price_history:
         return None
@@ -169,7 +159,6 @@ def get_psa10_points(card):
 
 
 def find_price_at(history_points, target_date):
-    """target_date以前で一番近い日付の価格を探す。無ければ一番古い点で代用する"""
     best = None
     for point in history_points:
         date_str = point.get("date") if isinstance(point, dict) else None
@@ -198,7 +187,6 @@ def find_price_at(history_points, target_date):
 
 
 def classify_trend(p90, p60, p30, p_now):
-    """3ヶ月間の値上がりが、継続的な上昇か、直近だけの急騰かを判定する"""
     total_gain = p_now - p90
     if total_gain <= 0:
         return "unknown"
@@ -215,7 +203,6 @@ def classify_trend(p90, p60, p30, p_now):
 
 
 def downsample(history_points, max_points=25):
-    """グラフ表示用に、日次データを間引いて軽くする"""
     clean = []
     for p in history_points:
         if not isinstance(p, dict):
@@ -234,7 +221,6 @@ def downsample(history_points, max_points=25):
 
 
 def extract_price_change(card):
-    """カード1件分のデータから、PSA10の90/60/30日前と今日の価格を取り出し、変化率とトレンドを判定する"""
     history_points = get_psa10_points(card)
     if not history_points:
         return None
@@ -308,7 +294,6 @@ def save_archive(summary):
 
 
 def git_checkpoint_commit(message):
-    """途中経過を今すぐGitHub上に反映する(失敗しても処理は止めない)"""
     try:
         subprocess.run(["git", "add", "data/"], check=True, timeout=30)
         result = subprocess.run(["git", "commit", "-m", message], timeout=30)
@@ -353,17 +338,31 @@ def main():
     debug_samples = []
     stopped_early = False
     psa10_data_found = False
+    consecutive_rate_limits = 0
+    CONSECUTIVE_LIMIT = 15
     i = -1
 
     for i, character in enumerate(characters):
         search_name = name_map.get(character, character)
         for market in MARKETS:
             try:
-                cards, raw_body = fetch_cards(search_name, market["language"])
+                cards, raw_body, was_rate_limited = fetch_cards(search_name, market["language"])
             except CreditLimitReached as e:
                 print(f"credit limit reached, stopping early: {e}")
                 stopped_early = True
                 break
+
+            if was_rate_limited:
+                consecutive_rate_limits += 1
+                if consecutive_rate_limits >= CONSECUTIVE_LIMIT:
+                    print(
+                        f"[error] 429が{CONSECUTIVE_LIMIT}回連続したため、無駄な長時間待機を避けて早期終了します。"
+                        "APIサービス側のアクセス制限が厳しくなっている可能性があります。"
+                    )
+                    stopped_early = True
+                    break
+            else:
+                consecutive_rate_limits = 0
 
             if i < DEBUG_SAMPLE_LIMIT and raw_body is not None:
                 trimmed_body = dict(raw_body)
@@ -395,7 +394,7 @@ def main():
                         **change,
                     }
                 )
-            time.sleep(1.5)
+            time.sleep(4.0)
         if stopped_early:
             break
 
