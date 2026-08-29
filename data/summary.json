@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 200,
+  "checked_characters": 220,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -874,6 +874,38 @@
         {
           "date": "2026-07-19",
           "price": 404.99
+        }
+      ]
+    },
+    {
+      "character": "ハガネール",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Scyther",
+      "set_name": "L2: Steelix Constructed Standard Deck",
+      "rarity": "None",
+      "yen_increase": 43950,
+      "old_price": 76.0,
+      "new_price": 369.0,
+      "change_pct": 385.5,
+      "old_date": "2026-07-05",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-05",
+          "price": 76.0
+        },
+        {
+          "date": "2026-07-09",
+          "price": 81.0
+        },
+        {
+          "date": "2026-07-10",
+          "price": 89.99
+        },
+        {
+          "date": "2026-07-12",
+          "price": 369.0
         }
       ]
     },
@@ -2442,6 +2474,58 @@
         {
           "date": "2026-06-09",
           "price": 1337.59
+        }
+      ]
+    },
+    {
+      "character": "オンバット",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Noibat",
+      "set_name": "SM8b: GX Ultra Shiny",
+      "rarity": "Shiny Rare",
+      "yen_increase": 5172,
+      "old_price": 30.51,
+      "new_price": 64.99,
+      "change_pct": 113.0,
+      "old_date": "2026-05-30",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-23",
+          "price": 36.0
+        },
+        {
+          "date": "2026-05-25",
+          "price": 39.99
+        },
+        {
+          "date": "2026-05-29",
+          "price": 35.0
+        },
+        {
+          "date": "2026-05-30",
+          "price": 30.51
+        },
+        {
+          "date": "2026-06-03",
+          "price": 43.53
+        },
+        {
+          "date": "2026-06-21",
+          "price": 50.0
+        },
+        {
+          "date": "2026-07-01",
+          "price": 66.0
+        },
+        {
+          "date": "2026-07-08",
+          "price": 50.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 64.99
         }
       ]
     },
