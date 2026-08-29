@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 140,
+  "checked_characters": 160,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -30,6 +30,62 @@
         {
           "date": "2026-07-19",
           "price": 79.9
+        }
+      ]
+    },
+    {
+      "character": "コダック",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Slowpoke & Psyduck GX (Full Art)",
+      "set_name": "SM - Unified Minds",
+      "rarity": "Ultra Rare",
+      "yen_increase": 132600,
+      "old_price": 15.0,
+      "new_price": 899.0,
+      "change_pct": 5893.3,
+      "old_date": "2026-05-28",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-28",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-04",
+          "price": 15.0
+        },
+        {
+          "date": "2026-08-01",
+          "price": 899.0
+        }
+      ]
+    },
+    {
+      "character": "ヤドン",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Slowpoke & Psyduck GX (Full Art)",
+      "set_name": "SM - Unified Minds",
+      "rarity": "Ultra Rare",
+      "yen_increase": 132600,
+      "old_price": 15.0,
+      "new_price": 899.0,
+      "change_pct": 5893.3,
+      "old_date": "2026-05-28",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-28",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-04",
+          "price": 15.0
+        },
+        {
+          "date": "2026-08-01",
+          "price": 899.0
         }
       ]
     },
@@ -370,6 +426,54 @@
       ]
     },
     {
+      "character": "ロコン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Vulpix",
+      "set_name": "Vending Machine cards Series 3 (Green)",
+      "rarity": "Common",
+      "yen_increase": 62102,
+      "old_price": 40.99,
+      "new_price": 455.0,
+      "change_pct": 1010.0,
+      "old_date": "2026-06-16",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-16",
+          "price": 40.99
+        },
+        {
+          "date": "2026-06-21",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-22",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-25",
+          "price": 15.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 15.0
+        },
+        {
+          "date": "2026-07-13",
+          "price": 15.0
+        },
+        {
+          "date": "2026-07-16",
+          "price": 510.0
+        },
+        {
+          "date": "2026-07-18",
+          "price": 455.0
+        }
+      ]
+    },
+    {
       "character": "ミズゴロウ",
       "market": "日本版",
       "market_key": "japan",
@@ -486,6 +590,46 @@
         {
           "date": "2026-07-14",
           "price": 700.0
+        }
+      ]
+    },
+    {
+      "character": "ヌメルゴン",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Hisuian Goodra",
+      "set_name": "SWSH: Crown Zenith: Galarian Gallery",
+      "rarity": "Ultra Rare",
+      "yen_increase": 16876,
+      "old_price": 21.99,
+      "new_price": 134.5,
+      "change_pct": 511.6,
+      "old_date": "2026-05-22",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-22",
+          "price": 21.99
+        },
+        {
+          "date": "2026-06-16",
+          "price": 119.0
+        },
+        {
+          "date": "2026-06-25",
+          "price": 135.0
+        },
+        {
+          "date": "2026-06-28",
+          "price": 98.0
+        },
+        {
+          "date": "2026-07-15",
+          "price": 198.99
+        },
+        {
+          "date": "2026-08-19",
+          "price": 134.5
         }
       ]
     },
@@ -878,6 +1022,54 @@
       ]
     },
     {
+      "character": "ドダイトス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Torterra",
+      "set_name": "DP1: Space-Time Creation",
+      "rarity": "Holo Rare",
+      "yen_increase": 86724,
+      "old_price": 201.84,
+      "new_price": 780.0,
+      "change_pct": 286.4,
+      "old_date": "2026-05-30",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-30",
+          "price": 201.84
+        },
+        {
+          "date": "2026-06-01",
+          "price": 2000.0
+        },
+        {
+          "date": "2026-06-17",
+          "price": 262.95
+        },
+        {
+          "date": "2026-07-09",
+          "price": 1499.99
+        },
+        {
+          "date": "2026-07-21",
+          "price": 1222.0
+        },
+        {
+          "date": "2026-07-25",
+          "price": 286.0
+        },
+        {
+          "date": "2026-08-06",
+          "price": 967.0
+        },
+        {
+          "date": "2026-08-13",
+          "price": 780.0
+        }
+      ]
+    },
+    {
       "character": "クチート",
       "market": "日本版",
       "market_key": "japan",
@@ -1034,6 +1226,46 @@
         {
           "date": "2026-07-21",
           "price": 195.0
+        }
+      ]
+    },
+    {
+      "character": "コダック",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Psyduck",
+      "set_name": "Aquapolis",
+      "rarity": "Common",
+      "yen_increase": 950661,
+      "old_price": 3157.26,
+      "new_price": 9495.0,
+      "change_pct": 200.7,
+      "old_date": "2026-05-28",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-24",
+          "price": 2850.0
+        },
+        {
+          "date": "2026-05-25",
+          "price": 2425.0
+        },
+        {
+          "date": "2026-05-28",
+          "price": 3157.26
+        },
+        {
+          "date": "2026-07-03",
+          "price": 1450.0
+        },
+        {
+          "date": "2026-07-09",
+          "price": 1450.0
+        },
+        {
+          "date": "2026-08-25",
+          "price": 9495.0
         }
       ]
     },
@@ -1758,6 +1990,30 @@
       ]
     },
     {
+      "character": "ミカルゲ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Spiritomb",
+      "set_name": "DP5: Cry from the Mysterious",
+      "rarity": "Holo Rare",
+      "yen_increase": 56850,
+      "old_price": 301.0,
+      "new_price": 680.0,
+      "change_pct": 125.9,
+      "old_date": "2026-07-26",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-26",
+          "price": 301.0
+        },
+        {
+          "date": "2026-07-27",
+          "price": 680.0
+        }
+      ]
+    },
+    {
       "character": "フシギダネ",
       "market": "日本版",
       "market_key": "japan",
@@ -1858,6 +2114,30 @@
         {
           "date": "2026-08-06",
           "price": 108.5
+        }
+      ]
+    },
+    {
+      "character": "マイナン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "LaRousse's Minun",
+      "set_name": "Movie Commemoration VS Pack: Sky-Splitting Deoxys",
+      "rarity": "Common",
+      "yen_increase": 108139,
+      "old_price": 616.66,
+      "new_price": 1337.59,
+      "change_pct": 116.9,
+      "old_date": "2026-05-29",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-29",
+          "price": 616.66
+        },
+        {
+          "date": "2026-06-09",
+          "price": 1337.59
         }
       ]
     },
