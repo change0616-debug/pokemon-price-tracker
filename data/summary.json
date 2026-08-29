@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 40,
+  "checked_characters": 60,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -30,6 +30,34 @@
         {
           "date": "2026-07-19",
           "price": 79.9
+        }
+      ]
+    },
+    {
+      "character": "メタモン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Ditto",
+      "set_name": "Vending Machine cards Series 2 (Red)",
+      "rarity": "Uncommon",
+      "yen_increase": 701990,
+      "old_price": 184.38,
+      "new_price": 4864.31,
+      "change_pct": 2538.3,
+      "old_date": "2026-07-16",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-16",
+          "price": 184.38
+        },
+        {
+          "date": "2026-07-18",
+          "price": 299.0
+        },
+        {
+          "date": "2026-07-21",
+          "price": 4864.31
         }
       ]
     },
@@ -271,6 +299,30 @@
     },
     {
       "character": "レックウザ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Rayquaza ex",
+      "set_name": "EX Deoxys",
+      "rarity": "Ultra Rare",
+      "yen_increase": 7500000,
+      "old_price": 35000.0,
+      "new_price": 85000.0,
+      "change_pct": 142.9,
+      "old_date": "2026-06-01",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-01",
+          "price": 35000.0
+        },
+        {
+          "date": "2026-08-21",
+          "price": 85000.0
+        }
+      ]
+    },
+    {
+      "character": "デオキシス",
       "market": "海外(英語版)",
       "market_key": "overseas",
       "card_name": "Rayquaza ex",
