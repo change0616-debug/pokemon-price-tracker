@@ -4,9 +4,9 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 60,
+  "checked_characters": 70,
   "total_characters": 301,
-  "stopped_early": false,
+  "stopped_early": true,
   "psa10_data_found": true,
   "cards": [
     {
@@ -294,6 +294,34 @@
         {
           "date": "2026-08-11",
           "price": 3950.0
+        }
+      ]
+    },
+    {
+      "character": "ジュカイン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Sceptile",
+      "set_name": "ADV Expansion Pack",
+      "rarity": "Holo Rare",
+      "yen_increase": 136971,
+      "old_price": 581.86,
+      "new_price": 1495.0,
+      "change_pct": 156.9,
+      "old_date": "2026-06-05",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-05",
+          "price": 581.86
+        },
+        {
+          "date": "2026-06-10",
+          "price": 1355.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 1495.0
         }
       ]
     },
