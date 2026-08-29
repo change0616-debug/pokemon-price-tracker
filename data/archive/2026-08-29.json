@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 100,
+  "checked_characters": 120,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -58,6 +58,154 @@
         {
           "date": "2026-07-21",
           "price": 4864.31
+        }
+      ]
+    },
+    {
+      "character": "チルタリス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Altaria",
+      "set_name": "CP3: PokeKyun Collection",
+      "rarity": "Uncommon",
+      "yen_increase": 37500,
+      "old_price": 15.0,
+      "new_price": 265.0,
+      "change_pct": 1666.7,
+      "old_date": "2026-05-31",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-23",
+          "price": 300.0
+        },
+        {
+          "date": "2026-05-31",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-02",
+          "price": 345.0
+        },
+        {
+          "date": "2026-06-07",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-18",
+          "price": 238.18
+        },
+        {
+          "date": "2026-06-23",
+          "price": 221.5
+        },
+        {
+          "date": "2026-07-03",
+          "price": 227.5
+        },
+        {
+          "date": "2026-07-06",
+          "price": 239.95
+        },
+        {
+          "date": "2026-07-10",
+          "price": 250.0
+        },
+        {
+          "date": "2026-07-11",
+          "price": 173.89
+        },
+        {
+          "date": "2026-07-17",
+          "price": 218.92
+        },
+        {
+          "date": "2026-07-18",
+          "price": 165.5
+        },
+        {
+          "date": "2026-07-22",
+          "price": 290.0
+        },
+        {
+          "date": "2026-07-23",
+          "price": 211.72
+        },
+        {
+          "date": "2026-08-14",
+          "price": 265.0
+        }
+      ]
+    },
+    {
+      "character": "シャワーズ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Vaporeon Star",
+      "set_name": "EX Power Keepers",
+      "rarity": "Ultra Rare",
+      "yen_increase": 5625000,
+      "old_price": 2500.0,
+      "new_price": 40000.0,
+      "change_pct": 1500.0,
+      "old_date": "2026-05-31",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-31",
+          "price": 2500.0
+        },
+        {
+          "date": "2026-08-27",
+          "price": 40000.0
+        }
+      ]
+    },
+    {
+      "character": "シャワーズ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Vaporeon",
+      "set_name": "T Promotional cards",
+      "rarity": "Common",
+      "yen_increase": 100572,
+      "old_price": 59.99,
+      "new_price": 730.47,
+      "change_pct": 1117.7,
+      "old_date": "2026-06-08",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-08",
+          "price": 59.99
+        },
+        {
+          "date": "2026-07-08",
+          "price": 36.5
+        },
+        {
+          "date": "2026-07-09",
+          "price": 72.38
+        },
+        {
+          "date": "2026-07-10",
+          "price": 1600.0
+        },
+        {
+          "date": "2026-07-11",
+          "price": 228.9
+        },
+        {
+          "date": "2026-07-12",
+          "price": 181.66
+        },
+        {
+          "date": "2026-07-18",
+          "price": 170.34
+        },
+        {
+          "date": "2026-07-19",
+          "price": 730.47
         }
       ]
     },
@@ -246,7 +394,71 @@
       ]
     },
     {
+      "character": "ゼニガメ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Squirtle - 009/DPt-P",
+      "set_name": "DPt-P Promotional cards",
+      "rarity": "None",
+      "yen_increase": 90002,
+      "old_price": 99.99,
+      "new_price": 700.0,
+      "change_pct": 600.1,
+      "old_date": "2026-06-23",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-23",
+          "price": 99.99
+        },
+        {
+          "date": "2026-06-30",
+          "price": 99.99
+        },
+        {
+          "date": "2026-07-11",
+          "price": 202.5
+        },
+        {
+          "date": "2026-07-12",
+          "price": 1409.17
+        },
+        {
+          "date": "2026-07-13",
+          "price": 348.51
+        },
+        {
+          "date": "2026-07-14",
+          "price": 700.0
+        }
+      ]
+    },
+    {
       "character": "カメックス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Blastoise",
+      "set_name": "Intro Pack (Squirtle)",
+      "rarity": "None",
+      "yen_increase": 2504100,
+      "old_price": 3305.0,
+      "new_price": 19999.0,
+      "change_pct": 505.1,
+      "old_date": "2026-06-07",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-07",
+          "price": 3305.0
+        },
+        {
+          "date": "2026-08-09",
+          "price": 19999.0
+        }
+      ]
+    },
+    {
+      "character": "ゼニガメ",
       "market": "日本版",
       "market_key": "japan",
       "card_name": "Blastoise",
@@ -614,6 +826,30 @@
       ]
     },
     {
+      "character": "ハッサム",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Scizor ex",
+      "set_name": "EX Unseen Forces",
+      "rarity": "Ultra Rare",
+      "yen_increase": 3151800,
+      "old_price": 8988.0,
+      "new_price": 30000.0,
+      "change_pct": 233.8,
+      "old_date": "2026-06-17",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-17",
+          "price": 8988.0
+        },
+        {
+          "date": "2026-08-26",
+          "price": 30000.0
+        }
+      ]
+    },
+    {
       "character": "ブラッキー",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -658,6 +894,70 @@
         {
           "date": "2026-08-23",
           "price": 66000.0
+        }
+      ]
+    },
+    {
+      "character": "サンダース",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Jolteon",
+      "set_name": "T Promotional cards",
+      "rarity": "Common",
+      "yen_increase": 20252,
+      "old_price": 59.99,
+      "new_price": 195.0,
+      "change_pct": 225.1,
+      "old_date": "2026-05-29",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-29",
+          "price": 59.99
+        },
+        {
+          "date": "2026-07-08",
+          "price": 499.99
+        },
+        {
+          "date": "2026-07-12",
+          "price": 521.67
+        },
+        {
+          "date": "2026-07-18",
+          "price": 321.17
+        },
+        {
+          "date": "2026-07-21",
+          "price": 195.0
+        }
+      ]
+    },
+    {
+      "character": "チルタリス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Altaria ex",
+      "set_name": "Mirage Forest",
+      "rarity": "Holo Rare",
+      "yen_increase": 299998,
+      "old_price": 1000.0,
+      "new_price": 2999.99,
+      "change_pct": 200.0,
+      "old_date": "2026-07-05",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-05",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-07-23",
+          "price": 1500.0
+        },
+        {
+          "date": "2026-08-16",
+          "price": 2999.99
         }
       ]
     },
@@ -726,6 +1026,38 @@
       ]
     },
     {
+      "character": "ヒノアラシ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Cyndaquil (105)",
+      "set_name": "Expedition",
+      "rarity": "Common",
+      "yen_increase": 35134,
+      "old_price": 140.77,
+      "new_price": 375.0,
+      "change_pct": 166.4,
+      "old_date": "2026-05-24",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-24",
+          "price": 140.77
+        },
+        {
+          "date": "2026-06-04",
+          "price": 225.5
+        },
+        {
+          "date": "2026-07-22",
+          "price": 550.0
+        },
+        {
+          "date": "2026-07-30",
+          "price": 375.0
+        }
+      ]
+    },
+    {
       "character": "ジュカイン",
       "market": "日本版",
       "market_key": "japan",
@@ -750,6 +1082,46 @@
         {
           "date": "2026-08-19",
           "price": 1495.0
+        }
+      ]
+    },
+    {
+      "character": "ファイアロー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Talonflame V (Full Art)",
+      "set_name": "SWSH04: Vivid Voltage",
+      "rarity": "Ultra Rare",
+      "yen_increase": 6111,
+      "old_price": 27.26,
+      "new_price": 68.0,
+      "change_pct": 149.4,
+      "old_date": "2026-05-30",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-30",
+          "price": 27.26
+        },
+        {
+          "date": "2026-06-08",
+          "price": 32.0
+        },
+        {
+          "date": "2026-06-09",
+          "price": 120.0
+        },
+        {
+          "date": "2026-07-01",
+          "price": 150.0
+        },
+        {
+          "date": "2026-07-23",
+          "price": 66.0
+        },
+        {
+          "date": "2026-08-15",
+          "price": 68.0
         }
       ]
     },
@@ -950,6 +1322,30 @@
       ]
     },
     {
+      "character": "ソーナンス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Rocket's Wobbuffet",
+      "set_name": "Rocket Gang Strikes Back",
+      "rarity": "Rare",
+      "yen_increase": 105000,
+      "old_price": 500.0,
+      "new_price": 1200.0,
+      "change_pct": 140.0,
+      "old_date": "2026-07-04",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-04",
+          "price": 500.0
+        },
+        {
+          "date": "2026-08-03",
+          "price": 1200.0
+        }
+      ]
+    },
+    {
       "character": "レントラー",
       "market": "日本版",
       "market_key": "japan",
@@ -1010,6 +1406,42 @@
         {
           "date": "2026-08-04",
           "price": 10000.0
+        }
+      ]
+    },
+    {
+      "character": "ギルガルド",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Aegislash - 073/062",
+      "set_name": "SV3a: Raging Surf",
+      "rarity": "Art Rare",
+      "yen_increase": 7438,
+      "old_price": 39.02,
+      "new_price": 88.61,
+      "change_pct": 127.1,
+      "old_date": "2026-05-31",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-31",
+          "price": 39.02
+        },
+        {
+          "date": "2026-06-03",
+          "price": 37.99
+        },
+        {
+          "date": "2026-06-13",
+          "price": 24.72
+        },
+        {
+          "date": "2026-06-22",
+          "price": 31.0
+        },
+        {
+          "date": "2026-08-11",
+          "price": 88.61
         }
       ]
     },
@@ -1426,6 +1858,90 @@
         {
           "date": "2026-08-25",
           "price": 7400.0
+        }
+      ]
+    },
+    {
+      "character": "アーボ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Ekans",
+      "set_name": "Fossil",
+      "rarity": "Common",
+      "yen_increase": 15000,
+      "old_price": 99.99,
+      "new_price": 199.99,
+      "change_pct": 100.0,
+      "old_date": "2026-06-13",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-13",
+          "price": 99.99
+        },
+        {
+          "date": "2026-06-14",
+          "price": 201.5
+        },
+        {
+          "date": "2026-06-18",
+          "price": 169.99
+        },
+        {
+          "date": "2026-06-26",
+          "price": 179.99
+        },
+        {
+          "date": "2026-06-27",
+          "price": 150.0
+        },
+        {
+          "date": "2026-06-28",
+          "price": 172.5
+        },
+        {
+          "date": "2026-06-30",
+          "price": 175.0
+        },
+        {
+          "date": "2026-07-05",
+          "price": 165.94
+        },
+        {
+          "date": "2026-07-10",
+          "price": 202.5
+        },
+        {
+          "date": "2026-07-18",
+          "price": 197.5
+        },
+        {
+          "date": "2026-07-21",
+          "price": 169.61
+        },
+        {
+          "date": "2026-07-22",
+          "price": 136.99
+        },
+        {
+          "date": "2026-07-23",
+          "price": 150.0
+        },
+        {
+          "date": "2026-07-29",
+          "price": 166.25
+        },
+        {
+          "date": "2026-08-01",
+          "price": 199.0
+        },
+        {
+          "date": "2026-08-06",
+          "price": 200.0
+        },
+        {
+          "date": "2026-08-07",
+          "price": 199.99
         }
       ]
     }
