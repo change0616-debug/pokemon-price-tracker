@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 240,
+  "checked_characters": 260,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -554,6 +554,34 @@
         {
           "date": "2026-07-18",
           "price": 455.0
+        }
+      ]
+    },
+    {
+      "character": "ニドキング",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Nidoking",
+      "set_name": "Pokemon Web",
+      "rarity": "Rare",
+      "yen_increase": 174355,
+      "old_price": 182.88,
+      "new_price": 1345.25,
+      "change_pct": 635.6,
+      "old_date": "2026-06-20",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-20",
+          "price": 182.88
+        },
+        {
+          "date": "2026-06-30",
+          "price": 397.85
+        },
+        {
+          "date": "2026-07-29",
+          "price": 1345.25
         }
       ]
     },
@@ -1242,6 +1270,114 @@
       ]
     },
     {
+      "character": "ヨノワール",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Trevenant & Dusknoir GX - SM217",
+      "set_name": "SM Promos",
+      "rarity": "Promo",
+      "yen_increase": 210650,
+      "old_price": 450.0,
+      "new_price": 1854.33,
+      "change_pct": 312.1,
+      "old_date": "2026-05-27",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-05-24",
+          "price": 277.5
+        },
+        {
+          "date": "2026-05-27",
+          "price": 450.0
+        },
+        {
+          "date": "2026-06-05",
+          "price": 540.0
+        },
+        {
+          "date": "2026-06-06",
+          "price": 750.0
+        },
+        {
+          "date": "2026-06-07",
+          "price": 750.0
+        },
+        {
+          "date": "2026-06-15",
+          "price": 750.0
+        },
+        {
+          "date": "2026-06-23",
+          "price": 325.0
+        },
+        {
+          "date": "2026-06-26",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 1350.0
+        },
+        {
+          "date": "2026-08-02",
+          "price": 2000.0
+        },
+        {
+          "date": "2026-08-07",
+          "price": 1566.67
+        },
+        {
+          "date": "2026-08-09",
+          "price": 1770.97
+        },
+        {
+          "date": "2026-08-10",
+          "price": 1750.0
+        },
+        {
+          "date": "2026-08-11",
+          "price": 3000.0
+        },
+        {
+          "date": "2026-08-13",
+          "price": 1764.75
+        },
+        {
+          "date": "2026-08-15",
+          "price": 3200.0
+        },
+        {
+          "date": "2026-08-18",
+          "price": 120.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 120.0
+        },
+        {
+          "date": "2026-08-20",
+          "price": 2300.0
+        },
+        {
+          "date": "2026-08-21",
+          "price": 2750.0
+        },
+        {
+          "date": "2026-08-22",
+          "price": 3250.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 1854.33
+        },
+        {
+          "date": "2026-08-24",
+          "price": 1854.33
+        }
+      ]
+    },
+    {
       "character": "ドダイトス",
       "market": "日本版",
       "market_key": "japan",
@@ -1362,6 +1498,30 @@
         {
           "date": "2026-08-26",
           "price": 30000.0
+        }
+      ]
+    },
+    {
+      "character": "ギギギアル",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Klinklang - 141/086",
+      "set_name": "SV: Black Bolt",
+      "rarity": "Illustration Rare",
+      "yen_increase": 52498,
+      "old_price": 150.0,
+      "new_price": 499.99,
+      "change_pct": 233.3,
+      "old_date": "2026-06-13",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-13",
+          "price": 150.0
+        },
+        {
+          "date": "2026-06-26",
+          "price": 499.99
         }
       ]
     },
@@ -2606,6 +2766,46 @@
         {
           "date": "2026-06-09",
           "price": 1337.59
+        }
+      ]
+    },
+    {
+      "character": "アリアドス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Ariados - 009/092",
+      "set_name": "The Town on No Map",
+      "rarity": "Holo Rare",
+      "yen_increase": 53750,
+      "old_price": 307.67,
+      "new_price": 666.0,
+      "change_pct": 116.5,
+      "old_date": "2026-06-07",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-07",
+          "price": 307.67
+        },
+        {
+          "date": "2026-07-05",
+          "price": 266.77
+        },
+        {
+          "date": "2026-07-20",
+          "price": 255.0
+        },
+        {
+          "date": "2026-07-21",
+          "price": 356.0
+        },
+        {
+          "date": "2026-08-01",
+          "price": 299.99
+        },
+        {
+          "date": "2026-08-05",
+          "price": 666.0
         }
       ]
     },
