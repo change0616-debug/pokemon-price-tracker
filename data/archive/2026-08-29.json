@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 260,
+  "checked_characters": 280,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -298,6 +298,38 @@
         {
           "date": "2026-08-27",
           "price": 40000.0
+        }
+      ]
+    },
+    {
+      "character": "リザード",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Charmeleon",
+      "set_name": "Stormfront",
+      "rarity": "Secret Rare",
+      "yen_increase": 6269630,
+      "old_price": 3202.47,
+      "new_price": 45000.0,
+      "change_pct": 1305.2,
+      "old_date": "2026-06-07",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-07",
+          "price": 3202.47
+        },
+        {
+          "date": "2026-06-09",
+          "price": 5999.99
+        },
+        {
+          "date": "2026-06-21",
+          "price": 16000.0
+        },
+        {
+          "date": "2026-07-05",
+          "price": 45000.0
         }
       ]
     },
@@ -702,6 +734,34 @@
         {
           "date": "2026-07-14",
           "price": 700.0
+        }
+      ]
+    },
+    {
+      "character": "プテラ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Aerodactyl",
+      "set_name": "Vending Machine cards Series 2 (Red)",
+      "rarity": "Uncommon",
+      "yen_increase": 108909,
+      "old_price": 123.93,
+      "new_price": 849.99,
+      "change_pct": 585.9,
+      "old_date": "2026-07-16",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-16",
+          "price": 123.93
+        },
+        {
+          "date": "2026-07-17",
+          "price": 1124.5
+        },
+        {
+          "date": "2026-07-20",
+          "price": 849.99
         }
       ]
     },
@@ -1862,6 +1922,30 @@
       ]
     },
     {
+      "character": "リザード",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Charmeleon",
+      "set_name": "Pokemon Web",
+      "rarity": "Common",
+      "yen_increase": 84927,
+      "old_price": 330.2,
+      "new_price": 896.38,
+      "change_pct": 171.5,
+      "old_date": "2026-05-31",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-31",
+          "price": 330.2
+        },
+        {
+          "date": "2026-08-14",
+          "price": 896.38
+        }
+      ]
+    },
+    {
       "character": "アバゴーラ",
       "market": "日本版",
       "market_key": "japan",
@@ -2286,6 +2370,58 @@
       ]
     },
     {
+      "character": "ベトベトン",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Muk & Alolan Muk GX (Secret)",
+      "set_name": "SM - Unbroken Bonds",
+      "rarity": "Secret Rare",
+      "yen_increase": 27440,
+      "old_price": 129.99,
+      "new_price": 312.92,
+      "change_pct": 140.7,
+      "old_date": "2026-05-31",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-24",
+          "price": 366.0
+        },
+        {
+          "date": "2026-05-25",
+          "price": 134.99
+        },
+        {
+          "date": "2026-05-31",
+          "price": 129.99
+        },
+        {
+          "date": "2026-06-10",
+          "price": 218.99
+        },
+        {
+          "date": "2026-06-11",
+          "price": 220.0
+        },
+        {
+          "date": "2026-06-17",
+          "price": 277.18
+        },
+        {
+          "date": "2026-07-23",
+          "price": 190.5
+        },
+        {
+          "date": "2026-08-07",
+          "price": 207.5
+        },
+        {
+          "date": "2026-08-18",
+          "price": 312.92
+        }
+      ]
+    },
+    {
       "character": "グラードン",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -2606,6 +2742,30 @@
       ]
     },
     {
+      "character": "プクリン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Wigglytuff",
+      "set_name": "Vending Machine cards Series 1 (Blue)",
+      "rarity": "Uncommon",
+      "yen_increase": 82724,
+      "old_price": 448.5,
+      "new_price": 999.99,
+      "change_pct": 123.0,
+      "old_date": "2026-07-12",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-12",
+          "price": 448.5
+        },
+        {
+          "date": "2026-08-18",
+          "price": 999.99
+        }
+      ]
+    },
+    {
       "character": "チラーミィ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -2806,6 +2966,46 @@
         {
           "date": "2026-08-05",
           "price": 666.0
+        }
+      ]
+    },
+    {
+      "character": "プクリン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Wigglytuff ex",
+      "set_name": "Undone Seal",
+      "rarity": "Holo Rare",
+      "yen_increase": 97804,
+      "old_price": 560.0,
+      "new_price": 1212.03,
+      "change_pct": 116.4,
+      "old_date": "2026-06-21",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-21",
+          "price": 560.0
+        },
+        {
+          "date": "2026-06-29",
+          "price": 395.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 1275.0
+        },
+        {
+          "date": "2026-07-26",
+          "price": 455.0
+        },
+        {
+          "date": "2026-08-20",
+          "price": 490.0
+        },
+        {
+          "date": "2026-08-24",
+          "price": 1212.03
         }
       ]
     },
