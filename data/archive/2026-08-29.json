@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 60,
+  "checked_characters": 80,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -166,6 +166,82 @@
       ]
     },
     {
+      "character": "ブラッキー",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Umbreon Star",
+      "set_name": "s8a-P: Promo Card Pack 25th Anniversary Edition",
+      "rarity": "",
+      "yen_increase": 54752,
+      "old_price": 59.99,
+      "new_price": 425.0,
+      "change_pct": 608.4,
+      "old_date": "2026-06-08",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-08",
+          "price": 59.99
+        },
+        {
+          "date": "2026-07-10",
+          "price": 489.97
+        },
+        {
+          "date": "2026-07-13",
+          "price": 406.0
+        },
+        {
+          "date": "2026-07-15",
+          "price": 415.13
+        },
+        {
+          "date": "2026-07-16",
+          "price": 407.68
+        },
+        {
+          "date": "2026-07-17",
+          "price": 399.0
+        },
+        {
+          "date": "2026-07-18",
+          "price": 365.38
+        },
+        {
+          "date": "2026-07-19",
+          "price": 349.21
+        },
+        {
+          "date": "2026-07-21",
+          "price": 425.0
+        }
+      ]
+    },
+    {
+      "character": "カメックス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Blastoise",
+      "set_name": "Intro Pack (Squirtle)",
+      "rarity": "None",
+      "yen_increase": 2504100,
+      "old_price": 3305.0,
+      "new_price": 19999.0,
+      "change_pct": 505.1,
+      "old_date": "2026-06-07",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-07",
+          "price": 3305.0
+        },
+        {
+          "date": "2026-08-09",
+          "price": 19999.0
+        }
+      ]
+    },
+    {
       "character": "セレビィ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -258,6 +334,278 @@
       ]
     },
     {
+      "character": "ボーマンダ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Salamence - 10/97",
+      "set_name": "EX Dragon",
+      "rarity": "Holo Rare",
+      "yen_increase": 177002,
+      "old_price": 319.99,
+      "new_price": 1500.0,
+      "change_pct": 368.8,
+      "old_date": "2026-05-26",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-22",
+          "price": 60.0
+        },
+        {
+          "date": "2026-05-26",
+          "price": 319.99
+        },
+        {
+          "date": "2026-06-09",
+          "price": 237.12
+        },
+        {
+          "date": "2026-06-10",
+          "price": 299.99
+        },
+        {
+          "date": "2026-06-11",
+          "price": 348.0
+        },
+        {
+          "date": "2026-06-14",
+          "price": 2750.0
+        },
+        {
+          "date": "2026-06-18",
+          "price": 325.0
+        },
+        {
+          "date": "2026-06-21",
+          "price": 326.0
+        },
+        {
+          "date": "2026-06-28",
+          "price": 2125.0
+        },
+        {
+          "date": "2026-06-29",
+          "price": 305.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 350.0
+        },
+        {
+          "date": "2026-07-15",
+          "price": 280.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 320.65
+        },
+        {
+          "date": "2026-08-14",
+          "price": 245.48
+        },
+        {
+          "date": "2026-08-16",
+          "price": 4999.99
+        },
+        {
+          "date": "2026-08-17",
+          "price": 1500.0
+        }
+      ]
+    },
+    {
+      "character": "ケロマツ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Froakie - 088/086",
+      "set_name": "ME04: Chaos Rising",
+      "rarity": "Illustration Rare",
+      "yen_increase": 16088,
+      "old_price": 34.25,
+      "new_price": 141.5,
+      "change_pct": 313.1,
+      "old_date": "2026-06-10",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-10",
+          "price": 34.25
+        },
+        {
+          "date": "2026-06-16",
+          "price": 149.99
+        },
+        {
+          "date": "2026-06-22",
+          "price": 599.99
+        },
+        {
+          "date": "2026-07-04",
+          "price": 375.0
+        },
+        {
+          "date": "2026-07-10",
+          "price": 315.01
+        },
+        {
+          "date": "2026-07-17",
+          "price": 400.56
+        },
+        {
+          "date": "2026-07-21",
+          "price": 236.25
+        },
+        {
+          "date": "2026-07-23",
+          "price": 250.0
+        },
+        {
+          "date": "2026-07-26",
+          "price": 237.5
+        },
+        {
+          "date": "2026-07-30",
+          "price": 211.25
+        },
+        {
+          "date": "2026-07-31",
+          "price": 197.5
+        },
+        {
+          "date": "2026-08-04",
+          "price": 204.62
+        },
+        {
+          "date": "2026-08-05",
+          "price": 155.17
+        },
+        {
+          "date": "2026-08-07",
+          "price": 186.5
+        },
+        {
+          "date": "2026-08-09",
+          "price": 185.12
+        },
+        {
+          "date": "2026-08-11",
+          "price": 195.0
+        },
+        {
+          "date": "2026-08-12",
+          "price": 185.0
+        },
+        {
+          "date": "2026-08-15",
+          "price": 177.5
+        },
+        {
+          "date": "2026-08-17",
+          "price": 1150.0
+        },
+        {
+          "date": "2026-08-18",
+          "price": 200.0
+        },
+        {
+          "date": "2026-08-20",
+          "price": 174.88
+        },
+        {
+          "date": "2026-08-21",
+          "price": 167.25
+        },
+        {
+          "date": "2026-08-23",
+          "price": 152.01
+        },
+        {
+          "date": "2026-08-24",
+          "price": 179.99
+        },
+        {
+          "date": "2026-08-26",
+          "price": 149.99
+        },
+        {
+          "date": "2026-08-27",
+          "price": 141.5
+        }
+      ]
+    },
+    {
+      "character": "ブラッキー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Umbreon (13)",
+      "set_name": "Neo Discovery",
+      "rarity": "Holo Rare",
+      "yen_increase": 6900001,
+      "old_price": 19999.99,
+      "new_price": 66000.0,
+      "change_pct": 230.0,
+      "old_date": "2026-05-23",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-23",
+          "price": 19999.99
+        },
+        {
+          "date": "2026-06-10",
+          "price": 44200.0
+        },
+        {
+          "date": "2026-06-11",
+          "price": 66965.5
+        },
+        {
+          "date": "2026-06-21",
+          "price": 66255.0
+        },
+        {
+          "date": "2026-07-13",
+          "price": 26099.0
+        },
+        {
+          "date": "2026-07-25",
+          "price": 8800.0
+        },
+        {
+          "date": "2026-08-01",
+          "price": 410.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 66000.0
+        }
+      ]
+    },
+    {
+      "character": "フライゴン",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Flygon Lv.X",
+      "set_name": "Rising Rivals",
+      "rarity": "Ultra Rare",
+      "yen_increase": 1886250,
+      "old_price": 6800.0,
+      "new_price": 19375.0,
+      "change_pct": 184.9,
+      "old_date": "2026-05-31",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-31",
+          "price": 6800.0
+        },
+        {
+          "date": "2026-08-13",
+          "price": 19375.0
+        }
+      ]
+    },
+    {
       "character": "リザードン",
       "market": "日本版",
       "market_key": "japan",
@@ -294,6 +642,34 @@
         {
           "date": "2026-08-11",
           "price": 3950.0
+        }
+      ]
+    },
+    {
+      "character": "ジュカイン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Sceptile",
+      "set_name": "ADV Expansion Pack",
+      "rarity": "Holo Rare",
+      "yen_increase": 136971,
+      "old_price": 581.86,
+      "new_price": 1495.0,
+      "change_pct": 156.9,
+      "old_date": "2026-06-05",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-05",
+          "price": 581.86
+        },
+        {
+          "date": "2026-06-10",
+          "price": 1355.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 1495.0
         }
       ]
     },
@@ -490,6 +866,70 @@
         {
           "date": "2026-07-23",
           "price": 4621.06
+        }
+      ]
+    },
+    {
+      "character": "ケロマツ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Froakie",
+      "set_name": "Hidden Fates: Shiny Vault",
+      "rarity": "Shiny Holo Rare",
+      "yen_increase": 8782,
+      "old_price": 49.95,
+      "new_price": 108.5,
+      "change_pct": 117.2,
+      "old_date": "2026-05-31",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-05-30",
+          "price": 50.0
+        },
+        {
+          "date": "2026-05-31",
+          "price": 49.95
+        },
+        {
+          "date": "2026-06-03",
+          "price": 68.0
+        },
+        {
+          "date": "2026-06-13",
+          "price": 66.5
+        },
+        {
+          "date": "2026-06-14",
+          "price": 75.0
+        },
+        {
+          "date": "2026-06-30",
+          "price": 73.0
+        },
+        {
+          "date": "2026-07-08",
+          "price": 78.16
+        },
+        {
+          "date": "2026-07-13",
+          "price": 69.99
+        },
+        {
+          "date": "2026-07-16",
+          "price": 70.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 80.57
+        },
+        {
+          "date": "2026-07-30",
+          "price": 82.0
+        },
+        {
+          "date": "2026-08-06",
+          "price": 108.5
         }
       ]
     },
