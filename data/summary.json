@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 280,
+  "checked_characters": 300,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -994,6 +994,42 @@
         {
           "date": "2026-08-14",
           "price": 1062.5
+        }
+      ]
+    },
+    {
+      "character": "ランターン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Lanturn - 020/080",
+      "set_name": "L2: Revival Legends",
+      "rarity": "Super Rare Holo",
+      "yen_increase": 99002,
+      "old_price": 149.99,
+      "new_price": 810.0,
+      "change_pct": 440.0,
+      "old_date": "2026-06-02",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-02",
+          "price": 149.99
+        },
+        {
+          "date": "2026-06-08",
+          "price": 405.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 350.0
+        },
+        {
+          "date": "2026-07-13",
+          "price": 600.0
+        },
+        {
+          "date": "2026-07-18",
+          "price": 810.0
         }
       ]
     },
@@ -2090,6 +2126,54 @@
         {
           "date": "2026-08-19",
           "price": 1495.0
+        }
+      ]
+    },
+    {
+      "character": "スターミー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Starmie",
+      "set_name": "Rumble",
+      "rarity": "Promo",
+      "yen_increase": 817500,
+      "old_price": 3550.0,
+      "new_price": 9000.0,
+      "change_pct": 153.5,
+      "old_date": "2026-05-31",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-31",
+          "price": 3550.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 9000.0
+        }
+      ]
+    },
+    {
+      "character": "ランターン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Lanturn - 111/XY-P",
+      "set_name": "XY-P: XY Promos",
+      "rarity": "Common",
+      "yen_increase": 13080,
+      "old_price": 57.41,
+      "new_price": 144.61,
+      "change_pct": 151.9,
+      "old_date": "2026-07-30",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-30",
+          "price": 57.41
+        },
+        {
+          "date": "2026-07-31",
+          "price": 144.61
         }
       ]
     },
