@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 220,
+  "checked_characters": 240,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -478,6 +478,38 @@
       ]
     },
     {
+      "character": "ワンリキー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Machoke",
+      "set_name": "Base Set (Shadowless)",
+      "rarity": "Uncommon",
+      "yen_increase": 259875,
+      "old_price": 167.5,
+      "new_price": 1900.0,
+      "change_pct": 1034.3,
+      "old_date": "2026-05-31",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-31",
+          "price": 167.5
+        },
+        {
+          "date": "2026-06-26",
+          "price": 194.69
+        },
+        {
+          "date": "2026-07-09",
+          "price": 299.99
+        },
+        {
+          "date": "2026-08-22",
+          "price": 1900.0
+        }
+      ]
+    },
+    {
       "character": "ロコン",
       "market": "日本版",
       "market_key": "japan",
@@ -734,6 +766,30 @@
       ]
     },
     {
+      "character": "キャタピー",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Caterpie",
+      "set_name": "SM3N: Darkness that Consumes Light",
+      "rarity": "Common",
+      "yen_increase": 11248,
+      "old_price": 15.0,
+      "new_price": 89.99,
+      "change_pct": 499.9,
+      "old_date": "2026-06-24",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-24",
+          "price": 15.0
+        },
+        {
+          "date": "2026-07-17",
+          "price": 89.99
+        }
+      ]
+    },
+    {
       "character": "セレビィ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -850,6 +906,34 @@
         {
           "date": "2026-08-14",
           "price": 1062.5
+        }
+      ]
+    },
+    {
+      "character": "ワンリキー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Machoke",
+      "set_name": "Skyridge",
+      "rarity": "Uncommon",
+      "yen_increase": 120828,
+      "old_price": 193.48,
+      "new_price": 999.0,
+      "change_pct": 416.3,
+      "old_date": "2026-05-27",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-27",
+          "price": 193.48
+        },
+        {
+          "date": "2026-06-17",
+          "price": 138.5
+        },
+        {
+          "date": "2026-07-06",
+          "price": 999.0
         }
       ]
     },
@@ -1618,6 +1702,30 @@
       ]
     },
     {
+      "character": "アバゴーラ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Carracosta - 111/086",
+      "set_name": "SV11B: Black Bolt",
+      "rarity": "Art Rare",
+      "yen_increase": 14106,
+      "old_price": 55.96,
+      "new_price": 150.0,
+      "change_pct": 168.0,
+      "old_date": "2026-07-07",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-07",
+          "price": 55.96
+        },
+        {
+          "date": "2026-08-10",
+          "price": 150.0
+        }
+      ]
+    },
+    {
       "character": "ヒノアラシ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -2310,6 +2418,30 @@
         {
           "date": "2026-07-27",
           "price": 680.0
+        }
+      ]
+    },
+    {
+      "character": "キャタピー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Caterpie",
+      "set_name": "Expedition",
+      "rarity": "Common",
+      "yen_increase": 22575,
+      "old_price": 119.5,
+      "new_price": 270.0,
+      "change_pct": 125.9,
+      "old_date": "2026-06-15",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-15",
+          "price": 119.5
+        },
+        {
+          "date": "2026-06-29",
+          "price": 270.0
         }
       ]
     },
