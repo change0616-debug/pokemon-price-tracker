@@ -30,10 +30,16 @@
   .filters{display:flex;gap:8px;flex-wrap:wrap;}
   .filter-btn{font-size:12px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--text-dim);cursor:pointer;}
   .filter-btn.active{border-color:var(--holo1);color:var(--holo1);}
+  .toolbar-right{display:flex;gap:8px;align-items:center;}
   select#archive-select{
     background:var(--bg-panel);color:var(--text);border:1px solid var(--line);
     border-radius:8px;padding:6px 10px;font-size:12px;
   }
+  .csv-btn{
+    font-size:12px;padding:6px 14px;border-radius:999px;border:1px solid var(--line);
+    background:var(--bg-panel);color:var(--text-dim);cursor:pointer;
+  }
+  .csv-btn:hover{color:var(--holo1);border-color:var(--holo1);}
 
   table{width:100%;border-collapse:collapse;}
   thead th{text-align:left;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;color:var(--text-dim);padding:0 10px 10px;border-bottom:1px solid var(--line);}
@@ -42,8 +48,11 @@
   td{padding:14px 10px;font-size:14px;vertical-align:top;}
   .rank{font-family:"SF Mono","Menlo",monospace;color:var(--text-dim);width:36px;}
   tr:nth-child(1) .rank{color:var(--gold);font-weight:700;}
-  .char{font-weight:600;}
+  .char-btn{background:none;border:none;padding:0;cursor:pointer;text-align:left;font-family:inherit;}
+  .char{font-weight:600;color:var(--text);text-decoration:underline;text-decoration-color:var(--line);text-decoration-thickness:1px;}
+  .char-btn:hover .char{color:var(--holo1);text-decoration-color:var(--holo1);}
   .card-name{color:var(--text-dim);font-size:12px;margin-top:2px;}
+  .checked-date{color:var(--text-dim);font-size:10px;margin-top:2px;}
   .tag{display:inline-block;font-size:10px;padding:2px 8px;border-radius:999px;margin-top:4px;border:1px solid currentColor;}
   .tag.overseas{color:var(--tag-overseas);}
   .tag.japan{color:var(--tag-japan);}
@@ -57,6 +66,34 @@
   tr:nth-child(1){background:linear-gradient(90deg, rgba(212,175,55,0.08), rgba(125,216,198,0.06));}
   .empty{padding:60px 20px;text-align:center;color:var(--text-dim);border:1px dashed var(--line);border-radius:12px;}
   footer{margin-top:40px;font-size:12px;color:var(--text-dim);text-align:center;}
+
+  .modal-overlay{
+    display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);
+    align-items:center;justify-content:center;padding:20px;z-index:100;
+  }
+  .modal-overlay.open{display:flex;}
+  .modal{
+    background:var(--bg-panel);border:1px solid var(--line);border-radius:16px;
+    max-width:480px;width:100%;max-height:90vh;overflow-y:auto;padding:24px;position:relative;
+  }
+  .modal-close{
+    position:absolute;top:16px;right:16px;background:none;border:none;color:var(--text-dim);
+    font-size:20px;cursor:pointer;line-height:1;
+  }
+  .modal-close:hover{color:var(--text);}
+  .modal-image{width:100%;max-width:220px;display:block;margin:0 auto 16px;border-radius:8px;}
+  .modal-image-placeholder{
+    width:100%;max-width:220px;height:220px;margin:0 auto 16px;border-radius:8px;
+    border:1px dashed var(--line);display:flex;align-items:center;justify-content:center;
+    color:var(--text-dim);font-size:12px;text-align:center;padding:10px;
+  }
+  .modal h2{font-size:18px;margin:0 0 4px;}
+  .modal .modal-sub{color:var(--text-dim);font-size:13px;margin-bottom:16px;}
+  .modal-chart{width:100%;height:160px;margin-bottom:16px;}
+  .modal-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:13px;}
+  .modal-stat{background:var(--bg);border-radius:8px;padding:10px;}
+  .modal-stat .label{color:var(--text-dim);font-size:11px;margin-bottom:4px;}
+  .modal-stat .value{font-weight:700;font-family:"SF Mono","Menlo",monospace;}
 </style>
 </head>
 <body>
@@ -64,7 +101,7 @@
   <header>
     <div class="eyebrow">Personal Price Tracker ・ PSA10基準</div>
     <h1>2倍ウォッチ(PSA10)</h1>
-    <p class="sub">対象300キャラクターの中から、PSA10(鑑定満点)の価格が3ヶ月前と比べて2倍(+100%)以上・上昇額+5000円以上になったカードを抽出しています。海外版・日本版の両方を表示します。</p>
+    <p class="sub">対象300キャラクターについて、上位25枚(3日周期で一巡)のPSA10(鑑定満点)価格を追跡し、3ヶ月前と比べて2倍(+100%)以上・上昇額+5000円以上になったカードを抽出しています。名前をクリックすると詳細が見られます。</p>
     <div class="status" id="status"></div>
   </header>
 
@@ -74,12 +111,22 @@
       <button class="filter-btn" data-market="overseas">海外のみ</button>
       <button class="filter-btn" data-market="japan">日本のみ</button>
     </div>
-    <select id="archive-select" style="display:none"></select>
+    <div class="toolbar-right">
+      <button class="csv-btn" id="csv-btn" style="display:none">CSVで書き出す</button>
+      <select id="archive-select" style="display:none"></select>
+    </div>
   </div>
 
   <div id="content"><div class="empty">読み込み中です…</div></div>
 
   <footer>Data source: PokemonPriceTracker API(PSA10鑑定価格) ・ 個人利用のためのツールです</footer>
+</div>
+
+<div class="modal-overlay" id="modal-overlay">
+  <div class="modal">
+    <button class="modal-close" id="modal-close">×</button>
+    <div id="modal-body"></div>
+  </div>
 </div>
 
 <script>
@@ -96,9 +143,9 @@ function trendLabel(trend){
   return {text:'変動あり', cls:'mixed'};
 }
 
-function sparkline(points){
+function buildChartSvg(points, w, h){
   if(!points || points.length < 2) return '';
-  const w = 100, h = 32, pad = 2;
+  const pad = 4;
   const prices = points.map(p => p.price);
   const min = Math.min(...prices), max = Math.max(...prices);
   const range = (max - min) || 1;
@@ -110,7 +157,61 @@ function sparkline(points){
   }).join(' ');
   const up = points[points.length-1].price >= points[0].price;
   const color = up ? '#6fcf97' : '#e07a5f';
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><polyline points="${coords}" fill="none" stroke="${color}" stroke-width="1.8"/></svg>`;
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="width:100%;height:${h}px;"><polyline points="${coords}" fill="none" stroke="${color}" stroke-width="2"/></svg>`;
+}
+
+function sparkline(points){
+  return buildChartSvg(points, 100, 32);
+}
+
+function openModal(card){
+  const body = document.getElementById('modal-body');
+  const trend = trendLabel(card.trend);
+  const imageHtml = card.image_url
+    ? `<img class="modal-image" src="${escapeHtml(card.image_url)}" alt="${escapeHtml(card.card_name || '')}">`
+    : `<div class="modal-image-placeholder">画像は取得できませんでした</div>`;
+
+  body.innerHTML = `
+    ${imageHtml}
+    <h2>${escapeHtml(card.character)}</h2>
+    <div class="modal-sub">${escapeHtml(card.card_name || '')} ${escapeHtml(card.set_name ? '・'+card.set_name : '')} ・ PSA10</div>
+    <div class="modal-chart">${buildChartSvg(card.chart, 430, 160)}</div>
+    <div class="modal-stats">
+      <div class="modal-stat"><div class="label">市場</div><div class="value">${escapeHtml(card.market)}</div></div>
+      <div class="modal-stat"><div class="label">傾向</div><div class="value">${trend.text}</div></div>
+      <div class="modal-stat"><div class="label">3ヶ月前(${escapeHtml(card.old_date || '')})</div><div class="value">$${card.old_price.toFixed(2)}</div></div>
+      <div class="modal-stat"><div class="label">現在</div><div class="value">$${card.new_price.toFixed(2)}</div></div>
+      <div class="modal-stat"><div class="label">変化率</div><div class="value">+${card.change_pct.toFixed(1)}%</div></div>
+      <div class="modal-stat"><div class="label">上昇額(円換算)</div><div class="value">+¥${card.yen_increase.toLocaleString()}</div></div>
+    </div>
+    ${card.checked_date ? `<div class="checked-date" style="margin-top:12px;">最終確認日: ${escapeHtml(card.checked_date)}</div>` : ''}
+  `;
+  document.getElementById('modal-overlay').classList.add('open');
+}
+
+function closeModal(){
+  document.getElementById('modal-overlay').classList.remove('open');
+}
+
+function exportCsv(){
+  const cards = currentFilter === 'all' ? allCards : allCards.filter(c => c.market_key === currentFilter);
+  const header = ['キャラクター','カード名','セット','市場','3ヶ月前価格($)','現在価格($)','変化率(%)','上昇額(円)','傾向','最終確認日'];
+  const rows = cards.map(c => [
+    c.character, c.card_name || '', c.set_name || '', c.market,
+    c.old_price, c.new_price, c.change_pct, c.yen_increase,
+    trendLabel(c.trend).text, c.checked_date || ''
+  ]);
+  const csvLines = [header, ...rows].map(row =>
+    row.map(v => `"${String(v).replace(/"/g, '""')}"`).join(',')
+  );
+  const csv = '\uFEFF' + csvLines.join('\r\n');
+  const blob = new Blob([csv], {type: 'text/csv;charset=utf-8;'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `2倍ウォッチ_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
 }
 
 function render(){
@@ -129,10 +230,13 @@ function render(){
       <tr>
         <td class="rank">${i+1}</td>
         <td>
-          <div class="char">${escapeHtml(c.character)}</div>
+          <button class="char-btn" data-index="${i}">
+            <div class="char">${escapeHtml(c.character)}</div>
+          </button>
           <div class="card-name">${escapeHtml(c.card_name || '')} ${escapeHtml(c.set_name ? '・'+c.set_name : '')} ・ PSA10</div>
           <span class="tag ${tagClass}">${escapeHtml(c.market)}</span>
           <span class="trend-tag ${trend.cls}">${trend.text}</span>
+          ${c.checked_date ? `<div class="checked-date">確認日: ${escapeHtml(c.checked_date)}</div>` : ''}
         </td>
         <td class="chart-cell">${sparkline(c.chart)}</td>
         <td class="price">$${c.old_price.toFixed(2)} → $${c.new_price.toFixed(2)}</td>
@@ -147,6 +251,12 @@ function render(){
       <tbody>${rows}</tbody>
     </table>
   `;
+
+  contentEl.querySelectorAll('.char-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      openModal(cards[parseInt(btn.dataset.index, 10)]);
+    });
+  });
 }
 
 async function loadSummary(path){
@@ -158,14 +268,12 @@ async function loadSummary(path){
 function applySummary(summary){
   const statusEl = document.getElementById('status');
   const filtersEl = document.getElementById('filters');
+  const csvBtn = document.getElementById('csv-btn');
 
   let statusHtml = `<span class="status-badge">表示日: ${summary.generated_at}</span>
-    <span class="status-badge">対象: ${summary.checked_characters} / ${summary.total_characters} キャラ</span>
+    <span class="status-badge">対象: ${summary.checked_characters} / ${summary.total_characters} キャラ(今日分)</span>
     <span class="status-badge">条件: 3ヶ月で+${summary.min_change_pct}%以上 かつ +¥${summary.min_yen_increase.toLocaleString()}以上</span>
     <span class="status-badge">為替: $1=¥${summary.usd_jpy_rate}</span>`;
-  if(summary.checked_characters < summary.total_characters){
-    statusHtml += `<span class="status-badge warn">更新中(${summary.checked_characters} / ${summary.total_characters} キャラまで反映済み)</span>`;
-  }
   if(summary.stopped_early){
     statusHtml += `<span class="status-badge warn">この日はAPIの上限により途中まで</span>`;
   }
@@ -176,6 +284,7 @@ function applySummary(summary){
 
   allCards = summary.cards || [];
   filtersEl.style.display = allCards.length > 0 ? 'flex' : 'none';
+  csvBtn.style.display = allCards.length > 0 ? 'inline-block' : 'none';
   render();
 }
 
@@ -217,6 +326,12 @@ document.getElementById('filters').addEventListener('click', (e) => {
   e.target.classList.add('active');
   currentFilter = e.target.dataset.market;
   render();
+});
+
+document.getElementById('csv-btn').addEventListener('click', exportCsv);
+document.getElementById('modal-close').addEventListener('click', closeModal);
+document.getElementById('modal-overlay').addEventListener('click', (e) => {
+  if(e.target.id === 'modal-overlay') closeModal();
 });
 
 main();
