@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 40,
+  "checked_characters": 60,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -89,6 +89,36 @@
     },
     {
       "character": "コダック",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Slowpoke & Psyduck GX (Full Art)",
+      "set_name": "SM - Unified Minds",
+      "rarity": "Ultra Rare",
+      "yen_increase": 132600,
+      "checked_date": "2026-08-30",
+      "old_price": 15.0,
+      "new_price": 899.0,
+      "change_pct": 5893.3,
+      "old_date": "2026-05-28",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-28",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-04",
+          "price": 15.0
+        },
+        {
+          "date": "2026-08-01",
+          "price": 899.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/194954_in_200x200.jpg"
+    },
+    {
+      "character": "ヤドン",
       "market": "海外(英語版)",
       "market_key": "overseas",
       "card_name": "Slowpoke & Psyduck GX (Full Art)",
@@ -424,6 +454,56 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/575615_in_200x200.jpg"
     },
     {
+      "character": "ロコン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Vulpix",
+      "set_name": "Vending Machine cards Series 3 (Green)",
+      "rarity": "Common",
+      "yen_increase": 62102,
+      "checked_date": "2026-08-30",
+      "old_price": 40.99,
+      "new_price": 455.0,
+      "change_pct": 1010.0,
+      "old_date": "2026-06-16",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-16",
+          "price": 40.99
+        },
+        {
+          "date": "2026-06-21",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-22",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-25",
+          "price": 15.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 15.0
+        },
+        {
+          "date": "2026-07-13",
+          "price": 15.0
+        },
+        {
+          "date": "2026-07-16",
+          "price": 510.0
+        },
+        {
+          "date": "2026-07-18",
+          "price": 455.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/617560_in_200x200.jpg"
+    },
+    {
       "character": "ゼニガメ",
       "market": "日本版",
       "market_key": "japan",
@@ -626,6 +706,32 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576624_in_200x200.jpg"
     },
     {
+      "character": "ヤドン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Slowpoke",
+      "set_name": "Rocket Gang Strikes Back",
+      "rarity": "Common",
+      "yen_increase": 98250,
+      "checked_date": "2026-08-30",
+      "old_price": 225.0,
+      "new_price": 880.0,
+      "change_pct": 291.1,
+      "old_date": "2026-07-04",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-04",
+          "price": 225.0
+        },
+        {
+          "date": "2026-08-26",
+          "price": 880.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613163_in_200x200.jpg"
+    },
+    {
       "character": "ヤンチャム",
       "market": "日本版",
       "market_key": "japan",
@@ -816,6 +922,62 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613950_in_200x200.jpg"
     },
     {
+      "character": "ジュペッタ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Banette (32 Delta)",
+      "set_name": "XY - Roaring Skies",
+      "rarity": "Rare",
+      "yen_increase": 149998,
+      "checked_date": "2026-08-30",
+      "old_price": 500.0,
+      "new_price": 1499.99,
+      "change_pct": 200.0,
+      "old_date": "2026-07-15",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-15",
+          "price": 500.0
+        },
+        {
+          "date": "2026-08-10",
+          "price": 1499.99
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/98068_in_200x200.jpg"
+    },
+    {
+      "character": "エルフーン",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Whimsicott GX",
+      "set_name": "SM - Unbroken Bonds",
+      "rarity": "Ultra Rare",
+      "yen_increase": 12300,
+      "checked_date": "2026-08-30",
+      "old_price": 46.0,
+      "new_price": 128.0,
+      "change_pct": 178.3,
+      "old_date": "2026-06-03",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-03",
+          "price": 46.0
+        },
+        {
+          "date": "2026-07-26",
+          "price": 41.0
+        },
+        {
+          "date": "2026-08-09",
+          "price": 128.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/189238_in_200x200.jpg"
+    },
+    {
       "character": "ヒノアラシ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -964,6 +1126,32 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642624_in_200x200.jpg"
     },
     {
+      "character": "ヤミラミ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Sableye V",
+      "set_name": "SWSH01: Sword & Shield Base Set",
+      "rarity": "Ultra Rare",
+      "yen_increase": 21006,
+      "checked_date": "2026-08-30",
+      "old_price": 99.95,
+      "new_price": 239.99,
+      "change_pct": 140.1,
+      "old_date": "2026-08-05",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-08-05",
+          "price": 99.95
+        },
+        {
+          "date": "2026-08-20",
+          "price": 239.99
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/208430_in_200x200.jpg"
+    },
+    {
       "character": "ソーナンス",
       "market": "日本版",
       "market_key": "japan",
@@ -1088,6 +1276,104 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566931_in_200x200.jpg"
+    },
+    {
+      "character": "ミカルゲ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Spiritomb",
+      "set_name": "DP5: Cry from the Mysterious",
+      "rarity": "Holo Rare",
+      "yen_increase": 56850,
+      "checked_date": "2026-08-30",
+      "old_price": 301.0,
+      "new_price": 680.0,
+      "change_pct": 125.9,
+      "old_date": "2026-07-26",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-26",
+          "price": 301.0
+        },
+        {
+          "date": "2026-07-27",
+          "price": 680.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606927_in_200x200.jpg"
+    },
+    {
+      "character": "ゾロア",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Zorua",
+      "set_name": "Hidden Fates: Shiny Vault",
+      "rarity": "Shiny Holo Rare",
+      "yen_increase": 8100,
+      "checked_date": "2026-08-30",
+      "old_price": 45.0,
+      "new_price": 99.0,
+      "change_pct": 120.0,
+      "old_date": "2026-06-06",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-06-06",
+          "price": 45.0
+        },
+        {
+          "date": "2026-06-22",
+          "price": 54.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 69.99
+        },
+        {
+          "date": "2026-07-24",
+          "price": 75.0
+        },
+        {
+          "date": "2026-07-25",
+          "price": 62.5
+        },
+        {
+          "date": "2026-08-06",
+          "price": 109.99
+        },
+        {
+          "date": "2026-08-19",
+          "price": 99.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/197784_in_200x200.jpg"
+    },
+    {
+      "character": "マイナン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "LaRousse's Minun",
+      "set_name": "Movie Commemoration VS Pack: Sky-Splitting Deoxys",
+      "rarity": "Common",
+      "yen_increase": 108139,
+      "checked_date": "2026-08-30",
+      "old_price": 616.66,
+      "new_price": 1337.59,
+      "change_pct": 116.9,
+      "old_date": "2026-05-29",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-29",
+          "price": 616.66
+        },
+        {
+          "date": "2026-06-09",
+          "price": 1337.59
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/658365_in_200x200.jpg"
     },
     {
       "character": "サンダース",
@@ -1226,6 +1512,52 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85203_in_200x200.jpg"
+    },
+    {
+      "character": "トルネロス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Tornadus - 158/086",
+      "set_name": "SV11W: White Flare",
+      "rarity": "Art Rare",
+      "yen_increase": 15000,
+      "checked_date": "2026-08-30",
+      "old_price": 100.0,
+      "new_price": 200.0,
+      "change_pct": 100.0,
+      "old_date": "2026-07-20",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-20",
+          "price": 100.0
+        },
+        {
+          "date": "2026-07-21",
+          "price": 90.0
+        },
+        {
+          "date": "2026-07-22",
+          "price": 100.0
+        },
+        {
+          "date": "2026-07-23",
+          "price": 81.99
+        },
+        {
+          "date": "2026-07-31",
+          "price": 90.0
+        },
+        {
+          "date": "2026-08-02",
+          "price": 200.0
+        },
+        {
+          "date": "2026-08-04",
+          "price": 200.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/636711_in_200x200.jpg"
     }
   ]
 }
