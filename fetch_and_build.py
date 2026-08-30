@@ -1,23 +1,20 @@
 """
 有料プラン(API plan, 1日20,000クレジット, 6ヶ月分の価格履歴)向けのスクリプト。
 
-各キャラクターについて、海外版(英語)・日本版それぞれの上位5枚のカードを取得し、
+各キャラクターについて、海外版(英語)・日本版それぞれの上位25枚のカードを取得し、
 PSA10(鑑定済み・満点評価)の価格推移を基準に、3ヶ月前と今日を比較する。
 3ヶ月で+100%(2倍)以上 かつ 上昇額+5000円以上のカードだけを抽出し、
 「継続上昇」か「直近急騰」かも判定した上で data/summary.json に書き出す。
-過去の結果は data/archive/ 以下に日付ごとに保存し、振り返れるようにする。
 
-検索は英語名で行う(このAPIは英語名での検索を前提にしているため。
-name_map.json に日本語名→英語名の対応表がある)。
+300キャラを3日周期で一巡し(1日約100キャラ)、まだ処理していない残りのキャラは
+キャッシュ(data/latest_by_character.json)から前回分を補って、常に300キャラ分の
+最新結果をサイトに表示する。
 
-PSA10の価格データは、実際のAPI応答で確認した
-「ebay.priceHistory.psa10.<日付>.average」という日付キーの辞書形式から取り出す。
+検索は英語名で行う(name_map.json に日本語名→英語名の対応表がある)。
+PSA10の価格データは card.ebay.priceHistory.psa10.<日付>.average から取り出す。
 
-20キャラ処理するごとに、その時点までの結果を先にGitHubへコミットして
-サイトに反映する(全部終わるまで待たせない)。
-
-429(アクセス過多)がドキュメント記載より頻発するため、間隔を4秒に広げ、
-15回連続で429が続いたら無駄な長時間待機を避けて早期終了する。
+20キャラ処理するごとに、その時点までの結果を先にGitHubへコミットしてサイトに反映する。
+429(アクセス過多)が15回連続したら無駄な長時間待機を避けて早期終了する。
 """
 import datetime
 import json
@@ -34,12 +31,14 @@ API_BASE = "https://www.pokemonpricetracker.com/api/v2/cards"
 CHARACTERS_FILE = "characters.json"
 NAME_MAP_FILE = "name_map.json"
 SUMMARY_FILE = "data/summary.json"
+CACHE_FILE = "data/latest_by_character.json"
 ARCHIVE_DIR = "data/archive"
 ARCHIVE_INDEX_FILE = "data/archive/index.json"
 DEBUG_FILE = "data/debug/latest_sample.json"
 ARCHIVE_KEEP_DAYS = 120
 
-CARDS_PER_CHARACTER = 5
+CARDS_PER_CHARACTER = 25
+ROTATION_DAYS = 3
 HISTORY_DAYS = 100
 TARGET_DAYS_AGO = 90
 MIN_CHANGE_PCT = 100.0
@@ -47,6 +46,7 @@ MIN_YEN_INCREASE = 5000
 FALLBACK_USD_JPY = 150.0
 DEBUG_SAMPLE_LIMIT = 1
 CHECKPOINT_EVERY = 20
+CHART_MAX_POINTS = 60
 
 MARKETS = [
     {"key": "overseas", "label": "海外(英語版)", "language": None},
@@ -202,7 +202,24 @@ def classify_trend(p90, p60, p30, p_now):
     return "mixed"
 
 
-def downsample(history_points, max_points=25):
+def get_card_image_url(card):
+    candidates = [
+        lambda c: c.get("imageUrl"),
+        lambda c: c.get("image"),
+        lambda c: (c.get("images") or {}).get("large"),
+        lambda c: (c.get("images") or {}).get("small"),
+    ]
+    for getter in candidates:
+        try:
+            value = getter(card)
+        except Exception:
+            value = None
+        if isinstance(value, str) and value.startswith("http"):
+            return value
+    return None
+
+
+def downsample(history_points, max_points=CHART_MAX_POINTS):
     clean = []
     for p in history_points:
         if not isinstance(p, dict):
@@ -255,6 +272,7 @@ def extract_price_change(card):
         "old_date": p90["date"],
         "trend": trend,
         "chart": downsample(history_points),
+        "image_url": get_card_image_url(card),
     }
 
 
@@ -305,6 +323,19 @@ def git_checkpoint_commit(message):
         print(f"  [warn] 途中経過のコミットに失敗しましたが、処理は続けます: {e}")
 
 
+def load_cache():
+    if os.path.exists(CACHE_FILE):
+        with open(CACHE_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_cache(cache):
+    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
+    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+
 def build_summary(results, total_characters, usd_jpy_rate, checked_count, stopped_early, psa10_data_found):
     results_sorted = sorted(results, key=lambda r: r["change_pct"], reverse=True)
     return {
@@ -328,13 +359,26 @@ def write_and_save(summary):
     save_archive(summary)
 
 
+def get_today_batch(characters):
+    batch_size = (len(characters) + ROTATION_DAYS - 1) // ROTATION_DAYS
+    day_index = datetime.date.today().toordinal()
+    batch_no = day_index % ROTATION_DAYS
+    start = batch_no * batch_size
+    end = start + batch_size
+    return characters[start:end], batch_no, ROTATION_DAYS
+
+
 def main():
     characters = load_characters()
     name_map = load_name_map()
     usd_jpy_rate = fetch_usd_jpy_rate()
     print(f"USD/JPY rate: {usd_jpy_rate}")
 
-    results = []
+    cache = load_cache()
+    today_batch, batch_no, total_batches = get_today_batch(characters)
+    print(f"today's batch: {batch_no + 1}/{total_batches} ({len(today_batch)} characters)")
+    today_str = datetime.date.today().isoformat()
+
     debug_samples = []
     stopped_early = False
     psa10_data_found = False
@@ -342,9 +386,10 @@ def main():
     CONSECUTIVE_LIMIT = 15
     i = -1
 
-    for i, character in enumerate(characters):
+    for i, character in enumerate(today_batch):
         search_name = name_map.get(character, character)
         for market in MARKETS:
+            key = f"{character}|{market['key']}"
             try:
                 cards, raw_body, was_rate_limited = fetch_cards(search_name, market["language"])
             except CreditLimitReached as e:
@@ -361,6 +406,7 @@ def main():
                     )
                     stopped_early = True
                     break
+                continue
             else:
                 consecutive_rate_limits = 0
 
@@ -371,6 +417,7 @@ def main():
                     {"character": character, "search_name": search_name, "market": market["key"], "raw_response": trimmed_body}
                 )
 
+            best_entry = None
             for card in cards:
                 change = extract_price_change(card)
                 if change:
@@ -382,8 +429,8 @@ def main():
                 if yen_increase < MIN_YEN_INCREASE:
                     continue
 
-                results.append(
-                    {
+                if best_entry is None or change["change_pct"] > best_entry["change_pct"]:
+                    best_entry = {
                         "character": character,
                         "market": market["label"],
                         "market_key": market["key"],
@@ -391,22 +438,30 @@ def main():
                         "set_name": card.get("setName"),
                         "rarity": card.get("rarity"),
                         "yen_increase": round(yen_increase),
+                        "checked_date": today_str,
                         **change,
                     }
-                )
+
+            if best_entry:
+                cache[key] = best_entry
+            else:
+                cache.pop(key, None)
+
             time.sleep(4.0)
         if stopped_early:
             break
 
         if (i + 1) % CHECKPOINT_EVERY == 0:
             save_debug_sample(debug_samples)
+            save_cache(cache)
             checkpoint_summary = build_summary(
-                results, len(characters), usd_jpy_rate, i + 1, False, psa10_data_found
+                list(cache.values()), len(characters), usd_jpy_rate, i + 1, False, psa10_data_found
             )
             write_and_save(checkpoint_summary)
-            git_checkpoint_commit(f"Checkpoint: {i + 1}/{len(characters)} characters processed")
+            git_checkpoint_commit(f"Checkpoint: batch {batch_no + 1}/{total_batches}, {i + 1}/{len(today_batch)} characters processed")
 
     save_debug_sample(debug_samples)
+    save_cache(cache)
 
     if not psa10_data_found:
         print(
@@ -417,11 +472,11 @@ def main():
 
     checked_count = i + (0 if stopped_early else 1)
     summary = build_summary(
-        results, len(characters), usd_jpy_rate, checked_count, stopped_early, psa10_data_found
+        list(cache.values()), len(characters), usd_jpy_rate, checked_count, stopped_early, psa10_data_found
     )
     write_and_save(summary)
 
-    print(f"wrote {len(results)} qualifying cards ({'一部のみ' if stopped_early else '全件'} 処理)")
+    print(f"wrote {len(cache)} qualifying cards (today processed {'一部のみ' if stopped_early else '全件'})")
 
     if not psa10_data_found:
         raise SystemExit(
