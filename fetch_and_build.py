@@ -13,8 +13,9 @@ PSA10(鑑定済み・満点評価)の価格推移を基準に、3ヶ月前と今
 検索は英語名で行う(name_map.json に日本語名→英語名の対応表がある)。
 PSA10の価格データは card.ebay.priceHistory.psa10.<日付>.average から取り出す。
 
+429(アクセス過多)が15回連続したら、そこで諦めるのではなく60秒休憩してから
+再挑戦する(最大3回まで)。それでも続く場合はそこで早期終了する。
 20キャラ処理するごとに、その時点までの結果を先にGitHubへコミットしてサイトに反映する。
-429(アクセス過多)が15回連続したら無駄な長時間待機を避けて早期終了する。
 """
 import datetime
 import json
@@ -383,7 +384,10 @@ def main():
     stopped_early = False
     psa10_data_found = False
     consecutive_rate_limits = 0
+    cooldown_count = 0
     CONSECUTIVE_LIMIT = 15
+    COOLDOWN_SECONDS = 60
+    MAX_COOLDOWNS = 3
     i = -1
 
     for i, character in enumerate(today_batch):
@@ -400,12 +404,20 @@ def main():
             if was_rate_limited:
                 consecutive_rate_limits += 1
                 if consecutive_rate_limits >= CONSECUTIVE_LIMIT:
+                    cooldown_count += 1
+                    if cooldown_count > MAX_COOLDOWNS:
+                        print(
+                            f"[error] 429が{CONSECUTIVE_LIMIT}回連続する状態が{MAX_COOLDOWNS}回目の休憩後も続いたため、"
+                            "無駄な長時間待機を避けて早期終了します。"
+                        )
+                        stopped_early = True
+                        break
                     print(
-                        f"[error] 429が{CONSECUTIVE_LIMIT}回連続したため、無駄な長時間待機を避けて早期終了します。"
-                        "APIサービス側のアクセス制限が厳しくなっている可能性があります。"
+                        f"[warn] 429が{CONSECUTIVE_LIMIT}回連続したため、アクセス枠の回復を待つために"
+                        f"{COOLDOWN_SECONDS}秒休憩します({cooldown_count}/{MAX_COOLDOWNS}回目)"
                     )
-                    stopped_early = True
-                    break
+                    time.sleep(COOLDOWN_SECONDS)
+                    consecutive_rate_limits = 0
                 continue
             else:
                 consecutive_rate_limits = 0
