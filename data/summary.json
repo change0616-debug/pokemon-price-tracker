@@ -4,7 +4,7 @@
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 80,
+  "checked_characters": 99,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -1194,6 +1194,44 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/575815_in_200x200.jpg"
     },
     {
+      "character": "ランターン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Lanturn - 020/080",
+      "set_name": "L2: Revival Legends",
+      "rarity": "Super Rare Holo",
+      "yen_increase": 99002,
+      "checked_date": "2026-08-31",
+      "old_price": 149.99,
+      "new_price": 810.0,
+      "change_pct": 440.0,
+      "old_date": "2026-06-02",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-02",
+          "price": 149.99
+        },
+        {
+          "date": "2026-06-08",
+          "price": 405.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 350.0
+        },
+        {
+          "date": "2026-07-13",
+          "price": 600.0
+        },
+        {
+          "date": "2026-07-18",
+          "price": 810.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/608814_in_200x200.jpg"
+    },
+    {
       "character": "ガーディ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -1302,6 +1340,36 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605681_in_200x200.jpg"
+    },
+    {
+      "character": "ヨーギラス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Larvitar",
+      "set_name": "XY10: Awakening Psychic King",
+      "rarity": "Common",
+      "yen_increase": 41829,
+      "checked_date": "2026-08-31",
+      "old_price": 77.72,
+      "new_price": 356.58,
+      "change_pct": 358.8,
+      "old_date": "2026-06-19",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-19",
+          "price": 77.72
+        },
+        {
+          "date": "2026-06-29",
+          "price": 209.99
+        },
+        {
+          "date": "2026-07-14",
+          "price": 356.58
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602919_in_200x200.jpg"
     },
     {
       "character": "ヨノワール",
@@ -2454,6 +2522,32 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84272_in_200x200.jpg"
     },
     {
+      "character": "スターミー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Starmie",
+      "set_name": "Rumble",
+      "rarity": "Promo",
+      "yen_increase": 817500,
+      "checked_date": "2026-08-31",
+      "old_price": 3550.0,
+      "new_price": 9000.0,
+      "change_pct": 153.5,
+      "old_date": "2026-05-31",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-31",
+          "price": 3550.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 9000.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89537_in_200x200.jpg"
+    },
+    {
       "character": "ファイアロー",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -2936,6 +3030,32 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642606_in_200x200.jpg"
     },
     {
+      "character": "ドーブル",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Smeargle",
+      "set_name": "Call of Legends",
+      "rarity": "Holo Rare",
+      "yen_increase": 330000,
+      "checked_date": "2026-08-31",
+      "old_price": 1800.0,
+      "new_price": 4000.0,
+      "change_pct": 122.2,
+      "old_date": "2026-05-25",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-25",
+          "price": 1800.0
+        },
+        {
+          "date": "2026-08-06",
+          "price": 4000.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89357_in_200x200.jpg"
+    },
+    {
       "character": "ウインディ",
       "market": "日本版",
       "market_key": "japan",
@@ -3032,6 +3152,32 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/568318_in_200x200.jpg"
+    },
+    {
+      "character": "ネイティオ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Xatu - 152/091",
+      "set_name": "SV: Paldean Fates",
+      "rarity": "Shiny Rare",
+      "yen_increase": 14326,
+      "checked_date": "2026-08-31",
+      "old_price": 79.44,
+      "new_price": 174.95,
+      "change_pct": 120.2,
+      "old_date": "2026-05-28",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-28",
+          "price": 79.44
+        },
+        {
+          "date": "2026-07-30",
+          "price": 174.95
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/534646_in_200x200.jpg"
     },
     {
       "character": "ゾロア",
@@ -3174,6 +3320,32 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576257_in_200x200.jpg"
     },
     {
+      "character": "レアコイル",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Magneton",
+      "set_name": "DP1: Space-Time Creation",
+      "rarity": "Uncommon",
+      "yen_increase": 73876,
+      "checked_date": "2026-08-31",
+      "old_price": 424.99,
+      "new_price": 917.5,
+      "change_pct": 115.9,
+      "old_date": "2026-07-09",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-09",
+          "price": 424.99
+        },
+        {
+          "date": "2026-07-14",
+          "price": 917.5
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605739_in_200x200.jpg"
+    },
+    {
       "character": "カモネギ",
       "market": "日本版",
       "market_key": "japan",
@@ -3266,6 +3438,48 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/570174_in_200x200.jpg"
+    },
+    {
+      "character": "スターミー",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Starmie",
+      "set_name": "SM4S: Awakened Heroes",
+      "rarity": "Uncommon",
+      "yen_increase": 21898,
+      "checked_date": "2026-08-31",
+      "old_price": 129.0,
+      "new_price": 274.99,
+      "change_pct": 113.2,
+      "old_date": "2026-07-04",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-04",
+          "price": 129.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 47.86
+        },
+        {
+          "date": "2026-07-13",
+          "price": 54.0
+        },
+        {
+          "date": "2026-07-15",
+          "price": 44.6
+        },
+        {
+          "date": "2026-07-19",
+          "price": 229.25
+        },
+        {
+          "date": "2026-07-20",
+          "price": 274.99
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/573002_in_200x200.jpg"
     },
     {
       "character": "オンバット",
@@ -3402,6 +3616,60 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478025_in_200x200.jpg"
+    },
+    {
+      "character": "キングラー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Kingler",
+      "set_name": "Fossil",
+      "rarity": "Uncommon",
+      "yen_increase": 39675,
+      "checked_date": "2026-08-31",
+      "old_price": 235.5,
+      "new_price": 500.0,
+      "change_pct": 112.3,
+      "old_date": "2026-06-06",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-06",
+          "price": 235.5
+        },
+        {
+          "date": "2026-06-21",
+          "price": 87.04
+        },
+        {
+          "date": "2026-07-01",
+          "price": 399.99
+        },
+        {
+          "date": "2026-07-05",
+          "price": 174.99
+        },
+        {
+          "date": "2026-07-08",
+          "price": 115.0
+        },
+        {
+          "date": "2026-07-09",
+          "price": 374.99
+        },
+        {
+          "date": "2026-07-12",
+          "price": 60.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 79.0
+        },
+        {
+          "date": "2026-08-06",
+          "price": 500.0
+        }
+      ],
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44440_in_200x200.jpg"
     },
     {
       "character": "サンダース",
