@@ -101,7 +101,7 @@
   <header>
     <div class="eyebrow">Personal Price Tracker ・ PSA10基準</div>
     <h1>2倍ウォッチ(PSA10)</h1>
-    <p class="sub">対象300キャラクターについて、上位25枚(3日周期で一巡)のPSA10(鑑定満点)価格を追跡し、3ヶ月前と比べて2倍(+100%)以上・上昇額+5000円以上になったカードを抽出しています。名前をクリックすると詳細が見られます。</p>
+    <p class="sub">対象300キャラクターについて、上位25枚(3日周期で一巡)のPSA10(鑑定満点)価格を追跡し、3ヶ月前と比べて2倍(+100%)以上・上昇額+5000円以上・かつ取引件数が十分にあるカードを抽出しています。直近30日の変化率も併記しているので、短期の値動きも確認できます。名前をクリックすると詳細が見られます。</p>
     <div class="status" id="status"></div>
   </header>
 
@@ -181,8 +181,10 @@ function openModal(card){
       <div class="modal-stat"><div class="label">傾向</div><div class="value">${trend.text}</div></div>
       <div class="modal-stat"><div class="label">3ヶ月前(${escapeHtml(card.old_date || '')})</div><div class="value">$${card.old_price.toFixed(2)}</div></div>
       <div class="modal-stat"><div class="label">現在</div><div class="value">$${card.new_price.toFixed(2)}</div></div>
-      <div class="modal-stat"><div class="label">変化率</div><div class="value">+${card.change_pct.toFixed(1)}%</div></div>
+      <div class="modal-stat"><div class="label">変化率(3ヶ月)</div><div class="value">+${card.change_pct.toFixed(1)}%</div></div>
+      <div class="modal-stat"><div class="label">変化率(直近30日)</div><div class="value">${card.change_pct_30d !== null && card.change_pct_30d !== undefined ? (card.change_pct_30d >= 0 ? '+' : '') + card.change_pct_30d.toFixed(1) + '%' : '-'}</div></div>
       <div class="modal-stat"><div class="label">上昇額(円換算)</div><div class="value">+¥${card.yen_increase.toLocaleString()}</div></div>
+      <div class="modal-stat"><div class="label">取引件数(90日/30日)</div><div class="value">${card.sales_count_90d ?? '-'}件 / ${card.sales_count_30d ?? '-'}件</div></div>
     </div>
     ${card.checked_date ? `<div class="checked-date" style="margin-top:12px;">最終確認日: ${escapeHtml(card.checked_date)}</div>` : ''}
   `;
@@ -195,10 +197,11 @@ function closeModal(){
 
 function exportCsv(){
   const cards = currentFilter === 'all' ? allCards : allCards.filter(c => c.market_key === currentFilter);
-  const header = ['キャラクター','カード名','セット','市場','3ヶ月前価格($)','現在価格($)','変化率(%)','上昇額(円)','傾向','最終確認日'];
+  const header = ['キャラクター','カード名','セット','市場','3ヶ月前価格($)','現在価格($)','変化率3ヶ月(%)','変化率30日(%)','上昇額(円)','取引件数90日','取引件数30日','傾向','最終確認日'];
   const rows = cards.map(c => [
     c.character, c.card_name || '', c.set_name || '', c.market,
-    c.old_price, c.new_price, c.change_pct, c.yen_increase,
+    c.old_price, c.new_price, c.change_pct, c.change_pct_30d ?? '',
+    c.yen_increase, c.sales_count_90d ?? '', c.sales_count_30d ?? '',
     trendLabel(c.trend).text, c.checked_date || ''
   ]);
   const csvLines = [header, ...rows].map(row =>
@@ -240,7 +243,11 @@ function render(){
         </td>
         <td class="chart-cell">${sparkline(c.chart)}</td>
         <td class="price">$${c.old_price.toFixed(2)} → $${c.new_price.toFixed(2)}</td>
-        <td class="change">+${c.change_pct.toFixed(1)}%<div class="card-name">+¥${c.yen_increase.toLocaleString()}</div></td>
+        <td class="change">
+          +${c.change_pct.toFixed(1)}%<div class="card-name">+¥${c.yen_increase.toLocaleString()}</div>
+          ${c.change_pct_30d !== null && c.change_pct_30d !== undefined ? `<div class="card-name">直近30日: ${c.change_pct_30d >= 0 ? '+' : ''}${c.change_pct_30d.toFixed(1)}%</div>` : ''}
+          <div class="card-name">取引件数(90日): ${c.sales_count_90d ?? '-'}件</div>
+        </td>
       </tr>
     `;
   }).join('');
@@ -272,7 +279,7 @@ function applySummary(summary){
 
   let statusHtml = `<span class="status-badge">表示日: ${summary.generated_at}</span>
     <span class="status-badge">対象: ${summary.checked_characters} / ${summary.total_characters} キャラ(今日分)</span>
-    <span class="status-badge">条件: 3ヶ月で+${summary.min_change_pct}%以上 かつ +¥${summary.min_yen_increase.toLocaleString()}以上</span>
+    <span class="status-badge">条件: 3ヶ月で+${summary.min_change_pct}%以上 かつ +¥${summary.min_yen_increase.toLocaleString()}以上 かつ 90日取引${summary.min_sales_count_90d}件以上</span>
     <span class="status-badge">為替: $1=¥${summary.usd_jpy_rate}</span>`;
   if(summary.stopped_early){
     statusHtml += `<span class="status-badge warn">この日はAPIの上限により途中まで</span>`;
