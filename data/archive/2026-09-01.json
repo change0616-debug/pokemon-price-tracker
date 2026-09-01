@@ -5,7 +5,7 @@
   "min_yen_increase": 5000,
   "min_sales_count_90d": 5,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 20,
+  "checked_characters": 40,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -447,12 +447,12 @@
       "card_name": "Reshiram ex - 174/086",
       "set_name": "SV11W: White Flare",
       "rarity": "Black White Rare",
-      "yen_increase": 95250,
+      "yen_increase": 77625,
       "checked_date": "2026-09-01",
       "old_price": 15.0,
-      "new_price": 650.0,
-      "change_pct": 4233.3,
-      "change_pct_30d": 19.6,
+      "new_price": 532.5,
+      "change_pct": 3450.0,
+      "change_pct_30d": -2.0,
       "old_date": "2026-06-02",
       "trend": "mixed",
       "chart": [
@@ -683,10 +683,22 @@
         {
           "date": "2026-08-28",
           "price": 650.0
+        },
+        {
+          "date": "2026-08-29",
+          "price": 631.0
+        },
+        {
+          "date": "2026-08-30",
+          "price": 523.5
+        },
+        {
+          "date": "2026-08-31",
+          "price": 532.5
         }
       ],
-      "sales_count_90d": 85,
-      "sales_count_30d": 35,
+      "sales_count_90d": 90,
+      "sales_count_30d": 40,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/636727_in_200x200.jpg"
     },
     {
