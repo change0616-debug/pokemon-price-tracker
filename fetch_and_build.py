@@ -3,15 +3,17 @@
 
 各キャラクターについて、海外版(英語)・日本版それぞれの上位25枚のカードを取得し、
 PSA10(鑑定済み・満点評価)の価格推移を基準に、3ヶ月前と今日を比較する。
-3ヶ月で+100%(2倍)以上 かつ 上昇額+5000円以上のカードだけを抽出し、
-「継続上昇」か「直近急騰」かも判定した上で data/summary.json に書き出す。
+3ヶ月で+100%(2倍)以上 かつ 上昇額+5000円以上 かつ 90日間の取引件数が5件以上の
+カードだけを抽出し、「継続上昇」か「直近急騰」かも判定した上で
+data/summary.json に書き出す。直近30日の変化率も併せて計算する。
 
 300キャラを3日周期で一巡し(1日約100キャラ)、まだ処理していない残りのキャラは
 キャッシュ(data/latest_by_character.json)から前回分を補って、常に300キャラ分の
 最新結果をサイトに表示する。
 
 検索は英語名で行う(name_map.json に日本語名→英語名の対応表がある)。
-PSA10の価格データは card.ebay.priceHistory.psa10.<日付>.average から取り出す。
+PSA10の価格データは card.ebay.priceHistory.psa10.<日付>.average(および count)
+から取り出す。
 
 429(アクセス過多)が15回連続したら、そこで諦めるのではなく60秒休憩してから
 再挑戦する(最大3回まで)。それでも続く場合はそこで早期終了する。
@@ -44,6 +46,7 @@ HISTORY_DAYS = 100
 TARGET_DAYS_AGO = 90
 MIN_CHANGE_PCT = 100.0
 MIN_YEN_INCREASE = 5000
+MIN_SALES_COUNT_90D = 5
 FALLBACK_USD_JPY = 150.0
 DEBUG_SAMPLE_LIMIT = 1
 CHECKPOINT_EVERY = 20
@@ -151,7 +154,12 @@ def get_psa10_points(card):
             continue
         avg = stats.get("average")
         if isinstance(avg, (int, float)) and avg > 0:
-            points.append({"date": date_str[:10], "price": float(avg)})
+            count = stats.get("count")
+            points.append({
+                "date": date_str[:10],
+                "price": float(avg),
+                "count": int(count) if isinstance(count, (int, float)) else 0,
+            })
 
     if not points:
         return None
@@ -185,6 +193,21 @@ def find_price_at(history_points, target_date):
     if not price or price <= 0:
         return None
     return {"price": float(price), "date": best.get("date", "")[:10]}
+
+
+def sum_count_since(history_points, since_date):
+    total = 0
+    for point in history_points:
+        date_str = point.get("date") if isinstance(point, dict) else None
+        if not date_str:
+            continue
+        try:
+            p_date = datetime.date.fromisoformat(date_str[:10])
+        except ValueError:
+            continue
+        if p_date >= since_date:
+            total += point.get("count", 0)
+    return total
 
 
 def classify_trend(p90, p60, p30, p_now):
@@ -248,9 +271,11 @@ def extract_price_change(card):
         return None
 
     today = datetime.date.today()
-    p90 = find_price_at(history_points, today - datetime.timedelta(days=90))
+    date_90 = today - datetime.timedelta(days=90)
+    date_30 = today - datetime.timedelta(days=30)
+    p90 = find_price_at(history_points, date_90)
     p60 = find_price_at(history_points, today - datetime.timedelta(days=60))
-    p30 = find_price_at(history_points, today - datetime.timedelta(days=30))
+    p30 = find_price_at(history_points, date_30)
     if not p90:
         return None
 
@@ -266,13 +291,23 @@ def extract_price_change(card):
         current,
     )
 
+    change_pct_30d = None
+    if p30 and p30["price"] > 0:
+        change_pct_30d = round((current - p30["price"]) / p30["price"] * 100, 1)
+
+    sales_count_90d = sum_count_since(history_points, date_90)
+    sales_count_30d = sum_count_since(history_points, date_30)
+
     return {
         "old_price": round(old_price, 2),
         "new_price": round(current, 2),
         "change_pct": round(change_pct, 1),
+        "change_pct_30d": change_pct_30d,
         "old_date": p90["date"],
         "trend": trend,
         "chart": downsample(history_points),
+        "sales_count_90d": sales_count_90d,
+        "sales_count_30d": sales_count_30d,
         "image_url": get_card_image_url(card),
     }
 
@@ -344,6 +379,7 @@ def build_summary(results, total_characters, usd_jpy_rate, checked_count, stoppe
         "target_days": TARGET_DAYS_AGO,
         "min_change_pct": MIN_CHANGE_PCT,
         "min_yen_increase": MIN_YEN_INCREASE,
+        "min_sales_count_90d": MIN_SALES_COUNT_90D,
         "usd_jpy_rate": usd_jpy_rate,
         "checked_characters": checked_count,
         "total_characters": total_characters,
@@ -439,6 +475,9 @@ def main():
 
                 yen_increase = (change["new_price"] - change["old_price"]) * usd_jpy_rate
                 if yen_increase < MIN_YEN_INCREASE:
+                    continue
+
+                if change["sales_count_90d"] < MIN_SALES_COUNT_90D:
                     continue
 
                 if best_entry is None or change["change_pct"] > best_entry["change_pct"]:
