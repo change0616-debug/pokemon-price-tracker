@@ -42,67 +42,67 @@
             "variants": {
               "Holofoil": {
                 "Near Mint": {
-                  "price": 371.7,
+                  "price": 370.23,
                   "listings": null,
-                  "priceString": "$371.70",
-                  "lastUpdated": "2026-08-31T00:00:00.000Z"
+                  "priceString": "$370.23",
+                  "lastUpdated": "2026-09-01T00:00:00.000Z"
                 },
                 "Lightly Played": {
                   "price": 326,
                   "listings": null,
                   "priceString": "$326.00",
-                  "lastUpdated": "2026-08-31T00:00:00.000Z"
+                  "lastUpdated": "2026-09-01T00:00:00.000Z"
                 },
                 "Heavily Played": {
                   "price": 237.5,
                   "listings": null,
                   "priceString": "$237.50",
-                  "lastUpdated": "2026-08-31T00:00:00.000Z"
+                  "lastUpdated": "2026-09-01T00:00:00.000Z"
                 },
                 "Damaged": {
                   "price": 207.3,
                   "listings": null,
                   "priceString": "$207.30",
-                  "lastUpdated": "2026-08-31T00:00:00.000Z"
+                  "lastUpdated": "2026-09-01T00:00:00.000Z"
                 },
                 "Moderately Played": {
                   "price": 291.08,
                   "listings": null,
                   "priceString": "$291.08",
-                  "lastUpdated": "2026-08-31T00:00:00.000Z"
+                  "lastUpdated": "2026-09-01T00:00:00.000Z"
                 }
               }
             },
             "conditions": {
               "Near Mint": {
-                "price": 371.7,
+                "price": 370.23,
                 "listings": null,
-                "priceString": "$371.70",
-                "lastUpdated": "2026-08-31T00:00:00.000Z"
+                "priceString": "$370.23",
+                "lastUpdated": "2026-09-01T00:00:00.000Z"
               },
               "Lightly Played": {
                 "price": 326,
                 "listings": null,
                 "priceString": "$326.00",
-                "lastUpdated": "2026-08-31T00:00:00.000Z"
+                "lastUpdated": "2026-09-01T00:00:00.000Z"
               },
               "Heavily Played": {
                 "price": 237.5,
                 "listings": null,
                 "priceString": "$237.50",
-                "lastUpdated": "2026-08-31T00:00:00.000Z"
+                "lastUpdated": "2026-09-01T00:00:00.000Z"
               },
               "Damaged": {
                 "price": 207.3,
                 "listings": null,
                 "priceString": "$207.30",
-                "lastUpdated": "2026-08-31T00:00:00.000Z"
+                "lastUpdated": "2026-09-01T00:00:00.000Z"
               },
               "Moderately Played": {
                 "price": 291.08,
                 "listings": null,
                 "priceString": "$291.08",
-                "lastUpdated": "2026-08-31T00:00:00.000Z"
+                "lastUpdated": "2026-09-01T00:00:00.000Z"
               }
             }
           },
@@ -654,15 +654,21 @@
                   },
                   {
                     "date": "2026-08-31T00:00:00.000Z",
-                    "market": 371.7,
+                    "market": 370.23,
+                    "volume": 1,
+                    "marketRaw": 371.7
+                  },
+                  {
+                    "date": "2026-09-01T00:00:00.000Z",
+                    "market": 370.23,
                     "volume": null
                   }
                 ],
-                "dataPoints": 99,
-                "latestPrice": 371.7,
-                "latestDate": "2026-08-31T00:00:00.000Z",
+                "dataPoints": 100,
+                "latestPrice": 370.23,
+                "latestDate": "2026-09-01T00:00:00.000Z",
                 "priceRange": {
-                  "min": 370.85,
+                  "min": 370.23,
                   "max": 402.61
                 },
                 "suspectStreak": 0
@@ -1175,11 +1181,16 @@
                     "date": "2026-08-31T00:00:00.000Z",
                     "market": 326,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-01T00:00:00.000Z",
+                    "market": 326,
+                    "volume": null
                   }
                 ],
-                "dataPoints": 99,
+                "dataPoints": 100,
                 "latestPrice": 326,
-                "latestDate": "2026-08-31T00:00:00.000Z",
+                "latestDate": "2026-09-01T00:00:00.000Z",
                 "priceRange": {
                   "min": 297.74,
                   "max": 326.39
@@ -1433,11 +1444,16 @@
                     "date": "2026-08-31T00:00:00.000Z",
                     "market": 237.5,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-01T00:00:00.000Z",
+                    "market": 237.5,
+                    "volume": null
                   }
                 ],
-                "dataPoints": 49,
+                "dataPoints": 50,
                 "latestPrice": 237.5,
-                "latestDate": "2026-08-31T00:00:00.000Z",
+                "latestDate": "2026-09-01T00:00:00.000Z",
                 "priceRange": {
                   "min": 224.69,
                   "max": 237.5
@@ -1944,11 +1960,16 @@
                     "date": "2026-08-31T00:00:00.000Z",
                     "market": 207.3,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-01T00:00:00.000Z",
+                    "market": 207.3,
+                    "volume": null
                   }
                 ],
-                "dataPoints": 99,
+                "dataPoints": 100,
                 "latestPrice": 207.3,
-                "latestDate": "2026-08-31T00:00:00.000Z",
+                "latestDate": "2026-09-01T00:00:00.000Z",
                 "priceRange": {
                   "min": 201.2,
                   "max": 207.3
@@ -2331,11 +2352,16 @@
                     "date": "2026-08-31T00:00:00.000Z",
                     "market": 291.08,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-01T00:00:00.000Z",
+                    "market": 291.08,
+                    "volume": null
                   }
                 ],
-                "dataPoints": 75,
+                "dataPoints": 76,
                 "latestPrice": 291.08,
-                "latestDate": "2026-08-31T00:00:00.000Z",
+                "latestDate": "2026-09-01T00:00:00.000Z",
                 "priceRange": {
                   "min": 273.29,
                   "max": 291.08
@@ -2869,15 +2895,21 @@
                     },
                     {
                       "date": "2026-08-31T00:00:00.000Z",
-                      "market": 371.7,
+                      "market": 370.23,
+                      "volume": 1,
+                      "marketRaw": 371.7
+                    },
+                    {
+                      "date": "2026-09-01T00:00:00.000Z",
+                      "market": 370.23,
                       "volume": null
                     }
                   ],
-                  "dataPoints": 99,
-                  "latestPrice": 371.7,
-                  "latestDate": "2026-08-31T00:00:00.000Z",
+                  "dataPoints": 100,
+                  "latestPrice": 370.23,
+                  "latestDate": "2026-09-01T00:00:00.000Z",
                   "priceRange": {
-                    "min": 370.85,
+                    "min": 370.23,
                     "max": 402.61
                   },
                   "suspectStreak": 0
@@ -3390,11 +3422,16 @@
                       "date": "2026-08-31T00:00:00.000Z",
                       "market": 326,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-01T00:00:00.000Z",
+                      "market": 326,
+                      "volume": null
                     }
                   ],
-                  "dataPoints": 99,
+                  "dataPoints": 100,
                   "latestPrice": 326,
-                  "latestDate": "2026-08-31T00:00:00.000Z",
+                  "latestDate": "2026-09-01T00:00:00.000Z",
                   "priceRange": {
                     "min": 297.74,
                     "max": 326.39
@@ -3648,11 +3685,16 @@
                       "date": "2026-08-31T00:00:00.000Z",
                       "market": 237.5,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-01T00:00:00.000Z",
+                      "market": 237.5,
+                      "volume": null
                     }
                   ],
-                  "dataPoints": 49,
+                  "dataPoints": 50,
                   "latestPrice": 237.5,
-                  "latestDate": "2026-08-31T00:00:00.000Z",
+                  "latestDate": "2026-09-01T00:00:00.000Z",
                   "priceRange": {
                     "min": 224.69,
                     "max": 237.5
@@ -4159,11 +4201,16 @@
                       "date": "2026-08-31T00:00:00.000Z",
                       "market": 207.3,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-01T00:00:00.000Z",
+                      "market": 207.3,
+                      "volume": null
                     }
                   ],
-                  "dataPoints": 99,
+                  "dataPoints": 100,
                   "latestPrice": 207.3,
-                  "latestDate": "2026-08-31T00:00:00.000Z",
+                  "latestDate": "2026-09-01T00:00:00.000Z",
                   "priceRange": {
                     "min": 201.2,
                     "max": 207.3
@@ -4546,11 +4593,16 @@
                       "date": "2026-08-31T00:00:00.000Z",
                       "market": 291.08,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-01T00:00:00.000Z",
+                      "market": 291.08,
+                      "volume": null
                     }
                   ],
-                  "dataPoints": 75,
+                  "dataPoints": 76,
                   "latestPrice": 291.08,
-                  "latestDate": "2026-08-31T00:00:00.000Z",
+                  "latestDate": "2026-09-01T00:00:00.000Z",
                   "priceRange": {
                     "min": 273.29,
                     "max": 291.08
@@ -4559,13 +4611,13 @@
                 }
               }
             },
-            "totalDataPoints": 421,
-            "lastUpdated": "2026-08-31T12:14:05.707Z"
+            "totalDataPoints": 426,
+            "lastUpdated": "2026-09-01T12:00:34.488Z"
           },
           "ebay": {
-            "updatedAt": "2026-08-30T18:03:21.238Z",
-            "lastScrapedDate": "2026-08-30T18:03:21.238Z",
-            "lastEbayCheck": "2026-08-30T18:03:21.238Z",
+            "updatedAt": "2026-09-01T07:22:07.200Z",
+            "lastScrapedDate": "2026-09-01T07:22:07.200Z",
+            "lastEbayCheck": "2026-09-01T07:22:07.200Z",
             "salesByGrade": {
               "psa8": {
                 "count": 50,
@@ -4578,7 +4630,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-30T18:03:21.230Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.191Z",
                 "lastSaleDate": "2026-08-16T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 272.48,
@@ -4588,40 +4640,40 @@
                 }
               },
               "psa10": {
-                "count": 464,
-                "totalValue": 401390.27,
-                "averagePrice": 904.0321396396397,
+                "count": 465,
+                "totalValue": 402190.26,
+                "averagePrice": 903.7983370786517,
                 "medianPrice": 910,
                 "minPrice": 600,
                 "maxPrice": 1200,
-                "marketPrice7Day": 866.25,
-                "marketPriceMedian7Day": 782.5,
-                "dailyVolume7Day": 0.5714285714285714,
+                "marketPrice7Day": 852.9979999999999,
+                "marketPriceMedian7Day": 799,
+                "dailyVolume7Day": 0.7142857142857143,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-30T18:03:21.230Z",
-                "lastSaleDate": "2026-08-29T00:00:00.000Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.192Z",
+                "lastSaleDate": "2026-08-30T00:00:00.000Z",
                 "smartMarketPrice": {
-                  "price": 714.58,
+                  "price": 758,
                   "confidence": "medium",
                   "method": "7day_filtered_weighted",
                   "daysUsed": 7
                 }
               },
               "psa9": {
-                "count": 351,
-                "totalValue": 113095.12,
-                "averagePrice": 330.6874853801169,
+                "count": 353,
+                "totalValue": 113721.12,
+                "averagePrice": 330.5846511627907,
                 "medianPrice": 330,
                 "minPrice": 232.2,
                 "maxPrice": 425,
-                "marketPrice7Day": 279.24,
-                "marketPriceMedian7Day": 316.475,
-                "dailyVolume7Day": 1.1428571428571428,
+                "marketPrice7Day": 322.294,
+                "marketPriceMedian7Day": 326,
+                "dailyVolume7Day": 0.7142857142857143,
                 "marketTrend": "stable",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
-                "lastSaleDate": "2026-08-29T00:00:00.000Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.192Z",
+                "lastSaleDate": "2026-08-31T00:00:00.000Z",
                 "smartMarketPrice": {
-                  "price": 316.48,
+                  "price": 313,
                   "confidence": "high",
                   "method": "7day_filtered_weighted",
                   "daysUsed": 7
@@ -4638,33 +4690,33 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-04-07T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 2062.5,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 238
+                  "daysUsed": 240
                 }
               },
               "bgs9_5": {
-                "count": 14,
-                "totalValue": 7178.45,
-                "averagePrice": 598.2041666666667,
-                "medianPrice": 604.375,
+                "count": 16,
+                "totalValue": 7778.45,
+                "averagePrice": 598.3423076923077,
+                "medianPrice": 601.75,
                 "minPrice": 520,
                 "maxPrice": 680,
-                "marketPrice7Day": null,
-                "marketPriceMedian7Day": null,
-                "dailyVolume7Day": 0,
+                "marketPrice7Day": 477.5,
+                "marketPriceMedian7Day": 477.5,
+                "dailyVolume7Day": 0.2857142857142857,
                 "marketTrend": "stable",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
-                "lastSaleDate": "2026-07-28T00:00:00.000Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
+                "lastSaleDate": "2026-08-30T00:00:00.000Z",
                 "smartMarketPrice": {
-                  "price": 650,
-                  "confidence": "medium",
-                  "method": "90day_filtered_weighted",
-                  "daysUsed": 90
+                  "price": 355,
+                  "confidence": "low",
+                  "method": "30day_filtered_weighted",
+                  "daysUsed": 30
                 }
               },
               "cgc10": {
@@ -4678,13 +4730,13 @@
                 "marketPriceMedian7Day": 349.99,
                 "dailyVolume7Day": 0.14285714285714285,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-08-27T00:00:00.000Z",
                 "smartMarketPrice": {
-                  "price": 295.5,
+                  "price": 323,
                   "confidence": "medium",
-                  "method": "14day_filtered_weighted",
-                  "daysUsed": 14
+                  "method": "30day_filtered_weighted",
+                  "daysUsed": 30
                 }
               },
               "cgc9_5": {
@@ -4698,13 +4750,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "stable",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-07-27T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 325,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 221
+                  "daysUsed": 223
                 }
               },
               "ace9": {
@@ -4718,13 +4770,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-06-05T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 291.93,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 238
+                  "daysUsed": 240
                 }
               },
               "tag9": {
@@ -4738,7 +4790,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "stable",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-07-13T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 356.98,
@@ -4758,13 +4810,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-05-18T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 250.75,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 246
+                  "daysUsed": 248
                 }
               },
               "bgs5": {
@@ -4778,13 +4830,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-02-16T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 232.5,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 195
+                  "daysUsed": 197
                 }
               },
               "ace10": {
@@ -4794,14 +4846,14 @@
                 "medianPrice": 472.66499999999996,
                 "minPrice": 336.43,
                 "maxPrice": 547.88,
-                "marketPrice7Day": 448.61,
-                "marketPriceMedian7Day": 448.61,
-                "dailyVolume7Day": 0.2857142857142857,
+                "marketPrice7Day": 491.3,
+                "marketPriceMedian7Day": 491.3,
+                "dailyVolume7Day": 0.14285714285714285,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-08-26T00:00:00.000Z",
                 "smartMarketPrice": {
-                  "price": 384.23,
+                  "price": 368.66,
                   "confidence": "medium",
                   "method": "14day_filtered_weighted",
                   "daysUsed": 14
@@ -4818,13 +4870,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-08-12T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 290,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 189
+                  "daysUsed": 191
                 }
               },
               "sgc9_5": {
@@ -4838,13 +4890,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-06-01T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 283.73,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 174
+                  "daysUsed": 176
                 }
               },
               "sgc10": {
@@ -4858,7 +4910,7 @@
                 "marketPriceMedian7Day": 500,
                 "dailyVolume7Day": 0.14285714285714285,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-08-26T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 451.5,
@@ -4868,21 +4920,21 @@
                 }
               },
               "tag10": {
-                "count": 18,
-                "totalValue": 16046,
-                "averagePrice": 1002.875,
-                "medianPrice": 987.5,
-                "minPrice": 875,
+                "count": 19,
+                "totalValue": 17516,
+                "averagePrice": 973.1111111111111,
+                "medianPrice": 962.5,
+                "minPrice": 720,
                 "maxPrice": 1200,
-                "marketPrice7Day": 900,
-                "marketPriceMedian7Day": 900,
-                "dailyVolume7Day": 0.14285714285714285,
+                "marketPrice7Day": 825,
+                "marketPriceMedian7Day": 825,
+                "dailyVolume7Day": 0.2857142857142857,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
-                "lastSaleDate": "2026-08-27T00:00:00.000Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
+                "lastSaleDate": "2026-08-30T00:00:00.000Z",
                 "smartMarketPrice": {
-                  "price": 810,
-                  "confidence": "medium",
+                  "price": 735,
+                  "confidence": "high",
                   "method": "30day_filtered_weighted",
                   "daysUsed": 30
                 }
@@ -4898,13 +4950,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "stable",
-                "lastMarketUpdate": "2026-08-30T18:03:21.232Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-07-09T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 300,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 141
+                  "daysUsed": 143
                 }
               },
               "ace8": {
@@ -4918,13 +4970,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:03:21.232Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-04-18T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 252.75,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 134
+                  "daysUsed": 136
                 }
               },
               "ungraded": {
@@ -4938,13 +4990,13 @@
                 "marketPriceMedian7Day": 785,
                 "dailyVolume7Day": 0.14285714285714285,
                 "marketTrend": "stable",
-                "lastMarketUpdate": "2026-08-30T18:03:21.231Z",
+                "lastMarketUpdate": "2026-09-01T07:22:07.193Z",
                 "lastSaleDate": "2026-08-28T00:00:00.000Z",
                 "smartMarketPrice": {
-                  "price": 697.5,
+                  "price": 480,
                   "confidence": "medium",
-                  "method": "14day_filtered_weighted",
-                  "daysUsed": 14
+                  "method": "30day_filtered_weighted",
+                  "daysUsed": 30
                 }
               }
             },
@@ -4970,9 +5022,9 @@
               "ungraded": false
             },
             "salesVelocity": {
-              "dailyAverage": 3.033333333333333,
-              "weeklyAverage": 21.16279069767442,
-              "monthlyTotal": 91
+              "dailyAverage": 3,
+              "weeklyAverage": 20.930232558139537,
+              "monthlyTotal": 90
             },
             "priceHistory": {
               "psa8": {
@@ -5724,6 +5776,15 @@
                   "sevenDayVolumeAvg": 1.4285714285714286,
                   "sevenDayValueAvg": 1070.9914285714285,
                   "rollingWindow": null
+                },
+                "2026-08-30": {
+                  "average": 799.99,
+                  "count": 1,
+                  "totalValue": 799.99,
+                  "sevenDayAverage": 743.8979999999999,
+                  "sevenDayVolumeAvg": 1.4285714285714286,
+                  "sevenDayValueAvg": 1062.7114285714285,
+                  "rollingWindow": null
                 }
               },
               "psa9": {
@@ -6347,6 +6408,24 @@
                   "sevenDayVolumeAvg": 2.2857142857142856,
                   "sevenDayValueAvg": 639.5785714285714,
                   "rollingWindow": null
+                },
+                "2026-08-31": {
+                  "average": 326,
+                  "count": 1,
+                  "totalValue": 326,
+                  "sevenDayAverage": 273.3514285714286,
+                  "sevenDayVolumeAvg": 2,
+                  "sevenDayValueAvg": 546.7028571428572,
+                  "rollingWindow": null
+                },
+                "2026-08-30": {
+                  "average": 300,
+                  "count": 1,
+                  "totalValue": 300,
+                  "sevenDayAverage": 277.940625,
+                  "sevenDayVolumeAvg": 2.2857142857142856,
+                  "sevenDayValueAvg": 635.2928571428572,
+                  "rollingWindow": null
                 }
               },
               "bgs10": {},
@@ -6385,6 +6464,15 @@
                   "sevenDayAverage": 599.1071428571429,
                   "sevenDayVolumeAvg": 1,
                   "sevenDayValueAvg": 599.1071428571429,
+                  "rollingWindow": null
+                },
+                "2026-08-30": {
+                  "average": 477.5,
+                  "count": 2,
+                  "totalValue": 955,
+                  "sevenDayAverage": 573.34375,
+                  "sevenDayVolumeAvg": 1.1428571428571428,
+                  "sevenDayValueAvg": 655.25,
                   "rollingWindow": null
                 }
               },
@@ -6847,6 +6935,15 @@
                   "sevenDayVolumeAvg": 1,
                   "sevenDayValueAvg": 887.2857142857143,
                   "rollingWindow": null
+                },
+                "2026-08-30": {
+                  "average": 750,
+                  "count": 1,
+                  "totalValue": 750,
+                  "sevenDayAverage": 862.8571428571429,
+                  "sevenDayVolumeAvg": 1,
+                  "sevenDayValueAvg": 862.8571428571429,
+                  "rollingWindow": null
                 }
               },
               "cgc9": {
@@ -6871,8 +6968,8 @@
               },
               "ace8": {}
             },
-            "totalSales": 1091,
-            "totalValue": 640695,
+            "totalSales": 1097,
+            "totalValue": 644190.99,
             "gradesTracked": [
               "psa8",
               "psa10",
@@ -6895,7 +6992,7 @@
               "ungraded"
             ],
             "dateRangeStart": "2026-01-06T00:00:00.000Z",
-            "dateRangeEnd": "2026-08-29T00:00:00.000Z"
+            "dateRangeEnd": "2026-08-31T00:00:00.000Z"
           }
         },
         {
@@ -6938,13 +7035,13 @@
                   "price": 247.24,
                   "listings": null,
                   "priceString": "$247.24",
-                  "lastUpdated": "2026-08-31T00:00:00.000Z"
+                  "lastUpdated": "2026-09-01T00:00:00.000Z"
                 },
                 "Near Mint": {
                   "price": 346.71,
                   "listings": null,
                   "priceString": "$346.71",
-                  "lastUpdated": "2026-08-31T00:00:00.000Z"
+                  "lastUpdated": "2026-09-01T00:00:00.000Z"
                 },
                 "Moderately Played": {
                   "price": 182.23,
@@ -6971,13 +7068,13 @@
                 "price": 247.24,
                 "listings": null,
                 "priceString": "$247.24",
-                "lastUpdated": "2026-08-31T00:00:00.000Z"
+                "lastUpdated": "2026-09-01T00:00:00.000Z"
               },
               "Near Mint": {
                 "price": 346.71,
                 "listings": null,
                 "priceString": "$346.71",
-                "lastUpdated": "2026-08-31T00:00:00.000Z"
+                "lastUpdated": "2026-09-01T00:00:00.000Z"
               },
               "Moderately Played": {
                 "price": 182.23,
@@ -7527,11 +7624,16 @@
                     "date": "2026-08-31T00:00:00.000Z",
                     "market": 247.24,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-01T00:00:00.000Z",
+                    "market": 247.24,
+                    "volume": null
                   }
                 ],
-                "dataPoints": 99,
+                "dataPoints": 100,
                 "latestPrice": 247.24,
-                "latestDate": "2026-08-31T00:00:00.000Z",
+                "latestDate": "2026-09-01T00:00:00.000Z",
                 "priceRange": {
                   "min": 230.93,
                   "max": 247.24
@@ -8042,11 +8144,16 @@
                     "date": "2026-08-31T00:00:00.000Z",
                     "market": 346.71,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-01T00:00:00.000Z",
+                    "market": 346.71,
+                    "volume": null
                   }
                 ],
-                "dataPoints": 99,
+                "dataPoints": 100,
                 "latestPrice": 346.71,
-                "latestDate": "2026-08-31T00:00:00.000Z",
+                "latestDate": "2026-09-01T00:00:00.000Z",
                 "priceRange": {
                   "min": 293.77,
                   "max": 346.71
@@ -9477,11 +9584,16 @@
                       "date": "2026-08-31T00:00:00.000Z",
                       "market": 247.24,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-01T00:00:00.000Z",
+                      "market": 247.24,
+                      "volume": null
                     }
                   ],
-                  "dataPoints": 99,
+                  "dataPoints": 100,
                   "latestPrice": 247.24,
-                  "latestDate": "2026-08-31T00:00:00.000Z",
+                  "latestDate": "2026-09-01T00:00:00.000Z",
                   "priceRange": {
                     "min": 230.93,
                     "max": 247.24
@@ -9992,11 +10104,16 @@
                       "date": "2026-08-31T00:00:00.000Z",
                       "market": 346.71,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-01T00:00:00.000Z",
+                      "market": 346.71,
+                      "volume": null
                     }
                   ],
-                  "dataPoints": 99,
+                  "dataPoints": 100,
                   "latestPrice": 346.71,
-                  "latestDate": "2026-08-31T00:00:00.000Z",
+                  "latestDate": "2026-09-01T00:00:00.000Z",
                   "priceRange": {
                     "min": 293.77,
                     "max": 346.71
@@ -10922,13 +11039,13 @@
                 }
               }
             },
-            "totalDataPoints": 373,
-            "lastUpdated": "2026-08-31T12:14:06.609Z"
+            "totalDataPoints": 375,
+            "lastUpdated": "2026-09-01T12:00:35.325Z"
           },
           "ebay": {
-            "updatedAt": "2026-08-30T18:06:51.024Z",
-            "lastScrapedDate": "2026-08-30T18:06:51.024Z",
-            "lastEbayCheck": "2026-08-30T18:06:51.024Z",
+            "updatedAt": "2026-09-01T07:27:17.338Z",
+            "lastScrapedDate": "2026-09-01T07:27:17.338Z",
+            "lastEbayCheck": "2026-09-01T07:27:17.338Z",
             "salesByGrade": {
               "psa9": {
                 "count": 19,
@@ -10941,7 +11058,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-30T18:06:51.022Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.336Z",
                 "lastSaleDate": "2026-07-27T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 372.5,
@@ -10951,20 +11068,20 @@
                 }
               },
               "psa10": {
-                "count": 27,
-                "totalValue": 37703.16,
-                "averagePrice": 1396.4133333333334,
-                "medianPrice": 1575,
-                "minPrice": 725,
+                "count": 28,
+                "totalValue": 37754.16,
+                "averagePrice": 1452.083076923077,
+                "medianPrice": 1587,
+                "minPrice": 810,
                 "maxPrice": 1749.99,
-                "marketPrice7Day": null,
-                "marketPriceMedian7Day": null,
-                "dailyVolume7Day": 0,
+                "marketPrice7Day": 1526,
+                "marketPriceMedian7Day": 1526,
+                "dailyVolume7Day": 0.14285714285714285,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-30T18:06:51.022Z",
-                "lastSaleDate": "2026-08-16T00:00:00.000Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.336Z",
+                "lastSaleDate": "2026-08-30T00:00:00.000Z",
                 "smartMarketPrice": {
-                  "price": 1550.01,
+                  "price": 1488.51,
                   "confidence": "medium",
                   "method": "30day_filtered_weighted",
                   "daysUsed": 30
@@ -10981,13 +11098,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:06:51.022Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.336Z",
                 "lastSaleDate": "2025-12-11T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 212.49,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 262
+                  "daysUsed": 264
                 }
               },
               "ungraded": {
@@ -11001,13 +11118,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "stable",
-                "lastMarketUpdate": "2026-08-30T18:06:51.022Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.337Z",
                 "lastSaleDate": "2026-01-21T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 814.38,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 307
+                  "daysUsed": 309
                 }
               },
               "tag10": {
@@ -11021,7 +11138,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:06:51.022Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.337Z",
                 "lastSaleDate": "2026-08-02T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 960,
@@ -11041,13 +11158,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:06:51.022Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.337Z",
                 "lastSaleDate": "2026-07-26T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 858.47,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 35
+                  "daysUsed": 37
                 }
               },
               "cgc10": {
@@ -11061,7 +11178,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-30T18:06:51.022Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.337Z",
                 "lastSaleDate": "2026-07-28T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 962.71,
@@ -11081,13 +11198,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:06:51.022Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.337Z",
                 "lastSaleDate": "2026-06-04T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 306,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 87
+                  "daysUsed": 89
                 }
               },
               "bgs9_5": {
@@ -11101,13 +11218,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:06:51.023Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.337Z",
                 "lastSaleDate": "2026-05-13T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 789.65,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 109
+                  "daysUsed": 111
                 }
               },
               "psa5": {
@@ -11121,13 +11238,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-30T18:06:51.023Z",
+                "lastMarketUpdate": "2026-09-01T07:27:17.337Z",
                 "lastSaleDate": "2026-04-30T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 222.5,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 122
+                  "daysUsed": 124
                 }
               }
             },
@@ -11144,9 +11261,9 @@
               "psa5": false
             },
             "salesVelocity": {
-              "dailyAverage": 0.16666666666666666,
-              "weeklyAverage": 1.1627906976744187,
-              "monthlyTotal": 5
+              "dailyAverage": 0.13333333333333333,
+              "weeklyAverage": 0.9302325581395349,
+              "monthlyTotal": 4
             },
             "priceHistory": {
               "psa9": {
@@ -11412,6 +11529,15 @@
                   "sevenDayVolumeAvg": 1.2857142857142858,
                   "sevenDayValueAvg": 2096.6685714285713,
                   "rollingWindow": null
+                },
+                "2026-08-30": {
+                  "average": 1526,
+                  "count": 1,
+                  "totalValue": 1526,
+                  "sevenDayAverage": 1625.2977777777778,
+                  "sevenDayVolumeAvg": 1.2857142857142858,
+                  "sevenDayValueAvg": 2089.6685714285713,
+                  "rollingWindow": null
                 }
               },
               "psa8": {},
@@ -11498,8 +11624,8 @@
               "bgs9_5": {},
               "psa5": {}
             },
-            "totalSales": 66,
-            "totalValue": 61679.490000000005,
+            "totalSales": 67,
+            "totalValue": 61730.490000000005,
             "gradesTracked": [
               "psa9",
               "psa10",
@@ -11513,7 +11639,7 @@
               "psa5"
             ],
             "dateRangeStart": "2026-02-10T00:00:00.000Z",
-            "dateRangeEnd": "2026-08-16T00:00:00.000Z"
+            "dateRangeEnd": "2026-08-30T00:00:00.000Z"
           }
         }
       ],
@@ -11541,7 +11667,8 @@
           "breakdown": {
             "cards": 25,
             "history": 25,
-            "ebay": 25
+            "ebay": 25,
+            "cardmarket": 0
           },
           "costPerCard": 3
         }
@@ -12307,9 +12434,9 @@
             "lastUpdated": "2026-08-31T01:52:31.944Z"
           },
           "ebay": {
-            "updatedAt": "2026-08-29T17:05:18.664Z",
-            "lastScrapedDate": "2026-08-29T17:05:18.664Z",
-            "lastEbayCheck": "2026-08-29T17:05:18.664Z",
+            "updatedAt": "2026-09-01T04:55:34.932Z",
+            "lastScrapedDate": "2026-09-01T04:55:34.932Z",
+            "lastEbayCheck": "2026-09-01T04:55:34.932Z",
             "salesByGrade": {
               "psa9": {
                 "count": 4,
@@ -12322,7 +12449,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-29T17:05:18.663Z",
+                "lastMarketUpdate": "2026-09-01T04:55:34.931Z",
                 "lastSaleDate": "2026-07-18T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 220.99,
@@ -12342,13 +12469,13 @@
                 "marketPriceMedian7Day": 999,
                 "dailyVolume7Day": 0.14285714285714285,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-29T17:05:18.663Z",
+                "lastMarketUpdate": "2026-09-01T04:55:34.931Z",
                 "lastSaleDate": "2026-08-29T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 999,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 107
+                  "daysUsed": 110
                 }
               },
               "psa10": {
@@ -12358,11 +12485,11 @@
                 "medianPrice": 650.495,
                 "minPrice": 15,
                 "maxPrice": 1850,
-                "marketPrice7Day": 401,
-                "marketPriceMedian7Day": 401,
-                "dailyVolume7Day": 0.14285714285714285,
+                "marketPrice7Day": null,
+                "marketPriceMedian7Day": null,
+                "dailyVolume7Day": 0,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-29T17:05:18.663Z",
+                "lastMarketUpdate": "2026-09-01T04:55:34.931Z",
                 "lastSaleDate": "2026-08-23T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 401,
@@ -12382,13 +12509,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-29T17:05:18.663Z",
+                "lastMarketUpdate": "2026-09-01T04:55:34.931Z",
                 "lastSaleDate": "2026-08-18T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 554.5,
                   "confidence": "low",
-                  "method": "30day_filtered_weighted",
-                  "daysUsed": 30
+                  "method": "90day_filtered_weighted",
+                  "daysUsed": 90
                 }
               }
             },
@@ -12399,9 +12526,9 @@
               "ungraded": false
             },
             "salesVelocity": {
-              "dailyAverage": 0.13333333333333333,
-              "weeklyAverage": 0.9302325581395349,
-              "monthlyTotal": 4
+              "dailyAverage": 0.1,
+              "weeklyAverage": 0.6976744186046512,
+              "monthlyTotal": 3
             },
             "priceHistory": {
               "psa9": {
@@ -12491,7 +12618,7 @@
               "psa10",
               "ungraded"
             ],
-            "dateRangeStart": "2026-06-02T00:00:00.000Z",
+            "dateRangeStart": "2026-06-26T00:00:00.000Z",
             "dateRangeEnd": "2026-08-29T00:00:00.000Z"
           }
         },
@@ -14548,9 +14675,9 @@
             "lastUpdated": "2026-08-31T18:06:58.766Z"
           },
           "ebay": {
-            "updatedAt": "2026-08-29T16:54:30.082Z",
-            "lastScrapedDate": "2026-08-29T16:54:30.082Z",
-            "lastEbayCheck": "2026-08-29T16:54:30.082Z",
+            "updatedAt": "2026-09-01T04:37:45.973Z",
+            "lastScrapedDate": "2026-09-01T04:37:45.973Z",
+            "lastEbayCheck": "2026-09-01T04:37:45.973Z",
             "salesByGrade": {
               "ungraded": {
                 "count": 22,
@@ -14563,7 +14690,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-29T16:54:30.078Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.970Z",
                 "lastSaleDate": "2026-08-20T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 177.5,
@@ -14573,20 +14700,20 @@
                 }
               },
               "psa10": {
-                "count": 75,
-                "totalValue": 47890.15,
-                "averagePrice": 647.1641891891892,
-                "medianPrice": 719.5,
-                "minPrice": 170,
+                "count": 77,
+                "totalValue": 48403.31,
+                "averagePrice": 628.6144155844156,
+                "medianPrice": 717.1,
+                "minPrice": 15,
                 "maxPrice": 1145.95,
-                "marketPrice7Day": null,
-                "marketPriceMedian7Day": null,
-                "dailyVolume7Day": 0,
+                "marketPrice7Day": 249.08,
+                "marketPriceMedian7Day": 249.08,
+                "dailyVolume7Day": 0.2857142857142857,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-29T16:54:30.079Z",
-                "lastSaleDate": "2026-08-16T00:00:00.000Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.970Z",
+                "lastSaleDate": "2026-08-31T00:00:00.000Z",
                 "smartMarketPrice": {
-                  "price": 350,
+                  "price": 293.83,
                   "confidence": "medium",
                   "method": "30day_filtered_weighted",
                   "daysUsed": 30
@@ -14599,15 +14726,15 @@
                 "medianPrice": 262.495,
                 "minPrice": 112.65,
                 "maxPrice": 899.95,
-                "marketPrice7Day": 167.5,
-                "marketPriceMedian7Day": 167.5,
-                "dailyVolume7Day": 0.14285714285714285,
+                "marketPrice7Day": null,
+                "marketPriceMedian7Day": null,
+                "dailyVolume7Day": 0,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-29T16:54:30.079Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.970Z",
                 "lastSaleDate": "2026-08-25T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 167.5,
-                  "confidence": "medium",
+                  "confidence": "low",
                   "method": "30day_filtered_weighted",
                   "daysUsed": 30
                 }
@@ -14619,11 +14746,11 @@
                 "medianPrice": 252.495,
                 "minPrice": 199.99,
                 "maxPrice": 300,
-                "marketPrice7Day": 224.99,
-                "marketPriceMedian7Day": 224.99,
-                "dailyVolume7Day": 0.2857142857142857,
+                "marketPrice7Day": 249.99,
+                "marketPriceMedian7Day": 249.99,
+                "dailyVolume7Day": 0.14285714285714285,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-08-29T16:54:30.079Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.970Z",
                 "lastSaleDate": "2026-08-28T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 224.99,
@@ -14643,13 +14770,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-29T16:54:30.079Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.970Z",
                 "lastSaleDate": "2026-07-14T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 246.5,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 114
+                  "daysUsed": 117
                 }
               },
               "tag10": {
@@ -14663,7 +14790,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-29T16:54:30.079Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.970Z",
                 "lastSaleDate": "2026-07-27T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 325,
@@ -14683,7 +14810,7 @@
                 "marketPriceMedian7Day": 417.12,
                 "dailyVolume7Day": 0.14285714285714285,
                 "marketTrend": "down",
-                "lastMarketUpdate": "2026-08-29T16:54:30.079Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.970Z",
                 "lastSaleDate": "2026-08-27T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 404.78,
@@ -14703,13 +14830,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-29T16:54:30.079Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.970Z",
                 "lastSaleDate": "2026-07-10T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 261,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 50
+                  "daysUsed": 53
                 }
               },
               "cgc9": {
@@ -14723,13 +14850,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-29T16:54:30.079Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.971Z",
                 "lastSaleDate": "2026-07-28T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 15.5,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 32
+                  "daysUsed": 35
                 }
               },
               "ace10": {
@@ -14743,13 +14870,13 @@
                 "marketPriceMedian7Day": 180.9,
                 "dailyVolume7Day": 0.14285714285714285,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-08-29T16:54:30.079Z",
+                "lastMarketUpdate": "2026-09-01T04:37:45.971Z",
                 "lastSaleDate": "2026-08-26T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 180.9,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 3
+                  "daysUsed": 6
                 }
               }
             },
@@ -14986,6 +15113,24 @@
                   "sevenDayAverage": 329.77555555555557,
                   "sevenDayVolumeAvg": 1.2857142857142858,
                   "sevenDayValueAvg": 423.9971428571429,
+                  "rollingWindow": null
+                },
+                "2026-08-31": {
+                  "average": 194.5,
+                  "count": 1,
+                  "totalValue": 194.5,
+                  "sevenDayAverage": 306.0214285714286,
+                  "sevenDayVolumeAvg": 1,
+                  "sevenDayValueAvg": 306.0214285714286,
+                  "rollingWindow": null
+                },
+                "2026-08-29": {
+                  "average": 303.66,
+                  "count": 1,
+                  "totalValue": 303.66,
+                  "sevenDayAverage": 315.33124999999995,
+                  "sevenDayVolumeAvg": 1.1428571428571428,
+                  "sevenDayValueAvg": 360.3785714285714,
                   "rollingWindow": null
                 }
               },
@@ -15240,8 +15385,8 @@
                 }
               }
             },
-            "totalSales": 131,
-            "totalValue": 71645.79,
+            "totalSales": 133,
+            "totalValue": 72158.94999999998,
             "gradesTracked": [
               "ungraded",
               "psa10",
@@ -15255,7 +15400,7 @@
               "ace10"
             ],
             "dateRangeStart": "2026-04-07T00:00:00.000Z",
-            "dateRangeEnd": "2026-08-28T00:00:00.000Z"
+            "dateRangeEnd": "2026-08-31T00:00:00.000Z"
           }
         }
       ],
@@ -15283,7 +15428,8 @@
           "breakdown": {
             "cards": 25,
             "history": 25,
-            "ebay": 25
+            "ebay": 25,
+            "cardmarket": 0
           },
           "costPerCard": 3
         }
