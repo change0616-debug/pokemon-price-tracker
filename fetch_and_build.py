@@ -15,6 +15,10 @@ data/summary.json に書き出す。直近30日の変化率も併せて計算す
 PSA10の価格データは card.ebay.priceHistory.psa10.<日付>.average(および count)
 から取り出す。
 
+【重要】GitHub ActionsはUTCで動くため、日本時間の朝6時実行はUTCでは前日21時に
+あたる。date.today()をそのまま使うと日付が1日ずれるため、today_jst()という
+専用の関数で、必ず日本時間での「今日」を計算する。
+
 429(アクセス過多)が15回連続したら、そこで諦めるのではなく60秒休憩してから
 再挑戦する(最大3回まで)。それでも続く場合はそこで早期終了する。
 20キャラ処理するごとに、その時点までの結果を先にGitHubへコミットしてサイトに反映する。
@@ -56,6 +60,15 @@ MARKETS = [
     {"key": "overseas", "label": "海外(英語版)", "language": None},
     {"key": "japan", "label": "日本版", "language": "japanese"},
 ]
+
+
+JST = datetime.timezone(datetime.timedelta(hours=9))
+
+
+def today_jst():
+    """日本時間での「今日」の日付を返す(GitHub ActionsはUTCで動くため、
+    そのままdate.today()を使うと日本時間の朝6時実行が前日の日付になってしまう)"""
+    return datetime.datetime.now(JST).date()
 
 
 class CreditLimitReached(Exception):
@@ -270,7 +283,7 @@ def extract_price_change(card):
     if current <= 0:
         return None
 
-    today = datetime.date.today()
+    today = today_jst()
     date_90 = today - datetime.timedelta(days=90)
     date_30 = today - datetime.timedelta(days=30)
     p90 = find_price_at(history_points, date_90)
@@ -333,7 +346,7 @@ def save_archive(summary):
         index.append(date_str)
     index.sort()
 
-    cutoff = (datetime.date.today() - datetime.timedelta(days=ARCHIVE_KEEP_DAYS)).isoformat()
+    cutoff = (today_jst() - datetime.timedelta(days=ARCHIVE_KEEP_DAYS)).isoformat()
     kept = []
     for d in index:
         if d < cutoff:
@@ -375,7 +388,7 @@ def save_cache(cache):
 def build_summary(results, total_characters, usd_jpy_rate, checked_count, stopped_early, psa10_data_found):
     results_sorted = sorted(results, key=lambda r: r["change_pct"], reverse=True)
     return {
-        "generated_at": datetime.date.today().isoformat(),
+        "generated_at": today_jst().isoformat(),
         "target_days": TARGET_DAYS_AGO,
         "min_change_pct": MIN_CHANGE_PCT,
         "min_yen_increase": MIN_YEN_INCREASE,
@@ -398,7 +411,7 @@ def write_and_save(summary):
 
 def get_today_batch(characters):
     batch_size = (len(characters) + ROTATION_DAYS - 1) // ROTATION_DAYS
-    day_index = datetime.date.today().toordinal()
+    day_index = today_jst().toordinal()
     batch_no = day_index % ROTATION_DAYS
     start = batch_no * batch_size
     end = start + batch_size
@@ -414,7 +427,7 @@ def main():
     cache = load_cache()
     today_batch, batch_no, total_batches = get_today_batch(characters)
     print(f"today's batch: {batch_no + 1}/{total_batches} ({len(today_batch)} characters)")
-    today_str = datetime.date.today().isoformat()
+    today_str = today_jst().isoformat()
 
     debug_samples = []
     stopped_early = False
