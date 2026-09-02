@@ -2527,10 +2527,11 @@
     "set_name": "SV2a: Pokemon Card 151",
     "rarity": "Super Rare",
     "yen_increase": 9300,
-    "checked_date": "2026-08-31",
+    "checked_date": "2026-09-03",
     "old_price": 60.0,
     "new_price": 122.0,
     "change_pct": 103.3,
+    "change_pct_30d": 0.0,
     "old_date": "2026-05-31",
     "trend": "mixed",
     "chart": [
@@ -2559,6 +2560,8 @@
         "price": 122.0
       }
     ],
+    "sales_count_90d": 6,
+    "sales_count_30d": 0,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566533_in_200x200.jpg"
   },
   "キャタピー|overseas": {
@@ -2569,17 +2572,14 @@
     "set_name": "SV: Scarlet & Violet 151",
     "rarity": "Illustration Rare",
     "yen_increase": 16948,
-    "checked_date": "2026-08-31",
+    "checked_date": "2026-09-03",
     "old_price": 65.0,
     "new_price": 177.99,
     "change_pct": 173.8,
+    "change_pct_30d": -1.1,
     "old_date": "2026-06-01",
     "trend": "mixed",
     "chart": [
-      {
-        "date": "2026-05-25",
-        "price": 180.0
-      },
       {
         "date": "2026-05-27",
         "price": 179.99
@@ -2621,33 +2621,9 @@
         "price": 177.99
       }
     ],
+    "sales_count_90d": 7,
+    "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/517016_in_200x200.jpg"
-  },
-  "キャタピー|japan": {
-    "character": "キャタピー",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Caterpie",
-    "set_name": "SM3N: Darkness that Consumes Light",
-    "rarity": "Common",
-    "yen_increase": 11248,
-    "checked_date": "2026-08-31",
-    "old_price": 15.0,
-    "new_price": 89.99,
-    "change_pct": 499.9,
-    "old_date": "2026-06-24",
-    "trend": "mixed",
-    "chart": [
-      {
-        "date": "2026-06-24",
-        "price": 15.0
-      },
-      {
-        "date": "2026-07-17",
-        "price": 89.99
-      }
-    ],
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/573466_in_200x200.jpg"
   },
   "カモネギ|japan": {
     "character": "カモネギ",
@@ -9759,5 +9735,199 @@
     "sales_count_90d": 8,
     "sales_count_30d": 4,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/636649_in_200x200.jpg"
+  },
+  "リオル|overseas": {
+    "character": "リオル",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Riolu",
+    "set_name": "Hidden Fates: Shiny Vault",
+    "rarity": "Shiny Holo Rare",
+    "yen_increase": 33148,
+    "checked_date": "2026-09-03",
+    "old_price": 79.0,
+    "new_price": 299.99,
+    "change_pct": 279.7,
+    "change_pct_30d": 316.7,
+    "old_date": "2026-06-02",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-05-29",
+        "price": 75.0
+      },
+      {
+        "date": "2026-06-02",
+        "price": 79.0
+      },
+      {
+        "date": "2026-06-06",
+        "price": 89.99
+      },
+      {
+        "date": "2026-06-14",
+        "price": 80.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 85.99
+      },
+      {
+        "date": "2026-06-29",
+        "price": 75.5
+      },
+      {
+        "date": "2026-07-04",
+        "price": 79.5
+      },
+      {
+        "date": "2026-07-10",
+        "price": 45.0
+      },
+      {
+        "date": "2026-07-15",
+        "price": 71.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 72.0
+      },
+      {
+        "date": "2026-08-17",
+        "price": 50.0
+      },
+      {
+        "date": "2026-08-23",
+        "price": 72.49
+      },
+      {
+        "date": "2026-08-27",
+        "price": 86.0
+      },
+      {
+        "date": "2026-08-30",
+        "price": 299.99
+      }
+    ],
+    "sales_count_90d": 15,
+    "sales_count_30d": 5,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/197778_in_200x200.jpg"
+  },
+  "シキジカ（はるのすがた）|overseas": {
+    "character": "シキジカ（はるのすがた）",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Deerling - 165/162",
+    "set_name": "SV05: Temporal Forces",
+    "rarity": "Illustration Rare",
+    "yen_increase": 74850,
+    "checked_date": "2026-09-03",
+    "old_price": 300.0,
+    "new_price": 799.0,
+    "change_pct": 166.3,
+    "change_pct_30d": 190.6,
+    "old_date": "2026-06-03",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-05-28",
+        "price": 503.33
+      },
+      {
+        "date": "2026-06-03",
+        "price": 300.0
+      },
+      {
+        "date": "2026-06-07",
+        "price": 650.0
+      },
+      {
+        "date": "2026-06-14",
+        "price": 319.99
+      },
+      {
+        "date": "2026-06-15",
+        "price": 399.0
+      },
+      {
+        "date": "2026-06-16",
+        "price": 355.0
+      },
+      {
+        "date": "2026-06-20",
+        "price": 264.99
+      },
+      {
+        "date": "2026-06-21",
+        "price": 305.0
+      },
+      {
+        "date": "2026-06-23",
+        "price": 259.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 276.15
+      },
+      {
+        "date": "2026-07-02",
+        "price": 280.0
+      },
+      {
+        "date": "2026-07-03",
+        "price": 325.0
+      },
+      {
+        "date": "2026-07-09",
+        "price": 300.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 287.1
+      },
+      {
+        "date": "2026-07-13",
+        "price": 250.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 299.99
+      },
+      {
+        "date": "2026-07-25",
+        "price": 800.0
+      },
+      {
+        "date": "2026-07-26",
+        "price": 232.5
+      },
+      {
+        "date": "2026-07-29",
+        "price": 274.99
+      },
+      {
+        "date": "2026-08-05",
+        "price": 289.99
+      },
+      {
+        "date": "2026-08-07",
+        "price": 275.0
+      },
+      {
+        "date": "2026-08-08",
+        "price": 222.5
+      },
+      {
+        "date": "2026-08-09",
+        "price": 207.25
+      },
+      {
+        "date": "2026-08-25",
+        "price": 799.0
+      }
+    ],
+    "sales_count_90d": 25,
+    "sales_count_30d": 6,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/542886_in_200x200.jpg"
   }
 }
