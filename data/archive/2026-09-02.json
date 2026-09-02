@@ -5,7 +5,7 @@
   "min_yen_increase": 5000,
   "min_sales_count_90d": 5,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 80,
+  "checked_characters": 100,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -837,32 +837,6 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607052_in_200x200.jpg"
-    },
-    {
-      "character": "ウパー",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Wooper",
-      "set_name": "CoroCoro Promotional Cards",
-      "rarity": "None",
-      "yen_increase": 270302,
-      "checked_date": "2026-08-30",
-      "old_price": 74.99,
-      "new_price": 1877.0,
-      "change_pct": 2403.0,
-      "old_date": "2026-07-08",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-07-08",
-          "price": 74.99
-        },
-        {
-          "date": "2026-07-19",
-          "price": 1877.0
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/617260_in_200x200.jpg"
     },
     {
       "character": "カイリュー",
@@ -1750,32 +1724,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576650_in_200x200.jpg"
     },
     {
-      "character": "ギャラドス",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Mega Gyarados EX - 019/080",
-      "set_name": "XY9: Rage of the Broken Heavens",
-      "rarity": "Double Rare",
-      "yen_increase": 482850,
-      "checked_date": "2026-08-30",
-      "old_price": 305.0,
-      "new_price": 3524.0,
-      "change_pct": 1055.4,
-      "old_date": "2026-06-07",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-06-07",
-          "price": 305.0
-        },
-        {
-          "date": "2026-08-29",
-          "price": 3524.0
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/604159_in_200x200.jpg"
-    },
-    {
       "character": "ワンリキー",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -2290,6 +2238,55 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/617506_in_200x200.jpg"
     },
     {
+      "character": "ギャラドス",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Gyarados",
+      "set_name": "Expansion Pack",
+      "rarity": "Holo Rare",
+      "yen_increase": 133125,
+      "checked_date": "2026-09-02",
+      "old_price": 175.0,
+      "new_price": 1062.5,
+      "change_pct": 507.1,
+      "change_pct_30d": 596.7,
+      "old_date": "2026-06-04",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-30",
+          "price": 193.54
+        },
+        {
+          "date": "2026-06-04",
+          "price": 175.0
+        },
+        {
+          "date": "2026-07-03",
+          "price": 2236.0
+        },
+        {
+          "date": "2026-07-18",
+          "price": 2150.0
+        },
+        {
+          "date": "2026-07-21",
+          "price": 100.0
+        },
+        {
+          "date": "2026-08-02",
+          "price": 152.5
+        },
+        {
+          "date": "2026-08-14",
+          "price": 1062.5
+        }
+      ],
+      "sales_count_90d": 7,
+      "sales_count_30d": 2,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/575606_in_200x200.jpg"
+    },
+    {
       "character": "キャタピー",
       "market": "日本版",
       "market_key": "japan",
@@ -2323,10 +2320,11 @@
       "set_name": "Gold, Silver, to a New World...",
       "rarity": "Holo Rare",
       "yen_increase": 465000,
-      "checked_date": "2026-08-30",
+      "checked_date": "2026-09-02",
       "old_price": 650.0,
       "new_price": 3750.0,
       "change_pct": 476.9,
+      "change_pct_30d": 0.0,
       "old_date": "2026-06-23",
       "trend": "mixed",
       "chart": [
@@ -2355,6 +2353,8 @@
           "price": 3750.0
         }
       ],
+      "sales_count_90d": 10,
+      "sales_count_30d": 0,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/575815_in_200x200.jpg"
     },
     {
@@ -3340,6 +3340,111 @@
     },
     {
       "character": "トゲピー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Togepi & Cleffa & Igglybuff GX",
+      "set_name": "SM - Cosmic Eclipse",
+      "rarity": "Ultra Rare",
+      "yen_increase": 183906,
+      "checked_date": "2026-09-02",
+      "old_price": 350.0,
+      "new_price": 1576.04,
+      "change_pct": 350.3,
+      "change_pct_30d": 367.0,
+      "old_date": "2026-06-04",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-29",
+          "price": 15.0
+        },
+        {
+          "date": "2026-05-31",
+          "price": 850.0
+        },
+        {
+          "date": "2026-06-04",
+          "price": 350.0
+        },
+        {
+          "date": "2026-06-05",
+          "price": 300.0
+        },
+        {
+          "date": "2026-06-08",
+          "price": 370.98
+        },
+        {
+          "date": "2026-06-09",
+          "price": 380.0
+        },
+        {
+          "date": "2026-06-10",
+          "price": 384.99
+        },
+        {
+          "date": "2026-06-11",
+          "price": 380.0
+        },
+        {
+          "date": "2026-06-13",
+          "price": 379.98
+        },
+        {
+          "date": "2026-06-14",
+          "price": 992.64
+        },
+        {
+          "date": "2026-06-21",
+          "price": 999.99
+        },
+        {
+          "date": "2026-06-29",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-30",
+          "price": 362.5
+        },
+        {
+          "date": "2026-07-15",
+          "price": 337.5
+        },
+        {
+          "date": "2026-08-07",
+          "price": 1244.51
+        },
+        {
+          "date": "2026-08-13",
+          "price": 359.99
+        },
+        {
+          "date": "2026-08-14",
+          "price": 1700.0
+        },
+        {
+          "date": "2026-08-18",
+          "price": 360.0
+        },
+        {
+          "date": "2026-08-20",
+          "price": 395.3
+        },
+        {
+          "date": "2026-08-26",
+          "price": 382.17
+        },
+        {
+          "date": "2026-08-28",
+          "price": 1576.04
+        }
+      ],
+      "sales_count_90d": 25,
+      "sales_count_30d": 8,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/200353_in_200x200.jpg"
+    },
+    {
+      "character": "ピィ",
       "market": "海外(英語版)",
       "market_key": "overseas",
       "card_name": "Togepi & Cleffa & Igglybuff GX",
@@ -4621,40 +4726,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/636689_in_200x200.jpg"
     },
     {
-      "character": "ピッピ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Clefairy",
-      "set_name": "Expedition",
-      "rarity": "Common",
-      "yen_increase": 60826,
-      "checked_date": "2026-08-30",
-      "old_price": 144.16,
-      "new_price": 549.67,
-      "change_pct": 281.3,
-      "old_date": "2026-06-04",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-06-04",
-          "price": 144.16
-        },
-        {
-          "date": "2026-07-22",
-          "price": 300.0
-        },
-        {
-          "date": "2026-08-09",
-          "price": 280.0
-        },
-        {
-          "date": "2026-08-17",
-          "price": 549.67
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84353_in_200x200.jpg"
-    },
-    {
       "character": "ブースター",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -5846,36 +5917,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602916_in_200x200.jpg"
     },
     {
-      "character": "ズルッグ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Scrafty - 139/086",
-      "set_name": "SV: White Flare",
-      "rarity": "Illustration Rare",
-      "yen_increase": 68250,
-      "checked_date": "2026-08-30",
-      "old_price": 220.0,
-      "new_price": 675.0,
-      "change_pct": 206.8,
-      "old_date": "2026-05-24",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-05-24",
-          "price": 220.0
-        },
-        {
-          "date": "2026-06-26",
-          "price": 425.0
-        },
-        {
-          "date": "2026-08-07",
-          "price": 675.0
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642252_in_200x200.jpg"
-    },
-    {
       "character": "ヘルガー",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -6455,76 +6496,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/113668_in_200x200.jpg"
     },
     {
-      "character": "ノコッチ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Dunsparce",
-      "set_name": "SWSH: Crown Zenith: Galarian Gallery",
-      "rarity": "Ultra Rare",
-      "yen_increase": 21750,
-      "checked_date": "2026-08-30",
-      "old_price": 80.0,
-      "new_price": 225.0,
-      "change_pct": 181.2,
-      "old_date": "2026-05-25",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-05-25",
-          "price": 80.0
-        },
-        {
-          "date": "2026-06-04",
-          "price": 99.99
-        },
-        {
-          "date": "2026-06-11",
-          "price": 124.99
-        },
-        {
-          "date": "2026-06-25",
-          "price": 139.99
-        },
-        {
-          "date": "2026-06-28",
-          "price": 102.5
-        },
-        {
-          "date": "2026-07-12",
-          "price": 116.5
-        },
-        {
-          "date": "2026-07-22",
-          "price": 149.99
-        },
-        {
-          "date": "2026-07-30",
-          "price": 225.0
-        },
-        {
-          "date": "2026-08-07",
-          "price": 224.99
-        },
-        {
-          "date": "2026-08-10",
-          "price": 120.0
-        },
-        {
-          "date": "2026-08-22",
-          "price": 125.0
-        },
-        {
-          "date": "2026-08-23",
-          "price": 149.99
-        },
-        {
-          "date": "2026-08-28",
-          "price": 225.0
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478041_in_200x200.jpg"
-    },
-    {
       "character": "アルセウス",
       "market": "日本版",
       "market_key": "japan",
@@ -6576,32 +6547,6 @@
       "sales_count_90d": 9,
       "sales_count_30d": 7,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609396_in_200x200.jpg"
-    },
-    {
-      "character": "ヘラクロス",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "M Heracross EX (Secret)",
-      "set_name": "XY - Furious Fists",
-      "rarity": "Secret Rare",
-      "yen_increase": 381750,
-      "checked_date": "2026-08-30",
-      "old_price": 1455.0,
-      "new_price": 4000.0,
-      "change_pct": 174.9,
-      "old_date": "2026-08-16",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-08-16",
-          "price": 1455.0
-        },
-        {
-          "date": "2026-08-25",
-          "price": 4000.0
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/92291_in_200x200.jpg"
     },
     {
       "character": "カイオーガ",
@@ -6705,76 +6650,6 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/517016_in_200x200.jpg"
-    },
-    {
-      "character": "ピジョット",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Pidgeot",
-      "set_name": "Pokemon Jungle",
-      "rarity": "Holo Rare",
-      "yen_increase": 208898,
-      "checked_date": "2026-08-30",
-      "old_price": 807.35,
-      "new_price": 2200.0,
-      "change_pct": 172.5,
-      "old_date": "2026-05-31",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-05-31",
-          "price": 807.35
-        },
-        {
-          "date": "2026-06-02",
-          "price": 198.8
-        },
-        {
-          "date": "2026-06-03",
-          "price": 1175.0
-        },
-        {
-          "date": "2026-06-05",
-          "price": 1100.0
-        },
-        {
-          "date": "2026-06-10",
-          "price": 1075.0
-        },
-        {
-          "date": "2026-06-12",
-          "price": 137.5
-        },
-        {
-          "date": "2026-06-14",
-          "price": 711.0
-        },
-        {
-          "date": "2026-06-28",
-          "price": 1136.0
-        },
-        {
-          "date": "2026-08-07",
-          "price": 249.99
-        },
-        {
-          "date": "2026-08-11",
-          "price": 1049.0
-        },
-        {
-          "date": "2026-08-17",
-          "price": 820.0
-        },
-        {
-          "date": "2026-08-26",
-          "price": 1455.0
-        },
-        {
-          "date": "2026-08-27",
-          "price": 2200.0
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576637_in_200x200.jpg"
     },
     {
       "character": "リザード",
@@ -7485,10 +7360,11 @@
       "set_name": "Golden Sky, Silvery Ocean",
       "rarity": "Holo Rare",
       "yen_increase": 178500,
-      "checked_date": "2026-08-30",
+      "checked_date": "2026-09-02",
       "old_price": 810.0,
       "new_price": 2000.0,
       "change_pct": 146.9,
+      "change_pct_30d": 88.2,
       "old_date": "2026-06-21",
       "trend": "spike",
       "chart": [
@@ -7521,6 +7397,8 @@
           "price": 2000.0
         }
       ],
+      "sales_count_90d": 8,
+      "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/611900_in_200x200.jpg"
     },
     {
@@ -8480,6 +8358,75 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/197856_in_200x200.jpg"
     },
     {
+      "character": "ノコッチ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Dunsparce",
+      "set_name": "SWSH: Crown Zenith: Galarian Gallery",
+      "rarity": "Ultra Rare",
+      "yen_increase": 18752,
+      "checked_date": "2026-09-02",
+      "old_price": 99.99,
+      "new_price": 225.0,
+      "change_pct": 125.0,
+      "change_pct_30d": 0.0,
+      "old_date": "2026-06-04",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-04",
+          "price": 99.99
+        },
+        {
+          "date": "2026-06-11",
+          "price": 124.99
+        },
+        {
+          "date": "2026-06-25",
+          "price": 139.99
+        },
+        {
+          "date": "2026-06-28",
+          "price": 102.5
+        },
+        {
+          "date": "2026-07-12",
+          "price": 116.5
+        },
+        {
+          "date": "2026-07-22",
+          "price": 149.99
+        },
+        {
+          "date": "2026-07-30",
+          "price": 225.0
+        },
+        {
+          "date": "2026-08-07",
+          "price": 224.99
+        },
+        {
+          "date": "2026-08-10",
+          "price": 120.0
+        },
+        {
+          "date": "2026-08-22",
+          "price": 125.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 149.99
+        },
+        {
+          "date": "2026-08-28",
+          "price": 225.0
+        }
+      ],
+      "sales_count_90d": 12,
+      "sales_count_30d": 5,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478041_in_200x200.jpg"
+    },
+    {
       "character": "チラーミィ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -8487,10 +8434,11 @@
       "set_name": "SV: Black Bolt",
       "rarity": "Illustration Rare",
       "yen_increase": 40500,
-      "checked_date": "2026-08-30",
+      "checked_date": "2026-09-02",
       "old_price": 220.0,
       "new_price": 490.0,
       "change_pct": 122.7,
+      "change_pct_30d": 0.0,
       "old_date": "2026-06-18",
       "trend": "mixed",
       "chart": [
@@ -8515,6 +8463,8 @@
           "price": 490.0
         }
       ],
+      "sales_count_90d": 5,
+      "sales_count_30d": 0,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642606_in_200x200.jpg"
     },
     {
@@ -8752,6 +8702,63 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84187_in_200x200.jpg"
     },
     {
+      "character": "ピジョット",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Pidgeot ex - 335/190",
+      "set_name": "SV4a: Shiny Treasure ex",
+      "rarity": "Shiny Secret Rare",
+      "yen_increase": 5700,
+      "checked_date": "2026-09-02",
+      "old_price": 32.0,
+      "new_price": 70.0,
+      "change_pct": 118.8,
+      "change_pct_30d": 21.7,
+      "old_date": "2026-05-27",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-05-27",
+          "price": 32.0
+        },
+        {
+          "date": "2026-06-11",
+          "price": 37.0
+        },
+        {
+          "date": "2026-06-13",
+          "price": 24.01
+        },
+        {
+          "date": "2026-06-21",
+          "price": 70.0
+        },
+        {
+          "date": "2026-07-18",
+          "price": 47.5
+        },
+        {
+          "date": "2026-07-23",
+          "price": 35.0
+        },
+        {
+          "date": "2026-08-01",
+          "price": 57.5
+        },
+        {
+          "date": "2026-08-18",
+          "price": 32.0
+        },
+        {
+          "date": "2026-08-20",
+          "price": 70.0
+        }
+      ],
+      "sales_count_90d": 9,
+      "sales_count_30d": 2,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/567735_in_200x200.jpg"
+    },
+    {
       "character": "フシギダネ",
       "market": "日本版",
       "market_key": "japan",
@@ -8931,32 +8938,6 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/618728_in_200x200.jpg"
-    },
-    {
-      "character": "オーダイル",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Feraligatr - 089 (Prerelease)",
-      "set_name": "SV: Scarlet & Violet Promo Cards",
-      "rarity": "Promo",
-      "yen_increase": 60002,
-      "checked_date": "2026-08-30",
-      "old_price": 349.99,
-      "new_price": 750.0,
-      "change_pct": 114.3,
-      "old_date": "2026-06-14",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-06-14",
-          "price": 349.99
-        },
-        {
-          "date": "2026-08-16",
-          "price": 750.0
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/543950_in_200x200.jpg"
     },
     {
       "character": "フーパ",
@@ -9850,66 +9831,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478067_in_200x200.jpg"
     },
     {
-      "character": "ヘラクロス",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Heracross EX - 004/096",
-      "set_name": "XY3: Rising Fist",
-      "rarity": "Double Rare",
-      "yen_increase": 9660,
-      "checked_date": "2026-08-30",
-      "old_price": 61.0,
-      "new_price": 125.4,
-      "change_pct": 105.6,
-      "old_date": "2026-07-12",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-07-12",
-          "price": 61.0
-        },
-        {
-          "date": "2026-08-03",
-          "price": 125.4
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/603477_in_200x200.jpg"
-    },
-    {
-      "character": "ウパー",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Wooper",
-      "set_name": "Hidden Fates: Shiny Vault",
-      "rarity": "Shiny Holo Rare",
-      "yen_increase": 14931,
-      "checked_date": "2026-08-30",
-      "old_price": 94.35,
-      "new_price": 193.89,
-      "change_pct": 105.5,
-      "old_date": "2026-06-03",
-      "trend": "sustained",
-      "chart": [
-        {
-          "date": "2026-06-03",
-          "price": 94.35
-        },
-        {
-          "date": "2026-06-06",
-          "price": 107.5
-        },
-        {
-          "date": "2026-07-03",
-          "price": 159.99
-        },
-        {
-          "date": "2026-08-11",
-          "price": 193.89
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/197763_in_200x200.jpg"
-    },
-    {
       "character": "フーディン",
       "market": "日本版",
       "market_key": "japan",
@@ -9950,44 +9871,6 @@
         }
       ],
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566533_in_200x200.jpg"
-    },
-    {
-      "character": "ピィ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Cleffa",
-      "set_name": "SV: Paldean Fates",
-      "rarity": "Shiny Rare",
-      "yen_increase": 6842,
-      "checked_date": "2026-08-30",
-      "old_price": 45.0,
-      "new_price": 90.61,
-      "change_pct": 101.4,
-      "old_date": "2026-07-10",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-07-10",
-          "price": 45.0
-        },
-        {
-          "date": "2026-07-11",
-          "price": 99.0
-        },
-        {
-          "date": "2026-07-21",
-          "price": 90.0
-        },
-        {
-          "date": "2026-08-15",
-          "price": 129.95
-        },
-        {
-          "date": "2026-08-27",
-          "price": 90.61
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/534636_in_200x200.jpg"
     },
     {
       "character": "アーボ",
