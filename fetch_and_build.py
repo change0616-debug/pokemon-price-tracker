@@ -435,8 +435,8 @@ def main():
     consecutive_rate_limits = 0
     cooldown_count = 0
     CONSECUTIVE_LIMIT = 15
-    COOLDOWN_SECONDS = 60
-    MAX_COOLDOWNS = 3
+    COOLDOWN_SECONDS = 90
+    MAX_COOLDOWNS = 8
     i = -1
 
     for i, character in enumerate(today_batch):
