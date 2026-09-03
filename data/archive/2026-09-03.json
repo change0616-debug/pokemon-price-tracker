@@ -5,7 +5,7 @@
   "min_yen_increase": 5000,
   "min_sales_count_90d": 5,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 20,
+  "checked_characters": 40,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -6588,32 +6588,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613649_in_200x200.jpg"
     },
     {
-      "character": "アバゴーラ",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Carracosta - 111/086",
-      "set_name": "SV11B: Black Bolt",
-      "rarity": "Art Rare",
-      "yen_increase": 14106,
-      "checked_date": "2026-08-31",
-      "old_price": 55.96,
-      "new_price": 150.0,
-      "change_pct": 168.0,
-      "old_date": "2026-07-07",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-07-07",
-          "price": 55.96
-        },
-        {
-          "date": "2026-08-10",
-          "price": 150.0
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/636465_in_200x200.jpg"
-    },
-    {
       "character": "デンリュウ",
       "market": "日本版",
       "market_key": "japan",
@@ -8969,10 +8943,11 @@
       "set_name": "Pokemon VS",
       "rarity": "Common",
       "yen_increase": 26698,
-      "checked_date": "2026-08-31",
+      "checked_date": "2026-09-03",
       "old_price": 154.5,
       "new_price": 332.49,
       "change_pct": 115.2,
+      "change_pct_30d": -16.9,
       "old_date": "2026-05-31",
       "trend": "mixed",
       "chart": [
@@ -9001,6 +8976,8 @@
           "price": 332.49
         }
       ],
+      "sales_count_90d": 5,
+      "sales_count_30d": 2,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/618728_in_200x200.jpg"
     },
     {
