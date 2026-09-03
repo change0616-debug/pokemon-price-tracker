@@ -5,7 +5,7 @@
   "min_yen_increase": 5000,
   "min_sales_count_90d": 5,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 60,
+  "checked_characters": 80,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -1163,10 +1163,11 @@
       "set_name": "Stormfront",
       "rarity": "Secret Rare",
       "yen_increase": 6269630,
-      "checked_date": "2026-08-31",
+      "checked_date": "2026-09-03",
       "old_price": 3202.47,
       "new_price": 45000.0,
       "change_pct": 1305.2,
+      "change_pct_30d": 0.0,
       "old_date": "2026-06-07",
       "trend": "mixed",
       "chart": [
@@ -1187,6 +1188,8 @@
           "price": 45000.0
         }
       ],
+      "sales_count_90d": 5,
+      "sales_count_30d": 0,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84232_in_200x200.jpg"
     },
     {
@@ -1870,10 +1873,11 @@
       "set_name": "Vending Machine cards Series 2 (Red)",
       "rarity": "Uncommon",
       "yen_increase": 108909,
-      "checked_date": "2026-08-31",
+      "checked_date": "2026-09-03",
       "old_price": 123.93,
       "new_price": 849.99,
       "change_pct": 585.9,
+      "change_pct_30d": 0.0,
       "old_date": "2026-07-16",
       "trend": "mixed",
       "chart": [
@@ -1890,6 +1894,8 @@
           "price": 849.99
         }
       ],
+      "sales_count_90d": 5,
+      "sales_count_30d": 0,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/617506_in_200x200.jpg"
     },
     {
@@ -5508,10 +5514,11 @@
       "set_name": "SV2a: Pokemon Card 151",
       "rarity": "Super Rare",
       "yen_increase": 15299,
-      "checked_date": "2026-08-31",
+      "checked_date": "2026-09-03",
       "old_price": 48.0,
       "new_price": 149.99,
       "change_pct": 212.5,
+      "change_pct_30d": 212.5,
       "old_date": "2026-06-19",
       "trend": "spike",
       "chart": [
@@ -5548,6 +5555,8 @@
           "price": 149.99
         }
       ],
+      "sales_count_90d": 8,
+      "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566532_in_200x200.jpg"
     },
     {
@@ -6290,32 +6299,6 @@
       "sales_count_90d": 7,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/517016_in_200x200.jpg"
-    },
-    {
-      "character": "リザード",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Charmeleon",
-      "set_name": "Pokemon Web",
-      "rarity": "Common",
-      "yen_increase": 84927,
-      "checked_date": "2026-08-31",
-      "old_price": 330.2,
-      "new_price": 896.38,
-      "change_pct": 171.5,
-      "old_date": "2026-05-31",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-05-31",
-          "price": 330.2
-        },
-        {
-          "date": "2026-08-14",
-          "price": 896.38
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613649_in_200x200.jpg"
     },
     {
       "character": "デンリュウ",
@@ -7379,60 +7362,6 @@
       "sales_count_90d": 17,
       "sales_count_30d": 6,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478025_in_200x200.jpg"
-    },
-    {
-      "character": "ベトベトン",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Muk & Alolan Muk GX (Secret)",
-      "set_name": "SM - Unbroken Bonds",
-      "rarity": "Secret Rare",
-      "yen_increase": 27440,
-      "checked_date": "2026-08-31",
-      "old_price": 129.99,
-      "new_price": 312.92,
-      "change_pct": 140.7,
-      "old_date": "2026-05-31",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-05-24",
-          "price": 366.0
-        },
-        {
-          "date": "2026-05-25",
-          "price": 134.99
-        },
-        {
-          "date": "2026-05-31",
-          "price": 129.99
-        },
-        {
-          "date": "2026-06-10",
-          "price": 218.99
-        },
-        {
-          "date": "2026-06-11",
-          "price": 220.0
-        },
-        {
-          "date": "2026-06-17",
-          "price": 277.18
-        },
-        {
-          "date": "2026-07-23",
-          "price": 190.5
-        },
-        {
-          "date": "2026-08-07",
-          "price": 207.5
-        },
-        {
-          "date": "2026-08-18",
-          "price": 312.92
-        }
-      ],
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/189325_in_200x200.jpg"
     },
     {
       "character": "ミュウツー",
