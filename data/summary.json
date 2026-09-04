@@ -5,7 +5,7 @@
   "min_yen_increase": 5000,
   "min_sales_count_90d": 5,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 60,
+  "checked_characters": 80,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -2273,6 +2273,111 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/120115_in_200x200.jpg"
     },
     {
+      "character": "トゲピー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Togepi & Cleffa & Igglybuff GX",
+      "set_name": "SM - Cosmic Eclipse",
+      "rarity": "Ultra Rare",
+      "yen_increase": 191406,
+      "checked_date": "2026-09-05",
+      "old_price": 300.0,
+      "new_price": 1576.04,
+      "change_pct": 425.3,
+      "change_pct_30d": 367.0,
+      "old_date": "2026-06-05",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-05-29",
+          "price": 15.0
+        },
+        {
+          "date": "2026-05-31",
+          "price": 850.0
+        },
+        {
+          "date": "2026-06-04",
+          "price": 350.0
+        },
+        {
+          "date": "2026-06-05",
+          "price": 300.0
+        },
+        {
+          "date": "2026-06-08",
+          "price": 370.98
+        },
+        {
+          "date": "2026-06-09",
+          "price": 380.0
+        },
+        {
+          "date": "2026-06-10",
+          "price": 384.99
+        },
+        {
+          "date": "2026-06-11",
+          "price": 380.0
+        },
+        {
+          "date": "2026-06-13",
+          "price": 379.98
+        },
+        {
+          "date": "2026-06-14",
+          "price": 992.64
+        },
+        {
+          "date": "2026-06-21",
+          "price": 999.99
+        },
+        {
+          "date": "2026-06-29",
+          "price": 15.0
+        },
+        {
+          "date": "2026-06-30",
+          "price": 362.5
+        },
+        {
+          "date": "2026-07-15",
+          "price": 337.5
+        },
+        {
+          "date": "2026-08-07",
+          "price": 1244.51
+        },
+        {
+          "date": "2026-08-13",
+          "price": 359.99
+        },
+        {
+          "date": "2026-08-14",
+          "price": 1700.0
+        },
+        {
+          "date": "2026-08-18",
+          "price": 360.0
+        },
+        {
+          "date": "2026-08-20",
+          "price": 395.3
+        },
+        {
+          "date": "2026-08-26",
+          "price": 382.17
+        },
+        {
+          "date": "2026-08-28",
+          "price": 1576.04
+        }
+      ],
+      "sales_count_90d": 23,
+      "sales_count_30d": 8,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/200353_in_200x200.jpg"
+    },
+    {
       "character": "ププリン",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -3152,111 +3257,6 @@
       "sales_count_90d": 28,
       "sales_count_30d": 12,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/45157_in_200x200.jpg"
-    },
-    {
-      "character": "トゲピー",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Togepi & Cleffa & Igglybuff GX",
-      "set_name": "SM - Cosmic Eclipse",
-      "rarity": "Ultra Rare",
-      "yen_increase": 183906,
-      "checked_date": "2026-09-02",
-      "old_price": 350.0,
-      "new_price": 1576.04,
-      "change_pct": 350.3,
-      "change_pct_30d": 367.0,
-      "old_date": "2026-06-04",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-05-29",
-          "price": 15.0
-        },
-        {
-          "date": "2026-05-31",
-          "price": 850.0
-        },
-        {
-          "date": "2026-06-04",
-          "price": 350.0
-        },
-        {
-          "date": "2026-06-05",
-          "price": 300.0
-        },
-        {
-          "date": "2026-06-08",
-          "price": 370.98
-        },
-        {
-          "date": "2026-06-09",
-          "price": 380.0
-        },
-        {
-          "date": "2026-06-10",
-          "price": 384.99
-        },
-        {
-          "date": "2026-06-11",
-          "price": 380.0
-        },
-        {
-          "date": "2026-06-13",
-          "price": 379.98
-        },
-        {
-          "date": "2026-06-14",
-          "price": 992.64
-        },
-        {
-          "date": "2026-06-21",
-          "price": 999.99
-        },
-        {
-          "date": "2026-06-29",
-          "price": 15.0
-        },
-        {
-          "date": "2026-06-30",
-          "price": 362.5
-        },
-        {
-          "date": "2026-07-15",
-          "price": 337.5
-        },
-        {
-          "date": "2026-08-07",
-          "price": 1244.51
-        },
-        {
-          "date": "2026-08-13",
-          "price": 359.99
-        },
-        {
-          "date": "2026-08-14",
-          "price": 1700.0
-        },
-        {
-          "date": "2026-08-18",
-          "price": 360.0
-        },
-        {
-          "date": "2026-08-20",
-          "price": 395.3
-        },
-        {
-          "date": "2026-08-26",
-          "price": 382.17
-        },
-        {
-          "date": "2026-08-28",
-          "price": 1576.04
-        }
-      ],
-      "sales_count_90d": 25,
-      "sales_count_30d": 8,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/200353_in_200x200.jpg"
     },
     {
       "character": "ピィ",
@@ -5102,7 +5102,7 @@
       "set_name": "XY11-Br: Cruel Traitor",
       "rarity": "Uncommon",
       "yen_increase": 8700,
-      "checked_date": "2026-09-02",
+      "checked_date": "2026-09-05",
       "old_price": 27.0,
       "new_price": 85.0,
       "change_pct": 214.8,
