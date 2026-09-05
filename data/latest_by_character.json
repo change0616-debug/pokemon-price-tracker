@@ -2892,13 +2892,13 @@
     "set_name": "Fossil",
     "rarity": "Uncommon",
     "yen_increase": 39675,
-    "checked_date": "2026-09-03",
+    "checked_date": "2026-09-06",
     "old_price": 235.5,
     "new_price": 500.0,
     "change_pct": 112.3,
-    "change_pct_30d": 532.9,
+    "change_pct_30d": 0.0,
     "old_date": "2026-06-06",
-    "trend": "spike",
+    "trend": "mixed",
     "chart": [
       {
         "date": "2026-06-06",
@@ -2937,8 +2937,8 @@
         "price": 500.0
       }
     ],
-    "sales_count_90d": 9,
-    "sales_count_30d": 1,
+    "sales_count_90d": 8,
+    "sales_count_30d": 0,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44440_in_200x200.jpg"
   },
   "スターミー|japan": {
@@ -2949,7 +2949,7 @@
     "set_name": "SM4S: Awakened Heroes",
     "rarity": "Uncommon",
     "yen_increase": 21898,
-    "checked_date": "2026-09-03",
+    "checked_date": "2026-09-06",
     "old_price": 129.0,
     "new_price": 274.99,
     "change_pct": 113.2,
@@ -7994,14 +7994,14 @@
     "card_name": "Togepi & Cleffa & Igglybuff GX",
     "set_name": "SM - Cosmic Eclipse",
     "rarity": "Ultra Rare",
-    "yen_increase": 191406,
-    "checked_date": "2026-09-03",
-    "old_price": 300.0,
+    "yen_increase": 180759,
+    "checked_date": "2026-09-06",
+    "old_price": 370.98,
     "new_price": 1576.04,
-    "change_pct": 425.3,
-    "change_pct_30d": 367.0,
-    "old_date": "2026-06-05",
-    "trend": "spike",
+    "change_pct": 324.8,
+    "change_pct_30d": 26.6,
+    "old_date": "2026-06-08",
+    "trend": "mixed",
     "chart": [
       {
         "date": "2026-05-29",
@@ -8088,7 +8088,7 @@
         "price": 1576.04
       }
     ],
-    "sales_count_90d": 24,
+    "sales_count_90d": 23,
     "sales_count_30d": 8,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/200353_in_200x200.jpg"
   },
@@ -9065,5 +9065,50 @@
     "sales_count_90d": 21,
     "sales_count_30d": 5,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44422_in_200x200.jpg"
+  },
+  "レアコイル|overseas": {
+    "character": "レアコイル",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Magneton (11)",
+    "set_name": "Fossil",
+    "rarity": "Holo Rare",
+    "yen_increase": 179852,
+    "checked_date": "2026-09-06",
+    "old_price": 699.99,
+    "new_price": 1899.0,
+    "change_pct": 171.3,
+    "change_pct_30d": 18.7,
+    "old_date": "2026-06-08",
+    "trend": "sustained",
+    "chart": [
+      {
+        "date": "2026-06-08",
+        "price": 699.99
+      },
+      {
+        "date": "2026-06-21",
+        "price": 1538.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 1600.0
+      },
+      {
+        "date": "2026-08-11",
+        "price": 1425.0
+      },
+      {
+        "date": "2026-08-12",
+        "price": 2000.0
+      },
+      {
+        "date": "2026-08-16",
+        "price": 1899.0
+      }
+    ],
+    "sales_count_90d": 6,
+    "sales_count_30d": 3,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44420_in_200x200.jpg"
   }
 }
