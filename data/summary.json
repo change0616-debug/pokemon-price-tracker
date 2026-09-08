@@ -5,7 +5,7 @@
   "min_yen_increase": 5000,
   "min_sales_count_90d": 5,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 80,
+  "checked_characters": 99,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -995,6 +995,75 @@
       "sales_count_90d": 40,
       "sales_count_30d": 24,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/574399_in_200x200.jpg"
+    },
+    {
+      "character": "バチュル",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Joltik - 116/086",
+      "set_name": "SV: White Flare",
+      "rarity": "Illustration Rare",
+      "yen_increase": 48826,
+      "checked_date": "2026-09-09",
+      "old_price": 27.49,
+      "new_price": 353.0,
+      "change_pct": 1184.1,
+      "change_pct_30d": -34.0,
+      "old_date": "2026-06-10",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-04",
+          "price": 350.0
+        },
+        {
+          "date": "2026-06-05",
+          "price": 339.99
+        },
+        {
+          "date": "2026-06-10",
+          "price": 27.49
+        },
+        {
+          "date": "2026-06-16",
+          "price": 380.0
+        },
+        {
+          "date": "2026-06-29",
+          "price": 500.0
+        },
+        {
+          "date": "2026-07-08",
+          "price": 488.88
+        },
+        {
+          "date": "2026-07-17",
+          "price": 600.0
+        },
+        {
+          "date": "2026-07-28",
+          "price": 550.0
+        },
+        {
+          "date": "2026-08-07",
+          "price": 535.0
+        },
+        {
+          "date": "2026-08-16",
+          "price": 420.0
+        },
+        {
+          "date": "2026-08-17",
+          "price": 405.0
+        },
+        {
+          "date": "2026-09-04",
+          "price": 353.0
+        }
+      ],
+      "sales_count_90d": 9,
+      "sales_count_30d": 3,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642228_in_200x200.jpg"
     },
     {
       "character": "シャワーズ",
@@ -2289,23 +2358,15 @@
       "card_name": "Togepi & Cleffa & Igglybuff GX",
       "set_name": "SM - Cosmic Eclipse",
       "rarity": "Ultra Rare",
-      "yen_increase": 180759,
-      "checked_date": "2026-09-06",
-      "old_price": 370.98,
+      "yen_increase": 179406,
+      "checked_date": "2026-09-09",
+      "old_price": 380.0,
       "new_price": 1576.04,
-      "change_pct": 324.8,
+      "change_pct": 314.7,
       "change_pct_30d": 26.6,
-      "old_date": "2026-06-08",
+      "old_date": "2026-06-11",
       "trend": "mixed",
       "chart": [
-        {
-          "date": "2026-05-29",
-          "price": 15.0
-        },
-        {
-          "date": "2026-05-31",
-          "price": 850.0
-        },
         {
           "date": "2026-06-04",
           "price": 350.0
@@ -2383,8 +2444,8 @@
           "price": 1576.04
         }
       ],
-      "sales_count_90d": 23,
-      "sales_count_30d": 8,
+      "sales_count_90d": 17,
+      "sales_count_30d": 6,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/200353_in_200x200.jpg"
     },
     {
@@ -4602,51 +4663,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83973_in_200x200.jpg"
     },
     {
-      "character": "レアコイル",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Magneton (11)",
-      "set_name": "Fossil",
-      "rarity": "Holo Rare",
-      "yen_increase": 179852,
-      "checked_date": "2026-09-06",
-      "old_price": 699.99,
-      "new_price": 1899.0,
-      "change_pct": 171.3,
-      "change_pct_30d": 18.7,
-      "old_date": "2026-06-08",
-      "trend": "sustained",
-      "chart": [
-        {
-          "date": "2026-06-08",
-          "price": 699.99
-        },
-        {
-          "date": "2026-06-21",
-          "price": 1538.0
-        },
-        {
-          "date": "2026-07-14",
-          "price": 1600.0
-        },
-        {
-          "date": "2026-08-11",
-          "price": 1425.0
-        },
-        {
-          "date": "2026-08-12",
-          "price": 2000.0
-        },
-        {
-          "date": "2026-08-16",
-          "price": 1899.0
-        }
-      ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 3,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44420_in_200x200.jpg"
-    },
-    {
       "character": "チラーミィ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -5569,6 +5585,67 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606980_in_200x200.jpg"
     },
     {
+      "character": "キングラー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Kingler",
+      "set_name": "Fossil",
+      "rarity": "Uncommon",
+      "yen_increase": 47175,
+      "checked_date": "2026-09-09",
+      "old_price": 235.5,
+      "new_price": 550.0,
+      "change_pct": 133.5,
+      "change_pct_30d": 10.0,
+      "old_date": "2026-06-06",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-06-06",
+          "price": 235.5
+        },
+        {
+          "date": "2026-06-21",
+          "price": 87.04
+        },
+        {
+          "date": "2026-07-01",
+          "price": 399.99
+        },
+        {
+          "date": "2026-07-05",
+          "price": 174.99
+        },
+        {
+          "date": "2026-07-08",
+          "price": 115.0
+        },
+        {
+          "date": "2026-07-09",
+          "price": 374.99
+        },
+        {
+          "date": "2026-07-12",
+          "price": 60.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 79.0
+        },
+        {
+          "date": "2026-08-06",
+          "price": 500.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 550.0
+        }
+      ],
+      "sales_count_90d": 9,
+      "sales_count_30d": 1,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44440_in_200x200.jpg"
+    },
+    {
       "character": "カイリュー",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -5657,6 +5734,59 @@
       "sales_count_90d": 7,
       "sales_count_30d": 1,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84272_in_200x200.jpg"
+    },
+    {
+      "character": "レアコイル",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Magneton (11)",
+      "set_name": "Fossil",
+      "rarity": "Holo Rare",
+      "yen_increase": 138342,
+      "checked_date": "2026-09-09",
+      "old_price": 699.99,
+      "new_price": 1622.27,
+      "change_pct": 131.8,
+      "change_pct_30d": 1.4,
+      "old_date": "2026-06-08",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-06-08",
+          "price": 699.99
+        },
+        {
+          "date": "2026-06-21",
+          "price": 1538.0
+        },
+        {
+          "date": "2026-07-14",
+          "price": 1600.0
+        },
+        {
+          "date": "2026-08-11",
+          "price": 1425.0
+        },
+        {
+          "date": "2026-08-12",
+          "price": 2000.0
+        },
+        {
+          "date": "2026-08-16",
+          "price": 1899.0
+        },
+        {
+          "date": "2026-08-28",
+          "price": 1639.95
+        },
+        {
+          "date": "2026-09-02",
+          "price": 1622.27
+        }
+      ],
+      "sales_count_90d": 7,
+      "sales_count_30d": 5,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44420_in_200x200.jpg"
     },
     {
       "character": "ヤドラン",
@@ -6277,7 +6407,7 @@
       "set_name": "SM4S: Awakened Heroes",
       "rarity": "Uncommon",
       "yen_increase": 21898,
-      "checked_date": "2026-09-06",
+      "checked_date": "2026-09-09",
       "old_price": 129.0,
       "new_price": 274.99,
       "change_pct": 113.2,
@@ -6288,14 +6418,6 @@
         {
           "date": "2026-07-04",
           "price": 129.0
-        },
-        {
-          "date": "2026-07-12",
-          "price": 47.86
-        },
-        {
-          "date": "2026-07-13",
-          "price": 54.0
         },
         {
           "date": "2026-07-15",
@@ -6310,7 +6432,7 @@
           "price": 274.99
         }
       ],
-      "sales_count_90d": 7,
+      "sales_count_90d": 5,
       "sales_count_30d": 0,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/573002_in_200x200.jpg"
     },
@@ -6426,63 +6548,6 @@
       "sales_count_90d": 26,
       "sales_count_30d": 7,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44448_in_200x200.jpg"
-    },
-    {
-      "character": "キングラー",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Kingler",
-      "set_name": "Fossil",
-      "rarity": "Uncommon",
-      "yen_increase": 39675,
-      "checked_date": "2026-09-06",
-      "old_price": 235.5,
-      "new_price": 500.0,
-      "change_pct": 112.3,
-      "change_pct_30d": 0.0,
-      "old_date": "2026-06-06",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-06-06",
-          "price": 235.5
-        },
-        {
-          "date": "2026-06-21",
-          "price": 87.04
-        },
-        {
-          "date": "2026-07-01",
-          "price": 399.99
-        },
-        {
-          "date": "2026-07-05",
-          "price": 174.99
-        },
-        {
-          "date": "2026-07-08",
-          "price": 115.0
-        },
-        {
-          "date": "2026-07-09",
-          "price": 374.99
-        },
-        {
-          "date": "2026-07-12",
-          "price": 60.0
-        },
-        {
-          "date": "2026-07-19",
-          "price": 79.0
-        },
-        {
-          "date": "2026-08-06",
-          "price": 500.0
-        }
-      ],
-      "sales_count_90d": 8,
-      "sales_count_30d": 0,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44440_in_200x200.jpg"
     },
     {
       "character": "キュレム",
