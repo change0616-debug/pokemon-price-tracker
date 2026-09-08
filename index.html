@@ -89,7 +89,7 @@
   }
   .modal h2{font-size:18px;margin:0 0 4px;}
   .modal .modal-sub{color:var(--text-dim);font-size:13px;margin-bottom:16px;}
-  .modal-chart{width:100%;height:160px;margin-bottom:16px;}
+  .modal-chart{width:100%;height:180px;margin-bottom:16px;}
   .modal-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:13px;}
   .modal-stat{background:var(--bg);border-radius:8px;padding:10px;}
   .modal-stat .label{color:var(--text-dim);font-size:11px;margin-bottom:4px;}
@@ -143,8 +143,11 @@ function trendLabel(trend){
   return {text:'変動あり', cls:'mixed'};
 }
 
-function buildChartSvg(points, w, h){
+function buildChartSvg(points, w, h, labelCount){
   if(!points || points.length < 2) return '';
+  labelCount = labelCount || 0;
+  const labelH = labelCount > 0 ? 14 : 0;
+  const chartH = h - labelH;
   const pad = 4;
   const prices = points.map(p => p.price);
   const min = Math.min(...prices), max = Math.max(...prices);
@@ -152,16 +155,35 @@ function buildChartSvg(points, w, h){
   const stepX = (w - pad*2) / (points.length - 1);
   const coords = points.map((p, i) => {
     const x = pad + i * stepX;
-    const y = h - pad - ((p.price - min) / range) * (h - pad*2);
-    return `${x.toFixed(1)},${y.toFixed(1)}`;
-  }).join(' ');
+    const y = chartH - pad - ((p.price - min) / range) * (chartH - pad*2);
+    return {x, y};
+  });
+  const coordsStr = coords.map(c => `${c.x.toFixed(1)},${c.y.toFixed(1)}`).join(' ');
   const up = points[points.length-1].price >= points[0].price;
   const color = up ? '#6fcf97' : '#e07a5f';
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="width:100%;height:${h}px;"><polyline points="${coords}" fill="none" stroke="${color}" stroke-width="2"/></svg>`;
+
+  let labelsSvg = '';
+  if(labelCount > 0 && points.length > 1){
+    const idxs = new Set();
+    for(let i = 0; i < labelCount; i++){
+      idxs.add(Math.round(i * (points.length - 1) / (labelCount - 1)));
+    }
+    labelsSvg = [...idxs].map(i => {
+      const c = coords[i];
+      const rawDate = points[i].date || '';
+      const shortDate = rawDate.length >= 10 ? rawDate.slice(5) : rawDate; // MM-DD表示
+      let anchor = 'middle';
+      if(i === 0) anchor = 'start';
+      if(i === points.length - 1) anchor = 'end';
+      return `<text x="${c.x.toFixed(1)}" y="${h - 2}" font-size="9" fill="#8b8d97" text-anchor="${anchor}">${escapeHtml(shortDate)}</text>`;
+    }).join('');
+  }
+
+  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="width:100%;height:${h}px;"><polyline points="${coordsStr}" fill="none" stroke="${color}" stroke-width="2"/>${labelsSvg}</svg>`;
 }
 
 function sparkline(points){
-  return buildChartSvg(points, 100, 32);
+  return buildChartSvg(points, 100, 44, 2);
 }
 
 function openModal(card){
@@ -175,7 +197,7 @@ function openModal(card){
     ${imageHtml}
     <h2>${escapeHtml(card.character)}</h2>
     <div class="modal-sub">${escapeHtml(card.card_name || '')} ${escapeHtml(card.set_name ? '・'+card.set_name : '')} ・ PSA10</div>
-    <div class="modal-chart">${buildChartSvg(card.chart, 430, 160)}</div>
+    <div class="modal-chart">${buildChartSvg(card.chart, 430, 180, 5)}</div>
     <div class="modal-stats">
       <div class="modal-stat"><div class="label">市場</div><div class="value">${escapeHtml(card.market)}</div></div>
       <div class="modal-stat"><div class="label">傾向</div><div class="value">${trend.text}</div></div>
