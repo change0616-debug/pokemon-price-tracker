@@ -3419,6 +3419,8 @@
     "new_price": 1553.1,
     "change_pct": 1570.0,
     "change_pct_30d": 37.4,
+    "old_price_30d": 1130.72,
+    "old_date_30d": "2026-08-06",
     "old_date": "2026-06-07",
     "trend": "mixed",
     "chart": [
@@ -3476,6 +3478,8 @@
     "new_price": 149.99,
     "change_pct": 163.1,
     "change_pct_30d": 30.0,
+    "old_price_30d": 115.37,
+    "old_date_30d": "2026-07-26",
     "old_date": "2026-06-07",
     "trend": "mixed",
     "chart": [
@@ -3541,6 +3545,8 @@
     "new_price": 1200.0,
     "change_pct": 118.2,
     "change_pct_30d": 25.0,
+    "old_price_30d": 960.0,
+    "old_date_30d": "2026-08-02",
     "old_date": "2026-06-16",
     "trend": "sustained",
     "chart": [
@@ -3606,6 +3612,8 @@
     "new_price": 544.39,
     "change_pct": 117.8,
     "change_pct_30d": 0.0,
+    "old_price_30d": 544.39,
+    "old_date_30d": "2026-07-14",
     "old_date": "2026-07-08",
     "trend": "mixed",
     "chart": [
@@ -3647,6 +3655,8 @@
     "new_price": 2000.0,
     "change_pct": 217.5,
     "change_pct_30d": 0.0,
+    "old_price_30d": 2000.0,
+    "old_date_30d": "2026-08-11",
     "old_date": "2026-07-08",
     "trend": "mixed",
     "chart": [
@@ -3692,13 +3702,11 @@
     "new_price": 12944.26,
     "change_pct": 123.2,
     "change_pct_30d": 244.9,
+    "old_price_30d": 3753.5,
+    "old_date_30d": "2026-08-06",
     "old_date": "2026-06-10",
     "trend": "spike",
     "chart": [
-      {
-        "date": "2026-06-02",
-        "price": 3700.0
-      },
       {
         "date": "2026-06-04",
         "price": 3999.0
@@ -5106,6 +5114,8 @@
     "new_price": 2650.0,
     "change_pct": 198.1,
     "change_pct_30d": 198.1,
+    "old_price_30d": 889.0,
+    "old_date_30d": "2026-06-19",
     "old_date": "2026-06-19",
     "trend": "spike",
     "chart": [
@@ -6974,6 +6984,8 @@
     "new_price": 3500.0,
     "change_pct": 119.4,
     "change_pct_30d": 16.7,
+    "old_price_30d": 3000.0,
+    "old_date_30d": "2026-08-10",
     "old_date": "2026-06-22",
     "trend": "mixed",
     "chart": [
@@ -7019,6 +7031,8 @@
     "new_price": 406.05,
     "change_pct": 306.1,
     "change_pct_30d": 306.1,
+    "old_price_30d": 99.99,
+    "old_date_30d": "2026-08-05",
     "old_date": "2026-06-10",
     "trend": "spike",
     "chart": [
@@ -7062,5 +7076,60 @@
     "sales_count_90d": 10,
     "sales_count_30d": 7,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/523984_in_200x200.jpg"
+  },
+  "ブースター|overseas": {
+    "character": "ブースター",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Flareon ex - 014/131",
+    "set_name": "Prize Pack Series Cards",
+    "rarity": "Double Rare",
+    "yen_increase": 21900,
+    "checked_date": "2026-09-10",
+    "old_price": 89.99,
+    "new_price": 235.99,
+    "change_pct": 162.2,
+    "change_pct_30d": 36.0,
+    "old_price_30d": 173.5,
+    "old_date_30d": "2026-08-11",
+    "old_date": "2026-06-13",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-06-13",
+        "price": 89.99
+      },
+      {
+        "date": "2026-07-20",
+        "price": 56.0
+      },
+      {
+        "date": "2026-07-22",
+        "price": 60.0
+      },
+      {
+        "date": "2026-07-28",
+        "price": 130.5
+      },
+      {
+        "date": "2026-08-05",
+        "price": 269.82
+      },
+      {
+        "date": "2026-08-09",
+        "price": 176.5
+      },
+      {
+        "date": "2026-08-11",
+        "price": 173.5
+      },
+      {
+        "date": "2026-08-19",
+        "price": 235.99
+      }
+    ],
+    "sales_count_90d": 8,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648637_in_200x200.jpg"
   }
 }
