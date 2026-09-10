@@ -52,6 +52,12 @@ MIN_CHANGE_PCT = 100.0
 MIN_YEN_INCREASE = 5000
 MIN_SALES_COUNT_90D = 5
 FALLBACK_USD_JPY = 150.0
+
+# 「予備軍リスト」(直近30日だけ見ると加速しているが、まだメイン基準には届いていないカード)の条件
+WATCHLIST_CACHE_FILE = "data/latest_watchlist_by_character.json"
+WATCHLIST_MIN_CHANGE_PCT_30D = 30.0
+WATCHLIST_MIN_YEN_INCREASE_30D = 3000
+WATCHLIST_MIN_SALES_COUNT_30D = 3
 DEBUG_SAMPLE_LIMIT = 1
 CHECKPOINT_EVERY = 20
 CHART_MAX_POINTS = 60
@@ -305,8 +311,12 @@ def extract_price_change(card):
     )
 
     change_pct_30d = None
+    old_price_30d = None
+    old_date_30d = None
     if p30 and p30["price"] > 0:
         change_pct_30d = round((current - p30["price"]) / p30["price"] * 100, 1)
+        old_price_30d = round(p30["price"], 2)
+        old_date_30d = p30["date"]
 
     sales_count_90d = sum_count_since(history_points, date_90)
     sales_count_30d = sum_count_since(history_points, date_30)
@@ -316,6 +326,8 @@ def extract_price_change(card):
         "new_price": round(current, 2),
         "change_pct": round(change_pct, 1),
         "change_pct_30d": change_pct_30d,
+        "old_price_30d": old_price_30d,
+        "old_date_30d": old_date_30d,
         "old_date": p90["date"],
         "trend": trend,
         "chart": downsample(history_points),
@@ -372,33 +384,38 @@ def git_checkpoint_commit(message):
         print(f"  [warn] 途中経過のコミットに失敗しましたが、処理は続けます: {e}")
 
 
-def load_cache():
-    if os.path.exists(CACHE_FILE):
-        with open(CACHE_FILE, encoding="utf-8") as f:
+def load_cache(path=CACHE_FILE):
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
             return json.load(f)
     return {}
 
 
-def save_cache(cache):
-    os.makedirs(os.path.dirname(CACHE_FILE), exist_ok=True)
-    with open(CACHE_FILE, "w", encoding="utf-8") as f:
+def save_cache(cache, path=CACHE_FILE):
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
 
-def build_summary(results, total_characters, usd_jpy_rate, checked_count, stopped_early, psa10_data_found):
+def build_summary(results, watchlist_results, total_characters, usd_jpy_rate, checked_count, stopped_early, psa10_data_found):
     results_sorted = sorted(results, key=lambda r: r["change_pct"], reverse=True)
+    watchlist_sorted = sorted(watchlist_results, key=lambda r: r["change_pct_30d"], reverse=True)
     return {
         "generated_at": today_jst().isoformat(),
         "target_days": TARGET_DAYS_AGO,
         "min_change_pct": MIN_CHANGE_PCT,
         "min_yen_increase": MIN_YEN_INCREASE,
         "min_sales_count_90d": MIN_SALES_COUNT_90D,
+        "watchlist_min_change_pct_30d": WATCHLIST_MIN_CHANGE_PCT_30D,
+        "watchlist_min_yen_increase_30d": WATCHLIST_MIN_YEN_INCREASE_30D,
+        "watchlist_min_sales_count_30d": WATCHLIST_MIN_SALES_COUNT_30D,
         "usd_jpy_rate": usd_jpy_rate,
         "checked_characters": checked_count,
         "total_characters": total_characters,
         "stopped_early": stopped_early,
         "psa10_data_found": psa10_data_found,
         "cards": results_sorted,
+        "watchlist_cards": watchlist_sorted,
     }
 
 
@@ -424,7 +441,8 @@ def main():
     usd_jpy_rate = fetch_usd_jpy_rate()
     print(f"USD/JPY rate: {usd_jpy_rate}")
 
-    cache = load_cache()
+    cache = load_cache(CACHE_FILE)
+    watchlist_cache = load_cache(WATCHLIST_CACHE_FILE)
     today_batch, batch_no, total_batches = get_today_batch(characters)
     print(f"today's batch: {batch_no + 1}/{total_batches} ({len(today_batch)} characters)")
     today_str = today_jst().isoformat()
@@ -479,29 +497,60 @@ def main():
                 )
 
             best_entry = None
+            best_watchlist_entry = None
             for card in cards:
                 change = extract_price_change(card)
-                if change:
-                    psa10_data_found = True
-                if not change or change["change_pct"] < MIN_CHANGE_PCT:
+                if not change:
                     continue
+                psa10_data_found = True
 
                 yen_increase = (change["new_price"] - change["old_price"]) * usd_jpy_rate
-                if yen_increase < MIN_YEN_INCREASE:
+
+                qualifies_main = (
+                    change["change_pct"] >= MIN_CHANGE_PCT
+                    and yen_increase >= MIN_YEN_INCREASE
+                    and change["sales_count_90d"] >= MIN_SALES_COUNT_90D
+                )
+                if qualifies_main:
+                    if best_entry is None or change["change_pct"] > best_entry["change_pct"]:
+                        best_entry = {
+                            "character": character,
+                            "market": market["label"],
+                            "market_key": market["key"],
+                            "card_name": card.get("name"),
+                            "set_name": card.get("setName"),
+                            "rarity": card.get("rarity"),
+                            "yen_increase": round(yen_increase),
+                            "checked_date": today_str,
+                            **change,
+                        }
+                    continue  # メインに載るカードは予備軍としては数えない
+
+                # 予備軍リスト:3ヶ月ではまだメイン基準に届かないが、直近30日だけ見ると加速しているカード
+                change_pct_30d = change.get("change_pct_30d")
+                old_price_30d = change.get("old_price_30d")
+                sales_count_30d = change.get("sales_count_30d") or 0
+                if change_pct_30d is None or not old_price_30d:
                     continue
 
-                if change["sales_count_90d"] < MIN_SALES_COUNT_90D:
+                yen_increase_30d = (change["new_price"] - old_price_30d) * usd_jpy_rate
+                qualifies_watchlist = (
+                    change_pct_30d >= WATCHLIST_MIN_CHANGE_PCT_30D
+                    and yen_increase_30d >= WATCHLIST_MIN_YEN_INCREASE_30D
+                    and sales_count_30d >= WATCHLIST_MIN_SALES_COUNT_30D
+                )
+                if not qualifies_watchlist:
                     continue
 
-                if best_entry is None or change["change_pct"] > best_entry["change_pct"]:
-                    best_entry = {
+                if best_watchlist_entry is None or change_pct_30d > best_watchlist_entry["change_pct_30d"]:
+                    best_watchlist_entry = {
                         "character": character,
                         "market": market["label"],
                         "market_key": market["key"],
                         "card_name": card.get("name"),
                         "set_name": card.get("setName"),
                         "rarity": card.get("rarity"),
-                        "yen_increase": round(yen_increase),
+                        "yen_increase_30d": round(yen_increase_30d),
                         "checked_date": today_str,
                         **change,
                     }
@@ -511,21 +560,29 @@ def main():
             else:
                 cache.pop(key, None)
 
+            if best_watchlist_entry:
+                watchlist_cache[key] = best_watchlist_entry
+            else:
+                watchlist_cache.pop(key, None)
+
             time.sleep(4.0)
         if stopped_early:
             break
 
         if (i + 1) % CHECKPOINT_EVERY == 0:
             save_debug_sample(debug_samples)
-            save_cache(cache)
+            save_cache(cache, CACHE_FILE)
+            save_cache(watchlist_cache, WATCHLIST_CACHE_FILE)
             checkpoint_summary = build_summary(
-                list(cache.values()), len(characters), usd_jpy_rate, i + 1, False, psa10_data_found
+                list(cache.values()), list(watchlist_cache.values()),
+                len(characters), usd_jpy_rate, i + 1, False, psa10_data_found
             )
             write_and_save(checkpoint_summary)
             git_checkpoint_commit(f"Checkpoint: batch {batch_no + 1}/{total_batches}, {i + 1}/{len(today_batch)} characters processed")
 
     save_debug_sample(debug_samples)
-    save_cache(cache)
+    save_cache(cache, CACHE_FILE)
+    save_cache(watchlist_cache, WATCHLIST_CACHE_FILE)
 
     if not psa10_data_found:
         print(
@@ -536,7 +593,8 @@ def main():
 
     checked_count = i + (0 if stopped_early else 1)
     summary = build_summary(
-        list(cache.values()), len(characters), usd_jpy_rate, checked_count, stopped_early, psa10_data_found
+        list(cache.values()), list(watchlist_cache.values()),
+        len(characters), usd_jpy_rate, checked_count, stopped_early, psa10_data_found
     )
     write_and_save(summary)
 
