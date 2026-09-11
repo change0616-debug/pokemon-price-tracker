@@ -1521,11 +1521,13 @@
     "set_name": "Undone Seal",
     "rarity": "Holo Rare",
     "yen_increase": 216000,
-    "checked_date": "2026-09-09",
+    "checked_date": "2026-09-12",
     "old_price": 560.0,
     "new_price": 2000.0,
     "change_pct": 257.1,
     "change_pct_30d": 339.6,
+    "old_price_30d": 455.0,
+    "old_date_30d": "2026-07-26",
     "old_date": "2026-06-21",
     "trend": "spike",
     "chart": [
@@ -4555,11 +4557,13 @@
     "set_name": "EX Sandstorm",
     "rarity": "Ultra Rare",
     "yen_increase": 525000,
-    "checked_date": "2026-09-09",
+    "checked_date": "2026-09-12",
     "old_price": 3000.0,
     "new_price": 6500.0,
     "change_pct": 116.7,
     "change_pct_30d": 60.5,
+    "old_price_30d": 4050.0,
+    "old_date_30d": "2026-08-05",
     "old_date": "2026-06-27",
     "trend": "spike",
     "chart": [
@@ -4600,13 +4604,15 @@
     "set_name": "SV: White Flare",
     "rarity": "Illustration Rare",
     "yen_increase": 82502,
-    "checked_date": "2026-09-09",
+    "checked_date": "2026-09-12",
     "old_price": 449.99,
     "new_price": 1000.0,
     "change_pct": 122.2,
-    "change_pct_30d": 61.3,
+    "change_pct_30d": 86.6,
+    "old_price_30d": 535.95,
+    "old_date_30d": "2026-08-13",
     "old_date": "2026-06-06",
-    "trend": "sustained",
+    "trend": "spike",
     "chart": [
       {
         "date": "2026-06-06",
@@ -4648,19 +4654,17 @@
     "card_name": "Muk (13)",
     "set_name": "Fossil",
     "rarity": "Holo Rare",
-    "yen_increase": 216750,
-    "checked_date": "2026-09-09",
-    "old_price": 390.0,
+    "yen_increase": 208500,
+    "checked_date": "2026-09-12",
+    "old_price": 445.0,
     "new_price": 1835.0,
-    "change_pct": 370.5,
+    "change_pct": 312.4,
     "change_pct_30d": 4.9,
-    "old_date": "2026-06-07",
+    "old_price_30d": 1750.0,
+    "old_date_30d": "2026-08-09",
+    "old_date": "2026-06-13",
     "trend": "sustained",
     "chart": [
-      {
-        "date": "2026-06-03",
-        "price": 1285.69
-      },
       {
         "date": "2026-06-07",
         "price": 390.0
@@ -4742,7 +4746,7 @@
         "price": 1835.0
       }
     ],
-    "sales_count_90d": 21,
+    "sales_count_90d": 19,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44422_in_200x200.jpg"
   },
@@ -5806,12 +5810,14 @@
     "card_name": "Cynthia",
     "set_name": "Hidden Fates: Shiny Vault",
     "rarity": "Shiny Holo Rare",
-    "yen_increase": 21750,
-    "checked_date": "2026-09-09",
+    "yen_increase": 22500,
+    "checked_date": "2026-09-12",
     "old_price": 135.0,
-    "new_price": 280.0,
-    "change_pct": 107.4,
-    "change_pct_30d": -1.1,
+    "new_price": 285.0,
+    "change_pct": 111.1,
+    "change_pct_30d": 15.2,
+    "old_price_30d": 247.5,
+    "old_date_30d": "2026-08-13",
     "old_date": "2026-06-09",
     "trend": "mixed",
     "chart": [
@@ -5884,6 +5890,10 @@
         "price": 300.0
       },
       {
+        "date": "2026-08-22",
+        "price": 299.0
+      },
+      {
         "date": "2026-08-30",
         "price": 242.33
       },
@@ -5894,10 +5904,14 @@
       {
         "date": "2026-09-04",
         "price": 280.0
+      },
+      {
+        "date": "2026-09-08",
+        "price": 285.0
       }
     ],
-    "sales_count_90d": 21,
-    "sales_count_30d": 8,
+    "sales_count_90d": 23,
+    "sales_count_30d": 9,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/197836_in_200x200.jpg"
   },
   "バチュル|overseas": {
@@ -7133,5 +7147,56 @@
     "sales_count_90d": 13,
     "sales_count_30d": 0,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/513810_in_200x200.jpg"
+  },
+  "ポリゴン2|overseas": {
+    "character": "ポリゴン2",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Cool Porygon",
+    "set_name": "WoTC Promo",
+    "rarity": "Promo",
+    "yen_increase": 408064,
+    "checked_date": "2026-09-12",
+    "old_price": 635.57,
+    "new_price": 3356.0,
+    "change_pct": 428.0,
+    "change_pct_30d": 362.9,
+    "old_price_30d": 725.0,
+    "old_date_30d": "2026-08-13",
+    "old_date": "2026-06-14",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-06-14",
+        "price": 635.57
+      },
+      {
+        "date": "2026-06-28",
+        "price": 2870.0
+      },
+      {
+        "date": "2026-07-03",
+        "price": 3420.0
+      },
+      {
+        "date": "2026-07-10",
+        "price": 3450.0
+      },
+      {
+        "date": "2026-08-10",
+        "price": 3750.0
+      },
+      {
+        "date": "2026-08-13",
+        "price": 725.0
+      },
+      {
+        "date": "2026-09-09",
+        "price": 3356.0
+      }
+    ],
+    "sales_count_90d": 7,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84422_in_200x200.jpg"
   }
 }
