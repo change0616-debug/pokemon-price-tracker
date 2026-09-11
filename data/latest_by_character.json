@@ -1280,11 +1280,13 @@
     "set_name": "Unnumbered Promotional cards",
     "rarity": "None",
     "yen_increase": 8850,
-    "checked_date": "2026-09-09",
+    "checked_date": "2026-09-12",
     "old_price": 31.0,
     "new_price": 90.0,
     "change_pct": 190.3,
     "change_pct_30d": 0.0,
+    "old_price_30d": 90.0,
+    "old_date_30d": "2026-07-21",
     "old_date": "2026-07-06",
     "trend": "mixed",
     "chart": [
@@ -7130,5 +7132,68 @@
     "sales_count_90d": 8,
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648637_in_200x200.jpg"
+  },
+  "ハガネール|overseas": {
+    "character": "ハガネール",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Radiant Steelix - 124/196",
+    "set_name": "Prize Pack Series Cards",
+    "rarity": "Radiant Rare",
+    "yen_increase": 11100,
+    "checked_date": "2026-09-12",
+    "old_price": 15.0,
+    "new_price": 89.0,
+    "change_pct": 493.3,
+    "change_pct_30d": 0.0,
+    "old_price_30d": 89.0,
+    "old_date_30d": "2026-07-22",
+    "old_date": "2026-06-14",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-06-08",
+        "price": 76.0
+      },
+      {
+        "date": "2026-06-14",
+        "price": 15.0
+      },
+      {
+        "date": "2026-06-16",
+        "price": 75.99
+      },
+      {
+        "date": "2026-06-21",
+        "price": 84.99
+      },
+      {
+        "date": "2026-06-24",
+        "price": 95.15
+      },
+      {
+        "date": "2026-06-25",
+        "price": 99.99
+      },
+      {
+        "date": "2026-06-28",
+        "price": 97.88
+      },
+      {
+        "date": "2026-07-12",
+        "price": 72.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 90.0
+      },
+      {
+        "date": "2026-07-22",
+        "price": 89.0
+      }
+    ],
+    "sales_count_90d": 13,
+    "sales_count_30d": 0,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/513810_in_200x200.jpg"
   }
 }
