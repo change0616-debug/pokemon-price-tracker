@@ -8,7 +8,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 40,
+  "checked_characters": 60,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -4232,18 +4232,67 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602846_in_200x200.jpg"
     },
     {
+      "character": "イワーク",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Onix",
+      "set_name": "Pokemon TCG Classic: Venusaur",
+      "rarity": "None",
+      "yen_increase": 15375,
+      "checked_date": "2026-09-12",
+      "old_price": 50.0,
+      "new_price": 152.5,
+      "change_pct": 205.0,
+      "change_pct_30d": 217.8,
+      "old_price_30d": 47.99,
+      "old_date_30d": "2026-07-22",
+      "old_date": "2026-06-04",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-04",
+          "price": 50.0
+        },
+        {
+          "date": "2026-06-23",
+          "price": 41.06
+        },
+        {
+          "date": "2026-06-29",
+          "price": 45.0
+        },
+        {
+          "date": "2026-07-09",
+          "price": 50.01
+        },
+        {
+          "date": "2026-07-22",
+          "price": 47.99
+        },
+        {
+          "date": "2026-08-31",
+          "price": 152.5
+        }
+      ],
+      "sales_count_90d": 6,
+      "sales_count_30d": 1,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/591952_in_200x200.jpg"
+    },
+    {
       "character": "ヨノワール",
       "market": "海外(英語版)",
       "market_key": "overseas",
       "card_name": "Trevenant & Dusknoir GX - SM217",
       "set_name": "SM Promos",
       "rarity": "Promo",
-      "yen_increase": 238647,
-      "checked_date": "2026-09-09",
+      "yen_increase": 223090,
+      "checked_date": "2026-09-12",
       "old_price": 750.0,
-      "new_price": 2340.98,
-      "change_pct": 212.1,
-      "change_pct_30d": 33.8,
+      "new_price": 2237.27,
+      "change_pct": 198.3,
+      "change_pct_30d": 26.8,
+      "old_price_30d": 1764.75,
+      "old_date_30d": "2026-08-13",
       "old_date": "2026-06-07",
       "trend": "sustained",
       "chart": [
@@ -4342,60 +4391,15 @@
         {
           "date": "2026-09-05",
           "price": 2340.98
+        },
+        {
+          "date": "2026-09-08",
+          "price": 2237.27
         }
       ],
-      "sales_count_90d": 30,
-      "sales_count_30d": 18,
+      "sales_count_90d": 31,
+      "sales_count_30d": 16,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/198534_in_200x200.jpg"
-    },
-    {
-      "character": "イワーク",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Onix",
-      "set_name": "Pokemon TCG Classic: Venusaur",
-      "rarity": "None",
-      "yen_increase": 15375,
-      "checked_date": "2026-09-09",
-      "old_price": 50.0,
-      "new_price": 152.5,
-      "change_pct": 205.0,
-      "change_pct_30d": 217.8,
-      "old_date": "2026-06-04",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-06-02",
-          "price": 61.87
-        },
-        {
-          "date": "2026-06-04",
-          "price": 50.0
-        },
-        {
-          "date": "2026-06-23",
-          "price": 41.06
-        },
-        {
-          "date": "2026-06-29",
-          "price": 45.0
-        },
-        {
-          "date": "2026-07-09",
-          "price": 50.01
-        },
-        {
-          "date": "2026-07-22",
-          "price": 47.99
-        },
-        {
-          "date": "2026-08-31",
-          "price": 152.5
-        }
-      ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 1,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/591952_in_200x200.jpg"
     },
     {
       "character": "ライコウ",
@@ -4527,11 +4531,13 @@
       "set_name": "XY - Evolutions",
       "rarity": "Holo Rare",
       "yen_increase": 547500,
-      "checked_date": "2026-09-09",
+      "checked_date": "2026-09-12",
       "old_price": 1950.0,
       "new_price": 5600.0,
       "change_pct": 187.2,
       "change_pct_30d": 40.0,
+      "old_price_30d": 4000.0,
+      "old_date_30d": "2026-07-10",
       "old_date": "2026-06-19",
       "trend": "mixed",
       "chart": [
@@ -5048,11 +5054,13 @@
       "set_name": "XY9: Rage of the Broken Heavens",
       "rarity": "Common",
       "yen_increase": 9800,
-      "checked_date": "2026-09-09",
+      "checked_date": "2026-09-12",
       "old_price": 44.67,
       "new_price": 110.0,
       "change_pct": 146.3,
       "change_pct_30d": 0.0,
+      "old_price_30d": 110.0,
+      "old_date_30d": "2026-07-14",
       "old_date": "2026-06-18",
       "trend": "mixed",
       "chart": [
@@ -6965,11 +6973,13 @@
       "set_name": "Jungle",
       "rarity": "Uncommon",
       "yen_increase": 78900,
-      "checked_date": "2026-09-09",
+      "checked_date": "2026-09-12",
       "old_price": 499.0,
       "new_price": 1025.0,
       "change_pct": 105.4,
       "change_pct_30d": 210.6,
+      "old_price_30d": 330.0,
+      "old_date_30d": "2026-08-09",
       "old_date": "2026-06-13",
       "trend": "spike",
       "chart": [
@@ -7018,7 +7028,7 @@
           "price": 1025.0
         }
       ],
-      "sales_count_90d": 12,
+      "sales_count_90d": 11,
       "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/45136_in_200x200.jpg"
     },
@@ -8912,6 +8922,125 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/601409_in_200x200.jpg"
     },
     {
+      "character": "ムウマージ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Mismagius ex - 112/094",
+      "set_name": "ME02: Phantasmal Flames",
+      "rarity": "Ultra Rare",
+      "yen_increase_30d": 5250,
+      "checked_date": "2026-09-12",
+      "old_price": 39.99,
+      "new_price": 70.0,
+      "change_pct": 75.0,
+      "change_pct_30d": 100.0,
+      "old_price_30d": 35.0,
+      "old_date_30d": "2026-08-07",
+      "old_date": "2026-06-14",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-05",
+          "price": 38.69
+        },
+        {
+          "date": "2026-06-07",
+          "price": 40.0
+        },
+        {
+          "date": "2026-06-08",
+          "price": 60.0
+        },
+        {
+          "date": "2026-06-12",
+          "price": 43.69
+        },
+        {
+          "date": "2026-06-14",
+          "price": 39.99
+        },
+        {
+          "date": "2026-06-16",
+          "price": 36.5
+        },
+        {
+          "date": "2026-06-17",
+          "price": 37.25
+        },
+        {
+          "date": "2026-06-20",
+          "price": 50.0
+        },
+        {
+          "date": "2026-06-21",
+          "price": 45.0
+        },
+        {
+          "date": "2026-06-24",
+          "price": 46.0
+        },
+        {
+          "date": "2026-07-01",
+          "price": 38.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 39.0
+        },
+        {
+          "date": "2026-07-15",
+          "price": 38.79
+        },
+        {
+          "date": "2026-07-25",
+          "price": 44.99
+        },
+        {
+          "date": "2026-07-27",
+          "price": 45.0
+        },
+        {
+          "date": "2026-07-28",
+          "price": 40.0
+        },
+        {
+          "date": "2026-07-29",
+          "price": 37.0
+        },
+        {
+          "date": "2026-07-31",
+          "price": 44.99
+        },
+        {
+          "date": "2026-08-03",
+          "price": 30.0
+        },
+        {
+          "date": "2026-08-04",
+          "price": 45.0
+        },
+        {
+          "date": "2026-08-07",
+          "price": 35.0
+        },
+        {
+          "date": "2026-08-14",
+          "price": 42.0
+        },
+        {
+          "date": "2026-08-18",
+          "price": 37.99
+        },
+        {
+          "date": "2026-08-19",
+          "price": 70.0
+        }
+      ],
+      "sales_count_90d": 22,
+      "sales_count_30d": 3,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/662200_in_200x200.jpg"
+    },
+    {
       "character": "ポッチャマ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -9186,6 +9315,65 @@
       "sales_count_90d": 7,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/570181_in_200x200.jpg"
+    },
+    {
+      "character": "バタフリー",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Butterfree",
+      "set_name": "Southern Island",
+      "rarity": "Common",
+      "yen_increase_30d": 30375,
+      "checked_date": "2026-09-12",
+      "old_price": 450.0,
+      "new_price": 425.0,
+      "change_pct": -5.6,
+      "change_pct_30d": 91.0,
+      "old_price_30d": 222.5,
+      "old_date_30d": "2026-06-30",
+      "old_date": "2026-06-09",
+      "trend": "unknown",
+      "chart": [
+        {
+          "date": "2026-06-07",
+          "price": 305.0
+        },
+        {
+          "date": "2026-06-09",
+          "price": 450.0
+        },
+        {
+          "date": "2026-06-18",
+          "price": 350.0
+        },
+        {
+          "date": "2026-06-30",
+          "price": 222.5
+        },
+        {
+          "date": "2026-08-17",
+          "price": 300.0
+        },
+        {
+          "date": "2026-08-18",
+          "price": 287.95
+        },
+        {
+          "date": "2026-08-29",
+          "price": 595.0
+        },
+        {
+          "date": "2026-08-30",
+          "price": 290.0
+        },
+        {
+          "date": "2026-09-01",
+          "price": 425.0
+        }
+      ],
+      "sales_count_90d": 8,
+      "sales_count_30d": 6,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607950_in_200x200.jpg"
     },
     {
       "character": "ニャース",
