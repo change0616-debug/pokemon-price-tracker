@@ -4793,7 +4793,7 @@
     "set_name": "Team Rocket",
     "rarity": "Uncommon",
     "yen_increase": 63336,
-    "checked_date": "2026-09-14",
+    "checked_date": "2026-09-17",
     "old_price": 277.75,
     "new_price": 699.99,
     "change_pct": 152.0,
@@ -4843,14 +4843,14 @@
     "card_name": "Mega Froslass ex - 275/217",
     "set_name": "ME: Ascended Heroes",
     "rarity": "Special Illustration Rare",
-    "yen_increase": 17998,
-    "checked_date": "2026-09-14",
+    "yen_increase": 17992,
+    "checked_date": "2026-09-17",
     "old_price": 70.0,
-    "new_price": 189.99,
+    "new_price": 189.95,
     "change_pct": 171.4,
-    "change_pct_30d": -24.0,
-    "old_price_30d": 249.99,
-    "old_date_30d": "2026-08-13",
+    "change_pct_30d": -17.4,
+    "old_price_30d": 230.0,
+    "old_date_30d": "2026-08-17",
     "old_date": "2026-06-16",
     "trend": "mixed",
     "chart": [
@@ -4997,10 +4997,18 @@
       {
         "date": "2026-09-08",
         "price": 189.99
+      },
+      {
+        "date": "2026-09-12",
+        "price": 184.95
+      },
+      {
+        "date": "2026-09-15",
+        "price": 189.95
       }
     ],
-    "sales_count_90d": 43,
-    "sales_count_30d": 16,
+    "sales_count_90d": 44,
+    "sales_count_30d": 17,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/676087_in_200x200.jpg"
   },
   "エンブオー|overseas": {
@@ -6726,5 +6734,60 @@
     "sales_count_90d": 5,
     "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90433_in_200x200.jpg"
+  },
+  "アンノーン（F）|overseas": {
+    "character": "アンノーン（F）",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Unown [A] (14)",
+    "set_name": "Neo Discovery",
+    "rarity": "Holo Rare",
+    "yen_increase": 270898,
+    "checked_date": "2026-09-17",
+    "old_price": 1694.0,
+    "new_price": 3499.99,
+    "change_pct": 106.6,
+    "change_pct_30d": 444.3,
+    "old_price_30d": 643.0,
+    "old_date_30d": "2026-07-29",
+    "old_date": "2026-06-11",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-06-11",
+        "price": 1694.0
+      },
+      {
+        "date": "2026-06-21",
+        "price": 2025.0
+      },
+      {
+        "date": "2026-06-28",
+        "price": 1800.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 630.0
+      },
+      {
+        "date": "2026-07-14",
+        "price": 1000.0
+      },
+      {
+        "date": "2026-07-29",
+        "price": 643.0
+      },
+      {
+        "date": "2026-09-06",
+        "price": 2181.35
+      },
+      {
+        "date": "2026-09-14",
+        "price": 3499.99
+      }
+    ],
+    "sales_count_90d": 8,
+    "sales_count_30d": 3,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90196_in_200x200.jpg"
   }
 }
