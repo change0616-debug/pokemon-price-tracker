@@ -420,7 +420,7 @@
     "set_name": "Unnumbered Promotional cards",
     "rarity": "None",
     "yen_increase": 8850,
-    "checked_date": "2026-09-15",
+    "checked_date": "2026-09-18",
     "old_price": 31.0,
     "new_price": 90.0,
     "change_pct": 190.3,
@@ -6651,5 +6651,52 @@
     "sales_count_90d": 19,
     "sales_count_30d": 13,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/497624_in_200x200.jpg"
+  },
+  "ムウマ|overseas": {
+    "character": "ムウマ",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Misdreavus",
+    "set_name": "WoTC Promo",
+    "rarity": "Promo",
+    "yen_increase": 63000,
+    "checked_date": "2026-09-18",
+    "old_price": 250.0,
+    "new_price": 670.0,
+    "change_pct": 168.0,
+    "change_pct_30d": 67.5,
+    "old_price_30d": 399.99,
+    "old_date_30d": "2026-08-09",
+    "old_date": "2026-06-15",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-06-15",
+        "price": 250.0
+      },
+      {
+        "date": "2026-07-01",
+        "price": 224.99
+      },
+      {
+        "date": "2026-07-06",
+        "price": 999.0
+      },
+      {
+        "date": "2026-07-11",
+        "price": 229.95
+      },
+      {
+        "date": "2026-08-09",
+        "price": 399.99
+      },
+      {
+        "date": "2026-09-13",
+        "price": 670.0
+      }
+    ],
+    "sales_count_90d": 6,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87503_in_200x200.jpg"
   }
 }
