@@ -613,12 +613,12 @@
     "card_name": "Wigglytuff ex",
     "set_name": "Undone Seal",
     "rarity": "Holo Rare",
-    "yen_increase": 216000,
-    "checked_date": "2026-09-15",
+    "yen_increase": 291000,
+    "checked_date": "2026-09-18",
     "old_price": 560.0,
-    "new_price": 2000.0,
-    "change_pct": 257.1,
-    "change_pct_30d": 339.6,
+    "new_price": 2500.0,
+    "change_pct": 346.4,
+    "change_pct_30d": 449.5,
     "old_price_30d": 455.0,
     "old_date_30d": "2026-07-26",
     "old_date": "2026-06-21",
@@ -651,10 +651,14 @@
       {
         "date": "2026-09-05",
         "price": 2000.0
+      },
+      {
+        "date": "2026-09-15",
+        "price": 2500.0
       }
     ],
-    "sales_count_90d": 8,
-    "sales_count_30d": 4,
+    "sales_count_90d": 9,
+    "sales_count_30d": 5,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/612537_in_200x200.jpg"
   },
   "キングラー|overseas": {
@@ -2630,7 +2634,7 @@
     "set_name": "EX Sandstorm",
     "rarity": "Ultra Rare",
     "yen_increase": 840000,
-    "checked_date": "2026-09-15",
+    "checked_date": "2026-09-18",
     "old_price": 3000.0,
     "new_price": 8600.0,
     "change_pct": 186.7,
@@ -2685,7 +2689,7 @@
     "set_name": "SV: White Flare",
     "rarity": "Illustration Rare",
     "yen_increase": 82372,
-    "checked_date": "2026-09-15",
+    "checked_date": "2026-09-18",
     "old_price": 450.85,
     "new_price": 1000.0,
     "change_pct": 121.8,
@@ -3463,7 +3467,7 @@
     "set_name": "WoTC Promo",
     "rarity": "Promo",
     "yen_increase": 408064,
-    "checked_date": "2026-09-15",
+    "checked_date": "2026-09-18",
     "old_price": 635.57,
     "new_price": 3356.0,
     "change_pct": 428.0,
@@ -6623,5 +6627,48 @@
     "sales_count_90d": 7,
     "sales_count_30d": 6,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602885_in_200x200.jpg"
+  },
+  "ベトベトン|overseas": {
+    "character": "ベトベトン",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Muk & Alolan Muk GX (197) (Full Art)",
+    "set_name": "SM - Unbroken Bonds",
+    "rarity": "Ultra Rare",
+    "yen_increase": 63750,
+    "checked_date": "2026-09-18",
+    "old_price": 15.0,
+    "new_price": 440.0,
+    "change_pct": 2833.3,
+    "change_pct_30d": 30.6,
+    "old_price_30d": 337.0,
+    "old_date_30d": "2026-08-07",
+    "old_date": "2026-07-05",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-05",
+        "price": 15.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 15.0
+      },
+      {
+        "date": "2026-08-03",
+        "price": 358.0
+      },
+      {
+        "date": "2026-08-07",
+        "price": 337.0
+      },
+      {
+        "date": "2026-08-28",
+        "price": 440.0
+      }
+    ],
+    "sales_count_90d": 5,
+    "sales_count_30d": 1,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/189306_in_200x200.jpg"
   }
 }
