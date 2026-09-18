@@ -6,7 +6,7 @@
   "min_sales_count_90d": 5,
   "max_price_usd": 3000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 20,
+  "checked_characters": 40,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -1800,8 +1800,6 @@
       "new_price": 299.99,
       "change_pct": 275.0,
       "change_pct_30d": 500.0,
-      "old_price_30d": 50.0,
-      "old_date_30d": "2026-08-17",
       "old_date": "2026-06-14",
       "trend": "spike",
       "chart": [
@@ -2275,8 +2273,6 @@
       "new_price": 945.05,
       "change_pct": 237.5,
       "change_pct_30d": 237.5,
-      "old_price_30d": 280.0,
-      "old_date_30d": "2026-06-24",
       "old_date": "2026-06-24",
       "trend": "spike",
       "chart": [
@@ -4198,15 +4194,9 @@
       "new_price": 125.0,
       "change_pct": 127.3,
       "change_pct_30d": 25.0,
-      "old_price_30d": 100.0,
-      "old_date_30d": "2026-08-13",
       "old_date": "2026-06-18",
       "trend": "sustained",
       "chart": [
-        {
-          "date": "2026-06-10",
-          "price": 55.02
-        },
         {
           "date": "2026-06-18",
           "price": 54.99
