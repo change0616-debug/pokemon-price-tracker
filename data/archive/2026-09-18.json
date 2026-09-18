@@ -6,7 +6,7 @@
   "min_sales_count_90d": 5,
   "max_price_usd": 3000,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 40,
+  "checked_characters": 60,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -1865,8 +1865,6 @@
       "new_price": 152.5,
       "change_pct": 271.4,
       "change_pct_30d": 217.8,
-      "old_price_30d": 47.99,
-      "old_date_30d": "2026-07-22",
       "old_date": "2026-06-23",
       "trend": "spike",
       "chart": [
@@ -2212,6 +2210,79 @@
       "sales_count_90d": 8,
       "sales_count_30d": 0,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/608249_in_200x200.jpg"
+    },
+    {
+      "character": "ヨノワール",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Dusknoir - 070/064",
+      "set_name": "SV6a: Night Wanderer",
+      "rarity": "Art Rare",
+      "yen_increase": 15735,
+      "checked_date": "2026-09-18",
+      "old_price": 40.9,
+      "new_price": 145.8,
+      "change_pct": 256.5,
+      "change_pct_30d": 165.1,
+      "old_date": "2026-06-17",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-13",
+          "price": 69.0
+        },
+        {
+          "date": "2026-06-17",
+          "price": 40.9
+        },
+        {
+          "date": "2026-06-26",
+          "price": 65.0
+        },
+        {
+          "date": "2026-06-28",
+          "price": 48.63
+        },
+        {
+          "date": "2026-07-07",
+          "price": 68.25
+        },
+        {
+          "date": "2026-07-18",
+          "price": 41.0
+        },
+        {
+          "date": "2026-08-09",
+          "price": 55.0
+        },
+        {
+          "date": "2026-08-15",
+          "price": 49.99
+        },
+        {
+          "date": "2026-08-18",
+          "price": 55.0
+        },
+        {
+          "date": "2026-09-02",
+          "price": 50.0
+        },
+        {
+          "date": "2026-09-04",
+          "price": 20.5
+        },
+        {
+          "date": "2026-09-07",
+          "price": 49.99
+        },
+        {
+          "date": "2026-09-16",
+          "price": 145.8
+        }
+      ],
+      "sales_count_90d": 12,
+      "sales_count_30d": 5,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566321_in_200x200.jpg"
     },
     {
       "character": "ピィ",
@@ -3708,8 +3779,6 @@
       "new_price": 110.0,
       "change_pct": 146.3,
       "change_pct_30d": 0.0,
-      "old_price_30d": 110.0,
-      "old_date_30d": "2026-07-14",
       "old_date": "2026-06-18",
       "trend": "mixed",
       "chart": [
