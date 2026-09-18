@@ -15,6 +15,9 @@
           "totalSetNumber": null,
           "rarity": "Common",
           "cardType": "Pokemon",
+          "pokedexNumbers": [
+            216
+          ],
           "hp": "40",
           "stage": "Basic",
           "attacks": [
@@ -34,42 +37,42 @@
           "prices": {
             "market": 19.65,
             "low": 12.89,
-            "sellers": 24,
-            "listings": 29,
+            "sellers": 25,
+            "listings": 30,
             "recentSales": 0,
             "primaryPrinting": "Normal",
-            "lastUpdated": "2026-09-17T12:02:40.005Z",
+            "lastUpdated": "2026-09-18T12:03:24.839Z",
             "variants": {
               "Normal": {
                 "Heavily Played": {
                   "price": 11.41,
                   "listings": null,
                   "priceString": "$11.41",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Damaged": {
                   "price": 6.95,
                   "listings": null,
                   "priceString": "$6.95",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Moderately Played": {
                   "price": 14.71,
                   "listings": null,
                   "priceString": "$14.71",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Near Mint": {
                   "price": 19.65,
                   "listings": null,
                   "priceString": "$19.65",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Lightly Played": {
                   "price": 16.62,
                   "listings": null,
                   "priceString": "$16.62",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 }
               },
               "Reverse Holofoil": {
@@ -104,31 +107,31 @@
                 "price": 11.41,
                 "listings": null,
                 "priceString": "$11.41",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               },
               "Damaged": {
                 "price": 6.95,
                 "listings": null,
                 "priceString": "$6.95",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               },
               "Moderately Played": {
                 "price": 14.71,
                 "listings": null,
                 "priceString": "$14.71",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               },
               "Near Mint": {
                 "price": 19.65,
                 "listings": null,
                 "priceString": "$19.65",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               },
               "Lightly Played": {
                 "price": 16.62,
                 "listings": null,
                 "priceString": "$16.62",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               }
             }
           },
@@ -139,9 +142,9 @@
           "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89856_in_200x200.jpg",
           "needsDetailedScrape": false,
           "dataCompleteness": "complete",
-          "lastScrapedAt": "2026-09-17T12:02:40.005Z",
+          "lastScrapedAt": "2026-09-18T12:03:24.839Z",
           "createdAt": "2026-01-20T11:32:30.157Z",
-          "updatedAt": "2026-09-17T12:02:47.924Z",
+          "updatedAt": "2026-09-18T12:10:36.716Z",
           "variants": {
             "Normal": {
               "printing": "Normal",
@@ -157,19 +160,14 @@
             }
           },
           "printingsAvailable": [
-            "Normal",
-            "Reverse Holofoil"
+            "Reverse Holofoil",
+            "Normal"
           ],
           "externalCatalogId": "ecard3-109",
           "priceHistory": {
             "conditions": {
               "Heavily Played": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 5.86,
-                    "volume": null
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 6,
@@ -666,24 +664,24 @@
                     "date": "2026-09-17T00:00:00.000Z",
                     "market": 11.41,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-18T00:00:00.000Z",
+                    "market": 11.41,
+                    "volume": null
                   }
                 ],
                 "dataPoints": 100,
                 "latestPrice": 11.41,
-                "latestDate": "2026-09-17T00:00:00.000Z",
+                "latestDate": "2026-09-18T00:00:00.000Z",
                 "priceRange": {
-                  "min": 5.86,
+                  "min": 6,
                   "max": 11.41
                 },
                 "suspectStreak": 0
               },
               "Damaged": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 5.81,
-                    "volume": null
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 5.81,
@@ -1180,11 +1178,16 @@
                     "date": "2026-09-17T00:00:00.000Z",
                     "market": 6.95,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-18T00:00:00.000Z",
+                    "market": 6.95,
+                    "volume": null
                   }
                 ],
                 "dataPoints": 100,
                 "latestPrice": 6.95,
-                "latestDate": "2026-09-17T00:00:00.000Z",
+                "latestDate": "2026-09-18T00:00:00.000Z",
                 "priceRange": {
                   "min": 4.94,
                   "max": 6.95
@@ -1193,12 +1196,6 @@
               },
               "Moderately Played": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 14.99,
-                    "volume": null,
-                    "marketRaw": 14.82
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 14.99,
@@ -1701,11 +1698,16 @@
                     "date": "2026-09-17T00:00:00.000Z",
                     "market": 14.71,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-18T00:00:00.000Z",
+                    "market": 14.71,
+                    "volume": null
                   }
                 ],
                 "dataPoints": 100,
                 "latestPrice": 14.71,
-                "latestDate": "2026-09-17T00:00:00.000Z",
+                "latestDate": "2026-09-18T00:00:00.000Z",
                 "priceRange": {
                   "min": 12.35,
                   "max": 14.99
@@ -1714,11 +1716,6 @@
               },
               "Near Mint": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 16.61,
-                    "volume": null
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 16.61,
@@ -2221,11 +2218,16 @@
                     "date": "2026-09-17T00:00:00.000Z",
                     "market": 19.65,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-18T00:00:00.000Z",
+                    "market": 19.65,
+                    "volume": null
                   }
                 ],
                 "dataPoints": 100,
                 "latestPrice": 19.65,
-                "latestDate": "2026-09-17T00:00:00.000Z",
+                "latestDate": "2026-09-18T00:00:00.000Z",
                 "priceRange": {
                   "min": 16.58,
                   "max": 19.65
@@ -2234,11 +2236,6 @@
               },
               "Lightly Played": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 70.99,
-                    "volume": null
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 70.99,
@@ -2510,7 +2507,7 @@
                     "volume": 1
                   }
                 ],
-                "dataPoints": 55,
+                "dataPoints": 54,
                 "latestPrice": 79.99,
                 "latestDate": "2026-08-03T00:00:00.000Z",
                 "priceRange": {
@@ -2523,11 +2520,6 @@
               "Normal": {
                 "Heavily Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 5.86,
-                      "volume": null
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 6,
@@ -3024,24 +3016,24 @@
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 11.41,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 11.41,
+                      "volume": null
                     }
                   ],
                   "dataPoints": 100,
                   "latestPrice": 11.41,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
-                    "min": 5.86,
+                    "min": 6,
                     "max": 11.41
                   },
                   "suspectStreak": 0
                 },
                 "Damaged": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 5.81,
-                      "volume": null
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 5.81,
@@ -3538,11 +3530,16 @@
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 6.95,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 6.95,
+                      "volume": null
                     }
                   ],
                   "dataPoints": 100,
                   "latestPrice": 6.95,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 4.94,
                     "max": 6.95
@@ -3551,12 +3548,6 @@
                 },
                 "Moderately Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 14.99,
-                      "volume": null,
-                      "marketRaw": 14.82
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 14.99,
@@ -4059,11 +4050,16 @@
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 14.71,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 14.71,
+                      "volume": null
                     }
                   ],
                   "dataPoints": 100,
                   "latestPrice": 14.71,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 12.35,
                     "max": 14.99
@@ -4072,11 +4068,6 @@
                 },
                 "Near Mint": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 16.61,
-                      "volume": null
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 16.61,
@@ -4579,11 +4570,16 @@
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 19.65,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 19.65,
+                      "volume": null
                     }
                   ],
                   "dataPoints": 100,
                   "latestPrice": 19.65,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 16.58,
                     "max": 19.65
@@ -4592,11 +4588,6 @@
                 },
                 "Lightly Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 13.79,
-                      "volume": null
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 14.09,
@@ -5099,13 +5090,18 @@
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 16.62,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 16.62,
+                      "volume": null
                     }
                   ],
                   "dataPoints": 100,
                   "latestPrice": 16.62,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
-                    "min": 13.79,
+                    "min": 14.04,
                     "max": 16.62
                   },
                   "suspectStreak": 0
@@ -5114,11 +5110,6 @@
               "Reverse Holofoil": {
                 "Lightly Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 70.99,
-                      "volume": null
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 70.99,
@@ -5390,7 +5381,7 @@
                       "volume": 1
                     }
                   ],
-                  "dataPoints": 55,
+                  "dataPoints": 54,
                   "latestPrice": 79.99,
                   "latestDate": "2026-08-03T00:00:00.000Z",
                   "priceRange": {
@@ -5421,13 +5412,13 @@
                 }
               }
             },
-            "totalDataPoints": 455,
-            "lastUpdated": "2026-09-17T12:23:50.239Z"
+            "totalDataPoints": 454,
+            "lastUpdated": "2026-09-18T12:31:05.150Z"
           },
           "ebay": {
-            "updatedAt": "2026-09-15T10:42:26.906Z",
-            "lastScrapedDate": "2026-09-15T10:42:26.906Z",
-            "lastEbayCheck": "2026-09-15T10:42:26.906Z",
+            "updatedAt": "2026-09-18T07:00:31.275Z",
+            "lastScrapedDate": "2026-09-18T07:00:31.275Z",
+            "lastEbayCheck": "2026-09-18T07:00:31.275Z",
             "salesByGrade": {
               "psa10": {
                 "count": 4,
@@ -5440,13 +5431,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-09-15T10:42:26.905Z",
+                "lastMarketUpdate": "2026-09-18T07:00:31.275Z",
                 "lastSaleDate": "2026-05-13T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 365,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 385
+                  "daysUsed": 388
                 }
               },
               "psa9": {
@@ -5460,7 +5451,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "stable",
-                "lastMarketUpdate": "2026-09-15T10:42:26.905Z",
+                "lastMarketUpdate": "2026-09-18T07:00:31.275Z",
                 "lastSaleDate": "2026-09-03T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 39.83,
@@ -5480,7 +5471,7 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": "up",
-                "lastMarketUpdate": "2026-09-15T10:42:26.905Z",
+                "lastMarketUpdate": "2026-09-18T07:00:31.275Z",
                 "lastSaleDate": "2026-08-27T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 42,
@@ -5500,13 +5491,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-09-15T10:42:26.905Z",
+                "lastMarketUpdate": "2026-09-18T07:00:31.275Z",
                 "lastSaleDate": "2026-06-06T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 100.07,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 101
+                  "daysUsed": 104
                 }
               },
               "ace9": {
@@ -5520,13 +5511,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-09-15T10:42:26.905Z",
+                "lastMarketUpdate": "2026-09-18T07:00:31.275Z",
                 "lastSaleDate": "2026-06-11T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 40.1,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 96
+                  "daysUsed": 99
                 }
               },
               "cgc8": {
@@ -5540,13 +5531,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-09-15T10:42:26.905Z",
+                "lastMarketUpdate": "2026-09-18T07:00:31.275Z",
                 "lastSaleDate": "2026-06-28T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 21.25,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 79
+                  "daysUsed": 82
                 }
               },
               "psa7": {
@@ -5560,13 +5551,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-09-15T10:42:26.905Z",
+                "lastMarketUpdate": "2026-09-18T07:00:31.275Z",
                 "lastSaleDate": "2026-07-14T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 15,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 63
+                  "daysUsed": 66
                 }
               },
               "cgc9": {
@@ -5576,11 +5567,11 @@
                 "medianPrice": 53.46,
                 "minPrice": 49.97,
                 "maxPrice": 56.95,
-                "marketPrice7Day": 56.95,
-                "marketPriceMedian7Day": 56.95,
-                "dailyVolume7Day": 0.14285714285714285,
+                "marketPrice7Day": null,
+                "marketPriceMedian7Day": null,
+                "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-09-15T10:42:26.905Z",
+                "lastMarketUpdate": "2026-09-18T07:00:31.275Z",
                 "lastSaleDate": "2026-09-09T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 48.41,
@@ -5746,6 +5737,9 @@
           "totalSetNumber": null,
           "rarity": "Common",
           "cardType": "Pokemon",
+          "pokedexNumbers": [
+            216
+          ],
           "hp": "60",
           "stage": "Basic",
           "attacks": [
@@ -5763,44 +5757,44 @@
           "flavorText": "NO. 216 Little Bear Pokémon HT: 2'00\" WT: 19.4 lbs.\r\n<br>\r\n<em>It lets honey soak into its paws so it can lick them all the time. Every set of paws tastes unique.</em>",
           "tcgPlayerUrl": "https://www.tcgplayer.com/product/89858",
           "prices": {
-            "market": 7.51,
+            "market": 7.42,
             "low": 1.94,
             "sellers": 74,
             "listings": 93,
             "recentSales": 0,
             "primaryPrinting": "Normal",
-            "lastUpdated": "2026-09-17T12:02:28.447Z",
+            "lastUpdated": "2026-09-18T12:03:12.835Z",
             "variants": {
               "Normal": {
                 "Lightly Played": {
-                  "price": 4.95,
+                  "price": 4.99,
                   "listings": null,
-                  "priceString": "$4.95",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "priceString": "$4.99",
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Heavily Played": {
                   "price": 2.71,
                   "listings": null,
                   "priceString": "$2.71",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Moderately Played": {
-                  "price": 3.77,
+                  "price": 3.79,
                   "listings": null,
-                  "priceString": "$3.77",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "priceString": "$3.79",
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Near Mint": {
-                  "price": 7.51,
+                  "price": 7.42,
                   "listings": null,
-                  "priceString": "$7.51",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "priceString": "$7.42",
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Damaged": {
-                  "price": 1.94,
+                  "price": 1.98,
                   "listings": null,
-                  "priceString": "$1.94",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "priceString": "$1.98",
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 }
               },
               "Reverse Holofoil": {
@@ -5808,19 +5802,19 @@
                   "price": 17.99,
                   "listings": null,
                   "priceString": "$17.99",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Near Mint": {
                   "price": 37.99,
                   "listings": null,
                   "priceString": "$37.99",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Moderately Played": {
-                  "price": 15.33,
+                  "price": 16.07,
                   "listings": null,
-                  "priceString": "$15.33",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "priceString": "$16.07",
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 },
                 "Damaged": {
                   "price": 11.8,
@@ -5829,43 +5823,43 @@
                   "lastUpdated": "2026-08-10T00:00:00.000Z"
                 },
                 "Lightly Played": {
-                  "price": 18.61,
+                  "price": 20.39,
                   "listings": null,
-                  "priceString": "$18.61",
-                  "lastUpdated": "2026-09-17T00:00:00.000Z"
+                  "priceString": "$20.39",
+                  "lastUpdated": "2026-09-18T00:00:00.000Z"
                 }
               }
             },
             "conditions": {
               "Lightly Played": {
-                "price": 4.95,
+                "price": 4.99,
                 "listings": null,
-                "priceString": "$4.95",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "priceString": "$4.99",
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               },
               "Heavily Played": {
                 "price": 2.71,
                 "listings": null,
                 "priceString": "$2.71",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               },
               "Moderately Played": {
-                "price": 3.77,
+                "price": 3.79,
                 "listings": null,
-                "priceString": "$3.77",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "priceString": "$3.79",
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               },
               "Near Mint": {
-                "price": 7.51,
+                "price": 7.42,
                 "listings": null,
-                "priceString": "$7.51",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "priceString": "$7.42",
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               },
               "Damaged": {
-                "price": 1.94,
+                "price": 1.98,
                 "listings": null,
-                "priceString": "$1.94",
-                "lastUpdated": "2026-09-17T00:00:00.000Z"
+                "priceString": "$1.98",
+                "lastUpdated": "2026-09-18T00:00:00.000Z"
               }
             }
           },
@@ -5876,13 +5870,13 @@
           "imageUrl": "https://tcgplayer-cdn.tcgplayer.com/product/89858_in_200x200.jpg",
           "needsDetailedScrape": false,
           "dataCompleteness": "complete",
-          "lastScrapedAt": "2026-09-17T12:02:28.447Z",
+          "lastScrapedAt": "2026-09-18T12:03:12.835Z",
           "createdAt": "2026-01-20T11:31:02.192Z",
-          "updatedAt": "2026-09-17T12:02:33.797Z",
+          "updatedAt": "2026-09-18T12:03:18.166Z",
           "variants": {
             "Normal": {
               "printing": "Normal",
-              "marketPrice": 7.51,
+              "marketPrice": 7.42,
               "lowPrice": 1.94,
               "conditionUsed": "Near Mint"
             },
@@ -5894,19 +5888,14 @@
             }
           },
           "printingsAvailable": [
-            "Normal",
-            "Reverse Holofoil"
+            "Reverse Holofoil",
+            "Normal"
           ],
           "externalCatalogId": "dp2-105",
           "priceHistory": {
             "conditions": {
               "Lightly Played": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 13.77,
-                    "volume": 1
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 13.77,
@@ -6406,24 +6395,24 @@
                     "date": "2026-09-17T00:00:00.000Z",
                     "market": 18.61,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-18T00:00:00.000Z",
+                    "market": 20.39,
+                    "volume": null
                   }
                 ],
                 "dataPoints": 100,
-                "latestPrice": 18.61,
-                "latestDate": "2026-09-17T00:00:00.000Z",
+                "latestPrice": 20.39,
+                "latestDate": "2026-09-18T00:00:00.000Z",
                 "priceRange": {
                   "min": 13.77,
-                  "max": 18.61
+                  "max": 20.39
                 },
                 "suspectStreak": 0
               },
               "Heavily Played": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 12.99,
-                    "volume": 1
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 12.99,
@@ -6875,11 +6864,16 @@
                     "date": "2026-09-17T00:00:00.000Z",
                     "market": 17.99,
                     "volume": null
+                  },
+                  {
+                    "date": "2026-09-18T00:00:00.000Z",
+                    "market": 17.99,
+                    "volume": null
                   }
                 ],
                 "dataPoints": 91,
                 "latestPrice": 17.99,
-                "latestDate": "2026-09-17T00:00:00.000Z",
+                "latestDate": "2026-09-18T00:00:00.000Z",
                 "priceRange": {
                   "min": 12.99,
                   "max": 17.99
@@ -6888,11 +6882,6 @@
               },
               "Moderately Played": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 11.7,
-                    "volume": 1
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 11.7,
@@ -7389,25 +7378,25 @@
                   {
                     "date": "2026-09-17T00:00:00.000Z",
                     "market": 15.33,
-                    "volume": null
+                    "volume": 2
+                  },
+                  {
+                    "date": "2026-09-18T00:00:00.000Z",
+                    "market": 16.07,
+                    "volume": 2
                   }
                 ],
                 "dataPoints": 100,
-                "latestPrice": 15.33,
-                "latestDate": "2026-09-17T00:00:00.000Z",
+                "latestPrice": 16.07,
+                "latestDate": "2026-09-18T00:00:00.000Z",
                 "priceRange": {
                   "min": 11.7,
-                  "max": 15.33
+                  "max": 16.07
                 },
                 "suspectStreak": 0
               },
               "Near Mint": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 40.66,
-                    "volume": 1
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 40.66,
@@ -7671,12 +7660,17 @@
                   {
                     "date": "2026-09-17T00:00:00.000Z",
                     "market": 37.99,
+                    "volume": 1
+                  },
+                  {
+                    "date": "2026-09-18T00:00:00.000Z",
+                    "market": 37.99,
                     "volume": null
                   }
                 ],
                 "dataPoints": 54,
                 "latestPrice": 37.99,
-                "latestDate": "2026-09-17T00:00:00.000Z",
+                "latestDate": "2026-09-18T00:00:00.000Z",
                 "priceRange": {
                   "min": 37.99,
                   "max": 40.66
@@ -7685,11 +7679,6 @@
               },
               "Damaged": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 8.49,
-                    "volume": 1
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 8.49,
@@ -7996,7 +7985,7 @@
                     "volume": 1
                   }
                 ],
-                "dataPoints": 62,
+                "dataPoints": 61,
                 "latestPrice": 11.8,
                 "latestDate": "2026-08-10T00:00:00.000Z",
                 "priceRange": {
@@ -8010,11 +7999,6 @@
               "Normal": {
                 "Lightly Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 4.66,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 4.52,
@@ -8546,13 +8530,19 @@
                     },
                     {
                       "date": "2026-09-17T00:00:00.000Z",
-                      "market": 4.95,
+                      "market": 4.99,
+                      "volume": null,
+                      "marketRaw": 4.95
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 4.99,
                       "volume": null
                     }
                   ],
                   "dataPoints": 100,
-                  "latestPrice": 4.95,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestPrice": 4.99,
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 4.52,
                     "max": 6.07
@@ -8561,11 +8551,6 @@
                 },
                 "Heavily Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 1.36,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 1.44,
@@ -9069,24 +9054,24 @@
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 2.71,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 2.71,
+                      "volume": null
                     }
                   ],
                   "dataPoints": 100,
                   "latestPrice": 2.71,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
-                    "min": 1.36,
+                    "min": 1.44,
                     "max": 2.71
                   },
                   "suspectStreak": 0
                 },
                 "Moderately Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 2.86,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 2.86,
@@ -9602,26 +9587,27 @@
                     },
                     {
                       "date": "2026-09-17T00:00:00.000Z",
-                      "market": 3.77,
-                      "volume": null
+                      "market": 3.75,
+                      "volume": 2,
+                      "marketRaw": 3.77
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 3.79,
+                      "volume": 2
                     }
                   ],
                   "dataPoints": 100,
-                  "latestPrice": 3.77,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestPrice": 3.79,
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 2.86,
-                    "max": 3.77
+                    "max": 3.79
                   },
                   "suspectStreak": 0
                 },
                 "Near Mint": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 6.67,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 6.89,
@@ -10131,26 +10117,27 @@
                     },
                     {
                       "date": "2026-09-17T00:00:00.000Z",
-                      "market": 7.51,
+                      "market": 7.42,
+                      "volume": 1,
+                      "marketRaw": 7.51
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 7.42,
                       "volume": null
                     }
                   ],
                   "dataPoints": 100,
-                  "latestPrice": 7.51,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestPrice": 7.42,
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
-                    "min": 6.67,
+                    "min": 6.89,
                     "max": 7.94
                   },
                   "suspectStreak": 0
                 },
                 "Damaged": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 1.58,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 1.58,
@@ -10657,11 +10644,16 @@
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 1.94,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 1.98,
+                      "volume": 1
                     }
                   ],
                   "dataPoints": 100,
-                  "latestPrice": 1.94,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestPrice": 1.98,
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 1.58,
                     "max": 2.13
@@ -10672,11 +10664,6 @@
               "Reverse Holofoil": {
                 "Heavily Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 12.99,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 12.99,
@@ -11128,11 +11115,16 @@
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 17.99,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 17.99,
+                      "volume": null
                     }
                   ],
                   "dataPoints": 91,
                   "latestPrice": 17.99,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 12.99,
                     "max": 17.99
@@ -11141,11 +11133,6 @@
                 },
                 "Near Mint": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 40.66,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 40.66,
@@ -11409,12 +11396,17 @@
                     {
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 37.99,
+                      "volume": 1
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 37.99,
                       "volume": null
                     }
                   ],
                   "dataPoints": 54,
                   "latestPrice": 37.99,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 37.99,
                     "max": 40.66
@@ -11423,11 +11415,6 @@
                 },
                 "Moderately Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 11.7,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 11.7,
@@ -11924,25 +11911,25 @@
                     {
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 15.33,
-                      "volume": null
+                      "volume": 2
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 16.07,
+                      "volume": 2
                     }
                   ],
                   "dataPoints": 100,
-                  "latestPrice": 15.33,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestPrice": 16.07,
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 11.7,
-                    "max": 15.33
+                    "max": 16.07
                   },
                   "suspectStreak": 0
                 },
                 "Damaged": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 8.49,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 8.49,
@@ -12249,7 +12236,7 @@
                       "volume": 1
                     }
                   ],
-                  "dataPoints": 62,
+                  "dataPoints": 61,
                   "latestPrice": 11.8,
                   "latestDate": "2026-08-10T00:00:00.000Z",
                   "priceRange": {
@@ -12260,11 +12247,6 @@
                 },
                 "Lightly Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 13.77,
-                      "volume": 1
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 13.77,
@@ -12764,21 +12746,26 @@
                       "date": "2026-09-17T00:00:00.000Z",
                       "market": 18.61,
                       "volume": null
+                    },
+                    {
+                      "date": "2026-09-18T00:00:00.000Z",
+                      "market": 20.39,
+                      "volume": null
                     }
                   ],
                   "dataPoints": 100,
-                  "latestPrice": 18.61,
-                  "latestDate": "2026-09-17T00:00:00.000Z",
+                  "latestPrice": 20.39,
+                  "latestDate": "2026-09-18T00:00:00.000Z",
                   "priceRange": {
                     "min": 13.77,
-                    "max": 18.61
+                    "max": 20.39
                   },
                   "suspectStreak": 0
                 }
               }
             },
-            "totalDataPoints": 407,
-            "lastUpdated": "2026-09-17T12:33:36.106Z"
+            "totalDataPoints": 406,
+            "lastUpdated": "2026-09-18T12:41:23.894Z"
           },
           "ebay": {
             "updatedAt": "2026-09-17T09:42:20.064Z",
@@ -12879,17 +12866,7 @@
             },
             "priceHistory": {
               "cgc10": {},
-              "psa8": {
-                "2026-06-10": {
-                  "average": 45,
-                  "count": 1,
-                  "totalValue": 45,
-                  "sevenDayAverage": 45,
-                  "sevenDayVolumeAvg": 1,
-                  "sevenDayValueAvg": 45,
-                  "rollingWindow": null
-                }
-              },
+              "psa8": {},
               "cgc7_5": {
                 "2026-08-02": {
                   "average": 9.99,
@@ -12929,8 +12906,8 @@
         },
         "historyWindow": {
           "days": 100,
-          "from": "2026-06-09",
-          "to": "2026-09-17",
+          "from": "2026-06-10",
+          "to": "2026-09-18",
           "maxDataPoints": 180,
           "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
         },
@@ -12963,6 +12940,9 @@
           "totalSetNumber": null,
           "rarity": "Common",
           "cardType": "Pokemon",
+          "pokedexNumbers": [
+            216
+          ],
           "hp": "60",
           "stage": "Basic",
           "attacks": [
@@ -13050,9 +13030,9 @@
             "lastUpdated": "2026-09-13T20:17:02.836Z"
           },
           "ebay": {
-            "updatedAt": "2026-09-16T00:59:36.175Z",
-            "lastScrapedDate": "2026-09-16T00:59:36.175Z",
-            "lastEbayCheck": "2026-09-16T00:59:36.175Z",
+            "updatedAt": "2026-09-18T12:13:13.468Z",
+            "lastScrapedDate": "2026-09-18T12:13:13.468Z",
+            "lastEbayCheck": "2026-09-18T12:13:13.468Z",
             "salesByGrade": {
               "psa8": {
                 "count": 1,
@@ -13065,13 +13045,13 @@
                 "marketPriceMedian7Day": null,
                 "dailyVolume7Day": 0,
                 "marketTrend": null,
-                "lastMarketUpdate": "2026-09-16T00:59:36.174Z",
+                "lastMarketUpdate": "2026-09-18T12:13:13.467Z",
                 "lastSaleDate": "2026-07-29T00:00:00.000Z",
                 "smartMarketPrice": {
                   "price": 101.2,
                   "confidence": "low",
                   "method": "all_filtered_weighted",
-                  "daysUsed": 49
+                  "daysUsed": 51
                 }
               }
             },
@@ -13115,6 +13095,9 @@
           "totalSetNumber": null,
           "rarity": "Common",
           "cardType": "Pokemon",
+          "pokedexNumbers": [
+            216
+          ],
           "hp": "50",
           "stage": "Basic",
           "attacks": [
@@ -13217,11 +13200,6 @@
             "conditions": {
               "Lightly Played": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 20,
-                    "volume": null
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 20,
@@ -13463,7 +13441,7 @@
                     "volume": null
                   }
                 ],
-                "dataPoints": 49,
+                "dataPoints": 48,
                 "latestPrice": 20,
                 "latestDate": "2026-07-28T00:00:00.000Z",
                 "priceRange": {
@@ -13473,11 +13451,6 @@
               },
               "Near Mint": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 27.5,
-                    "volume": null
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 27.5,
@@ -13890,7 +13863,7 @@
                     "volume": null
                   }
                 ],
-                "dataPoints": 83,
+                "dataPoints": 82,
                 "latestPrice": 31.67,
                 "latestDate": "2026-08-31T00:00:00.000Z",
                 "priceRange": {
@@ -13908,11 +13881,6 @@
               },
               "Moderately Played": {
                 "history": [
-                  {
-                    "date": "2026-06-10T00:00:00.000Z",
-                    "market": 19.33,
-                    "volume": null
-                  },
                   {
                     "date": "2026-06-11T00:00:00.000Z",
                     "market": 19.33,
@@ -13999,7 +13967,7 @@
                     "volume": null
                   }
                 ],
-                "dataPoints": 18,
+                "dataPoints": 17,
                 "latestPrice": 19.33,
                 "latestDate": "2026-06-27T00:00:00.000Z",
                 "priceRange": {
@@ -14012,11 +13980,6 @@
               "Holofoil": {
                 "Lightly Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 20,
-                      "volume": null
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 20,
@@ -14258,7 +14221,7 @@
                       "volume": null
                     }
                   ],
-                  "dataPoints": 49,
+                  "dataPoints": 48,
                   "latestPrice": 20,
                   "latestDate": "2026-07-28T00:00:00.000Z",
                   "priceRange": {
@@ -14268,11 +14231,6 @@
                 },
                 "Near Mint": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 27.5,
-                      "volume": null
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 27.5,
@@ -14685,7 +14643,7 @@
                       "volume": null
                     }
                   ],
-                  "dataPoints": 83,
+                  "dataPoints": 82,
                   "latestPrice": 31.67,
                   "latestDate": "2026-08-31T00:00:00.000Z",
                   "priceRange": {
@@ -14703,11 +14661,6 @@
                 },
                 "Moderately Played": {
                   "history": [
-                    {
-                      "date": "2026-06-10T00:00:00.000Z",
-                      "market": 19.33,
-                      "volume": null
-                    },
                     {
                       "date": "2026-06-11T00:00:00.000Z",
                       "market": 19.33,
@@ -14794,7 +14747,7 @@
                       "volume": null
                     }
                   ],
-                  "dataPoints": 18,
+                  "dataPoints": 17,
                   "latestPrice": 19.33,
                   "latestDate": "2026-06-27T00:00:00.000Z",
                   "priceRange": {
@@ -14804,7 +14757,7 @@
                 }
               }
             },
-            "totalDataPoints": 150,
+            "totalDataPoints": 147,
             "lastUpdated": "2026-09-13T20:22:44.385Z"
           },
           "ebay": {
@@ -15081,8 +15034,8 @@
         },
         "historyWindow": {
           "days": 100,
-          "from": "2026-06-09",
-          "to": "2026-09-17",
+          "from": "2026-06-10",
+          "to": "2026-09-18",
           "maxDataPoints": 180,
           "granularityNote": "Data points limited to 180. Use ?maxDataPoints=N for higher granularity (plan limits apply)."
         },
