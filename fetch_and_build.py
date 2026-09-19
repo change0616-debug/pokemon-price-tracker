@@ -123,7 +123,7 @@ def fetch_cards(search_name, language):
     url = API_BASE + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"Authorization": f"Bearer {API_KEY}"})
 
-    max_retries = 1
+    max_retries = 4
     for attempt in range(max_retries):
         try:
             with urllib.request.urlopen(req, timeout=30) as resp:
@@ -135,19 +135,24 @@ def fetch_cards(search_name, language):
             if e.code == 429:
                 retry_after = e.headers.get("Retry-After") if e.headers else None
                 if retry_after and retry_after.isdigit():
-                    wait_seconds = min(int(retry_after) + 1, 15)
+                    wait_seconds = min(int(retry_after) + 1, 30)
                 else:
-                    wait_seconds = 6 * (attempt + 1)
-                print(f"  [warn] {search_name} ({language}): HTTP 429、{wait_seconds}秒待ってリトライします")
-                time.sleep(wait_seconds)
-                continue
+                    wait_seconds = 10 * (attempt + 1)
+                if attempt < max_retries - 1:
+                    print(
+                        f"  [warn] {search_name} ({language}): HTTP 429、{wait_seconds}秒待って"
+                        f"リトライします({attempt + 1}/{max_retries}回目)"
+                    )
+                    time.sleep(wait_seconds)
+                    continue
+                break
             print(f"  [error] {search_name} ({language}): HTTP {e.code}")
             return [], None, False
         except Exception as e:
             print(f"  [error] {search_name} ({language}): {e}")
             return [], None, False
 
-    print(f"  [warn] {search_name} ({language}): 429のリトライが上限に達したためスキップします")
+    print(f"  [warn] {search_name} ({language}): {max_retries}回リトライしても429が続いたためスキップします")
     return [], None, True
 
 
@@ -454,6 +459,7 @@ def main():
     debug_samples = []
     stopped_early = False
     psa10_data_found = False
+    any_successful_fetch = False
     consecutive_rate_limits = 0
     cooldown_count = 0
     CONSECUTIVE_LIMIT = 15
@@ -492,6 +498,8 @@ def main():
                 continue
             else:
                 consecutive_rate_limits = 0
+                if raw_body is not None:
+                    any_successful_fetch = True
 
             if i < DEBUG_SAMPLE_LIMIT and raw_body is not None:
                 trimmed_body = dict(raw_body)
@@ -591,11 +599,18 @@ def main():
     save_cache(watchlist_cache, WATCHLIST_CACHE_FILE)
 
     if not psa10_data_found:
-        print(
-            "[warn] PSA10のデータが1件も見つかりませんでした。"
-            f" {DEBUG_FILE} の中身を確認し、必要ならget_psa10_points/"
-            "find_ebay_price_historyの探索先を実際の構造に合わせて修正してください。"
-        )
+        if any_successful_fetch:
+            print(
+                "[warn] PSA10のデータが1件も見つかりませんでした。"
+                f" {DEBUG_FILE} の中身を確認し、必要ならget_psa10_points/"
+                "find_ebay_price_historyの探索先を実際の構造に合わせて修正してください。"
+            )
+        else:
+            print(
+                "[warn] APIから一件も正常な応答が得られませんでした(アクセス制限が原因の可能性が高いです)。"
+                " ポケモンプライストラッカーのアカウント状況(プラン・レート制限)を確認するか、"
+                "時間をおいてから再実行してください。"
+            )
 
     checked_count = i + (0 if stopped_early else 1)
     summary = build_summary(
@@ -607,8 +622,13 @@ def main():
     print(f"wrote {len(cache)} qualifying cards (today processed {'一部のみ' if stopped_early else '全件'})")
 
     if not psa10_data_found:
+        if any_successful_fetch:
+            raise SystemExit(
+                "PSA10 data not found in any card. Check data/debug/latest_sample.json."
+            )
         raise SystemExit(
-            "PSA10 data not found in any card. Check data/debug/latest_sample.json."
+            "No successful API responses today (likely rate limiting). "
+            "Check the PokemonPriceTracker account plan/rate limits and retry later."
         )
 
 
