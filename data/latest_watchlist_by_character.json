@@ -3554,10 +3554,6 @@
     "trend": "spike",
     "chart": [
       {
-        "date": "2026-06-12",
-        "price": 211.0
-      },
-      {
         "date": "2026-06-15",
         "price": 226.25
       },
@@ -3809,44 +3805,36 @@
     "character": "バクフーン",
     "market": "海外(英語版)",
     "market_key": "overseas",
-    "card_name": "Dark Typhlosion",
-    "set_name": "Neo Destiny",
+    "card_name": "Typhlosion (17)",
+    "set_name": "Neo Genesis",
     "rarity": "Holo Rare",
-    "yen_increase_30d": 291000,
-    "checked_date": "2026-09-17",
-    "old_price": 3500.0,
-    "new_price": 6850.0,
-    "change_pct": 95.7,
-    "change_pct_30d": 39.5,
-    "old_price_30d": 4910.0,
-    "old_date_30d": "2026-07-29",
-    "old_date": "2026-06-12",
-    "trend": "mixed",
+    "yen_increase_30d": 51524,
+    "checked_date": "2026-09-20",
+    "old_price": 806.51,
+    "new_price": 1150.0,
+    "change_pct": 42.6,
+    "change_pct_30d": 42.6,
+    "old_price_30d": 806.51,
+    "old_date_30d": "2026-08-21",
+    "old_date": "2026-08-21",
+    "trend": "spike",
     "chart": [
       {
-        "date": "2026-06-12",
-        "price": 3500.0
+        "date": "2026-08-21",
+        "price": 806.51
       },
       {
-        "date": "2026-07-26",
-        "price": 5427.0
+        "date": "2026-09-03",
+        "price": 1625.0
       },
       {
-        "date": "2026-07-29",
-        "price": 4910.0
-      },
-      {
-        "date": "2026-08-29",
-        "price": 6491.66
-      },
-      {
-        "date": "2026-08-30",
-        "price": 6850.0
+        "date": "2026-09-16",
+        "price": 1150.0
       }
     ],
-    "sales_count_90d": 6,
-    "sales_count_30d": 4,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84659_in_200x200.jpg"
+    "sales_count_90d": 3,
+    "sales_count_30d": 3,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90098_in_200x200.jpg"
   },
   "コダック|overseas": {
     "character": "コダック",
@@ -3856,20 +3844,16 @@
     "set_name": "WoTC Promo",
     "rarity": "Promo",
     "yen_increase_30d": 45002,
-    "checked_date": "2026-09-17",
-    "old_price": 790.0,
+    "checked_date": "2026-09-20",
+    "old_price": 749.99,
     "new_price": 1200.0,
-    "change_pct": 51.9,
+    "change_pct": 60.0,
     "change_pct_30d": 33.3,
     "old_price_30d": 899.99,
     "old_date_30d": "2026-08-18",
-    "old_date": "2026-06-17",
-    "trend": "spike",
+    "old_date": "2026-06-22",
+    "trend": "sustained",
     "chart": [
-      {
-        "date": "2026-06-10",
-        "price": 798.81
-      },
       {
         "date": "2026-06-17",
         "price": 790.0
@@ -3971,8 +3955,8 @@
         "price": 1200.0
       }
     ],
-    "sales_count_90d": 30,
-    "sales_count_30d": 8,
+    "sales_count_90d": 29,
+    "sales_count_30d": 7,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88429_in_200x200.jpg"
   },
   "ゾロア|overseas": {
@@ -6620,49 +6604,6 @@
     "sales_count_30d": 7,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/662221_in_200x200.jpg"
   },
-  "ポリゴンZ|overseas": {
-    "character": "ポリゴンZ",
-    "market": "海外(英語版)",
-    "market_key": "overseas",
-    "card_name": "Porygon-Z",
-    "set_name": "Great Encounters",
-    "rarity": "Holo Rare",
-    "yen_increase_30d": 166492,
-    "checked_date": "2026-09-17",
-    "old_price": 1200.0,
-    "new_price": 1999.95,
-    "change_pct": 66.7,
-    "change_pct_30d": 124.7,
-    "old_price_30d": 890.0,
-    "old_date_30d": "2026-08-02",
-    "old_date": "2026-07-29",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-07-29",
-        "price": 1200.0
-      },
-      {
-        "date": "2026-08-02",
-        "price": 890.0
-      },
-      {
-        "date": "2026-08-19",
-        "price": 955.0
-      },
-      {
-        "date": "2026-09-04",
-        "price": 1198.95
-      },
-      {
-        "date": "2026-09-13",
-        "price": 1999.95
-      }
-    ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 3,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88315_in_200x200.jpg"
-  },
   "チラチーノ|japan": {
     "character": "チラチーノ",
     "market": "日本版",
@@ -6671,7 +6612,7 @@
     "set_name": "Shiny Collection",
     "rarity": "Uncommon",
     "yen_increase_30d": 6074,
-    "checked_date": "2026-09-17",
+    "checked_date": "2026-09-20",
     "old_price": 134.5,
     "new_price": 174.99,
     "change_pct": 30.1,
