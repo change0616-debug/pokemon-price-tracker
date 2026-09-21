@@ -9,7 +9,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 40,
+  "checked_characters": 60,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -1052,11 +1052,13 @@
       "set_name": "Pokemon TCG Classic: Venusaur",
       "rarity": "None",
       "yen_increase": 16716,
-      "checked_date": "2026-09-18",
+      "checked_date": "2026-09-21",
       "old_price": 41.06,
       "new_price": 152.5,
       "change_pct": 271.4,
       "change_pct_30d": 217.8,
+      "old_price_30d": 47.99,
+      "old_date_30d": "2026-07-22",
       "old_date": "2026-06-23",
       "trend": "spike",
       "chart": [
@@ -1144,18 +1146,16 @@
       "set_name": "SV6a: Night Wanderer",
       "rarity": "Art Rare",
       "yen_increase": 15735,
-      "checked_date": "2026-09-18",
+      "checked_date": "2026-09-21",
       "old_price": 40.9,
       "new_price": 145.8,
       "change_pct": 256.5,
       "change_pct_30d": 165.1,
+      "old_price_30d": 55.0,
+      "old_date_30d": "2026-08-18",
       "old_date": "2026-06-17",
       "trend": "spike",
       "chart": [
-        {
-          "date": "2026-06-13",
-          "price": 69.0
-        },
         {
           "date": "2026-06-17",
           "price": 40.9
@@ -3034,11 +3034,13 @@
       "set_name": "XY9: Rage of the Broken Heavens",
       "rarity": "Common",
       "yen_increase": 9800,
-      "checked_date": "2026-09-18",
+      "checked_date": "2026-09-21",
       "old_price": 44.67,
       "new_price": 110.0,
       "change_pct": 146.3,
       "change_pct_30d": 0.0,
+      "old_price_30d": 110.0,
+      "old_date_30d": "2026-07-14",
       "old_date": "2026-06-18",
       "trend": "mixed",
       "chart": [
@@ -7091,7 +7093,7 @@
       "set_name": "Flight of Legends",
       "rarity": "Holo Rare",
       "yen_increase_30d": 78225,
-      "checked_date": "2026-09-18",
+      "checked_date": "2026-09-21",
       "old_price": 377.5,
       "new_price": 899.0,
       "change_pct": 138.1,
@@ -7118,7 +7120,7 @@
           "price": 899.0
         }
       ],
-      "sales_count_90d": 4,
+      "sales_count_90d": 3,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/612422_in_200x200.jpg"
     },
@@ -9915,69 +9917,6 @@
       "sales_count_90d": 6,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/263728_in_200x200.jpg"
-    },
-    {
-      "character": "イワーク",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Onix",
-      "set_name": "Southern Island",
-      "rarity": "Common",
-      "yen_increase_30d": 12450,
-      "checked_date": "2026-09-18",
-      "old_price": 300.0,
-      "new_price": 234.5,
-      "change_pct": -21.8,
-      "change_pct_30d": 54.8,
-      "old_price_30d": 151.5,
-      "old_date_30d": "2026-08-15",
-      "old_date": "2026-06-18",
-      "trend": "unknown",
-      "chart": [
-        {
-          "date": "2026-06-18",
-          "price": 300.0
-        },
-        {
-          "date": "2026-07-05",
-          "price": 305.0
-        },
-        {
-          "date": "2026-07-29",
-          "price": 280.0
-        },
-        {
-          "date": "2026-08-02",
-          "price": 445.0
-        },
-        {
-          "date": "2026-08-06",
-          "price": 213.5
-        },
-        {
-          "date": "2026-08-15",
-          "price": 151.5
-        },
-        {
-          "date": "2026-08-20",
-          "price": 300.0
-        },
-        {
-          "date": "2026-08-30",
-          "price": 246.0
-        },
-        {
-          "date": "2026-09-02",
-          "price": 250.0
-        },
-        {
-          "date": "2026-09-09",
-          "price": 234.5
-        }
-      ],
-      "sales_count_90d": 10,
-      "sales_count_30d": 5,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607944_in_200x200.jpg"
     },
     {
       "character": "ルージュラ",
@@ -13433,15 +13372,15 @@
       "set_name": "SV: Shrouded Fable",
       "rarity": "Illustration Rare",
       "yen_increase_30d": 4911,
-      "checked_date": "2026-09-18",
-      "old_price": 75.0,
+      "checked_date": "2026-09-21",
+      "old_price": 128.99,
       "new_price": 125.0,
-      "change_pct": 66.7,
+      "change_pct": -3.1,
       "change_pct_30d": 35.5,
       "old_price_30d": 92.26,
       "old_date_30d": "2026-08-16",
-      "old_date": "2026-06-17",
-      "trend": "mixed",
+      "old_date": "2026-06-21",
+      "trend": "unknown",
       "chart": [
         {
           "date": "2026-06-17",
@@ -13520,7 +13459,7 @@
           "price": 125.0
         }
       ],
-      "sales_count_90d": 18,
+      "sales_count_90d": 17,
       "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/560381_in_200x200.jpg"
     },
