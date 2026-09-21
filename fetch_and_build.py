@@ -452,6 +452,21 @@ def main():
 
     cache = load_cache(CACHE_FILE)
     watchlist_cache = load_cache(WATCHLIST_CACHE_FILE)
+
+    # まだ今日の再処理が回ってきていないキャラクターのキャッシュにも、
+    # 現在の上限価格(MAX_PRICE_USD)を即座に反映させる(古い基準のまま残るのを防ぐ)
+    stale_main = [k for k, v in cache.items() if v.get("new_price", 0) >= MAX_PRICE_USD]
+    for k in stale_main:
+        cache.pop(k, None)
+    stale_watchlist = [k for k, v in watchlist_cache.items() if v.get("new_price", 0) >= MAX_PRICE_USD]
+    for k in stale_watchlist:
+        watchlist_cache.pop(k, None)
+    if stale_main or stale_watchlist:
+        print(
+            f"[info] 上限価格(${MAX_PRICE_USD})超えの古いキャッシュを削除しました"
+            f"(メイン{len(stale_main)}件、予備軍{len(stale_watchlist)}件)"
+        )
+
     today_batch, batch_no, total_batches = get_today_batch(characters)
     print(f"today's batch: {batch_no + 1}/{total_batches} ({len(today_batch)} characters)")
     today_str = today_jst().isoformat()
@@ -579,7 +594,7 @@ def main():
             else:
                 watchlist_cache.pop(key, None)
 
-            time.sleep(4.0)
+            time.sleep(8.0)
         if stopped_early:
             break
 
