@@ -223,11 +223,13 @@
     "set_name": "Undone Seal",
     "rarity": "Holo Rare",
     "yen_increase": 291000,
-    "checked_date": "2026-09-18",
+    "checked_date": "2026-09-21",
     "old_price": 560.0,
     "new_price": 2500.0,
     "change_pct": 346.4,
-    "change_pct_30d": 449.5,
+    "change_pct_30d": 410.2,
+    "old_price_30d": 490.0,
+    "old_date_30d": "2026-08-20",
     "old_date": "2026-06-21",
     "trend": "spike",
     "chart": [
@@ -264,8 +266,8 @@
         "price": 2500.0
       }
     ],
-    "sales_count_90d": 9,
-    "sales_count_30d": 5,
+    "sales_count_90d": 8,
+    "sales_count_30d": 4,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/612537_in_200x200.jpg"
   },
   "スターミー|japan": {
@@ -1289,11 +1291,13 @@
     "set_name": "SV: White Flare",
     "rarity": "Illustration Rare",
     "yen_increase": 82372,
-    "checked_date": "2026-09-18",
+    "checked_date": "2026-09-21",
     "old_price": 450.85,
     "new_price": 1000.0,
     "change_pct": 121.8,
     "change_pct_30d": 86.6,
+    "old_price_30d": 535.95,
+    "old_date_30d": "2026-08-13",
     "old_date": "2026-06-16",
     "trend": "spike",
     "chart": [
@@ -2641,11 +2645,13 @@
     "set_name": "SM - Unbroken Bonds",
     "rarity": "Ultra Rare",
     "yen_increase": 63750,
-    "checked_date": "2026-09-18",
+    "checked_date": "2026-09-21",
     "old_price": 15.0,
     "new_price": 440.0,
     "change_pct": 2833.3,
     "change_pct_30d": 30.6,
+    "old_price_30d": 337.0,
+    "old_date_30d": "2026-08-07",
     "old_date": "2026-07-05",
     "trend": "mixed",
     "chart": [
@@ -4304,5 +4310,56 @@
     "sales_count_90d": 5,
     "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607152_in_200x200.jpg"
+  },
+  "ポリゴン2|japan": {
+    "character": "ポリゴン2",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Porygon-Z",
+    "set_name": "DP4: Moonlit Pursuit",
+    "rarity": "Holo Rare",
+    "yen_increase": 34401,
+    "checked_date": "2026-09-21",
+    "old_price": 117.5,
+    "new_price": 346.84,
+    "change_pct": 195.2,
+    "change_pct_30d": 92.7,
+    "old_price_30d": 180.0,
+    "old_date_30d": "2026-08-08",
+    "old_date": "2026-06-23",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-06-23",
+        "price": 117.5
+      },
+      {
+        "date": "2026-07-17",
+        "price": 275.0
+      },
+      {
+        "date": "2026-07-25",
+        "price": 299.99
+      },
+      {
+        "date": "2026-08-08",
+        "price": 180.0
+      },
+      {
+        "date": "2026-08-31",
+        "price": 399.99
+      },
+      {
+        "date": "2026-09-06",
+        "price": 213.5
+      },
+      {
+        "date": "2026-09-19",
+        "price": 346.84
+      }
+    ],
+    "sales_count_90d": 7,
+    "sales_count_30d": 3,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606782_in_200x200.jpg"
   }
 }
