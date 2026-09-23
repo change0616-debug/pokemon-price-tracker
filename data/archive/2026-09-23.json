@@ -9,7 +9,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 60,
+  "checked_characters": 80,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -4134,7 +4134,7 @@
       "set_name": "SM - Cosmic Eclipse",
       "rarity": "Ultra Rare",
       "yen_increase_30d": 217566,
-      "checked_date": "2026-09-20",
+      "checked_date": "2026-09-23",
       "old_price": 1200.0,
       "new_price": 1589.44,
       "change_pct": 32.5,
@@ -4845,7 +4845,7 @@
       "set_name": "SM - Cosmic Eclipse",
       "rarity": "Ultra Rare",
       "yen_increase_30d": 120826,
-      "checked_date": "2026-09-20",
+      "checked_date": "2026-09-23",
       "old_price": 999.99,
       "new_price": 1200.81,
       "change_pct": 20.1,
@@ -4855,14 +4855,6 @@
       "old_date": "2026-06-21",
       "trend": "spike",
       "chart": [
-        {
-          "date": "2026-06-13",
-          "price": 379.98
-        },
-        {
-          "date": "2026-06-14",
-          "price": 992.64
-        },
         {
           "date": "2026-06-21",
           "price": 999.99
@@ -5349,89 +5341,6 @@
       "sales_count_90d": 26,
       "sales_count_30d": 6,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/591958_in_200x200.jpg"
-    },
-    {
-      "character": "ワニノコ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Totodile (80)",
-      "set_name": "Neo Genesis",
-      "rarity": "Common",
-      "yen_increase_30d": 59850,
-      "checked_date": "2026-09-20",
-      "old_price": 496.0,
-      "new_price": 700.0,
-      "change_pct": 41.1,
-      "change_pct_30d": 132.6,
-      "old_price_30d": 301.0,
-      "old_date_30d": "2026-08-18",
-      "old_date": "2026-06-28",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-06-28",
-          "price": 496.0
-        },
-        {
-          "date": "2026-07-09",
-          "price": 799.99
-        },
-        {
-          "date": "2026-07-12",
-          "price": 600.0
-        },
-        {
-          "date": "2026-07-15",
-          "price": 800.0
-        },
-        {
-          "date": "2026-08-05",
-          "price": 799.99
-        },
-        {
-          "date": "2026-08-12",
-          "price": 474.99
-        },
-        {
-          "date": "2026-08-13",
-          "price": 630.0
-        },
-        {
-          "date": "2026-08-16",
-          "price": 177.5
-        },
-        {
-          "date": "2026-08-17",
-          "price": 536.17
-        },
-        {
-          "date": "2026-08-18",
-          "price": 301.0
-        },
-        {
-          "date": "2026-08-24",
-          "price": 660.0
-        },
-        {
-          "date": "2026-08-25",
-          "price": 700.0
-        },
-        {
-          "date": "2026-09-08",
-          "price": 700.0
-        },
-        {
-          "date": "2026-09-11",
-          "price": 714.18
-        },
-        {
-          "date": "2026-09-15",
-          "price": 700.0
-        }
-      ],
-      "sales_count_90d": 16,
-      "sales_count_30d": 6,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89991_in_200x200.jpg"
     },
     {
       "character": "ガブリアス",
@@ -7366,69 +7275,6 @@
       "sales_count_90d": 5,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/636511_in_200x200.jpg"
-    },
-    {
-      "character": "マーイーカ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Inkay",
-      "set_name": "Hidden Fates: Shiny Vault",
-      "rarity": "Shiny Holo Rare",
-      "yen_increase_30d": 3450,
-      "checked_date": "2026-09-20",
-      "old_price": 29.0,
-      "new_price": 53.0,
-      "change_pct": 82.8,
-      "change_pct_30d": 76.7,
-      "old_price_30d": 30.0,
-      "old_date_30d": "2026-08-18",
-      "old_date": "2026-06-14",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-06-14",
-          "price": 29.0
-        },
-        {
-          "date": "2026-07-08",
-          "price": 42.0
-        },
-        {
-          "date": "2026-07-09",
-          "price": 38.5
-        },
-        {
-          "date": "2026-08-01",
-          "price": 44.56
-        },
-        {
-          "date": "2026-08-18",
-          "price": 30.0
-        },
-        {
-          "date": "2026-08-23",
-          "price": 45.0
-        },
-        {
-          "date": "2026-08-29",
-          "price": 34.99
-        },
-        {
-          "date": "2026-09-04",
-          "price": 41.74
-        },
-        {
-          "date": "2026-09-06",
-          "price": 42.5
-        },
-        {
-          "date": "2026-09-09",
-          "price": 53.0
-        }
-      ],
-      "sales_count_90d": 11,
-      "sales_count_30d": 7,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/197772_in_200x200.jpg"
     },
     {
       "character": "ゲッコウガ",
@@ -11277,6 +11123,69 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/590063_in_200x200.jpg"
     },
     {
+      "character": "アンノーン（F）",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Unown [A] (14)",
+      "set_name": "Neo Discovery",
+      "rarity": "Holo Rare",
+      "yen_increase_30d": 36300,
+      "checked_date": "2026-09-23",
+      "old_price": 2025.0,
+      "new_price": 885.0,
+      "change_pct": -56.3,
+      "change_pct_30d": 37.6,
+      "old_price_30d": 643.0,
+      "old_date_30d": "2026-07-29",
+      "old_date": "2026-06-21",
+      "trend": "unknown",
+      "chart": [
+        {
+          "date": "2026-06-21",
+          "price": 2025.0
+        },
+        {
+          "date": "2026-06-28",
+          "price": 1800.0
+        },
+        {
+          "date": "2026-07-05",
+          "price": 630.0
+        },
+        {
+          "date": "2026-07-14",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-07-29",
+          "price": 643.0
+        },
+        {
+          "date": "2026-09-06",
+          "price": 2181.35
+        },
+        {
+          "date": "2026-09-14",
+          "price": 3499.99
+        },
+        {
+          "date": "2026-09-18",
+          "price": 4100.0
+        },
+        {
+          "date": "2026-09-19",
+          "price": 3499.99
+        },
+        {
+          "date": "2026-09-20",
+          "price": 885.0
+        }
+      ],
+      "sales_count_90d": 11,
+      "sales_count_30d": 7,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90196_in_200x200.jpg"
+    },
+    {
       "character": "キレイハナ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -11327,7 +11236,7 @@
       "set_name": "EX Power Keepers",
       "rarity": "Holo Rare",
       "yen_increase_30d": 50625,
-      "checked_date": "2026-09-20",
+      "checked_date": "2026-09-23",
       "old_price": 1585.0,
       "new_price": 1262.5,
       "change_pct": -20.3,
@@ -12177,6 +12086,69 @@
       "sales_count_90d": 9,
       "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607084_in_200x200.jpg"
+    },
+    {
+      "character": "ワニノコ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Totodile (81)",
+      "set_name": "Neo Genesis",
+      "rarity": "Common",
+      "yen_increase_30d": 22245,
+      "checked_date": "2026-09-23",
+      "old_price": 415.0,
+      "new_price": 604.3,
+      "change_pct": 45.6,
+      "change_pct_30d": 32.5,
+      "old_price_30d": 456.0,
+      "old_date_30d": "2026-08-24",
+      "old_date": "2026-06-20",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-20",
+          "price": 415.0
+        },
+        {
+          "date": "2026-07-23",
+          "price": 499.0
+        },
+        {
+          "date": "2026-08-08",
+          "price": 510.0
+        },
+        {
+          "date": "2026-08-17",
+          "price": 514.74
+        },
+        {
+          "date": "2026-08-18",
+          "price": 499.99
+        },
+        {
+          "date": "2026-08-24",
+          "price": 456.0
+        },
+        {
+          "date": "2026-08-27",
+          "price": 524.99
+        },
+        {
+          "date": "2026-08-28",
+          "price": 719.02
+        },
+        {
+          "date": "2026-09-08",
+          "price": 700.0
+        },
+        {
+          "date": "2026-09-11",
+          "price": 604.3
+        }
+      ],
+      "sales_count_90d": 11,
+      "sales_count_30d": 6,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89992_in_200x200.jpg"
     },
     {
       "character": "ピジョット",
