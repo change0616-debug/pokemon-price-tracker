@@ -101,7 +101,7 @@
     "set_name": "Unnumbered Promotional cards",
     "rarity": "None",
     "yen_increase": 8850,
-    "checked_date": "2026-09-24",
+    "checked_date": "2026-09-27",
     "old_price": 31.0,
     "new_price": 90.0,
     "change_pct": 190.3,
@@ -4371,5 +4371,48 @@
     "sales_count_90d": 5,
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609179_in_200x200.jpg"
+  },
+  "ウォーグル|overseas": {
+    "character": "ウォーグル",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Braviary - 155/086",
+    "set_name": "SV: Black Bolt",
+    "rarity": "Illustration Rare",
+    "yen_increase": 39750,
+    "checked_date": "2026-09-27",
+    "old_price": 15.0,
+    "new_price": 280.0,
+    "change_pct": 1766.7,
+    "change_pct_30d": 0.0,
+    "old_price_30d": 280.0,
+    "old_date_30d": "2026-07-11",
+    "old_date": "2026-07-03",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-03",
+        "price": 15.0
+      },
+      {
+        "date": "2026-07-10",
+        "price": 255.0
+      },
+      {
+        "date": "2026-07-11",
+        "price": 280.0
+      },
+      {
+        "date": "2026-09-15",
+        "price": 225.0
+      },
+      {
+        "date": "2026-09-22",
+        "price": 280.0
+      }
+    ],
+    "sales_count_90d": 5,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642272_in_200x200.jpg"
   }
 }
