@@ -1056,53 +1056,6 @@
     "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/197804_in_200x200.jpg"
   },
-  "ドダイトス|japan": {
-    "character": "ドダイトス",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Torterra",
-    "set_name": "DP1: Space-Time Creation",
-    "rarity": "Holo Rare",
-    "yen_increase": 77558,
-    "checked_date": "2026-09-23",
-    "old_price": 262.95,
-    "new_price": 780.0,
-    "change_pct": 196.6,
-    "change_pct_30d": 0.0,
-    "old_price_30d": 780.0,
-    "old_date_30d": "2026-08-13",
-    "old_date": "2026-06-17",
-    "trend": "mixed",
-    "chart": [
-      {
-        "date": "2026-06-17",
-        "price": 262.95
-      },
-      {
-        "date": "2026-07-09",
-        "price": 1499.99
-      },
-      {
-        "date": "2026-07-21",
-        "price": 1222.0
-      },
-      {
-        "date": "2026-07-25",
-        "price": 286.0
-      },
-      {
-        "date": "2026-08-06",
-        "price": 967.0
-      },
-      {
-        "date": "2026-08-13",
-        "price": 780.0
-      }
-    ],
-    "sales_count_90d": 6,
-    "sales_count_30d": 0,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605673_in_200x200.jpg"
-  },
   "フシギバナ|overseas": {
     "character": "フシギバナ",
     "market": "海外(英語版)",
@@ -1166,7 +1119,7 @@
     "set_name": "Neo Destiny",
     "rarity": "Common",
     "yen_increase": 38625,
-    "checked_date": "2026-09-23",
+    "checked_date": "2026-09-26",
     "old_price": 222.5,
     "new_price": 480.0,
     "change_pct": 115.7,
@@ -1983,49 +1936,6 @@
     "sales_count_90d": 26,
     "sales_count_30d": 13,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89071_in_200x200.jpg"
-  },
-  "ジュペッタ|overseas": {
-    "character": "ジュペッタ",
-    "market": "海外(英語版)",
-    "market_key": "overseas",
-    "card_name": "Banette",
-    "set_name": "EX Power Keepers",
-    "rarity": "Holo Rare",
-    "yen_increase": 184408,
-    "checked_date": "2026-09-23",
-    "old_price": 670.6,
-    "new_price": 1899.99,
-    "change_pct": 183.3,
-    "change_pct_30d": 171.4,
-    "old_price_30d": 700.0,
-    "old_date_30d": "2026-08-13",
-    "old_date": "2026-06-25",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-06-25",
-        "price": 670.6
-      },
-      {
-        "date": "2026-07-23",
-        "price": 595.0
-      },
-      {
-        "date": "2026-08-13",
-        "price": 700.0
-      },
-      {
-        "date": "2026-09-04",
-        "price": 815.0
-      },
-      {
-        "date": "2026-09-18",
-        "price": 1899.99
-      }
-    ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 2,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83721_in_200x200.jpg"
   },
   "ポリゴン2|japan": {
     "character": "ポリゴン2",
@@ -3814,5 +3724,52 @@
     "sales_count_90d": 8,
     "sales_count_30d": 4,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88433_in_200x200.jpg"
+  },
+  "トゲキッス|japan": {
+    "character": "トゲキッス",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Togekiss",
+    "set_name": "DP4: Dawn Dash",
+    "rarity": "Holo Rare",
+    "yen_increase": 52125,
+    "checked_date": "2026-09-26",
+    "old_price": 202.5,
+    "new_price": 550.0,
+    "change_pct": 171.6,
+    "change_pct_30d": 59.0,
+    "old_price_30d": 346.0,
+    "old_date_30d": "2026-08-23",
+    "old_date": "2026-07-12",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-12",
+        "price": 202.5
+      },
+      {
+        "date": "2026-08-05",
+        "price": 299.99
+      },
+      {
+        "date": "2026-08-17",
+        "price": 699.99
+      },
+      {
+        "date": "2026-08-23",
+        "price": 346.0
+      },
+      {
+        "date": "2026-09-03",
+        "price": 499.99
+      },
+      {
+        "date": "2026-09-21",
+        "price": 550.0
+      }
+    ],
+    "sales_count_90d": 6,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606869_in_200x200.jpg"
   }
 }
