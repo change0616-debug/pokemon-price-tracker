@@ -9,7 +9,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 20,
+  "checked_characters": 40,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -356,6 +356,65 @@
     },
     {
       "character": "アルセウス",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Arceus & Dialga & Palkia GX (Secret)",
+      "set_name": "SM - Cosmic Eclipse",
+      "rarity": "Rainbow Rare",
+      "yen_increase": 74550,
+      "checked_date": "2026-09-28",
+      "old_price": 15.0,
+      "new_price": 512.0,
+      "change_pct": 3313.3,
+      "change_pct_30d": -8.6,
+      "old_price_30d": 559.99,
+      "old_date_30d": "2026-08-26",
+      "old_date": "2026-06-30",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-21",
+          "price": 889.99
+        },
+        {
+          "date": "2026-06-24",
+          "price": 673.89
+        },
+        {
+          "date": "2026-06-30",
+          "price": 15.0
+        },
+        {
+          "date": "2026-08-18",
+          "price": 500.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 547.0
+        },
+        {
+          "date": "2026-08-26",
+          "price": 559.99
+        },
+        {
+          "date": "2026-09-04",
+          "price": 575.0
+        },
+        {
+          "date": "2026-09-07",
+          "price": 525.0
+        },
+        {
+          "date": "2026-09-10",
+          "price": 512.0
+        }
+      ],
+      "sales_count_90d": 8,
+      "sales_count_30d": 4,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/201360_in_200x200.jpg"
+    },
+    {
+      "character": "ディアルガ",
       "market": "海外(英語版)",
       "market_key": "overseas",
       "card_name": "Arceus & Dialga & Palkia GX (Secret)",
@@ -877,15 +936,15 @@
       "set_name": "SM - Unified Minds",
       "rarity": "Ultra Rare",
       "yen_increase": 65400,
-      "checked_date": "2026-09-25",
+      "checked_date": "2026-09-28",
       "old_price": 43.0,
       "new_price": 479.0,
       "change_pct": 1014.0,
-      "change_pct_30d": -16.3,
-      "old_price_30d": 572.58,
-      "old_date_30d": "2026-08-24",
+      "change_pct_30d": 6.9,
+      "old_price_30d": 448.15,
+      "old_date_30d": "2026-08-28",
       "old_date": "2026-06-26",
-      "trend": "mixed",
+      "trend": "sustained",
       "chart": [
         {
           "date": "2026-06-26",
@@ -913,7 +972,7 @@
         }
       ],
       "sales_count_90d": 5,
-      "sales_count_30d": 2,
+      "sales_count_30d": 1,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/195139_in_200x200.jpg"
     },
     {
@@ -1386,13 +1445,13 @@
       "set_name": "Prize Pack Series Cards",
       "rarity": "Ultra Rare",
       "yen_increase": 166359,
-      "checked_date": "2026-09-25",
+      "checked_date": "2026-09-28",
       "old_price": 190.93,
       "new_price": 1299.99,
       "change_pct": 580.9,
-      "change_pct_30d": -9.8,
-      "old_price_30d": 1441.43,
-      "old_date_30d": "2026-08-16",
+      "change_pct_30d": -20.3,
+      "old_price_30d": 1631.09,
+      "old_date_30d": "2026-08-27",
       "old_date": "2026-07-12",
       "trend": "mixed",
       "chart": [
@@ -1434,7 +1493,7 @@
         }
       ],
       "sales_count_90d": 13,
-      "sales_count_30d": 6,
+      "sales_count_30d": 5,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/513793_in_200x200.jpg"
     },
     {
@@ -3314,45 +3373,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566533_in_200x200.jpg"
     },
     {
-      "character": "コイル",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Magnemite (7)",
-      "set_name": "Neo Discovery",
-      "rarity": "Holo Rare",
-      "yen_increase": 250500,
-      "checked_date": "2026-09-25",
-      "old_price": 830.0,
-      "new_price": 2500.0,
-      "change_pct": 201.2,
-      "change_pct_30d": 236.5,
-      "old_price_30d": 743.0,
-      "old_date_30d": "2026-08-12",
-      "old_date": "2026-08-09",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-08-09",
-          "price": 830.0
-        },
-        {
-          "date": "2026-08-12",
-          "price": 743.0
-        },
-        {
-          "date": "2026-09-20",
-          "price": 2299.99
-        },
-        {
-          "date": "2026-09-21",
-          "price": 2500.0
-        }
-      ],
-      "sales_count_90d": 5,
-      "sales_count_30d": 3,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87064_in_200x200.jpg"
-    },
-    {
       "character": "クマシュン",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -3876,6 +3896,77 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602846_in_200x200.jpg"
     },
     {
+      "character": "サーナイト",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Mega Gardevoir ex - 092/063",
+      "set_name": "m1S: Mega Symphonia",
+      "rarity": "Mega Ultra Rare",
+      "yen_increase": 54752,
+      "checked_date": "2026-09-28",
+      "old_price": 209.99,
+      "new_price": 575.0,
+      "change_pct": 173.8,
+      "change_pct_30d": -34.3,
+      "old_price_30d": 874.99,
+      "old_date_30d": "2026-08-16",
+      "old_date": "2026-06-30",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-06-26",
+          "price": 511.0
+        },
+        {
+          "date": "2026-06-30",
+          "price": 209.99
+        },
+        {
+          "date": "2026-07-15",
+          "price": 649.99
+        },
+        {
+          "date": "2026-07-19",
+          "price": 600.01
+        },
+        {
+          "date": "2026-08-01",
+          "price": 649.99
+        },
+        {
+          "date": "2026-08-09",
+          "price": 780.0
+        },
+        {
+          "date": "2026-08-12",
+          "price": 879.99
+        },
+        {
+          "date": "2026-08-16",
+          "price": 874.99
+        },
+        {
+          "date": "2026-09-03",
+          "price": 763.0
+        },
+        {
+          "date": "2026-09-06",
+          "price": 840.01
+        },
+        {
+          "date": "2026-09-20",
+          "price": 670.01
+        },
+        {
+          "date": "2026-09-22",
+          "price": 575.0
+        }
+      ],
+      "sales_count_90d": 11,
+      "sales_count_30d": 4,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/647207_in_200x200.jpg"
+    },
+    {
       "character": "トゲキッス",
       "market": "日本版",
       "market_key": "japan",
@@ -4021,65 +4112,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89487_in_200x200.jpg"
     },
     {
-      "character": "セレビィ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Celebi",
-      "set_name": "WoTC Promo",
-      "rarity": "Promo",
-      "yen_increase": 170850,
-      "checked_date": "2026-09-25",
-      "old_price": 711.0,
-      "new_price": 1850.0,
-      "change_pct": 160.2,
-      "change_pct_30d": 85.0,
-      "old_price_30d": 1000.0,
-      "old_date_30d": "2026-08-23",
-      "old_date": "2026-06-20",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-06-20",
-          "price": 711.0
-        },
-        {
-          "date": "2026-07-05",
-          "price": 725.0
-        },
-        {
-          "date": "2026-07-20",
-          "price": 675.0
-        },
-        {
-          "date": "2026-07-25",
-          "price": 850.0
-        },
-        {
-          "date": "2026-08-08",
-          "price": 711.0
-        },
-        {
-          "date": "2026-08-09",
-          "price": 850.0
-        },
-        {
-          "date": "2026-08-23",
-          "price": 1000.0
-        },
-        {
-          "date": "2026-08-30",
-          "price": 751.82
-        },
-        {
-          "date": "2026-09-17",
-          "price": 1850.0
-        }
-      ],
-      "sales_count_90d": 8,
-      "sales_count_30d": 2,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84143_in_200x200.jpg"
-    },
-    {
       "character": "レアコイル",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -4157,6 +4189,57 @@
       "sales_count_90d": 12,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/106528_in_200x200.jpg"
+    },
+    {
+      "character": "ルギア",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Lugia",
+      "set_name": "SM: The Best of XY",
+      "rarity": "None",
+      "yen_increase": 18500,
+      "checked_date": "2026-09-28",
+      "old_price": 83.17,
+      "new_price": 206.5,
+      "change_pct": 148.3,
+      "change_pct_30d": 10.7,
+      "old_price_30d": 186.5,
+      "old_date_30d": "2026-08-29",
+      "old_date": "2026-07-16",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-16",
+          "price": 83.17
+        },
+        {
+          "date": "2026-07-26",
+          "price": 344.99
+        },
+        {
+          "date": "2026-08-14",
+          "price": 286.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 194.5
+        },
+        {
+          "date": "2026-08-24",
+          "price": 200.0
+        },
+        {
+          "date": "2026-08-29",
+          "price": 186.5
+        },
+        {
+          "date": "2026-09-16",
+          "price": 206.5
+        }
+      ],
+      "sales_count_90d": 7,
+      "sales_count_30d": 2,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/598855_in_200x200.jpg"
     },
     {
       "character": "フシギバナ",
@@ -4284,7 +4367,7 @@
       "set_name": "S4a: Shiny Star V",
       "rarity": "Shiny Rare",
       "yen_increase": 12510,
-      "checked_date": "2026-09-25",
+      "checked_date": "2026-09-28",
       "old_price": 61.0,
       "new_price": 144.4,
       "change_pct": 136.7,
@@ -4678,6 +4761,249 @@
       "sales_count_90d": 69,
       "sales_count_30d": 15,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644833_in_200x200.jpg"
+    },
+    {
+      "character": "セレビィ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Celebi & Venusaur GX - SM167",
+      "set_name": "SM Promos",
+      "rarity": "Promo",
+      "yen_increase": 120000,
+      "checked_date": "2026-09-28",
+      "old_price": 650.0,
+      "new_price": 1450.0,
+      "change_pct": 123.1,
+      "change_pct_30d": 48.7,
+      "old_price_30d": 975.0,
+      "old_date_30d": "2026-08-25",
+      "old_date": "2026-06-29",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-06-20",
+          "price": 537.0
+        },
+        {
+          "date": "2026-06-21",
+          "price": 590.0
+        },
+        {
+          "date": "2026-06-22",
+          "price": 650.0
+        },
+        {
+          "date": "2026-06-25",
+          "price": 661.8
+        },
+        {
+          "date": "2026-06-26",
+          "price": 651.44
+        },
+        {
+          "date": "2026-06-27",
+          "price": 639.0
+        },
+        {
+          "date": "2026-06-29",
+          "price": 650.0
+        },
+        {
+          "date": "2026-07-01",
+          "price": 668.04
+        },
+        {
+          "date": "2026-07-02",
+          "price": 636.66
+        },
+        {
+          "date": "2026-07-03",
+          "price": 665.0
+        },
+        {
+          "date": "2026-07-05",
+          "price": 679.0
+        },
+        {
+          "date": "2026-07-06",
+          "price": 698.11
+        },
+        {
+          "date": "2026-07-08",
+          "price": 675.0
+        },
+        {
+          "date": "2026-07-14",
+          "price": 699.99
+        },
+        {
+          "date": "2026-07-17",
+          "price": 614.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 652.5
+        },
+        {
+          "date": "2026-07-20",
+          "price": 659.99
+        },
+        {
+          "date": "2026-07-25",
+          "price": 6.0
+        },
+        {
+          "date": "2026-07-28",
+          "price": 714.51
+        },
+        {
+          "date": "2026-07-30",
+          "price": 700.0
+        },
+        {
+          "date": "2026-07-31",
+          "price": 560.0
+        },
+        {
+          "date": "2026-08-05",
+          "price": 655.0
+        },
+        {
+          "date": "2026-08-06",
+          "price": 616.0
+        },
+        {
+          "date": "2026-08-07",
+          "price": 510.0
+        },
+        {
+          "date": "2026-08-09",
+          "price": 600.0
+        },
+        {
+          "date": "2026-08-11",
+          "price": 749.99
+        },
+        {
+          "date": "2026-08-12",
+          "price": 779.99
+        },
+        {
+          "date": "2026-08-13",
+          "price": 699.0
+        },
+        {
+          "date": "2026-08-15",
+          "price": 869.5
+        },
+        {
+          "date": "2026-08-16",
+          "price": 682.32
+        },
+        {
+          "date": "2026-08-17",
+          "price": 948.18
+        },
+        {
+          "date": "2026-08-18",
+          "price": 1050.81
+        },
+        {
+          "date": "2026-08-20",
+          "price": 1149.0
+        },
+        {
+          "date": "2026-08-24",
+          "price": 950.0
+        },
+        {
+          "date": "2026-08-25",
+          "price": 975.0
+        },
+        {
+          "date": "2026-08-30",
+          "price": 911.6
+        },
+        {
+          "date": "2026-09-01",
+          "price": 1058.0
+        },
+        {
+          "date": "2026-09-02",
+          "price": 921.0
+        },
+        {
+          "date": "2026-09-03",
+          "price": 980.0
+        },
+        {
+          "date": "2026-09-04",
+          "price": 949.99
+        },
+        {
+          "date": "2026-09-05",
+          "price": 1047.99
+        },
+        {
+          "date": "2026-09-06",
+          "price": 926.0
+        },
+        {
+          "date": "2026-09-08",
+          "price": 970.0
+        },
+        {
+          "date": "2026-09-09",
+          "price": 1001.54
+        },
+        {
+          "date": "2026-09-10",
+          "price": 1087.68
+        },
+        {
+          "date": "2026-09-13",
+          "price": 1050.0
+        },
+        {
+          "date": "2026-09-15",
+          "price": 1105.04
+        },
+        {
+          "date": "2026-09-17",
+          "price": 1125.0
+        },
+        {
+          "date": "2026-09-18",
+          "price": 917.0
+        },
+        {
+          "date": "2026-09-19",
+          "price": 550.5
+        },
+        {
+          "date": "2026-09-22",
+          "price": 1184.25
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1228.9
+        },
+        {
+          "date": "2026-09-24",
+          "price": 1412.5
+        },
+        {
+          "date": "2026-09-25",
+          "price": 1767.78
+        },
+        {
+          "date": "2026-09-26",
+          "price": 1450.0
+        }
+      ],
+      "sales_count_90d": 104,
+      "sales_count_30d": 48,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/185984_in_200x200.jpg"
     },
     {
       "character": "ヒトモシ",
@@ -5173,28 +5499,16 @@
       "set_name": "XY - Steam Siege",
       "rarity": "Ultra Rare",
       "yen_increase_30d": 81750,
-      "checked_date": "2026-09-25",
-      "old_price": 547.5,
+      "checked_date": "2026-09-28",
+      "old_price": 485.0,
       "new_price": 550.0,
-      "change_pct": 0.5,
+      "change_pct": 13.4,
       "change_pct_30d": 10900.0,
       "old_price_30d": 5.0,
       "old_date_30d": "2026-08-24",
-      "old_date": "2026-06-26",
+      "old_date": "2026-06-28",
       "trend": "spike",
       "chart": [
-        {
-          "date": "2026-06-17",
-          "price": 499.99
-        },
-        {
-          "date": "2026-06-18",
-          "price": 479.5
-        },
-        {
-          "date": "2026-06-19",
-          "price": 549.99
-        },
         {
           "date": "2026-06-26",
           "price": 547.5
@@ -5268,7 +5582,7 @@
           "price": 550.0
         }
       ],
-      "sales_count_90d": 18,
+      "sales_count_90d": 17,
       "sales_count_30d": 6,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/121236_in_200x200.jpg"
     },
@@ -6516,125 +6830,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/146716_in_200x200.jpg"
     },
     {
-      "character": "ギラティナ",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Giratina VSTAR - 261/172",
-      "set_name": "S12a: VSTAR Universe",
-      "rarity": "Ultra Rare",
-      "yen_increase_30d": 43239,
-      "checked_date": "2026-09-25",
-      "old_price": 565.0,
-      "new_price": 524.76,
-      "change_pct": -7.1,
-      "change_pct_30d": 121.9,
-      "old_price_30d": 236.5,
-      "old_date_30d": "2026-08-17",
-      "old_date": "2026-06-27",
-      "trend": "unknown",
-      "chart": [
-        {
-          "date": "2026-06-17",
-          "price": 359.0
-        },
-        {
-          "date": "2026-06-21",
-          "price": 385.0
-        },
-        {
-          "date": "2026-06-22",
-          "price": 356.0
-        },
-        {
-          "date": "2026-06-27",
-          "price": 565.0
-        },
-        {
-          "date": "2026-06-28",
-          "price": 378.7
-        },
-        {
-          "date": "2026-06-29",
-          "price": 440.0
-        },
-        {
-          "date": "2026-07-02",
-          "price": 385.0
-        },
-        {
-          "date": "2026-07-03",
-          "price": 355.0
-        },
-        {
-          "date": "2026-07-04",
-          "price": 307.0
-        },
-        {
-          "date": "2026-07-19",
-          "price": 361.7
-        },
-        {
-          "date": "2026-07-21",
-          "price": 161.93
-        },
-        {
-          "date": "2026-08-02",
-          "price": 345.0
-        },
-        {
-          "date": "2026-08-04",
-          "price": 349.99
-        },
-        {
-          "date": "2026-08-06",
-          "price": 348.0
-        },
-        {
-          "date": "2026-08-11",
-          "price": 299.99
-        },
-        {
-          "date": "2026-08-13",
-          "price": 252.0
-        },
-        {
-          "date": "2026-08-16",
-          "price": 345.0
-        },
-        {
-          "date": "2026-08-17",
-          "price": 236.5
-        },
-        {
-          "date": "2026-08-28",
-          "price": 340.0
-        },
-        {
-          "date": "2026-08-30",
-          "price": 296.0
-        },
-        {
-          "date": "2026-09-11",
-          "price": 305.0
-        },
-        {
-          "date": "2026-09-15",
-          "price": 330.0
-        },
-        {
-          "date": "2026-09-17",
-          "price": 334.99
-        },
-        {
-          "date": "2026-09-20",
-          "price": 524.76
-        }
-      ],
-      "sales_count_90d": 24,
-      "sales_count_30d": 7,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/571791_in_200x200.jpg"
-    },
-    {
       "character": "レックウザ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -6900,6 +7095,376 @@
       "sales_count_90d": 173,
       "sales_count_30d": 50,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/202638_in_200x200.jpg"
+    },
+    {
+      "character": "ゼクロム",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Pikachu & Zekrom GX",
+      "set_name": "SM Promos",
+      "rarity": "Promo",
+      "yen_increase_30d": 168750,
+      "checked_date": "2026-09-28",
+      "old_price": 2037.5,
+      "new_price": 2100.0,
+      "change_pct": 3.1,
+      "change_pct_30d": 115.4,
+      "old_price_30d": 975.0,
+      "old_date_30d": "2026-08-29",
+      "old_date": "2026-06-30",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-20",
+          "price": 2388.25
+        },
+        {
+          "date": "2026-06-21",
+          "price": 2184.0
+        },
+        {
+          "date": "2026-06-22",
+          "price": 2119.74
+        },
+        {
+          "date": "2026-06-23",
+          "price": 2165.27
+        },
+        {
+          "date": "2026-06-28",
+          "price": 2099.0
+        },
+        {
+          "date": "2026-06-29",
+          "price": 2075.0
+        },
+        {
+          "date": "2026-06-30",
+          "price": 2037.5
+        },
+        {
+          "date": "2026-07-05",
+          "price": 1825.0
+        },
+        {
+          "date": "2026-07-08",
+          "price": 1800.0
+        },
+        {
+          "date": "2026-07-10",
+          "price": 1843.99
+        },
+        {
+          "date": "2026-07-11",
+          "price": 1800.0
+        },
+        {
+          "date": "2026-07-13",
+          "price": 1950.0
+        },
+        {
+          "date": "2026-07-18",
+          "price": 1750.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 1700.0
+        },
+        {
+          "date": "2026-07-20",
+          "price": 1687.5
+        },
+        {
+          "date": "2026-07-24",
+          "price": 1794.02
+        },
+        {
+          "date": "2026-07-25",
+          "price": 1820.0
+        },
+        {
+          "date": "2026-07-26",
+          "price": 1606.37
+        },
+        {
+          "date": "2026-07-28",
+          "price": 1810.49
+        },
+        {
+          "date": "2026-07-29",
+          "price": 2132.5
+        },
+        {
+          "date": "2026-07-31",
+          "price": 2000.0
+        },
+        {
+          "date": "2026-08-02",
+          "price": 1850.0
+        },
+        {
+          "date": "2026-08-04",
+          "price": 2000.0
+        },
+        {
+          "date": "2026-08-06",
+          "price": 2137.5
+        },
+        {
+          "date": "2026-08-07",
+          "price": 2204.87
+        },
+        {
+          "date": "2026-08-09",
+          "price": 2885.4
+        },
+        {
+          "date": "2026-08-10",
+          "price": 3718.03
+        },
+        {
+          "date": "2026-08-11",
+          "price": 3400.6
+        },
+        {
+          "date": "2026-08-12",
+          "price": 3509.89
+        },
+        {
+          "date": "2026-08-14",
+          "price": 3561.46
+        },
+        {
+          "date": "2026-08-15",
+          "price": 3945.75
+        },
+        {
+          "date": "2026-08-16",
+          "price": 3400.0
+        },
+        {
+          "date": "2026-08-18",
+          "price": 3575.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 4000.0
+        },
+        {
+          "date": "2026-08-20",
+          "price": 3300.0
+        },
+        {
+          "date": "2026-08-21",
+          "price": 3020.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 3225.0
+        },
+        {
+          "date": "2026-08-24",
+          "price": 2326.67
+        },
+        {
+          "date": "2026-08-25",
+          "price": 3334.34
+        },
+        {
+          "date": "2026-08-27",
+          "price": 3342.86
+        },
+        {
+          "date": "2026-08-28",
+          "price": 3699.98
+        },
+        {
+          "date": "2026-08-29",
+          "price": 975.0
+        },
+        {
+          "date": "2026-08-30",
+          "price": 3760.0
+        },
+        {
+          "date": "2026-09-03",
+          "price": 3750.0
+        },
+        {
+          "date": "2026-09-04",
+          "price": 4000.0
+        },
+        {
+          "date": "2026-09-05",
+          "price": 325.0
+        },
+        {
+          "date": "2026-09-07",
+          "price": 3400.0
+        },
+        {
+          "date": "2026-09-08",
+          "price": 2950.0
+        },
+        {
+          "date": "2026-09-09",
+          "price": 2963.74
+        },
+        {
+          "date": "2026-09-10",
+          "price": 2883.0
+        },
+        {
+          "date": "2026-09-12",
+          "price": 2746.76
+        },
+        {
+          "date": "2026-09-13",
+          "price": 2633.33
+        },
+        {
+          "date": "2026-09-14",
+          "price": 2425.11
+        },
+        {
+          "date": "2026-09-16",
+          "price": 2058.67
+        },
+        {
+          "date": "2026-09-17",
+          "price": 1107.86
+        },
+        {
+          "date": "2026-09-18",
+          "price": 2141.66
+        },
+        {
+          "date": "2026-09-19",
+          "price": 1875.0
+        },
+        {
+          "date": "2026-09-21",
+          "price": 1850.0
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1822.8
+        },
+        {
+          "date": "2026-09-24",
+          "price": 1219.9
+        },
+        {
+          "date": "2026-09-26",
+          "price": 2100.0
+        }
+      ],
+      "sales_count_90d": 259,
+      "sales_count_30d": 73,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/185985_in_200x200.jpg"
+    },
+    {
+      "character": "サーナイト",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Gardevoir",
+      "set_name": "DP4: Dawn Dash",
+      "rarity": "Holo Rare",
+      "yen_increase_30d": 112350,
+      "checked_date": "2026-09-28",
+      "old_price": 977.0,
+      "new_price": 1425.0,
+      "change_pct": 45.9,
+      "change_pct_30d": 110.8,
+      "old_price_30d": 676.0,
+      "old_date_30d": "2026-08-23",
+      "old_date": "2026-07-05",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-05",
+          "price": 977.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 907.0
+        },
+        {
+          "date": "2026-07-20",
+          "price": 1111.0
+        },
+        {
+          "date": "2026-07-23",
+          "price": 448.0
+        },
+        {
+          "date": "2026-07-24",
+          "price": 1499.99
+        },
+        {
+          "date": "2026-07-31",
+          "price": 961.13
+        },
+        {
+          "date": "2026-08-02",
+          "price": 682.58
+        },
+        {
+          "date": "2026-08-04",
+          "price": 643.0
+        },
+        {
+          "date": "2026-08-07",
+          "price": 993.66
+        },
+        {
+          "date": "2026-08-08",
+          "price": 1500.0
+        },
+        {
+          "date": "2026-08-09",
+          "price": 540.0
+        },
+        {
+          "date": "2026-08-20",
+          "price": 580.0
+        },
+        {
+          "date": "2026-08-21",
+          "price": 810.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 676.0
+        },
+        {
+          "date": "2026-09-02",
+          "price": 592.0
+        },
+        {
+          "date": "2026-09-04",
+          "price": 760.0
+        },
+        {
+          "date": "2026-09-05",
+          "price": 850.0
+        },
+        {
+          "date": "2026-09-06",
+          "price": 652.0
+        },
+        {
+          "date": "2026-09-14",
+          "price": 720.0
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1425.0
+        }
+      ],
+      "sales_count_90d": 23,
+      "sales_count_30d": 7,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606832_in_200x200.jpg"
     },
     {
       "character": "ジラーチ",
@@ -7284,7 +7849,7 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/614986_in_200x200.jpg"
     },
     {
-      "character": "ポッチャマ",
+      "character": "カメックス",
       "market": "海外(英語版)",
       "market_key": "overseas",
       "card_name": "Blastoise & Piplup GX",
@@ -7383,103 +7948,271 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/200352_in_200x200.jpg"
     },
     {
-      "character": "カメックス",
+      "character": "ディアルガ",
       "market": "海外(英語版)",
       "market_key": "overseas",
-      "card_name": "Blastoise & Piplup GX",
-      "set_name": "SM - Cosmic Eclipse",
-      "rarity": "Ultra Rare",
-      "yen_increase_30d": 96750,
-      "checked_date": "2026-09-25",
-      "old_price": 800.0,
-      "new_price": 1325.0,
-      "change_pct": 65.6,
-      "change_pct_30d": 94.9,
-      "old_price_30d": 680.0,
-      "old_date_30d": "2026-08-23",
-      "old_date": "2026-06-23",
+      "card_name": "Origin Forme Dialga VSTAR (Secret)",
+      "set_name": "SWSH: Crown Zenith: Galarian Gallery",
+      "rarity": "Secret Rare",
+      "yen_increase_30d": 44550,
+      "checked_date": "2026-09-28",
+      "old_price": 375.0,
+      "new_price": 622.0,
+      "change_pct": 65.9,
+      "change_pct_30d": 91.4,
+      "old_price_30d": 325.0,
+      "old_date_30d": "2026-08-29",
+      "old_date": "2026-06-30",
       "trend": "spike",
       "chart": [
         {
+          "date": "2026-06-20",
+          "price": 385.69
+        },
+        {
+          "date": "2026-06-21",
+          "price": 397.99
+        },
+        {
           "date": "2026-06-23",
-          "price": 800.0
+          "price": 385.0
         },
         {
-          "date": "2026-07-02",
-          "price": 900.0
+          "date": "2026-06-25",
+          "price": 375.0
         },
         {
-          "date": "2026-07-10",
-          "price": 900.0
+          "date": "2026-06-27",
+          "price": 380.42
+        },
+        {
+          "date": "2026-06-28",
+          "price": 380.53
+        },
+        {
+          "date": "2026-06-30",
+          "price": 375.0
+        },
+        {
+          "date": "2026-07-01",
+          "price": 368.0
+        },
+        {
+          "date": "2026-07-03",
+          "price": 330.0
+        },
+        {
+          "date": "2026-07-04",
+          "price": 348.75
+        },
+        {
+          "date": "2026-07-06",
+          "price": 375.0
+        },
+        {
+          "date": "2026-07-08",
+          "price": 369.0
         },
         {
           "date": "2026-07-12",
-          "price": 820.0
+          "price": 335.0
+        },
+        {
+          "date": "2026-07-13",
+          "price": 365.0
+        },
+        {
+          "date": "2026-07-15",
+          "price": 360.0
+        },
+        {
+          "date": "2026-07-16",
+          "price": 355.0
         },
         {
           "date": "2026-07-19",
-          "price": 830.0
+          "price": 340.0
+        },
+        {
+          "date": "2026-07-20",
+          "price": 320.0
         },
         {
           "date": "2026-07-21",
-          "price": 850.0
+          "price": 315.0
+        },
+        {
+          "date": "2026-07-22",
+          "price": 345.0
         },
         {
           "date": "2026-07-23",
-          "price": 820.0
+          "price": 3.0
         },
         {
-          "date": "2026-08-08",
-          "price": 388.5
+          "date": "2026-07-25",
+          "price": 305.0
         },
         {
-          "date": "2026-08-12",
-          "price": 779.0
+          "date": "2026-07-26",
+          "price": 313.92
+        },
+        {
+          "date": "2026-07-27",
+          "price": 370.0
+        },
+        {
+          "date": "2026-07-30",
+          "price": 322.5
+        },
+        {
+          "date": "2026-07-31",
+          "price": 118.67
+        },
+        {
+          "date": "2026-08-02",
+          "price": 363.56
+        },
+        {
+          "date": "2026-08-03",
+          "price": 327.5
+        },
+        {
+          "date": "2026-08-05",
+          "price": 329.99
+        },
+        {
+          "date": "2026-08-06",
+          "price": 369.99
+        },
+        {
+          "date": "2026-08-07",
+          "price": 317.5
+        },
+        {
+          "date": "2026-08-09",
+          "price": 301.0
+        },
+        {
+          "date": "2026-08-10",
+          "price": 315.0
+        },
+        {
+          "date": "2026-08-11",
+          "price": 350.0
         },
         {
           "date": "2026-08-13",
-          "price": 800.0
+          "price": 315.0
+        },
+        {
+          "date": "2026-08-14",
+          "price": 302.5
         },
         {
           "date": "2026-08-16",
-          "price": 799.99
+          "price": 319.99
         },
         {
-          "date": "2026-08-18",
-          "price": 875.0
+          "date": "2026-08-17",
+          "price": 320.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 3.0
+        },
+        {
+          "date": "2026-08-20",
+          "price": 325.0
+        },
+        {
+          "date": "2026-08-21",
+          "price": 332.63
+        },
+        {
+          "date": "2026-08-22",
+          "price": 349.99
         },
         {
           "date": "2026-08-23",
-          "price": 680.0
+          "price": 306.56
+        },
+        {
+          "date": "2026-08-24",
+          "price": 322.5
+        },
+        {
+          "date": "2026-08-25",
+          "price": 349.99
         },
         {
           "date": "2026-08-27",
-          "price": 787.5
+          "price": 340.0
         },
         {
           "date": "2026-08-28",
-          "price": 800.0
+          "price": 290.0
+        },
+        {
+          "date": "2026-08-29",
+          "price": 325.0
+        },
+        {
+          "date": "2026-09-01",
+          "price": 325.0
+        },
+        {
+          "date": "2026-09-03",
+          "price": 302.0
         },
         {
           "date": "2026-09-04",
-          "price": 749.0
+          "price": 329.99
+        },
+        {
+          "date": "2026-09-05",
+          "price": 339.99
         },
         {
           "date": "2026-09-06",
-          "price": 789.79
+          "price": 314.99
         },
         {
-          "date": "2026-09-14",
-          "price": 780.0
+          "date": "2026-09-07",
+          "price": 324.09
+        },
+        {
+          "date": "2026-09-10",
+          "price": 295.0
+        },
+        {
+          "date": "2026-09-11",
+          "price": 400.0
+        },
+        {
+          "date": "2026-09-12",
+          "price": 322.5
+        },
+        {
+          "date": "2026-09-13",
+          "price": 270.0
+        },
+        {
+          "date": "2026-09-17",
+          "price": 333.64
         },
         {
           "date": "2026-09-20",
-          "price": 1325.0
+          "price": 276.0
+        },
+        {
+          "date": "2026-09-23",
+          "price": 622.0
         }
       ],
-      "sales_count_90d": 22,
-      "sales_count_30d": 8,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/200352_in_200x200.jpg"
+      "sales_count_90d": 96,
+      "sales_count_30d": 25,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478099_in_200x200.jpg"
     },
     {
       "character": "アイアント",
@@ -7782,273 +8515,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/226582_in_200x200.jpg"
     },
     {
-      "character": "ゼクロム",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Zekrom",
-      "set_name": "Celebrations: Classic Collection",
-      "rarity": "Classic Collection",
-      "yen_increase_30d": 8700,
-      "checked_date": "2026-09-25",
-      "old_price": 150.0,
-      "new_price": 130.22,
-      "change_pct": -13.2,
-      "change_pct_30d": 80.3,
-      "old_price_30d": 72.22,
-      "old_date_30d": "2026-08-25",
-      "old_date": "2026-06-27",
-      "trend": "unknown",
-      "chart": [
-        {
-          "date": "2026-06-18",
-          "price": 149.99
-        },
-        {
-          "date": "2026-06-19",
-          "price": 140.4
-        },
-        {
-          "date": "2026-06-20",
-          "price": 153.84
-        },
-        {
-          "date": "2026-06-21",
-          "price": 131.67
-        },
-        {
-          "date": "2026-06-23",
-          "price": 148.0
-        },
-        {
-          "date": "2026-06-24",
-          "price": 149.99
-        },
-        {
-          "date": "2026-06-25",
-          "price": 150.0
-        },
-        {
-          "date": "2026-06-27",
-          "price": 150.0
-        },
-        {
-          "date": "2026-06-30",
-          "price": 145.0
-        },
-        {
-          "date": "2026-07-01",
-          "price": 142.5
-        },
-        {
-          "date": "2026-07-02",
-          "price": 142.5
-        },
-        {
-          "date": "2026-07-03",
-          "price": 1.0
-        },
-        {
-          "date": "2026-07-05",
-          "price": 148.41
-        },
-        {
-          "date": "2026-07-06",
-          "price": 129.99
-        },
-        {
-          "date": "2026-07-07",
-          "price": 149.99
-        },
-        {
-          "date": "2026-07-08",
-          "price": 150.2
-        },
-        {
-          "date": "2026-07-11",
-          "price": 135.5
-        },
-        {
-          "date": "2026-07-12",
-          "price": 137.45
-        },
-        {
-          "date": "2026-07-14",
-          "price": 135.25
-        },
-        {
-          "date": "2026-07-15",
-          "price": 128.5
-        },
-        {
-          "date": "2026-07-17",
-          "price": 158.71
-        },
-        {
-          "date": "2026-07-18",
-          "price": 70.25
-        },
-        {
-          "date": "2026-07-19",
-          "price": 74.25
-        },
-        {
-          "date": "2026-07-21",
-          "price": 182.35
-        },
-        {
-          "date": "2026-07-25",
-          "price": 134.99
-        },
-        {
-          "date": "2026-07-26",
-          "price": 130.82
-        },
-        {
-          "date": "2026-07-27",
-          "price": 160.0
-        },
-        {
-          "date": "2026-07-28",
-          "price": 139.99
-        },
-        {
-          "date": "2026-07-30",
-          "price": 17.0
-        },
-        {
-          "date": "2026-07-31",
-          "price": 139.99
-        },
-        {
-          "date": "2026-08-01",
-          "price": 137.0
-        },
-        {
-          "date": "2026-08-02",
-          "price": 129.0
-        },
-        {
-          "date": "2026-08-04",
-          "price": 127.5
-        },
-        {
-          "date": "2026-08-05",
-          "price": 149.99
-        },
-        {
-          "date": "2026-08-07",
-          "price": 110.52
-        },
-        {
-          "date": "2026-08-08",
-          "price": 117.5
-        },
-        {
-          "date": "2026-08-10",
-          "price": 148.56
-        },
-        {
-          "date": "2026-08-11",
-          "price": 154.66
-        },
-        {
-          "date": "2026-08-12",
-          "price": 15.0
-        },
-        {
-          "date": "2026-08-15",
-          "price": 133.33
-        },
-        {
-          "date": "2026-08-18",
-          "price": 131.0
-        },
-        {
-          "date": "2026-08-19",
-          "price": 119.99
-        },
-        {
-          "date": "2026-08-20",
-          "price": 125.0
-        },
-        {
-          "date": "2026-08-22",
-          "price": 67.4
-        },
-        {
-          "date": "2026-08-24",
-          "price": 135.0
-        },
-        {
-          "date": "2026-08-25",
-          "price": 72.22
-        },
-        {
-          "date": "2026-08-29",
-          "price": 119.17
-        },
-        {
-          "date": "2026-08-30",
-          "price": 125.33
-        },
-        {
-          "date": "2026-09-01",
-          "price": 123.0
-        },
-        {
-          "date": "2026-09-03",
-          "price": 130.25
-        },
-        {
-          "date": "2026-09-05",
-          "price": 118.43
-        },
-        {
-          "date": "2026-09-06",
-          "price": 96.81
-        },
-        {
-          "date": "2026-09-09",
-          "price": 130.0
-        },
-        {
-          "date": "2026-09-11",
-          "price": 129.99
-        },
-        {
-          "date": "2026-09-12",
-          "price": 127.5
-        },
-        {
-          "date": "2026-09-13",
-          "price": 165.25
-        },
-        {
-          "date": "2026-09-17",
-          "price": 141.13
-        },
-        {
-          "date": "2026-09-18",
-          "price": 129.0
-        },
-        {
-          "date": "2026-09-19",
-          "price": 129.05
-        },
-        {
-          "date": "2026-09-20",
-          "price": 85.0
-        },
-        {
-          "date": "2026-09-22",
-          "price": 130.22
-        }
-      ],
-      "sales_count_90d": 141,
-      "sales_count_30d": 35,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/250338_in_200x200.jpg"
-    },
-    {
       "character": "バシャーモ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -8141,6 +8607,49 @@
       "sales_count_90d": 4,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83769_in_200x200.jpg"
+    },
+    {
+      "character": "ポッチャマ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Blastoise & Piplup GX - 069/064",
+      "set_name": "SM11a: Remix Bout",
+      "rarity": "Super Rare",
+      "yen_increase_30d": 12554,
+      "checked_date": "2026-09-28",
+      "old_price": 147.5,
+      "new_price": 198.69,
+      "change_pct": 34.7,
+      "change_pct_30d": 72.8,
+      "old_price_30d": 115.0,
+      "old_date_30d": "2026-08-23",
+      "old_date": "2026-07-19",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-19",
+          "price": 147.5
+        },
+        {
+          "date": "2026-08-23",
+          "price": 115.0
+        },
+        {
+          "date": "2026-09-04",
+          "price": 144.89
+        },
+        {
+          "date": "2026-09-17",
+          "price": 214.99
+        },
+        {
+          "date": "2026-09-24",
+          "price": 198.69
+        }
+      ],
+      "sales_count_90d": 5,
+      "sales_count_30d": 3,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/574967_in_200x200.jpg"
     },
     {
       "character": "ピジョット",
@@ -8263,6 +8772,105 @@
       "sales_count_90d": 8,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/251094_in_200x200.jpg"
+    },
+    {
+      "character": "ポッチャマ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Blastoise & Piplup GX",
+      "set_name": "SM - Cosmic Eclipse",
+      "rarity": "Ultra Rare",
+      "yen_increase_30d": 78750,
+      "checked_date": "2026-09-28",
+      "old_price": 800.0,
+      "new_price": 1325.0,
+      "change_pct": 65.6,
+      "change_pct_30d": 65.6,
+      "old_price_30d": 800.0,
+      "old_date_30d": "2026-08-28",
+      "old_date": "2026-06-23",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-23",
+          "price": 800.0
+        },
+        {
+          "date": "2026-07-02",
+          "price": 900.0
+        },
+        {
+          "date": "2026-07-10",
+          "price": 900.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 820.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 830.0
+        },
+        {
+          "date": "2026-07-21",
+          "price": 850.0
+        },
+        {
+          "date": "2026-07-23",
+          "price": 820.0
+        },
+        {
+          "date": "2026-08-08",
+          "price": 388.5
+        },
+        {
+          "date": "2026-08-12",
+          "price": 779.0
+        },
+        {
+          "date": "2026-08-13",
+          "price": 800.0
+        },
+        {
+          "date": "2026-08-16",
+          "price": 799.99
+        },
+        {
+          "date": "2026-08-18",
+          "price": 875.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 680.0
+        },
+        {
+          "date": "2026-08-27",
+          "price": 787.5
+        },
+        {
+          "date": "2026-08-28",
+          "price": 800.0
+        },
+        {
+          "date": "2026-09-04",
+          "price": 749.0
+        },
+        {
+          "date": "2026-09-06",
+          "price": 789.79
+        },
+        {
+          "date": "2026-09-14",
+          "price": 780.0
+        },
+        {
+          "date": "2026-09-20",
+          "price": 1325.0
+        }
+      ],
+      "sales_count_90d": 22,
+      "sales_count_30d": 5,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/200352_in_200x200.jpg"
     },
     {
       "character": "エンテイ",
@@ -8545,7 +9153,7 @@
       "set_name": "DP3: Shining Darkness",
       "rarity": "Holo Rare",
       "yen_increase_30d": 55500,
-      "checked_date": "2026-09-25",
+      "checked_date": "2026-09-28",
       "old_price": 919.0,
       "new_price": 1000.0,
       "change_pct": 8.8,
@@ -8584,9 +9192,124 @@
           "price": 1000.0
         }
       ],
-      "sales_count_90d": 9,
+      "sales_count_90d": 8,
       "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605981_in_200x200.jpg"
+    },
+    {
+      "character": "ギラティナ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Giratina VSTAR - 261/172",
+      "set_name": "S12a: VSTAR Universe",
+      "rarity": "Ultra Rare",
+      "yen_increase_30d": 27714,
+      "checked_date": "2026-09-28",
+      "old_price": 440.0,
+      "new_price": 524.76,
+      "change_pct": 19.3,
+      "change_pct_30d": 54.3,
+      "old_price_30d": 340.0,
+      "old_date_30d": "2026-08-28",
+      "old_date": "2026-06-29",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-21",
+          "price": 385.0
+        },
+        {
+          "date": "2026-06-22",
+          "price": 356.0
+        },
+        {
+          "date": "2026-06-27",
+          "price": 565.0
+        },
+        {
+          "date": "2026-06-28",
+          "price": 378.7
+        },
+        {
+          "date": "2026-06-29",
+          "price": 440.0
+        },
+        {
+          "date": "2026-07-02",
+          "price": 385.0
+        },
+        {
+          "date": "2026-07-03",
+          "price": 355.0
+        },
+        {
+          "date": "2026-07-04",
+          "price": 307.0
+        },
+        {
+          "date": "2026-07-19",
+          "price": 361.7
+        },
+        {
+          "date": "2026-07-21",
+          "price": 161.93
+        },
+        {
+          "date": "2026-08-02",
+          "price": 345.0
+        },
+        {
+          "date": "2026-08-04",
+          "price": 349.99
+        },
+        {
+          "date": "2026-08-06",
+          "price": 348.0
+        },
+        {
+          "date": "2026-08-11",
+          "price": 299.99
+        },
+        {
+          "date": "2026-08-13",
+          "price": 252.0
+        },
+        {
+          "date": "2026-08-16",
+          "price": 345.0
+        },
+        {
+          "date": "2026-08-17",
+          "price": 236.5
+        },
+        {
+          "date": "2026-08-28",
+          "price": 340.0
+        },
+        {
+          "date": "2026-08-30",
+          "price": 296.0
+        },
+        {
+          "date": "2026-09-11",
+          "price": 305.0
+        },
+        {
+          "date": "2026-09-15",
+          "price": 330.0
+        },
+        {
+          "date": "2026-09-17",
+          "price": 334.99
+        },
+        {
+          "date": "2026-09-20",
+          "price": 524.76
+        }
+      ],
+      "sales_count_90d": 20,
+      "sales_count_30d": 6,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/571791_in_200x200.jpg"
     },
     {
       "character": "メタグロス",
@@ -10818,6 +11541,81 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/591881_in_200x200.jpg"
     },
     {
+      "character": "ゼクロム",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Zekrom",
+      "set_name": "CP2: Legendary Shine Collection",
+      "rarity": "Rare",
+      "yen_increase_30d": 32919,
+      "checked_date": "2026-09-28",
+      "old_price": 750.0,
+      "new_price": 799.99,
+      "change_pct": 6.7,
+      "change_pct_30d": 37.8,
+      "old_price_30d": 580.53,
+      "old_date_30d": "2026-08-29",
+      "old_date": "2026-06-27",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-27",
+          "price": 750.0
+        },
+        {
+          "date": "2026-07-17",
+          "price": 750.0
+        },
+        {
+          "date": "2026-07-26",
+          "price": 686.75
+        },
+        {
+          "date": "2026-08-02",
+          "price": 702.75
+        },
+        {
+          "date": "2026-08-17",
+          "price": 799.9
+        },
+        {
+          "date": "2026-08-27",
+          "price": 749.99
+        },
+        {
+          "date": "2026-08-29",
+          "price": 580.53
+        },
+        {
+          "date": "2026-08-30",
+          "price": 735.0
+        },
+        {
+          "date": "2026-09-10",
+          "price": 730.0
+        },
+        {
+          "date": "2026-09-11",
+          "price": 750.0
+        },
+        {
+          "date": "2026-09-13",
+          "price": 647.0
+        },
+        {
+          "date": "2026-09-14",
+          "price": 800.0
+        },
+        {
+          "date": "2026-09-20",
+          "price": 799.99
+        }
+      ],
+      "sales_count_90d": 12,
+      "sales_count_30d": 7,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605354_in_200x200.jpg"
+    },
+    {
       "character": "アンノーン（F）",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -10881,67 +11679,86 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90196_in_200x200.jpg"
     },
     {
-      "character": "サーナイト",
+      "character": "ディアルガ",
       "market": "日本版",
       "market_key": "japan",
-      "card_name": "Gardevoir",
-      "set_name": "Shiny Collection",
-      "rarity": "Uncommon",
-      "yen_increase_30d": 13425,
-      "checked_date": "2026-09-25",
-      "old_price": 300.0,
-      "new_price": 330.0,
-      "change_pct": 10.0,
-      "change_pct_30d": 37.2,
-      "old_price_30d": 240.5,
-      "old_date_30d": "2026-08-25",
-      "old_date": "2026-07-12",
+      "card_name": "Dialga G",
+      "set_name": "Pt1: Galactic's Conquest",
+      "rarity": "Holo Rare",
+      "yen_increase_30d": 22500,
+      "checked_date": "2026-09-28",
+      "old_price": 400.0,
+      "new_price": 550.0,
+      "change_pct": 37.5,
+      "change_pct_30d": 37.5,
+      "old_price_30d": 400.0,
+      "old_date_30d": "2026-08-29",
+      "old_date": "2026-08-29",
       "trend": "spike",
       "chart": [
         {
-          "date": "2026-07-12",
-          "price": 300.0
+          "date": "2026-08-29",
+          "price": 400.0
         },
         {
-          "date": "2026-07-18",
-          "price": 329.99
+          "date": "2026-09-22",
+          "price": 1067.68
         },
         {
-          "date": "2026-07-28",
-          "price": 284.99
-        },
-        {
-          "date": "2026-08-03",
-          "price": 299.99
-        },
-        {
-          "date": "2026-08-20",
-          "price": 272.0
-        },
-        {
-          "date": "2026-08-25",
-          "price": 240.5
-        },
-        {
-          "date": "2026-09-08",
-          "price": 219.5
-        },
-        {
-          "date": "2026-09-10",
-          "price": 300.0
-        },
-        {
-          "date": "2026-09-11",
-          "price": 525.0
-        },
-        {
-          "date": "2026-09-16",
-          "price": 330.0
+          "date": "2026-09-24",
+          "price": 550.0
         }
       ],
-      "sales_count_90d": 11,
-      "sales_count_30d": 5,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602858_in_200x200.jpg"
+      "sales_count_90d": 3,
+      "sales_count_30d": 3,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607053_in_200x200.jpg"
+    },
+    {
+      "character": "カイオーガ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Kyogre ex",
+      "set_name": "Undone Seal",
+      "rarity": "Holo Rare",
+      "yen_increase_30d": 88200,
+      "checked_date": "2026-09-28",
+      "old_price": 1425.0,
+      "new_price": 2188.0,
+      "change_pct": 53.5,
+      "change_pct_30d": 36.8,
+      "old_price_30d": 1600.0,
+      "old_date_30d": "2026-07-17",
+      "old_date": "2026-06-28",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-06-28",
+          "price": 1425.0
+        },
+        {
+          "date": "2026-07-12",
+          "price": 1098.0
+        },
+        {
+          "date": "2026-07-17",
+          "price": 1600.0
+        },
+        {
+          "date": "2026-09-03",
+          "price": 1925.0
+        },
+        {
+          "date": "2026-09-20",
+          "price": 1954.23
+        },
+        {
+          "date": "2026-09-25",
+          "price": 2188.0
+        }
+      ],
+      "sales_count_90d": 5,
+      "sales_count_30d": 3,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/612536_in_200x200.jpg"
     },
     {
       "character": "リオル",
@@ -11474,7 +12291,7 @@
       "set_name": "CP4: Premium Champion Pack",
       "rarity": "None",
       "yen_increase_30d": 33651,
-      "checked_date": "2026-09-25",
+      "checked_date": "2026-09-28",
       "old_price": 619.5,
       "new_price": 925.34,
       "change_pct": 49.4,
@@ -11533,7 +12350,7 @@
       "set_name": "SM: The Best of XY",
       "rarity": "None",
       "yen_increase_30d": 4585,
-      "checked_date": "2026-09-25",
+      "checked_date": "2026-09-28",
       "old_price": 96.0,
       "new_price": 126.57,
       "change_pct": 31.8,
