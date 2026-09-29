@@ -1054,7 +1054,7 @@
     "set_name": "Neo Destiny",
     "rarity": "Common",
     "yen_increase": 38625,
-    "checked_date": "2026-09-26",
+    "checked_date": "2026-09-29",
     "old_price": 222.5,
     "new_price": 480.0,
     "change_pct": 115.7,
@@ -3477,7 +3477,7 @@
     "set_name": "DP4: Dawn Dash",
     "rarity": "Holo Rare",
     "yen_increase": 52125,
-    "checked_date": "2026-09-26",
+    "checked_date": "2026-09-29",
     "old_price": 202.5,
     "new_price": 550.0,
     "change_pct": 171.6,
@@ -6615,5 +6615,135 @@
     "sales_count_90d": 5,
     "sales_count_30d": 5,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602845_in_200x200.jpg"
+  },
+  "タブンネ|overseas": {
+    "character": "タブンネ",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "M Audino EX",
+    "set_name": "XY - Fates Collide",
+    "rarity": "Ultra Rare",
+    "yen_increase": 31500,
+    "checked_date": "2026-09-29",
+    "old_price": 190.0,
+    "new_price": 400.0,
+    "change_pct": 110.5,
+    "change_pct_30d": 125.4,
+    "old_price_30d": 177.5,
+    "old_date_30d": "2026-08-09",
+    "old_date": "2026-07-26",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-26",
+        "price": 190.0
+      },
+      {
+        "date": "2026-07-27",
+        "price": 155.5
+      },
+      {
+        "date": "2026-08-09",
+        "price": 177.5
+      },
+      {
+        "date": "2026-09-01",
+        "price": 142.5
+      },
+      {
+        "date": "2026-09-12",
+        "price": 400.0
+      }
+    ],
+    "sales_count_90d": 5,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/117516_in_200x200.jpg"
+  },
+  "マイナン|overseas": {
+    "character": "マイナン",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Minun - 194/182",
+    "set_name": "SV04: Paradox Rift",
+    "rarity": "Illustration Rare",
+    "yen_increase": 30750,
+    "checked_date": "2026-09-29",
+    "old_price": 95.0,
+    "new_price": 300.0,
+    "change_pct": 215.8,
+    "change_pct_30d": -5.1,
+    "old_price_30d": 316.0,
+    "old_date_30d": "2026-08-21",
+    "old_date": "2026-06-30",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-06-28",
+        "price": 265.0
+      },
+      {
+        "date": "2026-06-29",
+        "price": 300.0
+      },
+      {
+        "date": "2026-06-30",
+        "price": 95.0
+      },
+      {
+        "date": "2026-07-02",
+        "price": 330.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 242.5
+      },
+      {
+        "date": "2026-07-12",
+        "price": 223.0
+      },
+      {
+        "date": "2026-07-31",
+        "price": 299.99
+      },
+      {
+        "date": "2026-08-02",
+        "price": 310.0
+      },
+      {
+        "date": "2026-08-03",
+        "price": 350.0
+      },
+      {
+        "date": "2026-08-09",
+        "price": 223.95
+      },
+      {
+        "date": "2026-08-11",
+        "price": 299.99
+      },
+      {
+        "date": "2026-08-16",
+        "price": 298.97
+      },
+      {
+        "date": "2026-08-18",
+        "price": 247.5
+      },
+      {
+        "date": "2026-08-21",
+        "price": 316.0
+      },
+      {
+        "date": "2026-09-07",
+        "price": 325.0
+      },
+      {
+        "date": "2026-09-13",
+        "price": 300.0
+      }
+    ],
+    "sales_count_90d": 15,
+    "sales_count_30d": 3,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/523875_in_200x200.jpg"
   }
 }
