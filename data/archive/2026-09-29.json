@@ -9,7 +9,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 60,
+  "checked_characters": 80,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -3803,53 +3803,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566533_in_200x200.jpg"
     },
     {
-      "character": "クマシュン",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Cubchoo - 109/086",
-      "set_name": "SV: Black Bolt",
-      "rarity": "Illustration Rare",
-      "yen_increase": 45000,
-      "checked_date": "2026-09-26",
-      "old_price": 150.0,
-      "new_price": 450.0,
-      "change_pct": 200.0,
-      "change_pct_30d": 66.7,
-      "old_price_30d": 270.0,
-      "old_date_30d": "2026-08-23",
-      "old_date": "2026-07-09",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-07-09",
-          "price": 150.0
-        },
-        {
-          "date": "2026-08-02",
-          "price": 325.0
-        },
-        {
-          "date": "2026-08-22",
-          "price": 349.99
-        },
-        {
-          "date": "2026-08-23",
-          "price": 270.0
-        },
-        {
-          "date": "2026-09-04",
-          "price": 325.0
-        },
-        {
-          "date": "2026-09-20",
-          "price": 450.0
-        }
-      ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 2,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642562_in_200x200.jpg"
-    },
-    {
       "character": "ヨノワール",
       "market": "日本版",
       "market_key": "japan",
@@ -5199,7 +5152,7 @@
       "set_name": "XY6: Emerald Break",
       "rarity": "Common",
       "yen_increase": 17098,
-      "checked_date": "2026-09-26",
+      "checked_date": "2026-09-29",
       "old_price": 86.0,
       "new_price": 199.99,
       "change_pct": 132.5,
@@ -6225,6 +6178,57 @@
       "sales_count_90d": 31,
       "sales_count_30d": 31,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/601907_in_200x200.jpg"
+    },
+    {
+      "character": "クマシュン",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Cubchoo - 109/086",
+      "set_name": "SV: Black Bolt",
+      "rarity": "Illustration Rare",
+      "yen_increase": 25089,
+      "checked_date": "2026-09-29",
+      "old_price": 150.0,
+      "new_price": 317.26,
+      "change_pct": 111.5,
+      "change_pct_30d": 17.5,
+      "old_price_30d": 270.0,
+      "old_date_30d": "2026-08-23",
+      "old_date": "2026-07-09",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-09",
+          "price": 150.0
+        },
+        {
+          "date": "2026-08-02",
+          "price": 325.0
+        },
+        {
+          "date": "2026-08-22",
+          "price": 349.99
+        },
+        {
+          "date": "2026-08-23",
+          "price": 270.0
+        },
+        {
+          "date": "2026-09-04",
+          "price": 325.0
+        },
+        {
+          "date": "2026-09-20",
+          "price": 450.0
+        },
+        {
+          "date": "2026-09-22",
+          "price": 317.26
+        }
+      ],
+      "sales_count_90d": 7,
+      "sales_count_30d": 3,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642562_in_200x200.jpg"
     },
     {
       "character": "タブンネ",
@@ -7627,7 +7631,7 @@
       "set_name": "SM - Cosmic Eclipse",
       "rarity": "Ultra Rare",
       "yen_increase_30d": 217566,
-      "checked_date": "2026-09-26",
+      "checked_date": "2026-09-29",
       "old_price": 1200.0,
       "new_price": 1589.44,
       "change_pct": 32.5,
@@ -7654,7 +7658,7 @@
           "price": 1589.44
         }
       ],
-      "sales_count_90d": 6,
+      "sales_count_90d": 5,
       "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/201286_in_200x200.jpg"
     },
@@ -12309,53 +12313,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/101449_in_200x200.jpg"
     },
     {
-      "character": "マリル",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Marill",
-      "set_name": "WoTC Promo",
-      "rarity": "Promo",
-      "yen_increase_30d": 13590,
-      "checked_date": "2026-09-26",
-      "old_price": 289.0,
-      "new_price": 320.0,
-      "change_pct": 10.7,
-      "change_pct_30d": 39.5,
-      "old_price_30d": 229.4,
-      "old_date_30d": "2026-08-11",
-      "old_date": "2026-08-09",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-08-09",
-          "price": 289.0
-        },
-        {
-          "date": "2026-08-11",
-          "price": 229.4
-        },
-        {
-          "date": "2026-08-30",
-          "price": 307.5
-        },
-        {
-          "date": "2026-09-03",
-          "price": 399.0
-        },
-        {
-          "date": "2026-09-04",
-          "price": 321.28
-        },
-        {
-          "date": "2026-09-10",
-          "price": 320.0
-        }
-      ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 4,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/87211_in_200x200.jpg"
-    },
-    {
       "character": "ゾロアーク",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -12728,7 +12685,7 @@
       "set_name": "Neo Discovery",
       "rarity": "Holo Rare",
       "yen_increase_30d": 36300,
-      "checked_date": "2026-09-26",
+      "checked_date": "2026-09-29",
       "old_price": 1800.0,
       "new_price": 885.0,
       "change_pct": -50.8,
@@ -12738,10 +12695,6 @@
       "old_date": "2026-06-28",
       "trend": "unknown",
       "chart": [
-        {
-          "date": "2026-06-21",
-          "price": 2025.0
-        },
         {
           "date": "2026-06-28",
           "price": 1800.0
@@ -12779,7 +12732,7 @@
           "price": 885.0
         }
       ],
-      "sales_count_90d": 11,
+      "sales_count_90d": 10,
       "sales_count_30d": 7,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90196_in_200x200.jpg"
     },
