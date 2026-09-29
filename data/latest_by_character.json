@@ -7,14 +7,14 @@
     "set_name": "DPt-P Promotional cards",
     "rarity": "None",
     "yen_increase": 90002,
-    "checked_date": "2026-09-26",
+    "checked_date": "2026-09-29",
     "old_price": 99.99,
     "new_price": 700.0,
     "change_pct": 600.1,
     "change_pct_30d": 0.0,
     "old_price_30d": 700.0,
     "old_date_30d": "2026-07-14",
-    "old_date": "2026-06-23",
+    "old_date": "2026-06-30",
     "trend": "mixed",
     "chart": [
       {
@@ -38,7 +38,7 @@
         "price": 700.0
       }
     ],
-    "sales_count_90d": 6,
+    "sales_count_90d": 5,
     "sales_count_30d": 0,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613244_in_200x200.jpg"
   },
@@ -990,57 +990,6 @@
     "sales_count_90d": 8,
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86744_in_200x200.jpg"
-  },
-  "チルタリス|overseas": {
-    "character": "チルタリス",
-    "market": "海外(英語版)",
-    "market_key": "overseas",
-    "card_name": "Altaria",
-    "set_name": "Hidden Fates: Shiny Vault",
-    "rarity": "Shiny Holo Rare",
-    "yen_increase": 18748,
-    "checked_date": "2026-09-26",
-    "old_price": 65.0,
-    "new_price": 189.99,
-    "change_pct": 192.3,
-    "change_pct_30d": 245.5,
-    "old_price_30d": 54.99,
-    "old_date_30d": "2026-08-15",
-    "old_date": "2026-06-27",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-06-26",
-        "price": 52.0
-      },
-      {
-        "date": "2026-06-27",
-        "price": 65.0
-      },
-      {
-        "date": "2026-07-02",
-        "price": 70.0
-      },
-      {
-        "date": "2026-07-08",
-        "price": 55.99
-      },
-      {
-        "date": "2026-07-18",
-        "price": 79.0
-      },
-      {
-        "date": "2026-08-15",
-        "price": 54.99
-      },
-      {
-        "date": "2026-09-04",
-        "price": 189.99
-      }
-    ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 1,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/197804_in_200x200.jpg"
   },
   "フシギバナ|overseas": {
     "character": "フシギバナ",
@@ -2330,7 +2279,7 @@
     "set_name": "Expedition",
     "rarity": "Common",
     "yen_increase": 198742,
-    "checked_date": "2026-09-26",
+    "checked_date": "2026-09-29",
     "old_price": 801.0,
     "new_price": 2125.95,
     "change_pct": 165.4,
@@ -3231,7 +3180,7 @@
     "set_name": "Neo Destiny",
     "rarity": "Uncommon",
     "yen_increase": 264000,
-    "checked_date": "2026-09-26",
+    "checked_date": "2026-09-29",
     "old_price": 840.0,
     "new_price": 2600.0,
     "change_pct": 209.5,
@@ -6691,5 +6640,48 @@
     "sales_count_90d": 5,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85286_in_200x200.jpg"
+  },
+  "エンペルト|japan": {
+    "character": "エンペルト",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Empoleon",
+    "set_name": "Entry Pack",
+    "rarity": "None",
+    "yen_increase": 98925,
+    "checked_date": "2026-09-29",
+    "old_price": 55.0,
+    "new_price": 714.5,
+    "change_pct": 1199.1,
+    "change_pct_30d": 126.8,
+    "old_price_30d": 315.0,
+    "old_date_30d": "2026-08-30",
+    "old_date": "2026-08-25",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-08-25",
+        "price": 55.0
+      },
+      {
+        "date": "2026-08-30",
+        "price": 315.0
+      },
+      {
+        "date": "2026-09-05",
+        "price": 100.0
+      },
+      {
+        "date": "2026-09-08",
+        "price": 325.0
+      },
+      {
+        "date": "2026-09-27",
+        "price": 714.5
+      }
+    ],
+    "sales_count_90d": 7,
+    "sales_count_30d": 6,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609224_in_200x200.jpg"
   }
 }
