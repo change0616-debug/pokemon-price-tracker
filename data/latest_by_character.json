@@ -1089,45 +1089,6 @@
     "sales_count_30d": 0,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90433_in_200x200.jpg"
   },
-  "ツボツボ|japan": {
-    "character": "ツボツボ",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Shuckle",
-    "set_name": "XY10: Awakening Psychic King",
-    "rarity": "Common",
-    "yen_increase": 99758,
-    "checked_date": "2026-09-27",
-    "old_price": 280.0,
-    "new_price": 945.05,
-    "change_pct": 237.5,
-    "change_pct_30d": 423.6,
-    "old_price_30d": 180.5,
-    "old_date_30d": "2026-08-23",
-    "old_date": "2026-06-24",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-06-24",
-        "price": 280.0
-      },
-      {
-        "date": "2026-08-23",
-        "price": 180.5
-      },
-      {
-        "date": "2026-09-03",
-        "price": 169.0
-      },
-      {
-        "date": "2026-09-13",
-        "price": 945.05
-      }
-    ],
-    "sales_count_90d": 6,
-    "sales_count_30d": 3,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602885_in_200x200.jpg"
-  },
   "ベトベトン|overseas": {
     "character": "ベトベトン",
     "market": "海外(英語版)",
@@ -2218,57 +2179,6 @@
     "sales_count_90d": 6,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89487_in_200x200.jpg"
-  },
-  "フーディン|japan": {
-    "character": "フーディン",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Alakazam ex - 190/165",
-    "set_name": "SV2a: Pokemon Card 151",
-    "rarity": "Super Rare",
-    "yen_increase": 7573,
-    "checked_date": "2026-09-27",
-    "old_price": 24.5,
-    "new_price": 74.99,
-    "change_pct": 206.1,
-    "change_pct_30d": 66.6,
-    "old_price_30d": 45.0,
-    "old_date_30d": "2026-08-23",
-    "old_date": "2026-06-26",
-    "trend": "mixed",
-    "chart": [
-      {
-        "date": "2026-06-26",
-        "price": 24.5
-      },
-      {
-        "date": "2026-07-09",
-        "price": 40.0
-      },
-      {
-        "date": "2026-07-11",
-        "price": 55.0
-      },
-      {
-        "date": "2026-07-31",
-        "price": 122.0
-      },
-      {
-        "date": "2026-08-18",
-        "price": 59.99
-      },
-      {
-        "date": "2026-08-23",
-        "price": 45.0
-      },
-      {
-        "date": "2026-09-04",
-        "price": 74.99
-      }
-    ],
-    "sales_count_90d": 7,
-    "sales_count_30d": 1,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566533_in_200x200.jpg"
   },
   "バタフリー|overseas": {
     "character": "バタフリー",
@@ -7030,5 +6940,72 @@
     "sales_count_90d": 5,
     "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/618740_in_200x200.jpg"
+  },
+  "ヤドラン|overseas": {
+    "character": "ヤドラン",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Slowbro EX",
+    "set_name": "XY - Evolutions",
+    "rarity": "Ultra Rare",
+    "yen_increase": 9444,
+    "checked_date": "2026-09-30",
+    "old_price": 62.04,
+    "new_price": 125.0,
+    "change_pct": 101.5,
+    "change_pct_30d": 89.4,
+    "old_price_30d": 65.99,
+    "old_date_30d": "2026-08-28",
+    "old_date": "2026-07-01",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-06-25",
+        "price": 69.99
+      },
+      {
+        "date": "2026-07-01",
+        "price": 62.04
+      },
+      {
+        "date": "2026-07-18",
+        "price": 80.0
+      },
+      {
+        "date": "2026-07-27",
+        "price": 69.99
+      },
+      {
+        "date": "2026-08-13",
+        "price": 100.0
+      },
+      {
+        "date": "2026-08-27",
+        "price": 75.0
+      },
+      {
+        "date": "2026-08-28",
+        "price": 65.99
+      },
+      {
+        "date": "2026-09-05",
+        "price": 100.0
+      },
+      {
+        "date": "2026-09-08",
+        "price": 349.95
+      },
+      {
+        "date": "2026-09-11",
+        "price": 100.0
+      },
+      {
+        "date": "2026-09-13",
+        "price": 125.0
+      }
+    ],
+    "sales_count_90d": 10,
+    "sales_count_30d": 5,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/124039_in_200x200.jpg"
   }
 }
