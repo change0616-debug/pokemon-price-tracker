@@ -7,7 +7,7 @@
     "set_name": "DPt-P Promotional cards",
     "rarity": "None",
     "yen_increase": 90002,
-    "checked_date": "2026-09-29",
+    "checked_date": "2026-10-02",
     "old_price": 99.99,
     "new_price": 700.0,
     "change_pct": 600.1,
@@ -17,10 +17,6 @@
     "old_date": "2026-06-30",
     "trend": "mixed",
     "chart": [
-      {
-        "date": "2026-06-23",
-        "price": 99.99
-      },
       {
         "date": "2026-06-30",
         "price": 99.99
@@ -1439,13 +1435,13 @@
     "set_name": "Expedition",
     "rarity": "Common",
     "yen_increase": 198742,
-    "checked_date": "2026-09-29",
+    "checked_date": "2026-10-02",
     "old_price": 801.0,
     "new_price": 2125.95,
     "change_pct": 165.4,
-    "change_pct_30d": 42.2,
-    "old_price_30d": 1495.0,
-    "old_date_30d": "2026-08-23",
+    "change_pct_30d": 42.3,
+    "old_price_30d": 1494.0,
+    "old_date_30d": "2026-08-31",
     "old_date": "2026-07-12",
     "trend": "mixed",
     "chart": [
@@ -1475,7 +1471,7 @@
       }
     ],
     "sales_count_90d": 6,
-    "sales_count_30d": 3,
+    "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89487_in_200x200.jpg"
   },
   "バタフリー|overseas": {
@@ -2176,69 +2172,6 @@
     "sales_count_90d": 58,
     "sales_count_30d": 8,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644833_in_200x200.jpg"
-  },
-  "サンダース|overseas": {
-    "character": "サンダース",
-    "market": "海外(英語版)",
-    "market_key": "overseas",
-    "card_name": "Light Jolteon",
-    "set_name": "Neo Destiny",
-    "rarity": "Uncommon",
-    "yen_increase": 264000,
-    "checked_date": "2026-09-29",
-    "old_price": 840.0,
-    "new_price": 2600.0,
-    "change_pct": 209.5,
-    "change_pct_30d": 160.0,
-    "old_price_30d": 1000.0,
-    "old_date_30d": "2026-08-21",
-    "old_date": "2026-06-25",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-06-25",
-        "price": 840.0
-      },
-      {
-        "date": "2026-07-14",
-        "price": 770.0
-      },
-      {
-        "date": "2026-07-15",
-        "price": 2225.0
-      },
-      {
-        "date": "2026-07-26",
-        "price": 635.0
-      },
-      {
-        "date": "2026-07-29",
-        "price": 2200.0
-      },
-      {
-        "date": "2026-08-19",
-        "price": 2025.0
-      },
-      {
-        "date": "2026-08-21",
-        "price": 1000.0
-      },
-      {
-        "date": "2026-09-15",
-        "price": 1249.0
-      },
-      {
-        "date": "2026-09-22",
-        "price": 2488.62
-      },
-      {
-        "date": "2026-09-23",
-        "price": 2600.0
-      }
-    ],
-    "sales_count_90d": 9,
-    "sales_count_30d": 3,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86741_in_200x200.jpg"
   },
   "ガルーラ|japan": {
     "character": "ガルーラ",
@@ -3944,7 +3877,7 @@
     "set_name": "Entry Pack",
     "rarity": "None",
     "yen_increase": 98925,
-    "checked_date": "2026-09-29",
+    "checked_date": "2026-10-02",
     "old_price": 55.0,
     "new_price": 714.5,
     "change_pct": 1199.1,
@@ -3976,7 +3909,7 @@
       }
     ],
     "sales_count_90d": 7,
-    "sales_count_30d": 6,
+    "sales_count_30d": 5,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609224_in_200x200.jpg"
   },
   "フシギバナ|japan": {
@@ -6889,5 +6822,56 @@
     "sales_count_90d": 25,
     "sales_count_30d": 7,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/523895_in_200x200.jpg"
+  },
+  "シャワーズ|overseas": {
+    "character": "シャワーズ",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Dark Vaporeon",
+    "set_name": "Team Rocket",
+    "rarity": "Uncommon",
+    "yen_increase": 105150,
+    "checked_date": "2026-10-02",
+    "old_price": 299.0,
+    "new_price": 1000.0,
+    "change_pct": 234.4,
+    "change_pct_30d": 25.0,
+    "old_price_30d": 799.99,
+    "old_date_30d": "2026-09-01",
+    "old_date": "2026-07-02",
+    "trend": "sustained",
+    "chart": [
+      {
+        "date": "2026-07-02",
+        "price": 299.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 29.43
+      },
+      {
+        "date": "2026-07-26",
+        "price": 705.0
+      },
+      {
+        "date": "2026-08-02",
+        "price": 516.96
+      },
+      {
+        "date": "2026-08-29",
+        "price": 400.0
+      },
+      {
+        "date": "2026-09-01",
+        "price": 799.99
+      },
+      {
+        "date": "2026-09-16",
+        "price": 1000.0
+      }
+    ],
+    "sales_count_90d": 6,
+    "sales_count_30d": 1,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84665_in_200x200.jpg"
   }
 }
