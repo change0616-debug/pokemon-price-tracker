@@ -164,7 +164,7 @@
     "set_name": "Undone Seal",
     "rarity": "Holo Rare",
     "yen_increase": 315750,
-    "checked_date": "2026-09-30",
+    "checked_date": "2026-10-03",
     "old_price": 395.0,
     "new_price": 2500.0,
     "change_pct": 532.9,
@@ -604,15 +604,15 @@
     "set_name": "SV: White Flare",
     "rarity": "Illustration Rare",
     "yen_increase": 91050,
-    "checked_date": "2026-09-30",
+    "checked_date": "2026-10-03",
     "old_price": 393.0,
     "new_price": 1000.0,
     "change_pct": 154.5,
-    "change_pct_30d": 86.6,
-    "old_price_30d": 535.95,
-    "old_date_30d": "2026-08-13",
+    "change_pct_30d": 0.0,
+    "old_price_30d": 1000.0,
+    "old_date_30d": "2026-09-02",
     "old_date": "2026-07-12",
-    "trend": "spike",
+    "trend": "mixed",
     "chart": [
       {
         "date": "2026-07-12",
@@ -633,9 +633,13 @@
       {
         "date": "2026-09-02",
         "price": 1000.0
+      },
+      {
+        "date": "2026-09-26",
+        "price": 1000.0
       }
     ],
-    "sales_count_90d": 5,
+    "sales_count_90d": 6,
     "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642549_in_200x200.jpg"
   },
@@ -847,7 +851,7 @@
     "set_name": "SM - Unbroken Bonds",
     "rarity": "Ultra Rare",
     "yen_increase": 61500,
-    "checked_date": "2026-09-30",
+    "checked_date": "2026-10-03",
     "old_price": 15.0,
     "new_price": 425.0,
     "change_pct": 2733.3,
@@ -1328,57 +1332,6 @@
     "sales_count_90d": 8,
     "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648637_in_200x200.jpg"
-  },
-  "ポリゴン2|japan": {
-    "character": "ポリゴン2",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Porygon-Z",
-    "set_name": "DP4: Moonlit Pursuit",
-    "rarity": "Holo Rare",
-    "yen_increase": 34401,
-    "checked_date": "2026-09-30",
-    "old_price": 117.5,
-    "new_price": 346.84,
-    "change_pct": 195.2,
-    "change_pct_30d": -13.3,
-    "old_price_30d": 399.99,
-    "old_date_30d": "2026-08-31",
-    "old_date": "2026-06-23",
-    "trend": "mixed",
-    "chart": [
-      {
-        "date": "2026-06-23",
-        "price": 117.5
-      },
-      {
-        "date": "2026-07-17",
-        "price": 275.0
-      },
-      {
-        "date": "2026-07-25",
-        "price": 299.99
-      },
-      {
-        "date": "2026-08-08",
-        "price": 180.0
-      },
-      {
-        "date": "2026-08-31",
-        "price": 399.99
-      },
-      {
-        "date": "2026-09-06",
-        "price": 213.5
-      },
-      {
-        "date": "2026-09-19",
-        "price": 346.84
-      }
-    ],
-    "sales_count_90d": 6,
-    "sales_count_30d": 3,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606782_in_200x200.jpg"
   },
   "ゼニガメ|overseas": {
     "character": "ゼニガメ",
@@ -7275,5 +7228,171 @@
     "sales_count_90d": 36,
     "sales_count_30d": 11,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/198534_in_200x200.jpg"
+  },
+  "ポリゴン2|overseas": {
+    "character": "ポリゴン2",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Porygon-Z - 214/182",
+    "set_name": "SV04: Paradox Rift",
+    "rarity": "Illustration Rare",
+    "yen_increase": 279300,
+    "checked_date": "2026-10-03",
+    "old_price": 128.0,
+    "new_price": 1990.0,
+    "change_pct": 1454.7,
+    "change_pct_30d": 1037.2,
+    "old_price_30d": 174.99,
+    "old_date_30d": "2026-08-31",
+    "old_date": "2026-07-03",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-06-28",
+        "price": 138.5
+      },
+      {
+        "date": "2026-07-02",
+        "price": 129.99
+      },
+      {
+        "date": "2026-07-03",
+        "price": 128.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 155.0
+      },
+      {
+        "date": "2026-07-07",
+        "price": 169.5
+      },
+      {
+        "date": "2026-07-09",
+        "price": 125.89
+      },
+      {
+        "date": "2026-07-13",
+        "price": 120.0
+      },
+      {
+        "date": "2026-07-25",
+        "price": 138.5
+      },
+      {
+        "date": "2026-07-31",
+        "price": 199.0
+      },
+      {
+        "date": "2026-08-03",
+        "price": 137.5
+      },
+      {
+        "date": "2026-08-04",
+        "price": 130.0
+      },
+      {
+        "date": "2026-08-06",
+        "price": 135.07
+      },
+      {
+        "date": "2026-08-16",
+        "price": 135.38
+      },
+      {
+        "date": "2026-08-20",
+        "price": 135.0
+      },
+      {
+        "date": "2026-08-23",
+        "price": 135.5
+      },
+      {
+        "date": "2026-08-26",
+        "price": 139.99
+      },
+      {
+        "date": "2026-08-28",
+        "price": 157.5
+      },
+      {
+        "date": "2026-08-31",
+        "price": 174.99
+      },
+      {
+        "date": "2026-09-07",
+        "price": 200.0
+      },
+      {
+        "date": "2026-09-10",
+        "price": 149.99
+      },
+      {
+        "date": "2026-09-12",
+        "price": 135.25
+      },
+      {
+        "date": "2026-09-17",
+        "price": 152.5
+      },
+      {
+        "date": "2026-09-25",
+        "price": 152.5
+      },
+      {
+        "date": "2026-09-27",
+        "price": 119.75
+      },
+      {
+        "date": "2026-09-28",
+        "price": 1990.0
+      }
+    ],
+    "sales_count_90d": 23,
+    "sales_count_30d": 7,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/523895_in_200x200.jpg"
+  },
+  "プテラ|overseas": {
+    "character": "プテラ",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Aerodactyl",
+    "set_name": "Neo Revelation",
+    "rarity": "Rare",
+    "yen_increase": 54300,
+    "checked_date": "2026-10-03",
+    "old_price": 127.0,
+    "new_price": 489.0,
+    "change_pct": 285.0,
+    "change_pct_30d": 212.5,
+    "old_price_30d": 156.5,
+    "old_date_30d": "2026-08-23",
+    "old_date": "2026-07-05",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-05",
+        "price": 127.0
+      },
+      {
+        "date": "2026-08-16",
+        "price": 134.95
+      },
+      {
+        "date": "2026-08-23",
+        "price": 156.5
+      },
+      {
+        "date": "2026-09-10",
+        "price": 430.0
+      },
+      {
+        "date": "2026-09-27",
+        "price": 489.0
+      }
+    ],
+    "sales_count_90d": 5,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83466_in_200x200.jpg"
   }
 }
