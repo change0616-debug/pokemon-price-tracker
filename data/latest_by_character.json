@@ -207,45 +207,6 @@
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/612537_in_200x200.jpg"
   },
-  "スターミー|japan": {
-    "character": "スターミー",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Starmie",
-    "set_name": "SM4S: Awakened Heroes",
-    "rarity": "Uncommon",
-    "yen_increase": 21898,
-    "checked_date": "2026-09-30",
-    "old_price": 129.0,
-    "new_price": 274.99,
-    "change_pct": 113.2,
-    "change_pct_30d": 0.0,
-    "old_price_30d": 274.99,
-    "old_date_30d": "2026-07-20",
-    "old_date": "2026-07-04",
-    "trend": "mixed",
-    "chart": [
-      {
-        "date": "2026-07-04",
-        "price": 129.0
-      },
-      {
-        "date": "2026-07-15",
-        "price": 44.6
-      },
-      {
-        "date": "2026-07-19",
-        "price": 229.25
-      },
-      {
-        "date": "2026-07-20",
-        "price": 274.99
-      }
-    ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 0,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/573002_in_200x200.jpg"
-  },
   "ジラーチ|overseas": {
     "character": "ジラーチ",
     "market": "海外(英語版)",
@@ -1434,12 +1395,12 @@
     "card_name": "Magneton",
     "set_name": "Mystery of the Fossils",
     "rarity": "Holo Rare",
-    "yen_increase": 32702,
-    "checked_date": "2026-09-30",
+    "yen_increase": 32608,
+    "checked_date": "2026-10-03",
     "old_price": 49.99,
-    "new_price": 268.0,
-    "change_pct": 436.1,
-    "change_pct_30d": 0.0,
+    "new_price": 267.38,
+    "change_pct": 434.9,
+    "change_pct_30d": -0.2,
     "old_price_30d": 268.0,
     "old_date_30d": "2026-07-17",
     "old_date": "2026-07-11",
@@ -1468,10 +1429,14 @@
       {
         "date": "2026-07-17",
         "price": 268.0
+      },
+      {
+        "date": "2026-09-27",
+        "price": 267.38
       }
     ],
-    "sales_count_90d": 11,
-    "sales_count_30d": 0,
+    "sales_count_90d": 12,
+    "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/575689_in_200x200.jpg"
   },
   "リザードン|overseas": {
@@ -2775,85 +2740,6 @@
     "sales_count_90d": 28,
     "sales_count_30d": 5,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/620104_in_200x200.jpg"
-  },
-  "レアコイル|overseas": {
-    "character": "レアコイル",
-    "market": "海外(英語版)",
-    "market_key": "overseas",
-    "card_name": "Magneton (26)",
-    "set_name": "Fossil",
-    "rarity": "Rare",
-    "yen_increase": 108750,
-    "checked_date": "2026-09-30",
-    "old_price": 475.0,
-    "new_price": 1200.0,
-    "change_pct": 152.6,
-    "change_pct_30d": 166.7,
-    "old_price_30d": 450.0,
-    "old_date_30d": "2026-08-28",
-    "old_date": "2026-06-27",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-06-25",
-        "price": 499.99
-      },
-      {
-        "date": "2026-06-27",
-        "price": 475.0
-      },
-      {
-        "date": "2026-07-08",
-        "price": 299.99
-      },
-      {
-        "date": "2026-07-09",
-        "price": 424.99
-      },
-      {
-        "date": "2026-07-23",
-        "price": 450.0
-      },
-      {
-        "date": "2026-07-28",
-        "price": 380.0
-      },
-      {
-        "date": "2026-08-01",
-        "price": 425.0
-      },
-      {
-        "date": "2026-08-03",
-        "price": 399.0
-      },
-      {
-        "date": "2026-08-07",
-        "price": 475.0
-      },
-      {
-        "date": "2026-08-17",
-        "price": 399.0
-      },
-      {
-        "date": "2026-08-21",
-        "price": 450.0
-      },
-      {
-        "date": "2026-08-28",
-        "price": 450.0
-      },
-      {
-        "date": "2026-09-08",
-        "price": 500.0
-      },
-      {
-        "date": "2026-09-25",
-        "price": 1200.0
-      }
-    ],
-    "sales_count_90d": 12,
-    "sales_count_30d": 2,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/106528_in_200x200.jpg"
   },
   "アルセウス|overseas": {
     "character": "アルセウス",
@@ -4688,20 +4574,16 @@
     "set_name": "Fossil",
     "rarity": "Common",
     "yen_increase": 33900,
-    "checked_date": "2026-09-30",
+    "checked_date": "2026-10-03",
     "old_price": 99.0,
     "new_price": 325.0,
     "change_pct": 228.3,
-    "change_pct_30d": 32.7,
-    "old_price_30d": 245.0,
-    "old_date_30d": "2026-08-30",
+    "change_pct_30d": 89.8,
+    "old_price_30d": 171.25,
+    "old_date_30d": "2026-09-02",
     "old_date": "2026-07-02",
-    "trend": "sustained",
+    "trend": "mixed",
     "chart": [
-      {
-        "date": "2026-06-23",
-        "price": 175.0
-      },
       {
         "date": "2026-07-01",
         "price": 89.99
@@ -4803,8 +4685,8 @@
         "price": 325.0
       }
     ],
-    "sales_count_90d": 30,
-    "sales_count_30d": 14,
+    "sales_count_90d": 29,
+    "sales_count_30d": 12,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44449_in_200x200.jpg"
   },
   "ミュウ|japan": {
