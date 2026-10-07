@@ -1049,15 +1049,19 @@
     "rarity": "None",
     "yen_increase_30d": 33651,
     "checked_date": "2026-10-07",
-    "old_price": 619.5,
+    "old_price": 700.0,
     "new_price": 925.34,
-    "change_pct": 49.4,
+    "change_pct": 32.2,
     "change_pct_30d": 32.0,
     "old_price_30d": 701.0,
     "old_date_30d": "2026-08-23",
-    "old_date": "2026-08-09",
+    "old_date": "2026-07-14",
     "trend": "spike",
     "chart": [
+      {
+        "date": "2026-07-14",
+        "price": 700.0
+      },
       {
         "date": "2026-08-09",
         "price": 619.5
@@ -1095,7 +1099,7 @@
         "price": 925.34
       }
     ],
-    "sales_count_90d": 10,
+    "sales_count_90d": 11,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605545_in_200x200.jpg"
   },
@@ -2969,12 +2973,12 @@
     "card_name": "Celebi",
     "set_name": "WoTC Promo",
     "rarity": "Promo",
-    "yen_increase_30d": 59725,
+    "yen_increase_30d": 70545,
     "checked_date": "2026-10-07",
     "old_price": 725.0,
-    "new_price": 1149.99,
-    "change_pct": 58.6,
-    "change_pct_30d": 53.0,
+    "new_price": 1222.12,
+    "change_pct": 68.6,
+    "change_pct_30d": 62.6,
     "old_price_30d": 751.82,
     "old_date_30d": "2026-08-30",
     "old_date": "2026-07-05",
@@ -3019,10 +3023,14 @@
       {
         "date": "2026-10-03",
         "price": 1149.99
+      },
+      {
+        "date": "2026-10-06",
+        "price": 1222.12
       }
     ],
-    "sales_count_90d": 10,
-    "sales_count_30d": 4,
+    "sales_count_90d": 11,
+    "sales_count_30d": 5,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84143_in_200x200.jpg"
   },
   "ジュカイン|overseas": {
@@ -5750,10 +5758,6 @@
     "trend": "unknown",
     "chart": [
       {
-        "date": "2026-06-29",
-        "price": 260.0
-      },
-      {
         "date": "2026-07-01",
         "price": 325.0
       },
@@ -5918,6 +5922,10 @@
         "price": 283.78
       },
       {
+        "date": "2026-09-28",
+        "price": 252.0
+      },
+      {
         "date": "2026-10-02",
         "price": 368.63
       },
@@ -5926,8 +5934,8 @@
         "price": 249.99
       }
     ],
-    "sales_count_90d": 67,
-    "sales_count_30d": 5,
+    "sales_count_90d": 68,
+    "sales_count_30d": 6,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/188409_in_200x200.jpg"
   },
   "レシラム|japan": {
@@ -5939,18 +5947,22 @@
     "rarity": "Super Rare",
     "yen_increase_30d": 43575,
     "checked_date": "2026-10-07",
-    "old_price": 415.0,
+    "old_price": 396.0,
     "new_price": 399.0,
-    "change_pct": -3.9,
+    "change_pct": 0.8,
     "change_pct_30d": 267.7,
     "old_price_30d": 108.5,
     "old_date_30d": "2026-09-07",
-    "old_date": "2026-07-26",
-    "trend": "unknown",
+    "old_date": "2026-07-13",
+    "trend": "spike",
     "chart": [
       {
+        "date": "2026-07-13",
+        "price": 396.0
+      },
+      {
         "date": "2026-07-26",
-        "price": 415.0
+        "price": 437.5
       },
       {
         "date": "2026-07-29",
@@ -5959,6 +5971,10 @@
       {
         "date": "2026-08-12",
         "price": 520.0
+      },
+      {
+        "date": "2026-08-17",
+        "price": 372.0
       },
       {
         "date": "2026-09-01",
@@ -5989,12 +6005,16 @@
         "price": 370.0
       },
       {
+        "date": "2026-09-30",
+        "price": 430.0
+      },
+      {
         "date": "2026-10-04",
         "price": 399.0
       }
     ],
-    "sales_count_90d": 11,
-    "sales_count_30d": 6,
+    "sales_count_90d": 15,
+    "sales_count_30d": 7,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/574922_in_200x200.jpg"
   },
   "シェイミ|overseas": {
@@ -6112,93 +6132,6 @@
     "sales_count_30d": 4,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/632985_in_200x200.jpg"
   },
-  "シェイミ|japan": {
-    "character": "シェイミ",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Shaymin LV.X",
-    "set_name": "PtS: Shaymin LV.X Collection Pack",
-    "rarity": "None",
-    "yen_increase_30d": 39002,
-    "checked_date": "2026-10-07",
-    "old_price": 553.51,
-    "new_price": 750.0,
-    "change_pct": 35.5,
-    "change_pct_30d": 53.1,
-    "old_price_30d": 489.99,
-    "old_date_30d": "2026-08-23",
-    "old_date": "2026-07-08",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-07-04",
-        "price": 460.0
-      },
-      {
-        "date": "2026-07-06",
-        "price": 449.0
-      },
-      {
-        "date": "2026-07-08",
-        "price": 553.51
-      },
-      {
-        "date": "2026-07-12",
-        "price": 910.0
-      },
-      {
-        "date": "2026-07-23",
-        "price": 455.0
-      },
-      {
-        "date": "2026-08-13",
-        "price": 500.0
-      },
-      {
-        "date": "2026-08-16",
-        "price": 455.0
-      },
-      {
-        "date": "2026-08-19",
-        "price": 577.97
-      },
-      {
-        "date": "2026-08-23",
-        "price": 489.99
-      },
-      {
-        "date": "2026-09-08",
-        "price": 435.73
-      },
-      {
-        "date": "2026-09-13",
-        "price": 489.99
-      },
-      {
-        "date": "2026-09-21",
-        "price": 485.0
-      },
-      {
-        "date": "2026-09-23",
-        "price": 634.16
-      },
-      {
-        "date": "2026-09-24",
-        "price": 435.01
-      },
-      {
-        "date": "2026-09-27",
-        "price": 537.5
-      },
-      {
-        "date": "2026-10-01",
-        "price": 750.0
-      }
-    ],
-    "sales_count_90d": 16,
-    "sales_count_30d": 9,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607941_in_200x200.jpg"
-  },
   "イベルタル|overseas": {
     "character": "イベルタル",
     "market": "海外(英語版)",
@@ -6228,6 +6161,10 @@
       {
         "date": "2026-07-07",
         "price": 6900.0
+      },
+      {
+        "date": "2026-07-27",
+        "price": 990.0
       },
       {
         "date": "2026-08-10",
@@ -6262,7 +6199,7 @@
         "price": 2000.0
       }
     ],
-    "sales_count_90d": 8,
+    "sales_count_90d": 9,
     "sales_count_30d": 4,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/121953_in_200x200.jpg"
   },
@@ -6386,18 +6323,22 @@
     "rarity": "Super Rare",
     "yen_increase_30d": 43575,
     "checked_date": "2026-10-07",
-    "old_price": 415.0,
+    "old_price": 396.0,
     "new_price": 399.0,
-    "change_pct": -3.9,
+    "change_pct": 0.8,
     "change_pct_30d": 267.7,
     "old_price_30d": 108.5,
     "old_date_30d": "2026-09-07",
-    "old_date": "2026-07-26",
-    "trend": "unknown",
+    "old_date": "2026-07-13",
+    "trend": "spike",
     "chart": [
       {
+        "date": "2026-07-13",
+        "price": 396.0
+      },
+      {
         "date": "2026-07-26",
-        "price": 415.0
+        "price": 437.5
       },
       {
         "date": "2026-07-29",
@@ -6406,6 +6347,10 @@
       {
         "date": "2026-08-12",
         "price": 520.0
+      },
+      {
+        "date": "2026-08-17",
+        "price": 372.0
       },
       {
         "date": "2026-09-01",
@@ -6436,12 +6381,16 @@
         "price": 370.0
       },
       {
+        "date": "2026-09-30",
+        "price": 430.0
+      },
+      {
         "date": "2026-10-04",
         "price": 399.0
       }
     ],
-    "sales_count_90d": 11,
-    "sales_count_30d": 6,
+    "sales_count_90d": 15,
+    "sales_count_30d": 7,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/574922_in_200x200.jpg"
   },
   "セレビィ|japan": {
@@ -6488,19 +6437,15 @@
     "rarity": "Rainbow Rare",
     "yen_increase_30d": 22608,
     "checked_date": "2026-10-07",
-    "old_price": 450.0,
+    "old_price": 395.0,
     "new_price": 574.82,
-    "change_pct": 27.7,
+    "change_pct": 45.5,
     "change_pct_30d": 35.5,
     "old_price_30d": 424.1,
     "old_date_30d": "2026-09-04",
-    "old_date": "2026-06-29",
+    "old_date": "2026-07-12",
     "trend": "spike",
     "chart": [
-      {
-        "date": "2026-06-29",
-        "price": 450.0
-      },
       {
         "date": "2026-07-12",
         "price": 395.0
