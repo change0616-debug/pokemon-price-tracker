@@ -1582,12 +1582,12 @@
     "card_name": "Leafeon VMAX - 089/069",
     "set_name": "S6a: Eevee Heroes",
     "rarity": "Hyper Rare",
-    "yen_increase": 87225,
+    "yen_increase": 43125,
     "checked_date": "2026-10-07",
     "old_price": 168.5,
-    "new_price": 750.0,
-    "change_pct": 345.1,
-    "change_pct_30d": 15.6,
+    "new_price": 456.0,
+    "change_pct": 170.6,
+    "change_pct_30d": -29.7,
     "old_price_30d": 649.0,
     "old_date_30d": "2026-08-19",
     "old_date": "2026-07-23",
@@ -1616,10 +1616,14 @@
       {
         "date": "2026-09-27",
         "price": 750.0
+      },
+      {
+        "date": "2026-10-05",
+        "price": 456.0
       }
     ],
-    "sales_count_90d": 7,
-    "sales_count_30d": 1,
+    "sales_count_90d": 8,
+    "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/570551_in_200x200.jpg"
   },
   "アーマルド|overseas": {
@@ -2542,44 +2546,96 @@
     "character": "ライチュウ",
     "market": "日本版",
     "market_key": "japan",
-    "card_name": "Raichu",
-    "set_name": "Pokemon Web",
-    "rarity": "Rare",
-    "yen_increase": 72450,
+    "card_name": "Raichu - 002/XY-P",
+    "set_name": "XY-P: XY Promos",
+    "rarity": "Common",
+    "yen_increase": 129213,
     "checked_date": "2026-10-07",
-    "old_price": 405.0,
-    "new_price": 888.0,
-    "change_pct": 119.3,
-    "change_pct_30d": 113.7,
-    "old_price_30d": 415.5,
-    "old_date_30d": "2026-08-30",
-    "old_date": "2026-07-12",
+    "old_price": 68.58,
+    "new_price": 930.0,
+    "change_pct": 1256.0,
+    "change_pct_30d": 1256.0,
+    "old_price_30d": 68.58,
+    "old_date_30d": "2026-09-10",
+    "old_date": "2026-09-10",
     "trend": "spike",
     "chart": [
       {
-        "date": "2026-07-12",
-        "price": 405.0
-      },
-      {
-        "date": "2026-08-14",
-        "price": 600.0
-      },
-      {
-        "date": "2026-08-23",
-        "price": 550.0
-      },
-      {
-        "date": "2026-08-30",
-        "price": 415.5
+        "date": "2026-09-10",
+        "price": 68.58
       },
       {
         "date": "2026-09-11",
-        "price": 888.0
+        "price": 139.95
+      },
+      {
+        "date": "2026-09-12",
+        "price": 279.25
+      },
+      {
+        "date": "2026-09-13",
+        "price": 113.0
+      },
+      {
+        "date": "2026-09-16",
+        "price": 236.0
+      },
+      {
+        "date": "2026-09-17",
+        "price": 125.0
+      },
+      {
+        "date": "2026-09-18",
+        "price": 127.82
+      },
+      {
+        "date": "2026-09-19",
+        "price": 181.08
+      },
+      {
+        "date": "2026-09-20",
+        "price": 144.07
+      },
+      {
+        "date": "2026-09-21",
+        "price": 353.05
+      },
+      {
+        "date": "2026-09-22",
+        "price": 3100.0
+      },
+      {
+        "date": "2026-09-23",
+        "price": 145.87
+      },
+      {
+        "date": "2026-09-26",
+        "price": 124.53
+      },
+      {
+        "date": "2026-09-27",
+        "price": 68.87
+      },
+      {
+        "date": "2026-09-29",
+        "price": 104.99
+      },
+      {
+        "date": "2026-10-02",
+        "price": 601.5
+      },
+      {
+        "date": "2026-10-03",
+        "price": 85.0
+      },
+      {
+        "date": "2026-10-05",
+        "price": 930.0
       }
     ],
-    "sales_count_90d": 6,
-    "sales_count_30d": 1,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613675_in_200x200.jpg"
+    "sales_count_90d": 44,
+    "sales_count_30d": 44,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/601907_in_200x200.jpg"
   },
   "アゲハント|overseas": {
     "character": "アゲハント",
@@ -5511,10 +5567,6 @@
     "trend": "mixed",
     "chart": [
       {
-        "date": "2026-06-29",
-        "price": 204.26
-      },
-      {
         "date": "2026-07-04",
         "price": 150.0
       },
@@ -6711,5 +6763,95 @@
     "sales_count_90d": 13,
     "sales_count_30d": 7,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/234039_in_200x200.jpg"
+  },
+  "ボーマンダ|japan": {
+    "character": "ボーマンダ",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Salamence",
+    "set_name": "Salamence Constructed Starter Deck",
+    "rarity": "None",
+    "yen_increase": 66300,
+    "checked_date": "2026-10-07",
+    "old_price": 58.0,
+    "new_price": 500.0,
+    "change_pct": 762.1,
+    "change_pct_30d": 0.0,
+    "old_price_30d": 500.0,
+    "old_date_30d": "2026-07-31",
+    "old_date": "2026-07-05",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-05",
+        "price": 58.0
+      },
+      {
+        "date": "2026-07-11",
+        "price": 289.99
+      },
+      {
+        "date": "2026-07-12",
+        "price": 350.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 36.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 157.77
+      },
+      {
+        "date": "2026-07-20",
+        "price": 10160.33
+      },
+      {
+        "date": "2026-07-27",
+        "price": 276.0
+      },
+      {
+        "date": "2026-07-31",
+        "price": 500.0
+      }
+    ],
+    "sales_count_90d": 11,
+    "sales_count_30d": 0,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/612940_in_200x200.jpg"
+  },
+  "ラプラス|overseas": {
+    "character": "ラプラス",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Lapras",
+    "set_name": "Southern Islands",
+    "rarity": "Promo",
+    "yen_increase": 74997,
+    "checked_date": "2026-10-07",
+    "old_price": 500.0,
+    "new_price": 999.98,
+    "change_pct": 100.0,
+    "change_pct_30d": 100.0,
+    "old_price_30d": 500.0,
+    "old_date_30d": "2026-09-09",
+    "old_date": "2026-09-09",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-09-09",
+        "price": 500.0
+      },
+      {
+        "date": "2026-10-02",
+        "price": 1047.5
+      },
+      {
+        "date": "2026-10-05",
+        "price": 999.98
+      }
+    ],
+    "sales_count_90d": 5,
+    "sales_count_30d": 5,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/46469_in_200x200.jpg"
   }
 }
