@@ -7581,69 +7581,6 @@
     "sales_count_30d": 4,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566824_in_200x200.jpg"
   },
-  "ブースター|overseas": {
-    "character": "ブースター",
-    "market": "海外(英語版)",
-    "market_key": "overseas",
-    "card_name": "Flareon (8)",
-    "set_name": "Skyridge",
-    "rarity": "Rare",
-    "yen_increase_30d": 33375,
-    "checked_date": "2026-10-07",
-    "old_price": 400.0,
-    "new_price": 710.0,
-    "change_pct": 77.5,
-    "change_pct_30d": 45.6,
-    "old_price_30d": 487.5,
-    "old_date_30d": "2026-09-01",
-    "old_date": "2026-07-04",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-07-03",
-        "price": 448.49
-      },
-      {
-        "date": "2026-07-04",
-        "price": 400.0
-      },
-      {
-        "date": "2026-07-16",
-        "price": 341.0
-      },
-      {
-        "date": "2026-08-03",
-        "price": 385.0
-      },
-      {
-        "date": "2026-08-06",
-        "price": 330.0
-      },
-      {
-        "date": "2026-08-10",
-        "price": 450.0
-      },
-      {
-        "date": "2026-09-01",
-        "price": 487.5
-      },
-      {
-        "date": "2026-09-20",
-        "price": 515.0
-      },
-      {
-        "date": "2026-09-27",
-        "price": 549.99
-      },
-      {
-        "date": "2026-10-02",
-        "price": 710.0
-      }
-    ],
-    "sales_count_90d": 9,
-    "sales_count_30d": 3,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85491_in_200x200.jpg"
-  },
   "ハリマロン|overseas": {
     "character": "ハリマロン",
     "market": "海外(英語版)",
@@ -7943,5 +7880,52 @@
     "sales_count_90d": 9,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605889_in_200x200.jpg"
+  },
+  "ポリゴン|japan": {
+    "character": "ポリゴン",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Porygon-Z LV.X",
+    "set_name": "DP5: Temple of Anger",
+    "rarity": "Holo Rare",
+    "yen_increase_30d": 35457,
+    "checked_date": "2026-10-07",
+    "old_price": 380.0,
+    "new_price": 710.0,
+    "change_pct": 86.8,
+    "change_pct_30d": 49.9,
+    "old_price_30d": 473.62,
+    "old_date_30d": "2026-08-19",
+    "old_date": "2026-07-09",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-09",
+        "price": 380.0
+      },
+      {
+        "date": "2026-07-23",
+        "price": 789.0
+      },
+      {
+        "date": "2026-08-19",
+        "price": 473.62
+      },
+      {
+        "date": "2026-09-27",
+        "price": 690.0
+      },
+      {
+        "date": "2026-09-28",
+        "price": 750.0
+      },
+      {
+        "date": "2026-10-01",
+        "price": 710.0
+      }
+    ],
+    "sales_count_90d": 6,
+    "sales_count_30d": 3,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606992_in_200x200.jpg"
   }
 }
