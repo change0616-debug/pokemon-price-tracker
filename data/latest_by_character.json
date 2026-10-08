@@ -1717,7 +1717,7 @@
     "set_name": "SV: Black Bolt",
     "rarity": "Illustration Rare",
     "yen_increase": 25089,
-    "checked_date": "2026-10-05",
+    "checked_date": "2026-10-08",
     "old_price": 150.0,
     "new_price": 317.26,
     "change_pct": 111.5,
@@ -1756,7 +1756,7 @@
         "price": 317.26
       }
     ],
-    "sales_count_90d": 7,
+    "sales_count_90d": 6,
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642562_in_200x200.jpg"
   },
@@ -1768,7 +1768,7 @@
     "set_name": "XY6: Emerald Break",
     "rarity": "Common",
     "yen_increase": 17098,
-    "checked_date": "2026-10-05",
+    "checked_date": "2026-10-08",
     "old_price": 86.0,
     "new_price": 199.99,
     "change_pct": 132.5,
@@ -6635,5 +6635,48 @@
     "sales_count_90d": 6,
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83721_in_200x200.jpg"
+  },
+  "ヒードラン|japan": {
+    "character": "ヒードラン",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Heatran EX (Team Plasma) - 052/051",
+    "set_name": "BW8: Spiral Force",
+    "rarity": "Super Rare",
+    "yen_increase": 148648,
+    "checked_date": "2026-10-08",
+    "old_price": 909.0,
+    "new_price": 1899.99,
+    "change_pct": 109.0,
+    "change_pct_30d": 100.0,
+    "old_price_30d": 949.99,
+    "old_date_30d": "2026-07-21",
+    "old_date": "2026-07-12",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-12",
+        "price": 909.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 949.99
+      },
+      {
+        "date": "2026-09-14",
+        "price": 840.0
+      },
+      {
+        "date": "2026-09-20",
+        "price": 1125.0
+      },
+      {
+        "date": "2026-10-03",
+        "price": 1899.99
+      }
+    ],
+    "sales_count_90d": 5,
+    "sales_count_30d": 3,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602240_in_200x200.jpg"
   }
 }
