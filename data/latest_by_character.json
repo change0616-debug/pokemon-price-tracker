@@ -7,7 +7,7 @@
     "set_name": "SV: Scarlet & Violet Promo Cards",
     "rarity": "Promo",
     "yen_increase": 21819,
-    "checked_date": "2026-10-05",
+    "checked_date": "2026-10-08",
     "old_price": 125.86,
     "new_price": 271.32,
     "change_pct": 115.6,
@@ -2679,49 +2679,6 @@
     "sales_count_90d": 528,
     "sales_count_30d": 253,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/670187_in_200x200.jpg"
-  },
-  "エンブオー|overseas": {
-    "character": "エンブオー",
-    "market": "海外(英語版)",
-    "market_key": "overseas",
-    "card_name": "Emboar - 098/086",
-    "set_name": "SV: White Flare",
-    "rarity": "Illustration Rare",
-    "yen_increase": 37500,
-    "checked_date": "2026-10-05",
-    "old_price": 45.0,
-    "new_price": 295.0,
-    "change_pct": 555.6,
-    "change_pct_30d": 28.5,
-    "old_price_30d": 229.5,
-    "old_date_30d": "2026-08-30",
-    "old_date": "2026-07-08",
-    "trend": "mixed",
-    "chart": [
-      {
-        "date": "2026-07-08",
-        "price": 45.0
-      },
-      {
-        "date": "2026-08-30",
-        "price": 229.5
-      },
-      {
-        "date": "2026-09-10",
-        "price": 186.0
-      },
-      {
-        "date": "2026-09-24",
-        "price": 310.0
-      },
-      {
-        "date": "2026-09-30",
-        "price": 295.0
-      }
-    ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 3,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/642213_in_200x200.jpg"
   },
   "ヘルガー|japan": {
     "character": "ヘルガー",
@@ -6678,5 +6635,151 @@
     "sales_count_90d": 5,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602240_in_200x200.jpg"
+  },
+  "ウパー|overseas": {
+    "character": "ウパー",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Paldean Wooper - 221/193",
+    "set_name": "SV02: Paldea Evolved",
+    "rarity": "Illustration Rare",
+    "yen_increase": 25875,
+    "checked_date": "2026-10-08",
+    "old_price": 162.5,
+    "new_price": 335.0,
+    "change_pct": 106.2,
+    "change_pct_30d": 15.2,
+    "old_price_30d": 290.89,
+    "old_date_30d": "2026-09-08",
+    "old_date": "2026-07-10",
+    "trend": "sustained",
+    "chart": [
+      {
+        "date": "2026-07-01",
+        "price": 210.0
+      },
+      {
+        "date": "2026-07-05",
+        "price": 202.5
+      },
+      {
+        "date": "2026-07-10",
+        "price": 162.5
+      },
+      {
+        "date": "2026-07-31",
+        "price": 200.0
+      },
+      {
+        "date": "2026-08-16",
+        "price": 230.0
+      },
+      {
+        "date": "2026-08-22",
+        "price": 177.0
+      },
+      {
+        "date": "2026-09-06",
+        "price": 121.75
+      },
+      {
+        "date": "2026-09-07",
+        "price": 240.0
+      },
+      {
+        "date": "2026-09-08",
+        "price": 290.89
+      },
+      {
+        "date": "2026-09-09",
+        "price": 349.95
+      },
+      {
+        "date": "2026-09-15",
+        "price": 400.0
+      },
+      {
+        "date": "2026-09-18",
+        "price": 400.0
+      },
+      {
+        "date": "2026-09-21",
+        "price": 315.0
+      },
+      {
+        "date": "2026-09-22",
+        "price": 335.0
+      }
+    ],
+    "sales_count_90d": 20,
+    "sales_count_30d": 13,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/497624_in_200x200.jpg"
+  },
+  "ピジョット|japan": {
+    "character": "ピジョット",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Pidgeot",
+    "set_name": "Pokemon Jungle",
+    "rarity": "Holo Rare",
+    "yen_increase": 112502,
+    "checked_date": "2026-10-08",
+    "old_price": 249.99,
+    "new_price": 1000.0,
+    "change_pct": 300.0,
+    "change_pct_30d": 0.0,
+    "old_price_30d": 1000.0,
+    "old_date_30d": "2026-09-06",
+    "old_date": "2026-08-07",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-08-07",
+        "price": 249.99
+      },
+      {
+        "date": "2026-08-11",
+        "price": 1049.0
+      },
+      {
+        "date": "2026-08-17",
+        "price": 830.0
+      },
+      {
+        "date": "2026-08-26",
+        "price": 1455.0
+      },
+      {
+        "date": "2026-08-27",
+        "price": 2200.0
+      },
+      {
+        "date": "2026-09-06",
+        "price": 1000.0
+      },
+      {
+        "date": "2026-09-13",
+        "price": 950.0
+      },
+      {
+        "date": "2026-09-20",
+        "price": 5999.99
+      },
+      {
+        "date": "2026-09-21",
+        "price": 5124.99
+      },
+      {
+        "date": "2026-09-26",
+        "price": 3999.99
+      },
+      {
+        "date": "2026-09-27",
+        "price": 1000.0
+      }
+    ],
+    "sales_count_90d": 14,
+    "sales_count_30d": 6,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576637_in_200x200.jpg"
   }
 }
