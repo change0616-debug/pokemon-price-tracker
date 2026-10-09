@@ -2659,24 +2659,28 @@
     "card_name": "Slowbro EX",
     "set_name": "XY - Evolutions",
     "rarity": "Ultra Rare",
-    "yen_increase": 9444,
-    "checked_date": "2026-10-03",
-    "old_price": 62.04,
+    "yen_increase": 9390,
+    "checked_date": "2026-10-09",
+    "old_price": 62.4,
     "new_price": 125.0,
-    "change_pct": 101.5,
-    "change_pct_30d": 89.4,
-    "old_price_30d": 65.99,
-    "old_date_30d": "2026-08-28",
-    "old_date": "2026-07-01",
-    "trend": "spike",
+    "change_pct": 100.3,
+    "change_pct_30d": -64.3,
+    "old_price_30d": 349.95,
+    "old_date_30d": "2026-09-08",
+    "old_date": "2026-07-13",
+    "trend": "mixed",
     "chart": [
       {
-        "date": "2026-07-01",
-        "price": 62.04
+        "date": "2026-07-13",
+        "price": 62.4
       },
       {
         "date": "2026-07-18",
         "price": 80.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 62.4
       },
       {
         "date": "2026-07-27",
@@ -2711,8 +2715,8 @@
         "price": 125.0
       }
     ],
-    "sales_count_90d": 10,
-    "sales_count_30d": 5,
+    "sales_count_90d": 12,
+    "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/124039_in_200x200.jpg"
   },
   "ルージュラ|japan": {
@@ -7002,5 +7006,135 @@
     "sales_count_90d": 5,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83769_in_200x200.jpg"
+  },
+  "フーディン|japan": {
+    "character": "フーディン",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Alakazam ex - 190/165",
+    "set_name": "SV2a: Pokemon Card 151",
+    "rarity": "Super Rare",
+    "yen_increase": 9600,
+    "checked_date": "2026-10-09",
+    "old_price": 55.0,
+    "new_price": 119.0,
+    "change_pct": 116.4,
+    "change_pct_30d": 58.7,
+    "old_price_30d": 74.99,
+    "old_date_30d": "2026-09-04",
+    "old_date": "2026-07-11",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-09",
+        "price": 40.0
+      },
+      {
+        "date": "2026-07-11",
+        "price": 55.0
+      },
+      {
+        "date": "2026-07-31",
+        "price": 122.0
+      },
+      {
+        "date": "2026-08-18",
+        "price": 52.0
+      },
+      {
+        "date": "2026-08-23",
+        "price": 45.0
+      },
+      {
+        "date": "2026-09-04",
+        "price": 74.99
+      },
+      {
+        "date": "2026-09-16",
+        "price": 62.38
+      },
+      {
+        "date": "2026-09-24",
+        "price": 43.75
+      },
+      {
+        "date": "2026-10-01",
+        "price": 119.0
+      }
+    ],
+    "sales_count_90d": 12,
+    "sales_count_30d": 5,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566533_in_200x200.jpg"
+  },
+  "キャタピー|overseas": {
+    "character": "キャタピー",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Caterpie - 172/165",
+    "set_name": "SV: Scarlet & Violet 151",
+    "rarity": "Illustration Rare",
+    "yen_increase": 9270,
+    "checked_date": "2026-10-09",
+    "old_price": 51.0,
+    "new_price": 112.8,
+    "change_pct": 121.2,
+    "change_pct_30d": -26.3,
+    "old_price_30d": 153.0,
+    "old_date_30d": "2026-09-08",
+    "old_date": "2026-07-13",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-13",
+        "price": 51.0
+      },
+      {
+        "date": "2026-07-28",
+        "price": 180.0
+      },
+      {
+        "date": "2026-07-31",
+        "price": 133.0
+      },
+      {
+        "date": "2026-08-04",
+        "price": 200.0
+      },
+      {
+        "date": "2026-08-11",
+        "price": 195.0
+      },
+      {
+        "date": "2026-08-13",
+        "price": 249.99
+      },
+      {
+        "date": "2026-08-27",
+        "price": 177.99
+      },
+      {
+        "date": "2026-08-30",
+        "price": 199.0
+      },
+      {
+        "date": "2026-09-03",
+        "price": 163.57
+      },
+      {
+        "date": "2026-09-08",
+        "price": 153.0
+      },
+      {
+        "date": "2026-09-13",
+        "price": 143.5
+      },
+      {
+        "date": "2026-09-28",
+        "price": 112.8
+      }
+    ],
+    "sales_count_90d": 12,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/517016_in_200x200.jpg"
   }
 }
