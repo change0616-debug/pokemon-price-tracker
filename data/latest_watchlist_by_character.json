@@ -2402,12 +2402,12 @@
     "card_name": "Steelix - 073/087",
     "set_name": "Wind from the Sea",
     "rarity": "Holo Rare",
-    "yen_increase_30d": 78000,
-    "checked_date": "2026-10-03",
+    "yen_increase_30d": 98668,
+    "checked_date": "2026-10-09",
     "old_price": 1950.0,
-    "new_price": 1725.0,
-    "change_pct": -11.5,
-    "change_pct_30d": 43.2,
+    "new_price": 1862.79,
+    "change_pct": -4.5,
+    "change_pct_30d": 54.6,
     "old_price_30d": 1205.0,
     "old_date_30d": "2026-08-21",
     "old_date": "2026-07-25",
@@ -2436,10 +2436,14 @@
       {
         "date": "2026-09-26",
         "price": 1725.0
+      },
+      {
+        "date": "2026-10-03",
+        "price": 1862.79
       }
     ],
-    "sales_count_90d": 6,
-    "sales_count_30d": 3,
+    "sales_count_90d": 7,
+    "sales_count_30d": 4,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576417_in_200x200.jpg"
   },
   "スピアー|japan": {
@@ -2450,7 +2454,7 @@
     "set_name": "CP4: Premium Champion Pack",
     "rarity": "None",
     "yen_increase_30d": 5850,
-    "checked_date": "2026-10-03",
+    "checked_date": "2026-10-09",
     "old_price": 102.5,
     "new_price": 108.0,
     "change_pct": 5.4,
@@ -3586,29 +3590,17 @@
     "card_name": "Houndoom (Secret)",
     "set_name": "SWSH05: Battle Styles",
     "rarity": "Secret Rare",
-    "yen_increase_30d": 4800,
-    "checked_date": "2026-10-03",
+    "yen_increase_30d": 7364,
+    "checked_date": "2026-10-09",
     "old_price": 102.5,
-    "new_price": 125.0,
-    "change_pct": 22.0,
-    "change_pct_30d": 34.4,
+    "new_price": 142.09,
+    "change_pct": 38.6,
+    "change_pct_30d": 52.8,
     "old_price_30d": 93.0,
     "old_date_30d": "2026-09-01",
-    "old_date": "2026-06-30",
+    "old_date": "2026-07-10",
     "trend": "spike",
     "chart": [
-      {
-        "date": "2026-06-26",
-        "price": 165.0
-      },
-      {
-        "date": "2026-06-29",
-        "price": 119.5
-      },
-      {
-        "date": "2026-06-30",
-        "price": 102.5
-      },
       {
         "date": "2026-07-08",
         "price": 103.5
@@ -3644,6 +3636,10 @@
       {
         "date": "2026-07-26",
         "price": 9.0
+      },
+      {
+        "date": "2026-07-27",
+        "price": 105.6
       },
       {
         "date": "2026-07-30",
@@ -3692,70 +3688,19 @@
       {
         "date": "2026-09-27",
         "price": 125.0
+      },
+      {
+        "date": "2026-10-02",
+        "price": 129.99
+      },
+      {
+        "date": "2026-10-05",
+        "price": 142.09
       }
     ],
     "sales_count_90d": 23,
-    "sales_count_30d": 5,
+    "sales_count_30d": 8,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/234104_in_200x200.jpg"
-  },
-  "ラッキー|japan": {
-    "character": "ラッキー",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Chansey",
-    "set_name": "Pokemon TCG Classic: Venusaur",
-    "rarity": "None",
-    "yen_increase_30d": 5325,
-    "checked_date": "2026-10-03",
-    "old_price": 67.5,
-    "new_price": 90.0,
-    "change_pct": 33.3,
-    "change_pct_30d": 65.1,
-    "old_price_30d": 54.5,
-    "old_date_30d": "2026-08-24",
-    "old_date": "2026-06-28",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-06-28",
-        "price": 67.5
-      },
-      {
-        "date": "2026-07-19",
-        "price": 41.7
-      },
-      {
-        "date": "2026-08-02",
-        "price": 89.89
-      },
-      {
-        "date": "2026-08-10",
-        "price": 60.0
-      },
-      {
-        "date": "2026-08-24",
-        "price": 54.5
-      },
-      {
-        "date": "2026-09-09",
-        "price": 44.0
-      },
-      {
-        "date": "2026-09-20",
-        "price": 46.0
-      },
-      {
-        "date": "2026-09-22",
-        "price": 52.5
-      },
-      {
-        "date": "2026-09-29",
-        "price": 90.0
-      }
-    ],
-    "sales_count_90d": 9,
-    "sales_count_30d": 5,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/591957_in_200x200.jpg"
   },
   "ツボツボ|japan": {
     "character": "ツボツボ",
@@ -9618,5 +9563,307 @@
     "sales_count_90d": 3,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576260_in_200x200.jpg"
+  },
+  "オンバット|overseas": {
+    "character": "オンバット",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Noibat - 169/159",
+    "set_name": "SV09: Journey Together",
+    "rarity": "Illustration Rare",
+    "yen_increase_30d": 3095,
+    "checked_date": "2026-10-09",
+    "old_price": 120.0,
+    "new_price": 75.0,
+    "change_pct": -37.5,
+    "change_pct_30d": 37.9,
+    "old_price_30d": 54.37,
+    "old_date_30d": "2026-09-06",
+    "old_date": "2026-07-11",
+    "trend": "unknown",
+    "chart": [
+      {
+        "date": "2026-07-03",
+        "price": 119.99
+      },
+      {
+        "date": "2026-07-04",
+        "price": 125.75
+      },
+      {
+        "date": "2026-07-05",
+        "price": 136.0
+      },
+      {
+        "date": "2026-07-11",
+        "price": 120.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 91.2
+      },
+      {
+        "date": "2026-07-24",
+        "price": 93.0
+      },
+      {
+        "date": "2026-08-02",
+        "price": 60.0
+      },
+      {
+        "date": "2026-08-08",
+        "price": 114.97
+      },
+      {
+        "date": "2026-08-11",
+        "price": 85.0
+      },
+      {
+        "date": "2026-08-17",
+        "price": 91.0
+      },
+      {
+        "date": "2026-08-19",
+        "price": 77.0
+      },
+      {
+        "date": "2026-08-25",
+        "price": 126.4
+      },
+      {
+        "date": "2026-08-27",
+        "price": 102.5
+      },
+      {
+        "date": "2026-08-29",
+        "price": 89.99
+      },
+      {
+        "date": "2026-09-01",
+        "price": 89.99
+      },
+      {
+        "date": "2026-09-06",
+        "price": 54.37
+      },
+      {
+        "date": "2026-09-10",
+        "price": 94.5
+      },
+      {
+        "date": "2026-09-20",
+        "price": 62.0
+      },
+      {
+        "date": "2026-09-21",
+        "price": 68.0
+      },
+      {
+        "date": "2026-09-25",
+        "price": 95.0
+      },
+      {
+        "date": "2026-09-27",
+        "price": 59.0
+      },
+      {
+        "date": "2026-09-30",
+        "price": 70.0
+      },
+      {
+        "date": "2026-10-01",
+        "price": 75.0
+      }
+    ],
+    "sales_count_90d": 22,
+    "sales_count_30d": 8,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/623596_in_200x200.jpg"
+  },
+  "ワンリキー|japan": {
+    "character": "ワンリキー",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Machoke - 177/165",
+    "set_name": "SV2a: Pokemon Card 151",
+    "rarity": "Art Rare",
+    "yen_increase_30d": 3075,
+    "checked_date": "2026-10-09",
+    "old_price": 53.81,
+    "new_price": 55.0,
+    "change_pct": 2.2,
+    "change_pct_30d": 59.4,
+    "old_price_30d": 34.5,
+    "old_date_30d": "2026-09-08",
+    "old_date": "2026-07-10",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-03",
+        "price": 51.0
+      },
+      {
+        "date": "2026-07-06",
+        "price": 56.5
+      },
+      {
+        "date": "2026-07-07",
+        "price": 50.0
+      },
+      {
+        "date": "2026-07-10",
+        "price": 53.81
+      },
+      {
+        "date": "2026-07-13",
+        "price": 61.0
+      },
+      {
+        "date": "2026-07-16",
+        "price": 56.0
+      },
+      {
+        "date": "2026-07-17",
+        "price": 45.0
+      },
+      {
+        "date": "2026-07-21",
+        "price": 47.5
+      },
+      {
+        "date": "2026-07-23",
+        "price": 45.0
+      },
+      {
+        "date": "2026-07-24",
+        "price": 69.99
+      },
+      {
+        "date": "2026-07-28",
+        "price": 50.0
+      },
+      {
+        "date": "2026-07-29",
+        "price": 71.4
+      },
+      {
+        "date": "2026-08-03",
+        "price": 105.0
+      },
+      {
+        "date": "2026-08-04",
+        "price": 49.27
+      },
+      {
+        "date": "2026-08-05",
+        "price": 40.0
+      },
+      {
+        "date": "2026-08-08",
+        "price": 60.0
+      },
+      {
+        "date": "2026-08-10",
+        "price": 74.99
+      },
+      {
+        "date": "2026-08-14",
+        "price": 55.0
+      },
+      {
+        "date": "2026-08-18",
+        "price": 56.4
+      },
+      {
+        "date": "2026-08-23",
+        "price": 50.0
+      },
+      {
+        "date": "2026-08-26",
+        "price": 62.85
+      },
+      {
+        "date": "2026-08-27",
+        "price": 67.58
+      },
+      {
+        "date": "2026-08-28",
+        "price": 60.0
+      },
+      {
+        "date": "2026-08-29",
+        "price": 44.67
+      },
+      {
+        "date": "2026-08-30",
+        "price": 56.0
+      },
+      {
+        "date": "2026-08-31",
+        "price": 46.8
+      },
+      {
+        "date": "2026-09-04",
+        "price": 65.0
+      },
+      {
+        "date": "2026-09-05",
+        "price": 55.0
+      },
+      {
+        "date": "2026-09-07",
+        "price": 51.5
+      },
+      {
+        "date": "2026-09-08",
+        "price": 34.5
+      },
+      {
+        "date": "2026-09-10",
+        "price": 50.5
+      },
+      {
+        "date": "2026-09-11",
+        "price": 53.0
+      },
+      {
+        "date": "2026-09-13",
+        "price": 47.0
+      },
+      {
+        "date": "2026-09-14",
+        "price": 54.17
+      },
+      {
+        "date": "2026-09-16",
+        "price": 51.0
+      },
+      {
+        "date": "2026-09-17",
+        "price": 61.0
+      },
+      {
+        "date": "2026-09-20",
+        "price": 40.33
+      },
+      {
+        "date": "2026-09-23",
+        "price": 55.96
+      },
+      {
+        "date": "2026-09-24",
+        "price": 60.8
+      },
+      {
+        "date": "2026-09-27",
+        "price": 58.0
+      },
+      {
+        "date": "2026-09-28",
+        "price": 55.0
+      }
+    ],
+    "sales_count_90d": 56,
+    "sales_count_30d": 22,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566522_in_200x200.jpg"
   }
 }
