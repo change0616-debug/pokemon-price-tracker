@@ -1510,7 +1510,7 @@
     "set_name": "SV: Black Bolt",
     "rarity": "Illustration Rare",
     "yen_increase": 25089,
-    "checked_date": "2026-10-08",
+    "checked_date": "2026-10-11",
     "old_price": 150.0,
     "new_price": 317.26,
     "change_pct": 111.5,
@@ -1561,15 +1561,15 @@
     "set_name": "XY6: Emerald Break",
     "rarity": "Common",
     "yen_increase": 17098,
-    "checked_date": "2026-10-08",
+    "checked_date": "2026-10-11",
     "old_price": 86.0,
     "new_price": 199.99,
     "change_pct": 132.5,
-    "change_pct_30d": 143.9,
-    "old_price_30d": 82.0,
-    "old_date_30d": "2026-09-01",
+    "change_pct_30d": 59.4,
+    "old_price_30d": 125.5,
+    "old_date_30d": "2026-09-10",
     "old_date": "2026-07-31",
-    "trend": "spike",
+    "trend": "mixed",
     "chart": [
       {
         "date": "2026-07-31",
@@ -1593,7 +1593,7 @@
       }
     ],
     "sales_count_90d": 5,
-    "sales_count_30d": 3,
+    "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/603878_in_200x200.jpg"
   },
   "ディアルガ|overseas": {
@@ -4109,49 +4109,6 @@
     "sales_count_90d": 7,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83721_in_200x200.jpg"
-  },
-  "ヒードラン|japan": {
-    "character": "ヒードラン",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Heatran EX (Team Plasma) - 052/051",
-    "set_name": "BW8: Spiral Force",
-    "rarity": "Super Rare",
-    "yen_increase": 148648,
-    "checked_date": "2026-10-08",
-    "old_price": 909.0,
-    "new_price": 1899.99,
-    "change_pct": 109.0,
-    "change_pct_30d": 100.0,
-    "old_price_30d": 949.99,
-    "old_date_30d": "2026-07-21",
-    "old_date": "2026-07-12",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-07-12",
-        "price": 909.0
-      },
-      {
-        "date": "2026-07-21",
-        "price": 949.99
-      },
-      {
-        "date": "2026-09-14",
-        "price": 840.0
-      },
-      {
-        "date": "2026-09-20",
-        "price": 1125.0
-      },
-      {
-        "date": "2026-10-03",
-        "price": 1899.99
-      }
-    ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 3,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602240_in_200x200.jpg"
   },
   "ウパー|overseas": {
     "character": "ウパー",
@@ -6830,5 +6787,99 @@
     "sales_count_90d": 13,
     "sales_count_30d": 7,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/574557_in_200x200.jpg"
+  },
+  "ボスゴドラ|overseas": {
+    "character": "ボスゴドラ",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Aggron VMAX",
+    "set_name": "SWSH09: Brilliant Stars",
+    "rarity": "Ultra Rare",
+    "yen_increase": 9690,
+    "checked_date": "2026-10-11",
+    "old_price": 59.4,
+    "new_price": 124.0,
+    "change_pct": 108.8,
+    "change_pct_30d": 0.0,
+    "old_price_30d": 124.0,
+    "old_date_30d": "2026-09-03",
+    "old_date": "2026-08-04",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-08-04",
+        "price": 59.4
+      },
+      {
+        "date": "2026-08-13",
+        "price": 82.0
+      },
+      {
+        "date": "2026-08-18",
+        "price": 85.0
+      },
+      {
+        "date": "2026-08-30",
+        "price": 103.5
+      },
+      {
+        "date": "2026-09-03",
+        "price": 124.0
+      }
+    ],
+    "sales_count_90d": 5,
+    "sales_count_30d": 0,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/263815_in_200x200.jpg"
+  },
+  "ボスゴドラ|japan": {
+    "character": "ボスゴドラ",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Aggron ex",
+    "set_name": "Miracle of the Desert",
+    "rarity": "Holo Rare",
+    "yen_increase": 99750,
+    "checked_date": "2026-10-11",
+    "old_price": 610.0,
+    "new_price": 1275.0,
+    "change_pct": 109.0,
+    "change_pct_30d": 30.8,
+    "old_price_30d": 975.0,
+    "old_date_30d": "2026-09-10",
+    "old_date": "2026-07-12",
+    "trend": "sustained",
+    "chart": [
+      {
+        "date": "2026-07-12",
+        "price": 610.0
+      },
+      {
+        "date": "2026-07-30",
+        "price": 544.32
+      },
+      {
+        "date": "2026-08-11",
+        "price": 799.99
+      },
+      {
+        "date": "2026-09-10",
+        "price": 975.0
+      },
+      {
+        "date": "2026-09-23",
+        "price": 1000.0
+      },
+      {
+        "date": "2026-09-30",
+        "price": 935.0
+      },
+      {
+        "date": "2026-10-06",
+        "price": 1275.0
+      }
+    ],
+    "sales_count_90d": 6,
+    "sales_count_30d": 3,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613533_in_200x200.jpg"
   }
 }
