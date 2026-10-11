@@ -9,7 +9,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 100,
+  "checked_characters": 101,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -4388,6 +4388,57 @@
       "sales_count_90d": 5,
       "sales_count_30d": 2,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90716_in_200x200.jpg"
+    },
+    {
+      "character": "エレキブル",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Electivire FB LV.X",
+      "set_name": "Pt3: Beat of the Frontier",
+      "rarity": "Holo Rare",
+      "yen_increase": 208050,
+      "checked_date": "2026-10-11",
+      "old_price": 788.0,
+      "new_price": 2175.0,
+      "change_pct": 176.0,
+      "change_pct_30d": 117.5,
+      "old_price_30d": 1000.0,
+      "old_date_30d": "2026-08-23",
+      "old_date": "2026-07-08",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-05",
+          "price": 912.0
+        },
+        {
+          "date": "2026-07-08",
+          "price": 788.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-09-27",
+          "price": 730.0
+        },
+        {
+          "date": "2026-09-28",
+          "price": 720.0
+        },
+        {
+          "date": "2026-09-30",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-10-04",
+          "price": 2175.0
+        }
+      ],
+      "sales_count_90d": 7,
+      "sales_count_30d": 6,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607436_in_200x200.jpg"
     },
     {
       "character": "サンダース",
