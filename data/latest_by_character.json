@@ -3837,28 +3837,16 @@
     "set_name": "SV: Scarlet & Violet Promo Cards",
     "rarity": "Promo",
     "yen_increase": 34500,
-    "checked_date": "2026-10-08",
+    "checked_date": "2026-10-11",
     "old_price": 100.0,
     "new_price": 330.0,
     "change_pct": 230.0,
-    "change_pct_30d": -5.7,
-    "old_price_30d": 350.0,
-    "old_date_30d": "2026-08-31",
+    "change_pct_30d": 200.0,
+    "old_price_30d": 110.0,
+    "old_date_30d": "2026-09-09",
     "old_date": "2026-07-10",
-    "trend": "mixed",
+    "trend": "spike",
     "chart": [
-      {
-        "date": "2026-07-01",
-        "price": 100.0
-      },
-      {
-        "date": "2026-07-02",
-        "price": 525.0
-      },
-      {
-        "date": "2026-07-03",
-        "price": 104.99
-      },
       {
         "date": "2026-07-05",
         "price": 102.5
@@ -4020,8 +4008,8 @@
         "price": 330.0
       }
     ],
-    "sales_count_90d": 56,
-    "sales_count_30d": 15,
+    "sales_count_90d": 55,
+    "sales_count_30d": 14,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/625181_in_200x200.jpg"
   },
   "ロコン|japan": {
@@ -4032,7 +4020,7 @@
     "set_name": "Vending Machine cards Series 3 (Green)",
     "rarity": "Common",
     "yen_increase": 64350,
-    "checked_date": "2026-10-08",
+    "checked_date": "2026-10-11",
     "old_price": 15.0,
     "new_price": 444.0,
     "change_pct": 2860.0,
@@ -4078,12 +4066,12 @@
     "card_name": "Banette",
     "set_name": "EX Power Keepers",
     "rarity": "Holo Rare",
-    "yen_increase": 195748,
-    "checked_date": "2026-10-08",
+    "yen_increase": 221250,
+    "checked_date": "2026-10-11",
     "old_price": 595.0,
-    "new_price": 1899.99,
-    "change_pct": 219.3,
-    "change_pct_30d": 133.1,
+    "new_price": 2070.0,
+    "change_pct": 247.9,
+    "change_pct_30d": 154.0,
     "old_price_30d": 815.0,
     "old_date_30d": "2026-09-04",
     "old_date": "2026-07-23",
@@ -4112,10 +4100,14 @@
       {
         "date": "2026-09-18",
         "price": 1899.99
+      },
+      {
+        "date": "2026-10-05",
+        "price": 2070.0
       }
     ],
-    "sales_count_90d": 6,
-    "sales_count_30d": 2,
+    "sales_count_90d": 7,
+    "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83721_in_200x200.jpg"
   },
   "ヒードラン|japan": {
@@ -6747,5 +6739,96 @@
     "sales_count_90d": 6,
     "sales_count_30d": 4,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606992_in_200x200.jpg"
+  },
+  "ヤミラミ|japan": {
+    "character": "ヤミラミ",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Mega Sableye & Tyranitar GX - 054/094",
+    "set_name": "SM11: Miracle Twin",
+    "rarity": "Double Rare",
+    "yen_increase": 6816,
+    "checked_date": "2026-10-11",
+    "old_price": 35.51,
+    "new_price": 80.95,
+    "change_pct": 128.0,
+    "change_pct_30d": 34.9,
+    "old_price_30d": 60.0,
+    "old_date_30d": "2026-09-11",
+    "old_date": "2026-07-12",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-05",
+        "price": 80.0
+      },
+      {
+        "date": "2026-07-08",
+        "price": 67.49
+      },
+      {
+        "date": "2026-07-09",
+        "price": 120.0
+      },
+      {
+        "date": "2026-07-11",
+        "price": 79.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 35.51
+      },
+      {
+        "date": "2026-07-24",
+        "price": 86.0
+      },
+      {
+        "date": "2026-08-02",
+        "price": 76.0
+      },
+      {
+        "date": "2026-08-09",
+        "price": 75.0
+      },
+      {
+        "date": "2026-08-19",
+        "price": 95.0
+      },
+      {
+        "date": "2026-08-29",
+        "price": 89.99
+      },
+      {
+        "date": "2026-09-07",
+        "price": 74.4
+      },
+      {
+        "date": "2026-09-11",
+        "price": 60.0
+      },
+      {
+        "date": "2026-09-13",
+        "price": 81.14
+      },
+      {
+        "date": "2026-09-16",
+        "price": 113.74
+      },
+      {
+        "date": "2026-09-28",
+        "price": 85.19
+      },
+      {
+        "date": "2026-10-07",
+        "price": 112.0
+      },
+      {
+        "date": "2026-10-09",
+        "price": 80.95
+      }
+    ],
+    "sales_count_90d": 13,
+    "sales_count_30d": 7,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/574557_in_200x200.jpg"
   }
 }
