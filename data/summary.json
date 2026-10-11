@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10",
+  "generated_at": "2026-10-11",
   "target_days": 90,
   "min_change_pct": 100.0,
   "min_yen_increase": 5000,
@@ -9,7 +9,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 150.0,
-  "checked_characters": 101,
+  "checked_characters": 20,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -573,6 +573,61 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/615007_in_200x200.jpg"
     },
     {
+      "character": "シャワーズ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Dark Vaporeon",
+      "set_name": "Team Rocket",
+      "rarity": "Uncommon",
+      "yen_increase": 132986,
+      "checked_date": "2026-10-11",
+      "old_price": 29.43,
+      "new_price": 916.0,
+      "change_pct": 3012.5,
+      "change_pct_30d": 14.5,
+      "old_price_30d": 799.99,
+      "old_date_30d": "2026-09-01",
+      "old_date": "2026-07-06",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-07-06",
+          "price": 29.43
+        },
+        {
+          "date": "2026-07-26",
+          "price": 705.0
+        },
+        {
+          "date": "2026-08-02",
+          "price": 516.96
+        },
+        {
+          "date": "2026-08-29",
+          "price": 400.0
+        },
+        {
+          "date": "2026-09-01",
+          "price": 799.99
+        },
+        {
+          "date": "2026-09-16",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-09-29",
+          "price": 775.0
+        },
+        {
+          "date": "2026-10-06",
+          "price": 916.0
+        }
+      ],
+      "sales_count_90d": 9,
+      "sales_count_30d": 5,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84665_in_200x200.jpg"
+    },
+    {
       "character": "ロコン",
       "market": "日本版",
       "market_key": "japan",
@@ -673,61 +728,6 @@
       "sales_count_90d": 6,
       "sales_count_30d": 2,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90311_in_200x200.jpg"
-    },
-    {
-      "character": "シャワーズ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Dark Vaporeon",
-      "set_name": "Team Rocket",
-      "rarity": "Uncommon",
-      "yen_increase": 111836,
-      "checked_date": "2026-10-08",
-      "old_price": 29.43,
-      "new_price": 775.0,
-      "change_pct": 2533.4,
-      "change_pct_30d": -3.1,
-      "old_price_30d": 799.99,
-      "old_date_30d": "2026-09-01",
-      "old_date": "2026-07-06",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-07-02",
-          "price": 299.0
-        },
-        {
-          "date": "2026-07-06",
-          "price": 29.43
-        },
-        {
-          "date": "2026-07-26",
-          "price": 705.0
-        },
-        {
-          "date": "2026-08-02",
-          "price": 516.96
-        },
-        {
-          "date": "2026-08-29",
-          "price": 400.0
-        },
-        {
-          "date": "2026-09-01",
-          "price": 799.99
-        },
-        {
-          "date": "2026-09-16",
-          "price": 1000.0
-        },
-        {
-          "date": "2026-09-29",
-          "price": 775.0
-        }
-      ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 2,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84665_in_200x200.jpg"
     },
     {
       "character": "グレイシア",
@@ -1353,7 +1353,7 @@
       "set_name": "Entry Pack",
       "rarity": "None",
       "yen_increase": 98925,
-      "checked_date": "2026-10-08",
+      "checked_date": "2026-10-11",
       "old_price": 55.0,
       "new_price": 714.5,
       "change_pct": 1199.1,
@@ -1385,8 +1385,99 @@
         }
       ],
       "sales_count_90d": 7,
-      "sales_count_30d": 4,
+      "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609224_in_200x200.jpg"
+    },
+    {
+      "character": "ツタージャ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Venusaur & Snivy GX",
+      "set_name": "SM - Cosmic Eclipse",
+      "rarity": "Ultra Rare",
+      "yen_increase": 44850,
+      "checked_date": "2026-10-11",
+      "old_price": 25.0,
+      "new_price": 324.0,
+      "change_pct": 1196.0,
+      "change_pct_30d": 50.2,
+      "old_price_30d": 215.65,
+      "old_date_30d": "2026-09-10",
+      "old_date": "2026-07-23",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-23",
+          "price": 25.0
+        },
+        {
+          "date": "2026-07-25",
+          "price": 252.0
+        },
+        {
+          "date": "2026-07-29",
+          "price": 289.99
+        },
+        {
+          "date": "2026-08-12",
+          "price": 300.0
+        },
+        {
+          "date": "2026-08-16",
+          "price": 274.0
+        },
+        {
+          "date": "2026-08-17",
+          "price": 345.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 263.51
+        },
+        {
+          "date": "2026-08-21",
+          "price": 285.0
+        },
+        {
+          "date": "2026-09-03",
+          "price": 325.0
+        },
+        {
+          "date": "2026-09-06",
+          "price": 246.75
+        },
+        {
+          "date": "2026-09-10",
+          "price": 215.65
+        },
+        {
+          "date": "2026-09-13",
+          "price": 295.0
+        },
+        {
+          "date": "2026-09-15",
+          "price": 250.0
+        },
+        {
+          "date": "2026-09-18",
+          "price": 228.13
+        },
+        {
+          "date": "2026-09-21",
+          "price": 234.0
+        },
+        {
+          "date": "2026-09-23",
+          "price": 25.0
+        },
+        {
+          "date": "2026-10-05",
+          "price": 324.0
+        }
+      ],
+      "sales_count_90d": 20,
+      "sales_count_30d": 6,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/200350_in_200x200.jpg"
     },
     {
       "character": "フシギダネ",
@@ -3285,53 +3376,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607400_in_200x200.jpg"
     },
     {
-      "character": "サンダース",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Jolteon",
-      "set_name": "T Promotional cards",
-      "rarity": "Common",
-      "yen_increase": 204002,
-      "checked_date": "2026-10-08",
-      "old_price": 499.99,
-      "new_price": 1860.0,
-      "change_pct": 272.0,
-      "change_pct_30d": 0.0,
-      "old_price_30d": 1860.0,
-      "old_date_30d": "2026-08-24",
-      "old_date": "2026-07-08",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-07-06",
-          "price": 1860.0
-        },
-        {
-          "date": "2026-07-08",
-          "price": 499.99
-        },
-        {
-          "date": "2026-07-12",
-          "price": 521.67
-        },
-        {
-          "date": "2026-07-18",
-          "price": 321.17
-        },
-        {
-          "date": "2026-07-21",
-          "price": 195.0
-        },
-        {
-          "date": "2026-08-24",
-          "price": 1860.0
-        }
-      ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 0,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613950_in_200x200.jpg"
-    },
-    {
       "character": "アーマルド",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -4236,6 +4280,49 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602265_in_200x200.jpg"
     },
     {
+      "character": "ファイアロー",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Talonflame BREAK",
+      "set_name": "XY - Steam Siege",
+      "rarity": "Rare BREAK",
+      "yen_increase": 34725,
+      "checked_date": "2026-10-11",
+      "old_price": 117.5,
+      "new_price": 349.0,
+      "change_pct": 197.0,
+      "change_pct_30d": 71.1,
+      "old_price_30d": 204.0,
+      "old_date_30d": "2026-08-16",
+      "old_date": "2026-07-14",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-14",
+          "price": 117.5
+        },
+        {
+          "date": "2026-08-16",
+          "price": 204.0
+        },
+        {
+          "date": "2026-09-23",
+          "price": 57.38
+        },
+        {
+          "date": "2026-10-05",
+          "price": 275.0
+        },
+        {
+          "date": "2026-10-07",
+          "price": 349.0
+        }
+      ],
+      "sales_count_90d": 6,
+      "sales_count_30d": 4,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/120150_in_200x200.jpg"
+    },
+    {
       "character": "チルタリス",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -4243,13 +4330,13 @@
       "set_name": "XY - Fates Collide",
       "rarity": "Ultra Rare",
       "yen_increase": 290700,
-      "checked_date": "2026-10-08",
+      "checked_date": "2026-10-11",
       "old_price": 1000.0,
       "new_price": 2938.0,
       "change_pct": 193.8,
-      "change_pct_30d": 193.8,
-      "old_price_30d": 999.99,
-      "old_date_30d": "2026-09-04",
+      "change_pct_30d": 173.3,
+      "old_price_30d": 1075.0,
+      "old_date_30d": "2026-09-09",
       "old_date": "2026-08-03",
       "trend": "spike",
       "chart": [
@@ -4291,7 +4378,7 @@
         }
       ],
       "sales_count_90d": 9,
-      "sales_count_30d": 5,
+      "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/117895_in_200x200.jpg"
     },
     {
@@ -4336,6 +4423,49 @@
       "sales_count_90d": 5,
       "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576381_in_200x200.jpg"
+    },
+    {
+      "character": "シャワーズ",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Vaporeon - 026/088",
+      "set_name": "Split Earth",
+      "rarity": "Rare",
+      "yen_increase": 98698,
+      "checked_date": "2026-10-11",
+      "old_price": 342.0,
+      "new_price": 999.99,
+      "change_pct": 192.4,
+      "change_pct_30d": 107.2,
+      "old_price_30d": 482.67,
+      "old_date_30d": "2026-09-03",
+      "old_date": "2026-07-19",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-19",
+          "price": 342.0
+        },
+        {
+          "date": "2026-08-21",
+          "price": 791.35
+        },
+        {
+          "date": "2026-09-03",
+          "price": 482.67
+        },
+        {
+          "date": "2026-09-16",
+          "price": 352.85
+        },
+        {
+          "date": "2026-10-07",
+          "price": 999.99
+        }
+      ],
+      "sales_count_90d": 7,
+      "sales_count_30d": 2,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576250_in_200x200.jpg"
     },
     {
       "character": "ロトム",
@@ -4479,51 +4609,43 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90716_in_200x200.jpg"
     },
     {
-      "character": "ゼニガメ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Squirtle (131)",
-      "set_name": "Expedition",
-      "rarity": "Common",
-      "yen_increase": 237761,
-      "checked_date": "2026-10-08",
-      "old_price": 887.0,
-      "new_price": 2472.07,
-      "change_pct": 178.7,
-      "change_pct_30d": 172.9,
-      "old_price_30d": 906.0,
-      "old_date_30d": "2026-08-22",
-      "old_date": "2026-07-08",
+      "character": "サンダース",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Jolteon",
+      "set_name": "DP4: Dawn Dash",
+      "rarity": "Rare",
+      "yen_increase": 33292,
+      "checked_date": "2026-10-11",
+      "old_price": 128.0,
+      "new_price": 349.95,
+      "change_pct": 173.4,
+      "change_pct_30d": 216.7,
+      "old_price_30d": 110.5,
+      "old_date_30d": "2026-09-11",
+      "old_date": "2026-08-08",
       "trend": "spike",
       "chart": [
         {
-          "date": "2026-07-08",
-          "price": 887.0
+          "date": "2026-08-08",
+          "price": 128.0
         },
         {
-          "date": "2026-08-22",
-          "price": 906.0
+          "date": "2026-08-24",
+          "price": 185.5
         },
         {
-          "date": "2026-09-10",
-          "price": 1530.0
+          "date": "2026-09-11",
+          "price": 110.5
         },
         {
-          "date": "2026-09-16",
-          "price": 2000.0
-        },
-        {
-          "date": "2026-09-28",
-          "price": 2495.0
-        },
-        {
-          "date": "2026-09-30",
-          "price": 2472.07
+          "date": "2026-10-08",
+          "price": 349.95
         }
       ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 5,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89486_in_200x200.jpg"
+      "sales_count_90d": 5,
+      "sales_count_30d": 2,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606843_in_200x200.jpg"
     },
     {
       "character": "ゴウカザル",
@@ -4885,6 +5007,49 @@
       "sales_count_90d": 6,
       "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/108601_in_200x200.jpg"
+    },
+    {
+      "character": "エンテイ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Entei (17)",
+      "set_name": "Neo Revelation",
+      "rarity": "Rare",
+      "yen_increase": 112500,
+      "checked_date": "2026-10-11",
+      "old_price": 525.0,
+      "new_price": 1275.0,
+      "change_pct": 142.9,
+      "change_pct_30d": 39.8,
+      "old_price_30d": 912.34,
+      "old_date_30d": "2026-08-29",
+      "old_date": "2026-08-02",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-08-02",
+          "price": 525.0
+        },
+        {
+          "date": "2026-08-14",
+          "price": 250.0
+        },
+        {
+          "date": "2026-08-22",
+          "price": 1944.27
+        },
+        {
+          "date": "2026-08-29",
+          "price": 912.34
+        },
+        {
+          "date": "2026-10-05",
+          "price": 1275.0
+        }
+      ],
+      "sales_count_90d": 5,
+      "sales_count_30d": 1,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85269_in_200x200.jpg"
     },
     {
       "character": "ヤンチャム",
@@ -5317,6 +5482,69 @@
       "sales_count_90d": 6,
       "sales_count_30d": 1,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613675_in_200x200.jpg"
+    },
+    {
+      "character": "ゼニガメ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Squirtle (132)",
+      "set_name": "Expedition",
+      "rarity": "Common",
+      "yen_increase": 142878,
+      "checked_date": "2026-10-11",
+      "old_price": 801.0,
+      "new_price": 1753.52,
+      "change_pct": 118.9,
+      "change_pct_30d": 18.9,
+      "old_price_30d": 1475.0,
+      "old_date_30d": "2026-09-09",
+      "old_date": "2026-07-12",
+      "trend": "mixed",
+      "chart": [
+        {
+          "date": "2026-07-12",
+          "price": 801.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 1250.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 1495.0
+        },
+        {
+          "date": "2026-08-31",
+          "price": 1494.0
+        },
+        {
+          "date": "2026-09-09",
+          "price": 1475.0
+        },
+        {
+          "date": "2026-09-14",
+          "price": 1110.0
+        },
+        {
+          "date": "2026-09-20",
+          "price": 2125.95
+        },
+        {
+          "date": "2026-10-03",
+          "price": 1708.14
+        },
+        {
+          "date": "2026-10-04",
+          "price": 1652.75
+        },
+        {
+          "date": "2026-10-08",
+          "price": 1753.52
+        }
+      ],
+      "sales_count_90d": 10,
+      "sales_count_30d": 6,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89487_in_200x200.jpg"
     },
     {
       "character": "フーディン",
@@ -6903,7 +7131,7 @@
       "set_name": "Gym Challenge",
       "rarity": "Holo Rare",
       "yen_increase_30d": 154284,
-      "checked_date": "2026-10-08",
+      "checked_date": "2026-10-11",
       "old_price": 2180.99,
       "new_price": 1052.56,
       "change_pct": -51.7,
@@ -6913,10 +7141,6 @@
       "old_date": "2026-07-05",
       "trend": "unknown",
       "chart": [
-        {
-          "date": "2026-07-02",
-          "price": 2025.0
-        },
         {
           "date": "2026-07-05",
           "price": 2180.99
@@ -8829,7 +9053,7 @@
       "set_name": "Neo Genesis",
       "rarity": "Common",
       "yen_increase_30d": 59625,
-      "checked_date": "2026-10-08",
+      "checked_date": "2026-10-11",
       "old_price": 307.0,
       "new_price": 600.0,
       "change_pct": 95.4,
@@ -8867,41 +9091,6 @@
       "sales_count_90d": 6,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84544_in_200x200.jpg"
-    },
-    {
-      "character": "エンペルト",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Empoleon",
-      "set_name": "Entry Pack '08",
-      "rarity": "None",
-      "yen_increase_30d": 94500,
-      "checked_date": "2026-10-08",
-      "old_price": 315.0,
-      "new_price": 955.0,
-      "change_pct": 203.2,
-      "change_pct_30d": 193.8,
-      "old_price_30d": 325.0,
-      "old_date_30d": "2026-09-08",
-      "old_date": "2026-08-30",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-08-30",
-          "price": 315.0
-        },
-        {
-          "date": "2026-09-08",
-          "price": 325.0
-        },
-        {
-          "date": "2026-09-27",
-          "price": 955.0
-        }
-      ],
-      "sales_count_90d": 4,
-      "sales_count_30d": 3,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609349_in_200x200.jpg"
     },
     {
       "character": "ヒトカゲ",
@@ -11391,145 +11580,6 @@
       "image_url": "https://cdn.pokemonpricetracker.com/card-fallbacks/608256/5106250703bc0b5e/200.jpg"
     },
     {
-      "character": "サンダース",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Jolteon",
-      "set_name": "Pokemon Jungle",
-      "rarity": "Holo Rare",
-      "yen_increase_30d": 185100,
-      "checked_date": "2026-10-08",
-      "old_price": 1825.1,
-      "new_price": 2524.0,
-      "change_pct": 38.3,
-      "change_pct_30d": 95.7,
-      "old_price_30d": 1290.0,
-      "old_date_30d": "2026-08-31",
-      "old_date": "2026-07-10",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-07-03",
-          "price": 2025.0
-        },
-        {
-          "date": "2026-07-06",
-          "price": 1975.0
-        },
-        {
-          "date": "2026-07-10",
-          "price": 1825.1
-        },
-        {
-          "date": "2026-07-12",
-          "price": 1800.02
-        },
-        {
-          "date": "2026-07-26",
-          "price": 2179.0
-        },
-        {
-          "date": "2026-07-28",
-          "price": 2025.0
-        },
-        {
-          "date": "2026-07-29",
-          "price": 549.95
-        },
-        {
-          "date": "2026-07-30",
-          "price": 2495.0
-        },
-        {
-          "date": "2026-08-01",
-          "price": 2225.0
-        },
-        {
-          "date": "2026-08-02",
-          "price": 1725.02
-        },
-        {
-          "date": "2026-08-03",
-          "price": 1817.5
-        },
-        {
-          "date": "2026-08-08",
-          "price": 1835.0
-        },
-        {
-          "date": "2026-08-11",
-          "price": 1540.0
-        },
-        {
-          "date": "2026-08-14",
-          "price": 1825.0
-        },
-        {
-          "date": "2026-08-19",
-          "price": 1525.0
-        },
-        {
-          "date": "2026-08-22",
-          "price": 273.93
-        },
-        {
-          "date": "2026-08-23",
-          "price": 19.1
-        },
-        {
-          "date": "2026-08-30",
-          "price": 400.0
-        },
-        {
-          "date": "2026-08-31",
-          "price": 1290.0
-        },
-        {
-          "date": "2026-09-09",
-          "price": 1600.0
-        },
-        {
-          "date": "2026-09-12",
-          "price": 950.0
-        },
-        {
-          "date": "2026-09-13",
-          "price": 1401.0
-        },
-        {
-          "date": "2026-09-16",
-          "price": 379.99
-        },
-        {
-          "date": "2026-09-20",
-          "price": 2135.0
-        },
-        {
-          "date": "2026-09-21",
-          "price": 1825.0
-        },
-        {
-          "date": "2026-09-24",
-          "price": 1172.47
-        },
-        {
-          "date": "2026-09-26",
-          "price": 1561.69
-        },
-        {
-          "date": "2026-09-27",
-          "price": 1550.0
-        },
-        {
-          "date": "2026-10-04",
-          "price": 2524.0
-        }
-      ],
-      "sales_count_90d": 30,
-      "sales_count_30d": 12,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576623_in_200x200.jpg"
-    },
-    {
       "character": "ユキメノコ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -11851,7 +11901,7 @@
       "set_name": "Pt2: Bonds to the End of Time",
       "rarity": "Rare",
       "yen_increase_30d": 14700,
-      "checked_date": "2026-10-08",
+      "checked_date": "2026-10-11",
       "old_price": 207.5,
       "new_price": 205.5,
       "change_pct": -1.0,
@@ -12107,57 +12157,6 @@
       "sales_count_90d": 5,
       "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606863_in_200x200.jpg"
-    },
-    {
-      "character": "サンダース",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Jolteon EX",
-      "set_name": "Generations",
-      "rarity": "Ultra Rare",
-      "yen_increase_30d": 64484,
-      "checked_date": "2026-10-08",
-      "old_price": 800.0,
-      "new_price": 914.89,
-      "change_pct": 14.4,
-      "change_pct_30d": 88.6,
-      "old_price_30d": 485.0,
-      "old_date_30d": "2026-09-04",
-      "old_date": "2026-07-04",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-07-04",
-          "price": 800.0
-        },
-        {
-          "date": "2026-07-31",
-          "price": 491.33
-        },
-        {
-          "date": "2026-08-26",
-          "price": 610.0
-        },
-        {
-          "date": "2026-09-04",
-          "price": 485.0
-        },
-        {
-          "date": "2026-09-13",
-          "price": 354.9
-        },
-        {
-          "date": "2026-09-25",
-          "price": 700.0
-        },
-        {
-          "date": "2026-09-30",
-          "price": 914.89
-        }
-      ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 3,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/113686_in_200x200.jpg"
     },
     {
       "character": "ヌオー",
@@ -12878,6 +12877,41 @@
       "sales_count_90d": 7,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606057_in_200x200.jpg"
+    },
+    {
+      "character": "サンダース",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Jolteon (Delta Species)",
+      "set_name": "EX Delta Species",
+      "rarity": "Holo Rare",
+      "yen_increase_30d": 161250,
+      "checked_date": "2026-10-11",
+      "old_price": 1475.0,
+      "new_price": 2550.0,
+      "change_pct": 72.9,
+      "change_pct_30d": 72.9,
+      "old_price_30d": 1475.0,
+      "old_date_30d": "2026-07-05",
+      "old_date": "2026-07-05",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-05",
+          "price": 1475.0
+        },
+        {
+          "date": "2026-09-17",
+          "price": 5360.59
+        },
+        {
+          "date": "2026-09-27",
+          "price": 2550.0
+        }
+      ],
+      "sales_count_90d": 4,
+      "sales_count_30d": 4,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86349_in_200x200.jpg"
     },
     {
       "character": "ラプラス",
@@ -14078,85 +14112,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/590052_in_200x200.jpg"
     },
     {
-      "character": "キュウコン",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Ninetales - 023/087",
-      "set_name": "Wind from the Sea",
-      "rarity": "Holo Rare",
-      "yen_increase_30d": 81450,
-      "checked_date": "2026-10-08",
-      "old_price": 1500.0,
-      "new_price": 1475.0,
-      "change_pct": -1.7,
-      "change_pct_30d": 58.3,
-      "old_price_30d": 932.0,
-      "old_date_30d": "2026-09-07",
-      "old_date": "2026-07-07",
-      "trend": "unknown",
-      "chart": [
-        {
-          "date": "2026-07-01",
-          "price": 1000.0
-        },
-        {
-          "date": "2026-07-06",
-          "price": 810.0
-        },
-        {
-          "date": "2026-07-07",
-          "price": 1500.0
-        },
-        {
-          "date": "2026-07-27",
-          "price": 930.0
-        },
-        {
-          "date": "2026-08-04",
-          "price": 1200.0
-        },
-        {
-          "date": "2026-08-17",
-          "price": 1650.0
-        },
-        {
-          "date": "2026-08-23",
-          "price": 1076.0
-        },
-        {
-          "date": "2026-09-01",
-          "price": 1677.0
-        },
-        {
-          "date": "2026-09-06",
-          "price": 1125.0
-        },
-        {
-          "date": "2026-09-07",
-          "price": 932.0
-        },
-        {
-          "date": "2026-09-10",
-          "price": 1378.0
-        },
-        {
-          "date": "2026-09-21",
-          "price": 1110.0
-        },
-        {
-          "date": "2026-09-23",
-          "price": 1325.0
-        },
-        {
-          "date": "2026-10-02",
-          "price": 1475.0
-        }
-      ],
-      "sales_count_90d": 11,
-      "sales_count_30d": 4,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576392_in_200x200.jpg"
-    },
-    {
       "character": "ライコウ",
       "market": "日本版",
       "market_key": "japan",
@@ -14202,6 +14157,141 @@
       "sales_count_90d": 10,
       "sales_count_30d": 5,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576227_in_200x200.jpg"
+    },
+    {
+      "character": "サンダース",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Jolteon",
+      "set_name": "Pokemon Jungle",
+      "rarity": "Holo Rare",
+      "yen_increase_30d": 138600,
+      "checked_date": "2026-10-11",
+      "old_price": 1800.02,
+      "new_price": 2524.0,
+      "change_pct": 40.2,
+      "change_pct_30d": 57.8,
+      "old_price_30d": 1600.0,
+      "old_date_30d": "2026-09-09",
+      "old_date": "2026-07-12",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-06",
+          "price": 1975.0
+        },
+        {
+          "date": "2026-07-10",
+          "price": 1825.1
+        },
+        {
+          "date": "2026-07-12",
+          "price": 1800.02
+        },
+        {
+          "date": "2026-07-26",
+          "price": 2179.0
+        },
+        {
+          "date": "2026-07-28",
+          "price": 2025.0
+        },
+        {
+          "date": "2026-07-29",
+          "price": 549.95
+        },
+        {
+          "date": "2026-07-30",
+          "price": 2495.0
+        },
+        {
+          "date": "2026-08-01",
+          "price": 2225.0
+        },
+        {
+          "date": "2026-08-02",
+          "price": 1725.02
+        },
+        {
+          "date": "2026-08-03",
+          "price": 1817.5
+        },
+        {
+          "date": "2026-08-08",
+          "price": 1835.0
+        },
+        {
+          "date": "2026-08-11",
+          "price": 1540.0
+        },
+        {
+          "date": "2026-08-14",
+          "price": 1825.0
+        },
+        {
+          "date": "2026-08-19",
+          "price": 1525.0
+        },
+        {
+          "date": "2026-08-22",
+          "price": 273.93
+        },
+        {
+          "date": "2026-08-23",
+          "price": 19.1
+        },
+        {
+          "date": "2026-08-30",
+          "price": 400.0
+        },
+        {
+          "date": "2026-08-31",
+          "price": 1290.0
+        },
+        {
+          "date": "2026-09-09",
+          "price": 1600.0
+        },
+        {
+          "date": "2026-09-12",
+          "price": 950.0
+        },
+        {
+          "date": "2026-09-13",
+          "price": 1401.0
+        },
+        {
+          "date": "2026-09-16",
+          "price": 379.99
+        },
+        {
+          "date": "2026-09-20",
+          "price": 2135.0
+        },
+        {
+          "date": "2026-09-21",
+          "price": 1825.0
+        },
+        {
+          "date": "2026-09-24",
+          "price": 1172.47
+        },
+        {
+          "date": "2026-09-26",
+          "price": 1561.69
+        },
+        {
+          "date": "2026-09-27",
+          "price": 1550.0
+        },
+        {
+          "date": "2026-10-04",
+          "price": 2524.0
+        }
+      ],
+      "sales_count_90d": 28,
+      "sales_count_30d": 11,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576623_in_200x200.jpg"
     },
     {
       "character": "シェイミ",
@@ -14560,97 +14650,6 @@
       "sales_count_90d": 12,
       "sales_count_30d": 7,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/175501_in_200x200.jpg"
-    },
-    {
-      "character": "ハッサム",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "M Scizor EX (Full Art)",
-      "set_name": "XY - BREAKpoint",
-      "rarity": "Ultra Rare",
-      "yen_increase_30d": 48602,
-      "checked_date": "2026-10-08",
-      "old_price": 600.0,
-      "new_price": 924.0,
-      "change_pct": 54.0,
-      "change_pct_30d": 54.0,
-      "old_price_30d": 599.99,
-      "old_date_30d": "2026-09-06",
-      "old_date": "2026-07-11",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-07-11",
-          "price": 600.0
-        },
-        {
-          "date": "2026-07-13",
-          "price": 589.99
-        },
-        {
-          "date": "2026-07-19",
-          "price": 506.35
-        },
-        {
-          "date": "2026-07-24",
-          "price": 617.59
-        },
-        {
-          "date": "2026-08-02",
-          "price": 600.0
-        },
-        {
-          "date": "2026-08-27",
-          "price": 649.99
-        },
-        {
-          "date": "2026-09-02",
-          "price": 600.0
-        },
-        {
-          "date": "2026-09-06",
-          "price": 599.99
-        },
-        {
-          "date": "2026-09-09",
-          "price": 593.75
-        },
-        {
-          "date": "2026-09-11",
-          "price": 672.93
-        },
-        {
-          "date": "2026-09-16",
-          "price": 929.17
-        },
-        {
-          "date": "2026-09-17",
-          "price": 975.0
-        },
-        {
-          "date": "2026-09-28",
-          "price": 899.99
-        },
-        {
-          "date": "2026-09-29",
-          "price": 599.0
-        },
-        {
-          "date": "2026-09-30",
-          "price": 849.97
-        },
-        {
-          "date": "2026-10-02",
-          "price": 799.99
-        },
-        {
-          "date": "2026-10-04",
-          "price": 924.0
-        }
-      ],
-      "sales_count_90d": 24,
-      "sales_count_30d": 12,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/111642_in_200x200.jpg"
     },
     {
       "character": "サンダー",
@@ -15352,6 +15351,61 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/284156_in_200x200.jpg"
     },
     {
+      "character": "エンペルト",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Empoleon LV.X",
+      "set_name": "DP1: Space-Time Creation",
+      "rarity": "Holo Rare",
+      "yen_increase_30d": 123300,
+      "checked_date": "2026-10-11",
+      "old_price": 1800.0,
+      "new_price": 2500.0,
+      "change_pct": 38.9,
+      "change_pct_30d": 49.0,
+      "old_price_30d": 1678.0,
+      "old_date_30d": "2026-08-17",
+      "old_date": "2026-08-02",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-08-02",
+          "price": 1800.0
+        },
+        {
+          "date": "2026-08-06",
+          "price": 1160.97
+        },
+        {
+          "date": "2026-08-16",
+          "price": 1525.0
+        },
+        {
+          "date": "2026-08-17",
+          "price": 1678.0
+        },
+        {
+          "date": "2026-09-26",
+          "price": 1350.0
+        },
+        {
+          "date": "2026-09-28",
+          "price": 1110.0
+        },
+        {
+          "date": "2026-09-29",
+          "price": 1825.0
+        },
+        {
+          "date": "2026-10-01",
+          "price": 2500.0
+        }
+      ],
+      "sales_count_90d": 10,
+      "sales_count_30d": 5,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605710_in_200x200.jpg"
+    },
+    {
       "character": "ヒードラン",
       "market": "日本版",
       "market_key": "japan",
@@ -15986,6 +16040,105 @@
       "sales_count_90d": 3,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576260_in_200x200.jpg"
+    },
+    {
+      "character": "ハッサム",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "M Scizor EX (Full Art)",
+      "set_name": "XY - BREAKpoint",
+      "rarity": "Ultra Rare",
+      "yen_increase_30d": 44823,
+      "checked_date": "2026-10-11",
+      "old_price": 589.99,
+      "new_price": 971.75,
+      "change_pct": 64.7,
+      "change_pct_30d": 44.4,
+      "old_price_30d": 672.93,
+      "old_date_30d": "2026-09-11",
+      "old_date": "2026-07-13",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-11",
+          "price": 600.0
+        },
+        {
+          "date": "2026-07-13",
+          "price": 589.99
+        },
+        {
+          "date": "2026-07-19",
+          "price": 506.35
+        },
+        {
+          "date": "2026-07-24",
+          "price": 617.59
+        },
+        {
+          "date": "2026-08-02",
+          "price": 600.0
+        },
+        {
+          "date": "2026-08-27",
+          "price": 649.99
+        },
+        {
+          "date": "2026-09-02",
+          "price": 600.0
+        },
+        {
+          "date": "2026-09-06",
+          "price": 599.99
+        },
+        {
+          "date": "2026-09-09",
+          "price": 593.75
+        },
+        {
+          "date": "2026-09-11",
+          "price": 672.93
+        },
+        {
+          "date": "2026-09-16",
+          "price": 929.17
+        },
+        {
+          "date": "2026-09-17",
+          "price": 975.0
+        },
+        {
+          "date": "2026-09-28",
+          "price": 899.99
+        },
+        {
+          "date": "2026-09-29",
+          "price": 599.0
+        },
+        {
+          "date": "2026-09-30",
+          "price": 849.97
+        },
+        {
+          "date": "2026-10-02",
+          "price": 799.99
+        },
+        {
+          "date": "2026-10-04",
+          "price": 924.0
+        },
+        {
+          "date": "2026-10-06",
+          "price": 950.0
+        },
+        {
+          "date": "2026-10-07",
+          "price": 971.75
+        }
+      ],
+      "sales_count_90d": 28,
+      "sales_count_30d": 16,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/111642_in_200x200.jpg"
     },
     {
       "character": "イシツブテ",
@@ -18301,81 +18454,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/603819_in_200x200.jpg"
     },
     {
-      "character": "ゼニガメ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Squirtle",
-      "set_name": "Trading Card Game Classic",
-      "rarity": "Classic Collection",
-      "yen_increase_30d": 5250,
-      "checked_date": "2026-10-08",
-      "old_price": 110.0,
-      "new_price": 140.0,
-      "change_pct": 27.3,
-      "change_pct_30d": 33.3,
-      "old_price_30d": 105.0,
-      "old_date_30d": "2026-08-31",
-      "old_date": "2026-07-13",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-07-13",
-          "price": 110.0
-        },
-        {
-          "date": "2026-07-14",
-          "price": 105.0
-        },
-        {
-          "date": "2026-07-15",
-          "price": 133.69
-        },
-        {
-          "date": "2026-07-19",
-          "price": 149.99
-        },
-        {
-          "date": "2026-07-21",
-          "price": 105.0
-        },
-        {
-          "date": "2026-07-30",
-          "price": 178.49
-        },
-        {
-          "date": "2026-08-16",
-          "price": 98.0
-        },
-        {
-          "date": "2026-08-30",
-          "price": 102.5
-        },
-        {
-          "date": "2026-08-31",
-          "price": 105.0
-        },
-        {
-          "date": "2026-09-12",
-          "price": 246.15
-        },
-        {
-          "date": "2026-09-13",
-          "price": 71.99
-        },
-        {
-          "date": "2026-09-25",
-          "price": 124.99
-        },
-        {
-          "date": "2026-09-28",
-          "price": 140.0
-        }
-      ],
-      "sales_count_90d": 14,
-      "sales_count_30d": 4,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/527985_in_200x200.jpg"
-    },
-    {
       "character": "ゲッコウガ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -18755,7 +18833,7 @@
       "set_name": "Jungle",
       "rarity": "Rare",
       "yen_increase_30d": 40804,
-      "checked_date": "2026-10-08",
+      "checked_date": "2026-10-11",
       "old_price": 599.99,
       "new_price": 1122.02,
       "change_pct": 87.0,
@@ -18847,7 +18925,7 @@
         }
       ],
       "sales_count_90d": 23,
-      "sales_count_30d": 12,
+      "sales_count_30d": 11,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/106990_in_200x200.jpg"
     },
     {
@@ -19031,6 +19109,85 @@
       "sales_count_90d": 33,
       "sales_count_30d": 7,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/587820_in_200x200.jpg"
+    },
+    {
+      "character": "キュウコン",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Ninetales - 023/087",
+      "set_name": "Wind from the Sea",
+      "rarity": "Holo Rare",
+      "yen_increase_30d": 63338,
+      "checked_date": "2026-10-11",
+      "old_price": 1500.0,
+      "new_price": 1800.25,
+      "change_pct": 20.0,
+      "change_pct_30d": 30.6,
+      "old_price_30d": 1378.0,
+      "old_date_30d": "2026-09-10",
+      "old_date": "2026-07-07",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-07-06",
+          "price": 810.0
+        },
+        {
+          "date": "2026-07-07",
+          "price": 1500.0
+        },
+        {
+          "date": "2026-07-27",
+          "price": 930.0
+        },
+        {
+          "date": "2026-08-04",
+          "price": 1200.0
+        },
+        {
+          "date": "2026-08-17",
+          "price": 1650.0
+        },
+        {
+          "date": "2026-08-23",
+          "price": 1076.0
+        },
+        {
+          "date": "2026-09-01",
+          "price": 1677.0
+        },
+        {
+          "date": "2026-09-06",
+          "price": 1125.0
+        },
+        {
+          "date": "2026-09-07",
+          "price": 932.0
+        },
+        {
+          "date": "2026-09-10",
+          "price": 1378.0
+        },
+        {
+          "date": "2026-09-21",
+          "price": 1110.0
+        },
+        {
+          "date": "2026-09-23",
+          "price": 1325.0
+        },
+        {
+          "date": "2026-10-02",
+          "price": 1475.0
+        },
+        {
+          "date": "2026-10-07",
+          "price": 1800.25
+        }
+      ],
+      "sales_count_90d": 12,
+      "sales_count_30d": 4,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576392_in_200x200.jpg"
     },
     {
       "character": "ナエトル",
