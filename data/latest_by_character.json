@@ -824,7 +824,7 @@
     "set_name": "Jungle",
     "rarity": "Uncommon",
     "yen_increase": 135975,
-    "checked_date": "2026-10-09",
+    "checked_date": "2026-10-12",
     "old_price": 293.5,
     "new_price": 1200.0,
     "change_pct": 308.9,
@@ -834,10 +834,6 @@
     "old_date": "2026-07-05",
     "trend": "sustained",
     "chart": [
-      {
-        "date": "2026-07-02",
-        "price": 996.93
-      },
       {
         "date": "2026-07-05",
         "price": 293.5
@@ -2532,7 +2528,7 @@
     "set_name": "CP4: Premium Champion Pack",
     "rarity": "None",
     "yen_increase": 12742,
-    "checked_date": "2026-10-09",
+    "checked_date": "2026-10-12",
     "old_price": 45.0,
     "new_price": 129.95,
     "change_pct": 188.8,
@@ -2575,7 +2571,7 @@
     "set_name": "Pokemon Jungle",
     "rarity": "Uncommon",
     "yen_increase": 157500,
-    "checked_date": "2026-10-09",
+    "checked_date": "2026-10-12",
     "old_price": 150.0,
     "new_price": 1200.0,
     "change_pct": 700.0,
@@ -2585,10 +2581,6 @@
     "old_date": "2026-07-05",
     "trend": "mixed",
     "chart": [
-      {
-        "date": "2026-07-02",
-        "price": 1004.3
-      },
       {
         "date": "2026-07-05",
         "price": 150.0
@@ -4745,7 +4737,7 @@
     "set_name": "World Champions Pack",
     "rarity": "",
     "yen_increase": 234900,
-    "checked_date": "2026-10-09",
+    "checked_date": "2026-10-12",
     "old_price": 444.0,
     "new_price": 2010.0,
     "change_pct": 352.7,
@@ -7224,5 +7216,107 @@
     "sales_count_90d": 5,
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606901_in_200x200.jpg"
+  },
+  "ルージュラ|japan": {
+    "character": "ルージュラ",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Jynx",
+    "set_name": "How I Became a Pokemon Card",
+    "rarity": "None",
+    "yen_increase": 20841,
+    "checked_date": "2026-10-12",
+    "old_price": 73.28,
+    "new_price": 212.22,
+    "change_pct": 189.6,
+    "change_pct_30d": 0.0,
+    "old_price_30d": 212.22,
+    "old_date_30d": "2026-07-19",
+    "old_date": "2026-07-13",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-05",
+        "price": 238.83
+      },
+      {
+        "date": "2026-07-06",
+        "price": 80.0
+      },
+      {
+        "date": "2026-07-09",
+        "price": 225.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 566.24
+      },
+      {
+        "date": "2026-07-13",
+        "price": 73.28
+      },
+      {
+        "date": "2026-07-15",
+        "price": 868.81
+      },
+      {
+        "date": "2026-07-16",
+        "price": 1824.99
+      },
+      {
+        "date": "2026-07-19",
+        "price": 212.22
+      }
+    ],
+    "sales_count_90d": 6,
+    "sales_count_30d": 0,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/617206_in_200x200.jpg"
+  },
+  "エアームド|overseas": {
+    "character": "エアームド",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Skarmory",
+    "set_name": "Neo Revelation",
+    "rarity": "Rare",
+    "yen_increase": 137742,
+    "checked_date": "2026-10-12",
+    "old_price": 281.72,
+    "new_price": 1200.0,
+    "change_pct": 326.0,
+    "change_pct_30d": 400.0,
+    "old_price_30d": 240.0,
+    "old_date_30d": "2026-08-10",
+    "old_date": "2026-08-01",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-08-01",
+        "price": 281.72
+      },
+      {
+        "date": "2026-08-10",
+        "price": 240.0
+      },
+      {
+        "date": "2026-09-13",
+        "price": 236.5
+      },
+      {
+        "date": "2026-09-28",
+        "price": 264.0
+      },
+      {
+        "date": "2026-09-30",
+        "price": 300.0
+      },
+      {
+        "date": "2026-10-07",
+        "price": 1200.0
+      }
+    ],
+    "sales_count_90d": 6,
+    "sales_count_30d": 4,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89233_in_200x200.jpg"
   }
 }
