@@ -1878,13 +1878,13 @@
     "set_name": "XY - Evolutions",
     "rarity": "Ultra Rare",
     "yen_increase": 9390,
-    "checked_date": "2026-10-09",
+    "checked_date": "2026-10-12",
     "old_price": 62.4,
     "new_price": 125.0,
     "change_pct": 100.3,
-    "change_pct_30d": -64.3,
-    "old_price_30d": 349.95,
-    "old_date_30d": "2026-09-08",
+    "change_pct_30d": 25.0,
+    "old_price_30d": 100.0,
+    "old_date_30d": "2026-09-11",
     "old_date": "2026-07-13",
     "trend": "mixed",
     "chart": [
@@ -1933,8 +1933,8 @@
         "price": 125.0
       }
     ],
-    "sales_count_90d": 12,
-    "sales_count_30d": 3,
+    "sales_count_90d": 11,
+    "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/124039_in_200x200.jpg"
   },
   "ディアンシー|overseas": {
@@ -4615,7 +4615,7 @@
     "set_name": "SV2a: Pokemon Card 151",
     "rarity": "Super Rare",
     "yen_increase": 9600,
-    "checked_date": "2026-10-09",
+    "checked_date": "2026-10-12",
     "old_price": 55.0,
     "new_price": 119.0,
     "change_pct": 116.4,
@@ -4662,7 +4662,7 @@
         "price": 119.0
       }
     ],
-    "sales_count_90d": 12,
+    "sales_count_90d": 11,
     "sales_count_30d": 5,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/566533_in_200x200.jpg"
   },
@@ -4674,7 +4674,7 @@
     "set_name": "SV: Scarlet & Violet 151",
     "rarity": "Illustration Rare",
     "yen_increase": 9270,
-    "checked_date": "2026-10-09",
+    "checked_date": "2026-10-12",
     "old_price": 51.0,
     "new_price": 112.8,
     "change_pct": 121.2,
@@ -4733,7 +4733,7 @@
         "price": 112.8
       }
     ],
-    "sales_count_90d": 12,
+    "sales_count_90d": 11,
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/517016_in_200x200.jpg"
   },
@@ -7181,5 +7181,48 @@
     "sales_count_90d": 8,
     "sales_count_30d": 6,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602786_in_200x200.jpg"
+  },
+  "グライオン|japan": {
+    "character": "グライオン",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Gliscor",
+    "set_name": "DP5: Cry from the Mysterious",
+    "rarity": "Holo Rare",
+    "yen_increase": 24490,
+    "checked_date": "2026-10-12",
+    "old_price": 86.73,
+    "new_price": 250.0,
+    "change_pct": 188.3,
+    "change_pct_30d": 31.6,
+    "old_price_30d": 190.0,
+    "old_date_30d": "2026-09-03",
+    "old_date": "2026-07-25",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-25",
+        "price": 86.73
+      },
+      {
+        "date": "2026-09-01",
+        "price": 219.95
+      },
+      {
+        "date": "2026-09-03",
+        "price": 190.0
+      },
+      {
+        "date": "2026-10-03",
+        "price": 270.0
+      },
+      {
+        "date": "2026-10-08",
+        "price": 250.0
+      }
+    ],
+    "sales_count_90d": 5,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606901_in_200x200.jpg"
   }
 }
