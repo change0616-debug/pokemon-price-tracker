@@ -898,15 +898,15 @@
     "card_name": "Magneton",
     "set_name": "Mystery of the Fossils",
     "rarity": "Holo Rare",
-    "yen_increase": 32608,
-    "checked_date": "2026-10-09",
-    "old_price": 49.99,
+    "yen_increase": 30357,
+    "checked_date": "2026-10-12",
+    "old_price": 65.0,
     "new_price": 267.38,
-    "change_pct": 434.9,
+    "change_pct": 311.4,
     "change_pct_30d": -0.2,
     "old_price_30d": 268.0,
     "old_date_30d": "2026-07-17",
-    "old_date": "2026-07-11",
+    "old_date": "2026-07-13",
     "trend": "mixed",
     "chart": [
       {
@@ -938,7 +938,7 @@
         "price": 267.38
       }
     ],
-    "sales_count_90d": 12,
+    "sales_count_90d": 6,
     "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/575689_in_200x200.jpg"
   },
@@ -5023,12 +5023,12 @@
     "card_name": "Lanturn - 045/087",
     "set_name": "Wind from the Sea",
     "rarity": "Holo Rare",
-    "yen_increase": 118650,
-    "checked_date": "2026-10-09",
+    "yen_increase": 66150,
+    "checked_date": "2026-10-12",
     "old_price": 409.0,
-    "new_price": 1200.0,
-    "change_pct": 193.4,
-    "change_pct_30d": 193.4,
+    "new_price": 850.0,
+    "change_pct": 107.8,
+    "change_pct_30d": 107.8,
     "old_price_30d": 409.0,
     "old_date_30d": "2026-07-19",
     "old_date": "2026-07-19",
@@ -5053,10 +5053,18 @@
       {
         "date": "2026-10-05",
         "price": 1200.0
+      },
+      {
+        "date": "2026-10-08",
+        "price": 1400.0
+      },
+      {
+        "date": "2026-10-09",
+        "price": 850.0
       }
     ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 4,
+    "sales_count_90d": 7,
+    "sales_count_30d": 6,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576381_in_200x200.jpg"
   },
   "スターミー|japan": {
@@ -5067,7 +5075,7 @@
     "set_name": "Split Earth",
     "rarity": "Holo Rare",
     "yen_increase": 187500,
-    "checked_date": "2026-10-09",
+    "checked_date": "2026-10-12",
     "old_price": 1250.0,
     "new_price": 2500.0,
     "change_pct": 100.0,
@@ -7397,5 +7405,151 @@
     "sales_count_90d": 14,
     "sales_count_30d": 5,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/106530_in_200x200.jpg"
+  },
+  "ドサイドン|japan": {
+    "character": "ドサイドン",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Rhyperior LV.X",
+    "set_name": "DP5: Cry from the Mysterious",
+    "rarity": "Holo Rare",
+    "yen_increase": 83397,
+    "checked_date": "2026-10-12",
+    "old_price": 299.02,
+    "new_price": 855.0,
+    "change_pct": 185.9,
+    "change_pct_30d": 60.4,
+    "old_price_30d": 533.0,
+    "old_date_30d": "2026-08-22",
+    "old_date": "2026-07-11",
+    "trend": "sustained",
+    "chart": [
+      {
+        "date": "2026-07-05",
+        "price": 710.0
+      },
+      {
+        "date": "2026-07-11",
+        "price": 299.02
+      },
+      {
+        "date": "2026-08-06",
+        "price": 449.0
+      },
+      {
+        "date": "2026-08-12",
+        "price": 307.45
+      },
+      {
+        "date": "2026-08-20",
+        "price": 499.99
+      },
+      {
+        "date": "2026-08-22",
+        "price": 533.0
+      },
+      {
+        "date": "2026-09-21",
+        "price": 530.0
+      },
+      {
+        "date": "2026-09-28",
+        "price": 570.0
+      },
+      {
+        "date": "2026-10-02",
+        "price": 904.28
+      },
+      {
+        "date": "2026-10-05",
+        "price": 516.0
+      },
+      {
+        "date": "2026-10-07",
+        "price": 767.13
+      },
+      {
+        "date": "2026-10-09",
+        "price": 855.0
+      }
+    ],
+    "sales_count_90d": 11,
+    "sales_count_30d": 7,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606925_in_200x200.jpg"
+  },
+  "キングラー|overseas": {
+    "character": "キングラー",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Kingler",
+    "set_name": "Fossil",
+    "rarity": "Uncommon",
+    "yen_increase": 10499,
+    "checked_date": "2026-10-12",
+    "old_price": 60.0,
+    "new_price": 129.99,
+    "change_pct": 116.7,
+    "change_pct_30d": -66.7,
+    "old_price_30d": 389.99,
+    "old_date_30d": "2026-09-08",
+    "old_date": "2026-07-12",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-05",
+        "price": 174.99
+      },
+      {
+        "date": "2026-07-08",
+        "price": 115.0
+      },
+      {
+        "date": "2026-07-09",
+        "price": 374.99
+      },
+      {
+        "date": "2026-07-12",
+        "price": 60.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 79.0
+      },
+      {
+        "date": "2026-07-20",
+        "price": 270.0
+      },
+      {
+        "date": "2026-08-06",
+        "price": 500.0
+      },
+      {
+        "date": "2026-08-10",
+        "price": 234.0
+      },
+      {
+        "date": "2026-08-12",
+        "price": 395.0
+      },
+      {
+        "date": "2026-08-23",
+        "price": 550.0
+      },
+      {
+        "date": "2026-09-07",
+        "price": 264.0
+      },
+      {
+        "date": "2026-09-08",
+        "price": 389.99
+      },
+      {
+        "date": "2026-09-15",
+        "price": 129.99
+      }
+    ],
+    "sales_count_90d": 9,
+    "sales_count_30d": 1,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/44440_in_200x200.jpg"
   }
 }
