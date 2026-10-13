@@ -947,7 +947,7 @@
     "set_name": "S6a: Eevee Heroes",
     "rarity": "Hyper Rare",
     "yen_increase": 56925,
-    "checked_date": "2026-10-10",
+    "checked_date": "2026-10-13",
     "old_price": 168.5,
     "new_price": 548.0,
     "change_pct": 225.2,
@@ -1324,15 +1324,15 @@
     "set_name": "Pokemon Web",
     "rarity": "Rare",
     "yen_increase": 72450,
-    "checked_date": "2026-10-10",
+    "checked_date": "2026-10-13",
     "old_price": 405.0,
     "new_price": 888.0,
     "change_pct": 119.3,
-    "change_pct_30d": 113.7,
-    "old_price_30d": 415.5,
-    "old_date_30d": "2026-08-30",
+    "change_pct_30d": 0.0,
+    "old_price_30d": 888.0,
+    "old_date_30d": "2026-09-11",
     "old_date": "2026-07-12",
-    "trend": "spike",
+    "trend": "mixed",
     "chart": [
       {
         "date": "2026-07-12",
@@ -1355,8 +1355,8 @@
         "price": 888.0
       }
     ],
-    "sales_count_90d": 6,
-    "sales_count_30d": 1,
+    "sales_count_90d": 5,
+    "sales_count_30d": 0,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/613675_in_200x200.jpg"
   },
   "アゲハント|overseas": {
@@ -1696,7 +1696,7 @@
     "set_name": "DP4: Dawn Dash",
     "rarity": "Holo Rare",
     "yen_increase": 59998,
-    "checked_date": "2026-10-10",
+    "checked_date": "2026-10-13",
     "old_price": 400.0,
     "new_price": 799.99,
     "change_pct": 100.0,
@@ -1742,25 +1742,17 @@
     "card_name": "Leafeon ex - 006/131",
     "set_name": "Prize Pack Series Cards",
     "rarity": "Double Rare",
-    "yen_increase": 14438,
-    "checked_date": "2026-10-10",
-    "old_price": 83.75,
+    "yen_increase": 15459,
+    "checked_date": "2026-10-13",
+    "old_price": 76.94,
     "new_price": 180.0,
-    "change_pct": 114.9,
+    "change_pct": 134.0,
     "change_pct_30d": 0.0,
     "old_price_30d": 180.0,
     "old_date_30d": "2026-08-12",
-    "old_date": "2026-07-12",
+    "old_date": "2026-07-15",
     "trend": "mixed",
     "chart": [
-      {
-        "date": "2026-07-03",
-        "price": 51.0
-      },
-      {
-        "date": "2026-07-04",
-        "price": 75.0
-      },
       {
         "date": "2026-07-12",
         "price": 83.75
@@ -1794,7 +1786,7 @@
         "price": 180.0
       }
     ],
-    "sales_count_90d": 10,
+    "sales_count_90d": 8,
     "sales_count_30d": 0,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648671_in_200x200.jpg"
   },
@@ -3065,12 +3057,12 @@
     "card_name": "Lapras",
     "set_name": "Southern Islands",
     "rarity": "Promo",
-    "yen_increase": 74997,
-    "checked_date": "2026-10-10",
+    "yen_increase": 92487,
+    "checked_date": "2026-10-13",
     "old_price": 500.0,
-    "new_price": 999.98,
-    "change_pct": 100.0,
-    "change_pct_30d": 100.0,
+    "new_price": 1116.58,
+    "change_pct": 123.3,
+    "change_pct_30d": 123.3,
     "old_price_30d": 500.0,
     "old_date_30d": "2026-09-09",
     "old_date": "2026-09-09",
@@ -3087,10 +3079,14 @@
       {
         "date": "2026-10-05",
         "price": 999.98
+      },
+      {
+        "date": "2026-10-12",
+        "price": 1116.58
       }
     ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 4,
+    "sales_count_90d": 6,
+    "sales_count_30d": 5,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/46469_in_200x200.jpg"
   },
   "コイキング|overseas": {
@@ -5543,7 +5539,7 @@
     "set_name": "SM - Lost Thunder",
     "rarity": "Ultra Rare",
     "yen_increase": 92866,
-    "checked_date": "2026-10-10",
+    "checked_date": "2026-10-13",
     "old_price": 380.88,
     "new_price": 999.99,
     "change_pct": 162.5,
@@ -5582,103 +5578,64 @@
         "price": 999.99
       }
     ],
-    "sales_count_90d": 7,
-    "sales_count_30d": 3,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/178822_in_200x200.jpg"
-  },
-  "サンダー|overseas": {
-    "character": "サンダー",
-    "market": "海外(英語版)",
-    "market_key": "overseas",
-    "card_name": "Zapdos",
-    "set_name": "Aquapolis",
-    "rarity": "Rare",
-    "yen_increase": 115500,
-    "checked_date": "2026-10-10",
-    "old_price": 430.0,
-    "new_price": 1200.0,
-    "change_pct": 179.1,
-    "change_pct_30d": 140.0,
-    "old_price_30d": 500.0,
-    "old_date_30d": "2026-08-30",
-    "old_date": "2026-07-12",
-    "trend": "spike",
-    "chart": [
-      {
-        "date": "2026-07-12",
-        "price": 430.0
-      },
-      {
-        "date": "2026-08-29",
-        "price": 430.0
-      },
-      {
-        "date": "2026-08-30",
-        "price": 500.0
-      },
-      {
-        "date": "2026-09-13",
-        "price": 620.0
-      },
-      {
-        "date": "2026-09-15",
-        "price": 1200.0
-      }
-    ],
-    "sales_count_90d": 5,
+    "sales_count_90d": 6,
     "sales_count_30d": 2,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/90716_in_200x200.jpg"
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/178822_in_200x200.jpg"
   },
   "ボーマンダ|overseas": {
     "character": "ボーマンダ",
     "market": "海外(英語版)",
     "market_key": "overseas",
-    "card_name": "Salamence - 19/97 (e-League)",
-    "set_name": "Nintendo Promos",
-    "rarity": "Promo",
-    "yen_increase": 322550,
-    "checked_date": "2026-10-10",
-    "old_price": 350.0,
-    "new_price": 2500.33,
-    "change_pct": 614.4,
-    "change_pct_30d": 13.7,
-    "old_price_30d": 2200.0,
-    "old_date_30d": "2026-08-31",
-    "old_date": "2026-07-12",
+    "card_name": "Salamence - 10/97",
+    "set_name": "EX Dragon",
+    "rarity": "Holo Rare",
+    "yen_increase": 62998,
+    "checked_date": "2026-10-13",
+    "old_price": 280.0,
+    "new_price": 699.99,
+    "change_pct": 150.0,
+    "change_pct_30d": -86.0,
+    "old_price_30d": 4999.99,
+    "old_date_30d": "2026-08-16",
+    "old_date": "2026-07-15",
     "trend": "mixed",
     "chart": [
-      {
-        "date": "2026-07-09",
-        "price": 1700.0
-      },
       {
         "date": "2026-07-12",
         "price": 350.0
       },
       {
-        "date": "2026-08-08",
-        "price": 1766.75
+        "date": "2026-07-15",
+        "price": 280.0
       },
       {
-        "date": "2026-08-09",
-        "price": 2499.99
+        "date": "2026-07-19",
+        "price": 320.65
       },
       {
-        "date": "2026-08-31",
-        "price": 2200.0
+        "date": "2026-08-16",
+        "price": 4999.99
       },
       {
-        "date": "2026-09-12",
-        "price": 406.26
+        "date": "2026-09-21",
+        "price": 2397.5
+      },
+      {
+        "date": "2026-09-22",
+        "price": 6500.0
       },
       {
         "date": "2026-09-27",
-        "price": 2500.33
+        "price": 10000.0
+      },
+      {
+        "date": "2026-10-11",
+        "price": 699.99
       }
     ],
-    "sales_count_90d": 8,
-    "sales_count_30d": 4,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/213023_in_200x200.jpg"
+    "sales_count_90d": 10,
+    "sales_count_30d": 5,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/88895_in_200x200.jpg"
   },
   "フライゴン|japan": {
     "character": "フライゴン",
@@ -5688,7 +5645,7 @@
     "set_name": "Pt2: Bonds to the End of Time",
     "rarity": "Holo Rare",
     "yen_increase": 297780,
-    "checked_date": "2026-10-10",
+    "checked_date": "2026-10-13",
     "old_price": 800.0,
     "new_price": 2785.2,
     "change_pct": 248.1,
@@ -5735,7 +5692,7 @@
     "set_name": "DP1: Space-Time Creation",
     "rarity": "Holo Rare",
     "yen_increase": 55875,
-    "checked_date": "2026-10-10",
+    "checked_date": "2026-10-13",
     "old_price": 227.5,
     "new_price": 600.0,
     "change_pct": 163.7,
@@ -5790,7 +5747,7 @@
         "price": 600.0
       }
     ],
-    "sales_count_90d": 10,
+    "sales_count_90d": 9,
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605674_in_200x200.jpg"
   },
@@ -7490,5 +7447,409 @@
     "sales_count_90d": 18,
     "sales_count_30d": 6,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/180531_in_200x200.jpg"
+  },
+  "ボーマンダ|japan": {
+    "character": "ボーマンダ",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Salamence",
+    "set_name": "Salamence Constructed Starter Deck",
+    "rarity": "None",
+    "yen_increase": 69600,
+    "checked_date": "2026-10-13",
+    "old_price": 36.0,
+    "new_price": 500.0,
+    "change_pct": 1288.9,
+    "change_pct_30d": 0.0,
+    "old_price_30d": 500.0,
+    "old_date_30d": "2026-07-31",
+    "old_date": "2026-07-13",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-11",
+        "price": 289.99
+      },
+      {
+        "date": "2026-07-12",
+        "price": 350.0
+      },
+      {
+        "date": "2026-07-13",
+        "price": 36.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 157.77
+      },
+      {
+        "date": "2026-07-20",
+        "price": 10160.33
+      },
+      {
+        "date": "2026-07-27",
+        "price": 276.0
+      },
+      {
+        "date": "2026-07-31",
+        "price": 500.0
+      }
+    ],
+    "sales_count_90d": 8,
+    "sales_count_30d": 0,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/612940_in_200x200.jpg"
+  },
+  "エーフィ|japan": {
+    "character": "エーフィ",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Espeon - 066/SV-P",
+    "set_name": "SV-P Promotional Cards",
+    "rarity": "Common",
+    "yen_increase": 24336,
+    "checked_date": "2026-10-13",
+    "old_price": 15.0,
+    "new_price": 177.24,
+    "change_pct": 1081.6,
+    "change_pct_30d": 12.5,
+    "old_price_30d": 157.5,
+    "old_date_30d": "2026-09-06",
+    "old_date": "2026-07-14",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-07",
+        "price": 115.0
+      },
+      {
+        "date": "2026-07-08",
+        "price": 221.25
+      },
+      {
+        "date": "2026-07-11",
+        "price": 200.0
+      },
+      {
+        "date": "2026-07-12",
+        "price": 112.94
+      },
+      {
+        "date": "2026-07-14",
+        "price": 15.0
+      },
+      {
+        "date": "2026-07-16",
+        "price": 83.33
+      },
+      {
+        "date": "2026-07-18",
+        "price": 210.0
+      },
+      {
+        "date": "2026-07-19",
+        "price": 221.38
+      },
+      {
+        "date": "2026-07-20",
+        "price": 140.0
+      },
+      {
+        "date": "2026-07-25",
+        "price": 203.0
+      },
+      {
+        "date": "2026-07-27",
+        "price": 181.66
+      },
+      {
+        "date": "2026-08-01",
+        "price": 224.99
+      },
+      {
+        "date": "2026-08-02",
+        "price": 227.5
+      },
+      {
+        "date": "2026-08-03",
+        "price": 222.99
+      },
+      {
+        "date": "2026-08-05",
+        "price": 220.0
+      },
+      {
+        "date": "2026-08-09",
+        "price": 192.5
+      },
+      {
+        "date": "2026-08-10",
+        "price": 210.0
+      },
+      {
+        "date": "2026-08-22",
+        "price": 218.29
+      },
+      {
+        "date": "2026-08-31",
+        "price": 220.0
+      },
+      {
+        "date": "2026-09-04",
+        "price": 259.0
+      },
+      {
+        "date": "2026-09-06",
+        "price": 157.5
+      },
+      {
+        "date": "2026-09-14",
+        "price": 174.0
+      },
+      {
+        "date": "2026-09-18",
+        "price": 185.0
+      },
+      {
+        "date": "2026-09-22",
+        "price": 200.0
+      },
+      {
+        "date": "2026-09-26",
+        "price": 165.0
+      },
+      {
+        "date": "2026-09-30",
+        "price": 211.0
+      },
+      {
+        "date": "2026-10-03",
+        "price": 173.75
+      },
+      {
+        "date": "2026-10-04",
+        "price": 218.35
+      },
+      {
+        "date": "2026-10-05",
+        "price": 120.0
+      },
+      {
+        "date": "2026-10-06",
+        "price": 200.0
+      },
+      {
+        "date": "2026-10-07",
+        "price": 205.0
+      },
+      {
+        "date": "2026-10-09",
+        "price": 175.0
+      },
+      {
+        "date": "2026-10-11",
+        "price": 177.24
+      }
+    ],
+    "sales_count_90d": 40,
+    "sales_count_30d": 16,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/587824_in_200x200.jpg"
+  },
+  "ブラッキー|overseas": {
+    "character": "ブラッキー",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Umbreon - 130/197 (EBGames Exclusive)",
+    "set_name": "Miscellaneous Cards & Products",
+    "rarity": "Promo",
+    "yen_increase": 55200,
+    "checked_date": "2026-10-13",
+    "old_price": 32.0,
+    "new_price": 400.0,
+    "change_pct": 1150.0,
+    "change_pct_30d": -11.1,
+    "old_price_30d": 450.0,
+    "old_date_30d": "2026-09-12",
+    "old_date": "2026-07-24",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-24",
+        "price": 32.0
+      },
+      {
+        "date": "2026-07-25",
+        "price": 310.0
+      },
+      {
+        "date": "2026-07-26",
+        "price": 499.5
+      },
+      {
+        "date": "2026-08-06",
+        "price": 114.99
+      },
+      {
+        "date": "2026-09-11",
+        "price": 495.0
+      },
+      {
+        "date": "2026-09-12",
+        "price": 450.0
+      },
+      {
+        "date": "2026-09-29",
+        "price": 444.04
+      },
+      {
+        "date": "2026-10-06",
+        "price": 400.0
+      }
+    ],
+    "sales_count_90d": 9,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/525634_in_200x200.jpg"
+  },
+  "ミロカロス|japan": {
+    "character": "ミロカロス",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Milotic ex - 131/106",
+    "set_name": "SV8: Super Electric Breaker",
+    "rarity": "Special Art Rare",
+    "yen_increase": 18000,
+    "checked_date": "2026-10-13",
+    "old_price": 15.0,
+    "new_price": 135.0,
+    "change_pct": 800.0,
+    "change_pct_30d": 1.5,
+    "old_price_30d": 132.98,
+    "old_date_30d": "2026-09-12",
+    "old_date": "2026-07-15",
+    "trend": "sustained",
+    "chart": [
+      {
+        "date": "2026-07-08",
+        "price": 102.5
+      },
+      {
+        "date": "2026-07-12",
+        "price": 127.5
+      },
+      {
+        "date": "2026-07-14",
+        "price": 94.33
+      },
+      {
+        "date": "2026-07-15",
+        "price": 15.0
+      },
+      {
+        "date": "2026-07-18",
+        "price": 126.33
+      },
+      {
+        "date": "2026-07-19",
+        "price": 117.5
+      },
+      {
+        "date": "2026-07-20",
+        "price": 150.0
+      },
+      {
+        "date": "2026-07-22",
+        "price": 174.99
+      },
+      {
+        "date": "2026-07-24",
+        "price": 120.0
+      },
+      {
+        "date": "2026-07-25",
+        "price": 119.93
+      },
+      {
+        "date": "2026-07-26",
+        "price": 114.5
+      },
+      {
+        "date": "2026-07-27",
+        "price": 110.4
+      },
+      {
+        "date": "2026-08-06",
+        "price": 129.99
+      },
+      {
+        "date": "2026-08-17",
+        "price": 97.0
+      },
+      {
+        "date": "2026-08-20",
+        "price": 102.02
+      },
+      {
+        "date": "2026-08-24",
+        "price": 125.0
+      },
+      {
+        "date": "2026-08-25",
+        "price": 121.62
+      },
+      {
+        "date": "2026-08-29",
+        "price": 120.0
+      },
+      {
+        "date": "2026-09-05",
+        "price": 106.19
+      },
+      {
+        "date": "2026-09-08",
+        "price": 171.45
+      },
+      {
+        "date": "2026-09-12",
+        "price": 132.98
+      },
+      {
+        "date": "2026-09-17",
+        "price": 150.0
+      },
+      {
+        "date": "2026-09-19",
+        "price": 115.0
+      },
+      {
+        "date": "2026-09-24",
+        "price": 125.0
+      },
+      {
+        "date": "2026-09-25",
+        "price": 123.32
+      },
+      {
+        "date": "2026-09-29",
+        "price": 100.0
+      },
+      {
+        "date": "2026-10-02",
+        "price": 132.4
+      },
+      {
+        "date": "2026-10-08",
+        "price": 119.99
+      },
+      {
+        "date": "2026-10-10",
+        "price": 135.0
+      },
+      {
+        "date": "2026-10-11",
+        "price": 135.0
+      }
+    ],
+    "sales_count_90d": 35,
+    "sales_count_30d": 11,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/587698_in_200x200.jpg"
   }
 }
