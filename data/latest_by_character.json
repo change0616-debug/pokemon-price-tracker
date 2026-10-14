@@ -1124,7 +1124,7 @@
     "set_name": "SV: Black Bolt",
     "rarity": "Illustration Rare",
     "yen_increase": 25089,
-    "checked_date": "2026-10-11",
+    "checked_date": "2026-10-14",
     "old_price": 150.0,
     "new_price": 317.26,
     "change_pct": 111.5,
@@ -1175,7 +1175,7 @@
     "set_name": "XY6: Emerald Break",
     "rarity": "Common",
     "yen_increase": 17098,
-    "checked_date": "2026-10-11",
+    "checked_date": "2026-10-14",
     "old_price": 86.0,
     "new_price": 199.99,
     "change_pct": 132.5,
@@ -5524,7 +5524,7 @@
     "set_name": "SWSH09: Brilliant Stars",
     "rarity": "Ultra Rare",
     "yen_increase": 9690,
-    "checked_date": "2026-10-11",
+    "checked_date": "2026-10-14",
     "old_price": 59.4,
     "new_price": 124.0,
     "change_pct": 108.8,
@@ -5567,7 +5567,7 @@
     "set_name": "Miracle of the Desert",
     "rarity": "Holo Rare",
     "yen_increase": 99750,
-    "checked_date": "2026-10-11",
+    "checked_date": "2026-10-14",
     "old_price": 610.0,
     "new_price": 1275.0,
     "change_pct": 109.0,
@@ -7626,5 +7626,154 @@
     "sales_count_90d": 10,
     "sales_count_30d": 6,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606869_in_200x200.jpg"
+  },
+  "ミミロップ|overseas": {
+    "character": "ミミロップ",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Mega Lopunny & Jigglypuff GX (Alternate Full Art)",
+    "set_name": "SM - Cosmic Eclipse",
+    "rarity": "Ultra Rare",
+    "yen_increase": 177150,
+    "checked_date": "2026-10-14",
+    "old_price": 139.0,
+    "new_price": 1320.0,
+    "change_pct": 849.6,
+    "change_pct_30d": -11.9,
+    "old_price_30d": 1499.0,
+    "old_date_30d": "2026-09-10",
+    "old_date": "2026-07-18",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-07-18",
+        "price": 139.0
+      },
+      {
+        "date": "2026-08-19",
+        "price": 1300.0
+      },
+      {
+        "date": "2026-09-05",
+        "price": 1439.88
+      },
+      {
+        "date": "2026-09-08",
+        "price": 1589.44
+      },
+      {
+        "date": "2026-09-10",
+        "price": 1499.0
+      },
+      {
+        "date": "2026-09-21",
+        "price": 1320.0
+      }
+    ],
+    "sales_count_90d": 9,
+    "sales_count_30d": 1,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/201286_in_200x200.jpg"
+  },
+  "ミミロップ|japan": {
+    "character": "ミミロップ",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Mega Lopunny ex - 100/080",
+    "set_name": "M2: Inferno X",
+    "rarity": "Super Rare",
+    "yen_increase": 5220,
+    "checked_date": "2026-10-14",
+    "old_price": 25.2,
+    "new_price": 60.0,
+    "change_pct": 138.1,
+    "change_pct_30d": 87.5,
+    "old_price_30d": 32.0,
+    "old_date_30d": "2026-09-09",
+    "old_date": "2026-07-27",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-27",
+        "price": 25.2
+      },
+      {
+        "date": "2026-08-01",
+        "price": 35.0
+      },
+      {
+        "date": "2026-08-05",
+        "price": 28.01
+      },
+      {
+        "date": "2026-08-14",
+        "price": 42.0
+      },
+      {
+        "date": "2026-09-09",
+        "price": 32.0
+      },
+      {
+        "date": "2026-09-21",
+        "price": 39.0
+      },
+      {
+        "date": "2026-09-22",
+        "price": 60.0
+      }
+    ],
+    "sales_count_90d": 7,
+    "sales_count_30d": 2,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/655879_in_200x200.jpg"
+  },
+  "ハクリュー|overseas": {
+    "character": "ハクリュー",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Dark Dragonair",
+    "set_name": "Team Rocket",
+    "rarity": "Uncommon",
+    "yen_increase": 116248,
+    "checked_date": "2026-10-14",
+    "old_price": 175.0,
+    "new_price": 949.99,
+    "change_pct": 442.9,
+    "change_pct_30d": 35.7,
+    "old_price_30d": 699.99,
+    "old_date_30d": "2026-09-05",
+    "old_date": "2026-07-31",
+    "trend": "sustained",
+    "chart": [
+      {
+        "date": "2026-07-31",
+        "price": 175.0
+      },
+      {
+        "date": "2026-08-10",
+        "price": 456.0
+      },
+      {
+        "date": "2026-08-11",
+        "price": 405.0
+      },
+      {
+        "date": "2026-09-05",
+        "price": 699.99
+      },
+      {
+        "date": "2026-09-18",
+        "price": 900.0
+      },
+      {
+        "date": "2026-09-28",
+        "price": 885.0
+      },
+      {
+        "date": "2026-10-09",
+        "price": 949.99
+      }
+    ],
+    "sales_count_90d": 8,
+    "sales_count_30d": 4,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84580_in_200x200.jpg"
   }
 }
