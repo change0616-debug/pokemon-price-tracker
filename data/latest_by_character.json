@@ -1449,13 +1449,13 @@
     "set_name": "XY - Evolutions",
     "rarity": "Ultra Rare",
     "yen_increase": 9390,
-    "checked_date": "2026-10-12",
+    "checked_date": "2026-10-15",
     "old_price": 62.4,
     "new_price": 125.0,
     "change_pct": 100.3,
-    "change_pct_30d": 25.0,
-    "old_price_30d": 100.0,
-    "old_date_30d": "2026-09-11",
+    "change_pct_30d": 0.0,
+    "old_price_30d": 125.0,
+    "old_date_30d": "2026-09-13",
     "old_date": "2026-07-13",
     "trend": "mixed",
     "chart": [
@@ -1505,7 +1505,7 @@
       }
     ],
     "sales_count_90d": 11,
-    "sales_count_30d": 2,
+    "sales_count_30d": 0,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/124039_in_200x200.jpg"
   },
   "ディアンシー|overseas": {
@@ -3474,7 +3474,7 @@
     "set_name": "SV2a: Pokemon Card 151",
     "rarity": "Super Rare",
     "yen_increase": 9600,
-    "checked_date": "2026-10-12",
+    "checked_date": "2026-10-15",
     "old_price": 55.0,
     "new_price": 119.0,
     "change_pct": 116.4,
@@ -3533,13 +3533,13 @@
     "set_name": "SV: Scarlet & Violet 151",
     "rarity": "Illustration Rare",
     "yen_increase": 9270,
-    "checked_date": "2026-10-12",
+    "checked_date": "2026-10-15",
     "old_price": 51.0,
     "new_price": 112.8,
     "change_pct": 121.2,
-    "change_pct_30d": -26.3,
-    "old_price_30d": 153.0,
-    "old_date_30d": "2026-09-08",
+    "change_pct_30d": -21.4,
+    "old_price_30d": 143.5,
+    "old_date_30d": "2026-09-13",
     "old_date": "2026-07-13",
     "trend": "mixed",
     "chart": [
@@ -3593,7 +3593,7 @@
       }
     ],
     "sales_count_90d": 11,
-    "sales_count_30d": 2,
+    "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/517016_in_200x200.jpg"
   },
   "エアームド|japan": {
@@ -5823,7 +5823,7 @@
     "set_name": "DP5: Cry from the Mysterious",
     "rarity": "Holo Rare",
     "yen_increase": 24490,
-    "checked_date": "2026-10-12",
+    "checked_date": "2026-10-15",
     "old_price": 86.73,
     "new_price": 250.0,
     "change_pct": 188.3,
@@ -5850,12 +5850,16 @@
         "price": 270.0
       },
       {
+        "date": "2026-10-06",
+        "price": 410.0
+      },
+      {
         "date": "2026-10-08",
         "price": 250.0
       }
     ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 2,
+    "sales_count_90d": 6,
+    "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606901_in_200x200.jpg"
   },
   "ルージュラ|japan": {
@@ -7722,5 +7726,96 @@
     "sales_count_90d": 7,
     "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/575825_in_200x200.jpg"
+  },
+  "フーディン|overseas": {
+    "character": "フーディン",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "M Alakazam EX",
+    "set_name": "XY - Fates Collide",
+    "rarity": "Ultra Rare",
+    "yen_increase": 110607,
+    "checked_date": "2026-10-15",
+    "old_price": 212.52,
+    "new_price": 949.9,
+    "change_pct": 347.0,
+    "change_pct_30d": 207.0,
+    "old_price_30d": 309.45,
+    "old_date_30d": "2026-09-14",
+    "old_date": "2026-07-19",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-19",
+        "price": 212.52
+      },
+      {
+        "date": "2026-07-27",
+        "price": 288.0
+      },
+      {
+        "date": "2026-08-15",
+        "price": 349.0
+      },
+      {
+        "date": "2026-08-26",
+        "price": 237.5
+      },
+      {
+        "date": "2026-09-05",
+        "price": 288.0
+      },
+      {
+        "date": "2026-09-06",
+        "price": 299.99
+      },
+      {
+        "date": "2026-09-08",
+        "price": 320.0
+      },
+      {
+        "date": "2026-09-14",
+        "price": 309.45
+      },
+      {
+        "date": "2026-09-17",
+        "price": 250.0
+      },
+      {
+        "date": "2026-09-23",
+        "price": 269.0
+      },
+      {
+        "date": "2026-09-26",
+        "price": 360.0
+      },
+      {
+        "date": "2026-09-27",
+        "price": 350.0
+      },
+      {
+        "date": "2026-09-28",
+        "price": 342.0
+      },
+      {
+        "date": "2026-09-30",
+        "price": 349.99
+      },
+      {
+        "date": "2026-10-04",
+        "price": 349.99
+      },
+      {
+        "date": "2026-10-05",
+        "price": 396.0
+      },
+      {
+        "date": "2026-10-09",
+        "price": 949.9
+      }
+    ],
+    "sales_count_90d": 19,
+    "sales_count_30d": 10,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/117515_in_200x200.jpg"
   }
 }
