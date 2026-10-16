@@ -1226,7 +1226,7 @@
     "set_name": "SV: Black Bolt",
     "rarity": "Illustration Rare",
     "yen_increase": 25089,
-    "checked_date": "2026-10-14",
+    "checked_date": "2026-10-17",
     "old_price": 150.0,
     "new_price": 317.26,
     "change_pct": 111.5,
@@ -1277,7 +1277,7 @@
     "set_name": "XY6: Emerald Break",
     "rarity": "Common",
     "yen_increase": 17098,
-    "checked_date": "2026-10-14",
+    "checked_date": "2026-10-17",
     "old_price": 86.0,
     "new_price": 199.99,
     "change_pct": 132.5,
@@ -4751,7 +4751,7 @@
     "set_name": "SWSH09: Brilliant Stars",
     "rarity": "Ultra Rare",
     "yen_increase": 9690,
-    "checked_date": "2026-10-14",
+    "checked_date": "2026-10-17",
     "old_price": 59.4,
     "new_price": 124.0,
     "change_pct": 108.8,
@@ -4794,7 +4794,7 @@
     "set_name": "Miracle of the Desert",
     "rarity": "Holo Rare",
     "yen_increase": 99750,
-    "checked_date": "2026-10-14",
+    "checked_date": "2026-10-17",
     "old_price": 610.0,
     "new_price": 1275.0,
     "change_pct": 109.0,
@@ -6350,7 +6350,7 @@
     "set_name": "SM - Cosmic Eclipse",
     "rarity": "Ultra Rare",
     "yen_increase": 177150,
-    "checked_date": "2026-10-14",
+    "checked_date": "2026-10-17",
     "old_price": 139.0,
     "new_price": 1320.0,
     "change_pct": 849.6,
@@ -6367,6 +6367,10 @@
       {
         "date": "2026-08-19",
         "price": 1300.0
+      },
+      {
+        "date": "2026-08-24",
+        "price": 1302.31
       },
       {
         "date": "2026-09-05",
@@ -6397,7 +6401,7 @@
     "set_name": "M2: Inferno X",
     "rarity": "Super Rare",
     "yen_increase": 5220,
-    "checked_date": "2026-10-14",
+    "checked_date": "2026-10-17",
     "old_price": 25.2,
     "new_price": 60.0,
     "change_pct": 138.1,
@@ -6448,7 +6452,7 @@
     "set_name": "Team Rocket",
     "rarity": "Uncommon",
     "yen_increase": 116248,
-    "checked_date": "2026-10-14",
+    "checked_date": "2026-10-17",
     "old_price": 175.0,
     "new_price": 949.99,
     "change_pct": 442.9,
@@ -9245,5 +9249,143 @@
     "sales_count_90d": 12,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/572903_in_200x200.jpg"
+  },
+  "ワニノコ|overseas": {
+    "character": "ワニノコ",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Totodile (81)",
+    "set_name": "Neo Genesis",
+    "rarity": "Common",
+    "yen_increase": 75150,
+    "checked_date": "2026-10-17",
+    "old_price": 499.0,
+    "new_price": 1000.0,
+    "change_pct": 100.4,
+    "change_pct_30d": 65.5,
+    "old_price_30d": 604.3,
+    "old_date_30d": "2026-09-11",
+    "old_date": "2026-07-23",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-23",
+        "price": 499.0
+      },
+      {
+        "date": "2026-08-08",
+        "price": 510.0
+      },
+      {
+        "date": "2026-08-17",
+        "price": 514.74
+      },
+      {
+        "date": "2026-08-18",
+        "price": 499.99
+      },
+      {
+        "date": "2026-08-24",
+        "price": 456.0
+      },
+      {
+        "date": "2026-08-27",
+        "price": 524.99
+      },
+      {
+        "date": "2026-08-28",
+        "price": 719.02
+      },
+      {
+        "date": "2026-09-08",
+        "price": 700.0
+      },
+      {
+        "date": "2026-09-11",
+        "price": 604.3
+      },
+      {
+        "date": "2026-09-21",
+        "price": 528.76
+      },
+      {
+        "date": "2026-09-28",
+        "price": 539.64
+      },
+      {
+        "date": "2026-09-30",
+        "price": 550.0
+      },
+      {
+        "date": "2026-10-06",
+        "price": 800.0
+      },
+      {
+        "date": "2026-10-13",
+        "price": 1000.0
+      }
+    ],
+    "sales_count_90d": 18,
+    "sales_count_30d": 7,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89992_in_200x200.jpg"
+  },
+  "ヒードラン|overseas": {
+    "character": "ヒードラン",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Heatran GX (Secret)",
+    "set_name": "SM - Unified Minds",
+    "rarity": "Secret Rare",
+    "yen_increase": 32100,
+    "checked_date": "2026-10-17",
+    "old_price": 138.0,
+    "new_price": 352.0,
+    "change_pct": 155.1,
+    "change_pct_30d": 120.0,
+    "old_price_30d": 160.0,
+    "old_date_30d": "2026-09-08",
+    "old_date": "2026-07-13",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-13",
+        "price": 138.0
+      },
+      {
+        "date": "2026-08-05",
+        "price": 157.5
+      },
+      {
+        "date": "2026-08-14",
+        "price": 152.5
+      },
+      {
+        "date": "2026-09-08",
+        "price": 160.0
+      },
+      {
+        "date": "2026-10-06",
+        "price": 172.0
+      },
+      {
+        "date": "2026-10-09",
+        "price": 187.47
+      },
+      {
+        "date": "2026-10-10",
+        "price": 229.0
+      },
+      {
+        "date": "2026-10-11",
+        "price": 299.0
+      },
+      {
+        "date": "2026-10-13",
+        "price": 352.0
+      }
+    ],
+    "sales_count_90d": 10,
+    "sales_count_30d": 7,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/194943_in_200x200.jpg"
   }
 }
