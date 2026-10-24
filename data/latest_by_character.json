@@ -2628,7 +2628,7 @@
     "set_name": "Team Rocket",
     "rarity": "Uncommon",
     "yen_increase": 49200,
-    "checked_date": "2026-10-21",
+    "checked_date": "2026-10-24",
     "old_price": 252.0,
     "new_price": 580.0,
     "change_pct": 130.2,
@@ -3761,7 +3761,7 @@
     "set_name": "SM - Unbroken Bonds",
     "rarity": "Ultra Rare",
     "yen_increase": 40875,
-    "checked_date": "2026-10-21",
+    "checked_date": "2026-10-24",
     "old_price": 152.5,
     "new_price": 425.0,
     "change_pct": 178.7,
@@ -4528,52 +4528,76 @@
     "character": "プテラ",
     "market": "海外(英語版)",
     "market_key": "overseas",
-    "card_name": "Aerodactyl",
-    "set_name": "Neo Revelation",
-    "rarity": "Rare",
-    "yen_increase": 129756,
-    "checked_date": "2026-10-21",
-    "old_price": 134.95,
-    "new_price": 999.99,
-    "change_pct": 641.0,
-    "change_pct_30d": 132.6,
-    "old_price_30d": 430.0,
-    "old_date_30d": "2026-09-10",
-    "old_date": "2026-08-16",
-    "trend": "mixed",
+    "card_name": "Aerodactyl GX (Secret)",
+    "set_name": "SM - Unified Minds",
+    "rarity": "Secret Rare",
+    "yen_increase": 78112,
+    "checked_date": "2026-10-24",
+    "old_price": 154.25,
+    "new_price": 675.0,
+    "change_pct": 337.6,
+    "change_pct_30d": 167.9,
+    "old_price_30d": 252.0,
+    "old_date_30d": "2026-08-31",
+    "old_date": "2026-07-26",
+    "trend": "spike",
     "chart": [
       {
-        "date": "2026-08-16",
-        "price": 134.95
+        "date": "2026-07-26",
+        "price": 154.25
       },
       {
-        "date": "2026-08-23",
-        "price": 156.5
+        "date": "2026-08-05",
+        "price": 219.99
       },
       {
-        "date": "2026-09-10",
-        "price": 430.0
+        "date": "2026-08-06",
+        "price": 150.0
       },
       {
-        "date": "2026-09-27",
-        "price": 489.0
+        "date": "2026-08-10",
+        "price": 214.99
       },
       {
-        "date": "2026-10-02",
-        "price": 600.0
+        "date": "2026-08-17",
+        "price": 219.95
       },
       {
-        "date": "2026-10-13",
-        "price": 495.0
+        "date": "2026-08-29",
+        "price": 225.0
+      },
+      {
+        "date": "2026-08-31",
+        "price": 252.0
+      },
+      {
+        "date": "2026-10-06",
+        "price": 280.0
+      },
+      {
+        "date": "2026-10-07",
+        "price": 254.41
+      },
+      {
+        "date": "2026-10-08",
+        "price": 274.99
+      },
+      {
+        "date": "2026-10-09",
+        "price": 375.0
+      },
+      {
+        "date": "2026-10-11",
+        "price": 500.0
       },
       {
         "date": "2026-10-18",
-        "price": 999.99
+        "price": 675.0
       }
     ],
-    "sales_count_90d": 7,
-    "sales_count_30d": 4,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/83466_in_200x200.jpg"
+    "sales_count_90d": 13,
+    "sales_count_30d": 6,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/195054_in_200x200.jpg"
   },
   "プクリン|overseas": {
     "character": "プクリン",
@@ -4582,14 +4606,14 @@
     "card_name": "Light Wigglytuff",
     "set_name": "Neo Destiny",
     "rarity": "Uncommon",
-    "yen_increase": 73502,
-    "checked_date": "2026-10-21",
+    "yen_increase": 190502,
+    "checked_date": "2026-10-24",
     "old_price": 129.99,
-    "new_price": 620.0,
-    "change_pct": 377.0,
-    "change_pct_30d": 0.0,
-    "old_price_30d": 620.0,
-    "old_date_30d": "2026-09-04",
+    "new_price": 1400.0,
+    "change_pct": 977.0,
+    "change_pct_30d": 86.7,
+    "old_price_30d": 750.0,
+    "old_date_30d": "2026-09-23",
     "old_date": "2026-07-25",
     "trend": "mixed",
     "chart": [
@@ -4622,12 +4646,12 @@
         "price": 1100.0
       },
       {
-        "date": "2026-10-13",
-        "price": 620.0
+        "date": "2026-10-18",
+        "price": 1400.0
       }
     ],
-    "sales_count_90d": 8,
-    "sales_count_30d": 4,
+    "sales_count_90d": 7,
+    "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86753_in_200x200.jpg"
   },
   "レアコイル|overseas": {
@@ -6641,21 +6665,17 @@
     "card_name": "Dratini",
     "set_name": "Neo Destiny",
     "rarity": "Common",
-    "yen_increase": 23475,
-    "checked_date": "2026-10-21",
-    "old_price": 103.5,
-    "new_price": 260.0,
-    "change_pct": 151.2,
-    "change_pct_30d": -47.6,
-    "old_price_30d": 495.95,
-    "old_date_30d": "2026-09-16",
-    "old_date": "2026-07-26",
-    "trend": "mixed",
+    "yen_increase": 75608,
+    "checked_date": "2026-10-24",
+    "old_price": 495.95,
+    "new_price": 1000.0,
+    "change_pct": 101.6,
+    "change_pct_30d": 127.3,
+    "old_price_30d": 440.0,
+    "old_date_30d": "2026-09-23",
+    "old_date": "2026-09-16",
+    "trend": "spike",
     "chart": [
-      {
-        "date": "2026-07-26",
-        "price": 103.5
-      },
       {
         "date": "2026-09-16",
         "price": 495.95
@@ -6671,14 +6691,10 @@
       {
         "date": "2026-10-03",
         "price": 1000.0
-      },
-      {
-        "date": "2026-10-04",
-        "price": 260.0
       }
     ],
-    "sales_count_90d": 7,
-    "sales_count_30d": 5,
+    "sales_count_90d": 5,
+    "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84929_in_200x200.jpg"
   },
   "ゲノセクト|overseas": {
@@ -8223,7 +8239,7 @@
     "set_name": "DP5: Temple of Anger",
     "rarity": "Holo Rare",
     "yen_increase": 200400,
-    "checked_date": "2026-10-21",
+    "checked_date": "2026-10-24",
     "old_price": 789.0,
     "new_price": 2125.0,
     "change_pct": 169.3,
@@ -8270,7 +8286,7 @@
         "price": 2125.0
       }
     ],
-    "sales_count_90d": 10,
+    "sales_count_90d": 9,
     "sales_count_30d": 8,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606992_in_200x200.jpg"
   },
@@ -8282,7 +8298,7 @@
     "set_name": "Dragon Selection",
     "rarity": "",
     "yen_increase": 27247,
-    "checked_date": "2026-10-21",
+    "checked_date": "2026-10-24",
     "old_price": 113.5,
     "new_price": 295.15,
     "change_pct": 160.0,
@@ -10249,5 +10265,52 @@
     "sales_count_90d": 7,
     "sales_count_30d": 4,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/178837_in_200x200.jpg"
+  },
+  "サメハダー|overseas": {
+    "character": "サメハダー",
+    "market": "海外(英語版)",
+    "market_key": "overseas",
+    "card_name": "Sharpedo EX",
+    "set_name": "XY - Primal Clash",
+    "rarity": "Ultra Rare",
+    "yen_increase": 87750,
+    "checked_date": "2026-10-24",
+    "old_price": 215.0,
+    "new_price": 800.0,
+    "change_pct": 272.1,
+    "change_pct_30d": 154.0,
+    "old_price_30d": 315.0,
+    "old_date_30d": "2026-08-10",
+    "old_date": "2026-07-19",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-07-19",
+        "price": 215.0
+      },
+      {
+        "date": "2026-07-31",
+        "price": 349.95
+      },
+      {
+        "date": "2026-08-10",
+        "price": 315.0
+      },
+      {
+        "date": "2026-10-08",
+        "price": 459.98
+      },
+      {
+        "date": "2026-10-12",
+        "price": 499.99
+      },
+      {
+        "date": "2026-10-17",
+        "price": 800.0
+      }
+    ],
+    "sales_count_90d": 5,
+    "sales_count_30d": 3,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/95989_in_200x200.jpg"
   }
 }
