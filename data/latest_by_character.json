@@ -1221,7 +1221,7 @@
     "set_name": "EX Deoxys",
     "rarity": "Holo Rare",
     "yen_increase": 183750,
-    "checked_date": "2026-10-22",
+    "checked_date": "2026-10-25",
     "old_price": 1000.0,
     "new_price": 2225.0,
     "change_pct": 122.5,
@@ -3746,13 +3746,13 @@
     "set_name": "Pt3: Beat of the Frontier",
     "rarity": "Holo Rare",
     "yen_increase": 98998,
-    "checked_date": "2026-10-22",
+    "checked_date": "2026-10-25",
     "old_price": 340.0,
     "new_price": 999.99,
     "change_pct": 194.1,
-    "change_pct_30d": 195.9,
-    "old_price_30d": 338.0,
-    "old_date_30d": "2026-09-22",
+    "change_pct_30d": 100.0,
+    "old_price_30d": 500.0,
+    "old_date_30d": "2026-09-23",
     "old_date": "2026-07-28",
     "trend": "spike",
     "chart": [
@@ -3810,7 +3810,7 @@
       }
     ],
     "sales_count_90d": 14,
-    "sales_count_30d": 8,
+    "sales_count_30d": 6,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607410_in_200x200.jpg"
   },
   "ハッサム|overseas": {
@@ -6558,15 +6558,15 @@
     "set_name": "DP5: Temple of Anger",
     "rarity": "Holo Rare",
     "yen_increase": 43776,
-    "checked_date": "2026-10-22",
+    "checked_date": "2026-10-25",
     "old_price": 279.16,
     "new_price": 571.0,
     "change_pct": 104.5,
-    "change_pct_30d": 87.2,
-    "old_price_30d": 305.0,
-    "old_date_30d": "2026-09-06",
+    "change_pct_30d": 22.8,
+    "old_price_30d": 464.95,
+    "old_date_30d": "2026-09-23",
     "old_date": "2026-07-24",
-    "trend": "spike",
+    "trend": "mixed",
     "chart": [
       {
         "date": "2026-07-24",
@@ -6593,72 +6593,9 @@
         "price": 571.0
       }
     ],
-    "sales_count_90d": 6,
-    "sales_count_30d": 2,
+    "sales_count_90d": 5,
+    "sales_count_30d": 1,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606980_in_200x200.jpg"
-  },
-  "カイリキー|japan": {
-    "character": "カイリキー",
-    "market": "日本版",
-    "market_key": "japan",
-    "card_name": "Machamp - 045/080",
-    "set_name": "L3: Clash at the Summit",
-    "rarity": "Super Rare Holo",
-    "yen_increase": 272250,
-    "checked_date": "2026-10-22",
-    "old_price": 15.0,
-    "new_price": 1830.0,
-    "change_pct": 12100.0,
-    "change_pct_30d": 51.4,
-    "old_price_30d": 1209.0,
-    "old_date_30d": "2026-09-05",
-    "old_date": "2026-07-18",
-    "trend": "sustained",
-    "chart": [
-      {
-        "date": "2026-07-18",
-        "price": 15.0
-      },
-      {
-        "date": "2026-07-28",
-        "price": 2025.0
-      },
-      {
-        "date": "2026-08-02",
-        "price": 966.0
-      },
-      {
-        "date": "2026-08-05",
-        "price": 810.0
-      },
-      {
-        "date": "2026-08-16",
-        "price": 860.0
-      },
-      {
-        "date": "2026-08-24",
-        "price": 760.0
-      },
-      {
-        "date": "2026-09-03",
-        "price": 1100.0
-      },
-      {
-        "date": "2026-09-05",
-        "price": 1209.0
-      },
-      {
-        "date": "2026-10-16",
-        "price": 1350.0
-      },
-      {
-        "date": "2026-10-19",
-        "price": 1830.0
-      }
-    ],
-    "sales_count_90d": 9,
-    "sales_count_30d": 2,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/608421_in_200x200.jpg"
   },
   "ロトム|japan": {
     "character": "ロトム",
@@ -9570,5 +9507,48 @@
     "sales_count_90d": 20,
     "sales_count_30d": 8,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/452016_in_200x200.jpg"
+  },
+  "ニャース|japan": {
+    "character": "ニャース",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Alolan Meowth - 255/SM-P",
+    "set_name": "SM-P: Sun & Moon Promos",
+    "rarity": "",
+    "yen_increase": 17466,
+    "checked_date": "2026-10-25",
+    "old_price": 82.56,
+    "new_price": 199.0,
+    "change_pct": 141.0,
+    "change_pct_30d": 53.1,
+    "old_price_30d": 129.99,
+    "old_date_30d": "2026-09-21",
+    "old_date": "2026-08-09",
+    "trend": "mixed",
+    "chart": [
+      {
+        "date": "2026-08-09",
+        "price": 82.56
+      },
+      {
+        "date": "2026-08-17",
+        "price": 80.0
+      },
+      {
+        "date": "2026-09-06",
+        "price": 140.0
+      },
+      {
+        "date": "2026-09-21",
+        "price": 129.99
+      },
+      {
+        "date": "2026-10-22",
+        "price": 199.0
+      }
+    ],
+    "sales_count_90d": 7,
+    "sales_count_30d": 1,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/598332_in_200x200.jpg"
   }
 }
