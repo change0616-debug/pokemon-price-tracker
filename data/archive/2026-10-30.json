@@ -9,7 +9,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 158.06,
-  "checked_characters": 40,
+  "checked_characters": 60,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -1957,16 +1957,16 @@
       "card_name": "Skarmory ex",
       "set_name": "World Champions Pack",
       "rarity": "",
-      "yen_increase": 246567,
-      "checked_date": "2026-10-27",
+      "yen_increase": 247522,
+      "checked_date": "2026-10-30",
       "old_price": 444.0,
       "new_price": 2010.0,
       "change_pct": 352.7,
-      "change_pct_30d": 82.7,
-      "old_price_30d": 1100.0,
-      "old_date_30d": "2026-09-19",
+      "change_pct_30d": 219.0,
+      "old_price_30d": 630.0,
+      "old_date_30d": "2026-09-28",
       "old_date": "2026-08-03",
-      "trend": "mixed",
+      "trend": "spike",
       "chart": [
         {
           "date": "2026-08-03",
@@ -1986,7 +1986,7 @@
         }
       ],
       "sales_count_90d": 5,
-      "sales_count_30d": 3,
+      "sales_count_30d": 2,
       "image_url": "https://cdn.pokemonpricetracker.com/card-fallbacks/609300/1ba78ef9cae5f9a2/200.jpg"
     },
     {
@@ -3531,20 +3531,20 @@
       "card_name": "Skarmory",
       "set_name": "Neo Revelation",
       "rarity": "Rare",
-      "yen_increase": 113093,
-      "checked_date": "2026-10-27",
-      "old_price": 281.72,
+      "yen_increase": 113626,
+      "checked_date": "2026-10-30",
+      "old_price": 281.12,
       "new_price": 1000.0,
-      "change_pct": 255.0,
-      "change_pct_30d": 322.8,
-      "old_price_30d": 236.5,
-      "old_date_30d": "2026-09-13",
+      "change_pct": 255.7,
+      "change_pct_30d": 233.3,
+      "old_price_30d": 300.0,
+      "old_date_30d": "2026-09-30",
       "old_date": "2026-08-01",
       "trend": "spike",
       "chart": [
         {
           "date": "2026-08-01",
-          "price": 281.72
+          "price": 281.12
         },
         {
           "date": "2026-08-10",
@@ -3559,6 +3559,10 @@
           "price": 300.0
         },
         {
+          "date": "2026-10-02",
+          "price": 421.5
+        },
+        {
           "date": "2026-10-07",
           "price": 1200.0
         },
@@ -3567,8 +3571,8 @@
           "price": 1000.0
         }
       ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 3,
+      "sales_count_90d": 7,
+      "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/89233_in_200x200.jpg"
     },
     {
@@ -4139,69 +4143,6 @@
       "sales_count_90d": 6,
       "sales_count_30d": 1,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/544201_in_200x200.jpg"
-    },
-    {
-      "character": "オニゴーリ",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "M Glalie EX (Full Art)",
-      "set_name": "XY - BREAKthrough",
-      "rarity": "Ultra Rare",
-      "yen_increase": 173195,
-      "checked_date": "2026-10-27",
-      "old_price": 500.0,
-      "new_price": 1600.0,
-      "change_pct": 220.0,
-      "change_pct_30d": 196.8,
-      "old_price_30d": 539.0,
-      "old_date_30d": "2026-09-21",
-      "old_date": "2026-07-22",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-07-22",
-          "price": 500.0
-        },
-        {
-          "date": "2026-08-05",
-          "price": 550.0
-        },
-        {
-          "date": "2026-09-06",
-          "price": 800.0
-        },
-        {
-          "date": "2026-09-21",
-          "price": 539.0
-        },
-        {
-          "date": "2026-09-29",
-          "price": 646.81
-        },
-        {
-          "date": "2026-10-02",
-          "price": 607.01
-        },
-        {
-          "date": "2026-10-03",
-          "price": 563.33
-        },
-        {
-          "date": "2026-10-09",
-          "price": 999.99
-        },
-        {
-          "date": "2026-10-11",
-          "price": 1675.0
-        },
-        {
-          "date": "2026-10-14",
-          "price": 1600.0
-        }
-      ],
-      "sales_count_90d": 11,
-      "sales_count_30d": 8,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/107275_in_200x200.jpg"
     },
     {
       "character": "ププリン",
@@ -4907,6 +4848,65 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/121232_in_200x200.jpg"
     },
     {
+      "character": "オニゴーリ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "M Glalie EX (Full Art)",
+      "set_name": "XY - BREAKthrough",
+      "rarity": "Ultra Rare",
+      "yen_increase": 165963,
+      "checked_date": "2026-10-30",
+      "old_price": 550.0,
+      "new_price": 1600.0,
+      "change_pct": 190.9,
+      "change_pct_30d": 147.4,
+      "old_price_30d": 646.81,
+      "old_date_30d": "2026-09-29",
+      "old_date": "2026-08-05",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-08-05",
+          "price": 550.0
+        },
+        {
+          "date": "2026-09-06",
+          "price": 800.0
+        },
+        {
+          "date": "2026-09-21",
+          "price": 539.0
+        },
+        {
+          "date": "2026-09-29",
+          "price": 646.81
+        },
+        {
+          "date": "2026-10-02",
+          "price": 607.01
+        },
+        {
+          "date": "2026-10-03",
+          "price": 563.33
+        },
+        {
+          "date": "2026-10-09",
+          "price": 999.99
+        },
+        {
+          "date": "2026-10-11",
+          "price": 1675.0
+        },
+        {
+          "date": "2026-10-14",
+          "price": 1600.0
+        }
+      ],
+      "sales_count_90d": 11,
+      "sales_count_30d": 7,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/107275_in_200x200.jpg"
+    },
+    {
       "character": "フライゴン",
       "market": "日本版",
       "market_key": "japan",
@@ -4972,16 +4972,16 @@
       "card_name": "Marshtomp",
       "set_name": "CP4: Premium Champion Pack",
       "rarity": "None",
-      "yen_increase": 13375,
-      "checked_date": "2026-10-27",
+      "yen_increase": 13427,
+      "checked_date": "2026-10-30",
       "old_price": 45.0,
       "new_price": 129.95,
       "change_pct": 188.8,
-      "change_pct_30d": 306.1,
-      "old_price_30d": 32.0,
-      "old_date_30d": "2026-09-20",
+      "change_pct_30d": 0.0,
+      "old_price_30d": 129.95,
+      "old_date_30d": "2026-09-28",
       "old_date": "2026-08-05",
-      "trend": "spike",
+      "trend": "mixed",
       "chart": [
         {
           "date": "2026-08-05",
@@ -5005,7 +5005,7 @@
         }
       ],
       "sales_count_90d": 6,
-      "sales_count_30d": 1,
+      "sales_count_30d": 0,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605524_in_200x200.jpg"
     },
     {
@@ -5868,73 +5868,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/201335_in_200x200.jpg"
     },
     {
-      "character": "ニドキング",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Nidoking BREAK",
-      "set_name": "XY - Evolutions",
-      "rarity": "Rare BREAK",
-      "yen_increase": 19366,
-      "checked_date": "2026-10-27",
-      "old_price": 76.0,
-      "new_price": 199.0,
-      "change_pct": 161.8,
-      "change_pct_30d": 42.1,
-      "old_price_30d": 140.0,
-      "old_date_30d": "2026-09-27",
-      "old_date": "2026-08-02",
-      "trend": "mixed",
-      "chart": [
-        {
-          "date": "2026-08-02",
-          "price": 76.0
-        },
-        {
-          "date": "2026-08-29",
-          "price": 200.0
-        },
-        {
-          "date": "2026-08-30",
-          "price": 98.0
-        },
-        {
-          "date": "2026-09-03",
-          "price": 140.0
-        },
-        {
-          "date": "2026-09-06",
-          "price": 92.0
-        },
-        {
-          "date": "2026-09-23",
-          "price": 144.99
-        },
-        {
-          "date": "2026-09-27",
-          "price": 140.0
-        },
-        {
-          "date": "2026-09-28",
-          "price": 130.0
-        },
-        {
-          "date": "2026-09-29",
-          "price": 125.64
-        },
-        {
-          "date": "2026-09-30",
-          "price": 113.5
-        },
-        {
-          "date": "2026-10-06",
-          "price": 199.0
-        }
-      ],
-      "sales_count_90d": 11,
-      "sales_count_30d": 5,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/124059_in_200x200.jpg"
-    },
-    {
       "character": "キバゴ",
       "market": "日本版",
       "market_key": "japan",
@@ -5976,117 +5909,6 @@
       "sales_count_90d": 6,
       "sales_count_30d": 2,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/602834_in_200x200.jpg"
-    },
-    {
-      "character": "バタフリー",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Butterfree",
-      "set_name": "Southern Island",
-      "rarity": "Common",
-      "yen_increase": 72073,
-      "checked_date": "2026-10-27",
-      "old_price": 289.99,
-      "new_price": 747.74,
-      "change_pct": 157.9,
-      "change_pct_30d": 153.5,
-      "old_price_30d": 295.0,
-      "old_date_30d": "2026-09-27",
-      "old_date": "2026-08-04",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-08-04",
-          "price": 289.99
-        },
-        {
-          "date": "2026-08-17",
-          "price": 294.5
-        },
-        {
-          "date": "2026-08-18",
-          "price": 287.95
-        },
-        {
-          "date": "2026-08-29",
-          "price": 595.0
-        },
-        {
-          "date": "2026-08-30",
-          "price": 290.0
-        },
-        {
-          "date": "2026-09-01",
-          "price": 425.0
-        },
-        {
-          "date": "2026-09-19",
-          "price": 456.95
-        },
-        {
-          "date": "2026-09-21",
-          "price": 299.0
-        },
-        {
-          "date": "2026-09-22",
-          "price": 264.66
-        },
-        {
-          "date": "2026-09-23",
-          "price": 382.49
-        },
-        {
-          "date": "2026-09-25",
-          "price": 423.89
-        },
-        {
-          "date": "2026-09-27",
-          "price": 295.0
-        },
-        {
-          "date": "2026-09-30",
-          "price": 685.0
-        },
-        {
-          "date": "2026-10-01",
-          "price": 232.5
-        },
-        {
-          "date": "2026-10-02",
-          "price": 349.95
-        },
-        {
-          "date": "2026-10-03",
-          "price": 299.99
-        },
-        {
-          "date": "2026-10-07",
-          "price": 385.0
-        },
-        {
-          "date": "2026-10-08",
-          "price": 399.95
-        },
-        {
-          "date": "2026-10-10",
-          "price": 459.99
-        },
-        {
-          "date": "2026-10-11",
-          "price": 399.0
-        },
-        {
-          "date": "2026-10-13",
-          "price": 450.0
-        },
-        {
-          "date": "2026-10-18",
-          "price": 747.74
-        }
-      ],
-      "sales_count_90d": 25,
-      "sales_count_30d": 11,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607950_in_200x200.jpg"
     },
     {
       "character": "レシラム",
@@ -7160,6 +6982,77 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/195089_in_200x200.jpg"
     },
     {
+      "character": "ニドキング",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Nidoking BREAK",
+      "set_name": "XY - Evolutions",
+      "rarity": "Rare BREAK",
+      "yen_increase": 17387,
+      "checked_date": "2026-10-30",
+      "old_price": 76.0,
+      "new_price": 186.0,
+      "change_pct": 144.7,
+      "change_pct_30d": 63.9,
+      "old_price_30d": 113.5,
+      "old_date_30d": "2026-09-30",
+      "old_date": "2026-08-02",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-08-02",
+          "price": 76.0
+        },
+        {
+          "date": "2026-08-29",
+          "price": 200.0
+        },
+        {
+          "date": "2026-08-30",
+          "price": 98.0
+        },
+        {
+          "date": "2026-09-03",
+          "price": 140.0
+        },
+        {
+          "date": "2026-09-06",
+          "price": 92.0
+        },
+        {
+          "date": "2026-09-23",
+          "price": 144.99
+        },
+        {
+          "date": "2026-09-27",
+          "price": 140.0
+        },
+        {
+          "date": "2026-09-28",
+          "price": 130.0
+        },
+        {
+          "date": "2026-09-29",
+          "price": 125.64
+        },
+        {
+          "date": "2026-09-30",
+          "price": 113.5
+        },
+        {
+          "date": "2026-10-06",
+          "price": 199.0
+        },
+        {
+          "date": "2026-10-26",
+          "price": 186.0
+        }
+      ],
+      "sales_count_90d": 12,
+      "sales_count_30d": 3,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/124059_in_200x200.jpg"
+    },
+    {
       "character": "フィオネ",
       "market": "日本版",
       "market_key": "japan",
@@ -7284,16 +7177,16 @@
       "card_name": "Butterfree",
       "set_name": "Jungle",
       "rarity": "Uncommon",
-      "yen_increase": 74002,
-      "checked_date": "2026-10-27",
+      "yen_increase": 74288,
+      "checked_date": "2026-10-30",
       "old_price": 330.0,
       "new_price": 800.0,
       "change_pct": 142.4,
-      "change_pct_30d": 72.0,
-      "old_price_30d": 465.0,
-      "old_date_30d": "2026-09-20",
+      "change_pct_30d": 60.0,
+      "old_price_30d": 500.0,
+      "old_date_30d": "2026-09-29",
       "old_date": "2026-08-09",
-      "trend": "spike",
+      "trend": "sustained",
       "chart": [
         {
           "date": "2026-08-09",
@@ -7341,7 +7234,7 @@
         }
       ],
       "sales_count_90d": 11,
-      "sales_count_30d": 3,
+      "sales_count_30d": 2,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/45136_in_200x200.jpg"
     },
     {
@@ -7638,14 +7531,14 @@
       "card_name": "Onix",
       "set_name": "Southern Island",
       "rarity": "Common",
-      "yen_increase": 61091,
-      "checked_date": "2026-10-27",
+      "yen_increase": 61327,
+      "checked_date": "2026-10-30",
       "old_price": 280.0,
       "new_price": 668.0,
       "change_pct": 138.6,
-      "change_pct_30d": 90.9,
-      "old_price_30d": 349.99,
-      "old_date_30d": "2026-09-27",
+      "change_pct_30d": 91.4,
+      "old_price_30d": 348.99,
+      "old_date_30d": "2026-09-29",
       "old_date": "2026-07-29",
       "trend": "spike",
       "chart": [
@@ -7727,7 +7620,7 @@
         },
         {
           "date": "2026-10-12",
-          "price": 1476.86
+          "price": 1474.55
         },
         {
           "date": "2026-10-13",
@@ -7738,8 +7631,8 @@
           "price": 668.0
         }
       ],
-      "sales_count_90d": 28,
-      "sales_count_30d": 15,
+      "sales_count_90d": 27,
+      "sales_count_30d": 13,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607944_in_200x200.jpg"
     },
     {
@@ -9163,6 +9056,57 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/86751_in_200x200.jpg"
     },
     {
+      "character": "エネコロロ",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Delcatty",
+      "set_name": "EX Power Keepers",
+      "rarity": "Holo Rare",
+      "yen_increase": 101000,
+      "checked_date": "2026-10-30",
+      "old_price": 531.0,
+      "new_price": 1170.0,
+      "change_pct": 120.3,
+      "change_pct_30d": 17.0,
+      "old_price_30d": 1000.0,
+      "old_date_30d": "2026-09-17",
+      "old_date": "2026-07-23",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-07-23",
+          "price": 531.0
+        },
+        {
+          "date": "2026-08-13",
+          "price": 670.0
+        },
+        {
+          "date": "2026-09-05",
+          "price": 8000.0
+        },
+        {
+          "date": "2026-09-17",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-10-08",
+          "price": 2049.0
+        },
+        {
+          "date": "2026-10-19",
+          "price": 3480.0
+        },
+        {
+          "date": "2026-10-26",
+          "price": 1170.0
+        }
+      ],
+      "sales_count_90d": 6,
+      "sales_count_30d": 3,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/84739_in_200x200.jpg"
+    },
+    {
       "character": "ディアルガ",
       "market": "日本版",
       "market_key": "japan",
@@ -10491,8 +10435,8 @@
       "card_name": "Sabrina's Jynx",
       "set_name": "City Gym Decks",
       "rarity": "None",
-      "yen_increase": 33773,
-      "checked_date": "2026-10-27",
+      "yen_increase": 33904,
+      "checked_date": "2026-10-30",
       "old_price": 210.5,
       "new_price": 425.0,
       "change_pct": 101.9,
@@ -10966,8 +10910,8 @@
       "card_name": "Chesnaught BREAK",
       "set_name": "XY8-Br: Red Flash",
       "rarity": "Double Rare",
-      "yen_increase_30d": 100611,
-      "checked_date": "2026-10-27",
+      "yen_increase_30d": 101000,
+      "checked_date": "2026-10-30",
       "old_price": 51.2,
       "new_price": 750.0,
       "change_pct": 1364.8,
@@ -13091,6 +13035,41 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/570638_in_200x200.jpg"
     },
     {
+      "character": "ニドキング",
+      "market": "海外(英語版)",
+      "market_key": "overseas",
+      "card_name": "Team Rocket's Nidoking ex - 217",
+      "set_name": "SV: Scarlet & Violet Promo Cards",
+      "rarity": "Promo",
+      "yen_increase_30d": 13746,
+      "checked_date": "2026-10-30",
+      "old_price": 73.02,
+      "new_price": 159.99,
+      "change_pct": 119.1,
+      "change_pct_30d": 119.1,
+      "old_price_30d": 73.02,
+      "old_date_30d": "2026-10-02",
+      "old_date": "2026-10-02",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-10-02",
+          "price": 73.02
+        },
+        {
+          "date": "2026-10-04",
+          "price": 99.99
+        },
+        {
+          "date": "2026-10-23",
+          "price": 159.99
+        }
+      ],
+      "sales_count_90d": 3,
+      "sales_count_30d": 3,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/653258_in_200x200.jpg"
+    },
+    {
       "character": "ジャローダ",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -13611,8 +13590,8 @@
       "card_name": "Ludicolo - 016/070",
       "set_name": "XY5-Bt: Tidal Storm",
       "rarity": "Uncommon",
-      "yen_increase_30d": 17713,
-      "checked_date": "2026-10-27",
+      "yen_increase_30d": 17782,
+      "checked_date": "2026-10-30",
       "old_price": 205.5,
       "new_price": 212.5,
       "change_pct": 3.4,
@@ -13647,7 +13626,7 @@
           "price": 212.5
         }
       ],
-      "sales_count_90d": 5,
+      "sales_count_90d": 4,
       "sales_count_30d": 3,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/603767_in_200x200.jpg"
     },
@@ -14873,65 +14852,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/130998_in_200x200.jpg"
     },
     {
-      "character": "バタフリー",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Butterfree",
-      "set_name": "Southern Islands",
-      "rarity": "Promo",
-      "yen_increase_30d": 64229,
-      "checked_date": "2026-10-27",
-      "old_price": 595.0,
-      "new_price": 835.88,
-      "change_pct": 40.5,
-      "change_pct_30d": 95.3,
-      "old_price_30d": 427.95,
-      "old_date_30d": "2026-09-25",
-      "old_date": "2026-08-29",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-08-29",
-          "price": 595.0
-        },
-        {
-          "date": "2026-09-01",
-          "price": 425.0
-        },
-        {
-          "date": "2026-09-19",
-          "price": 456.95
-        },
-        {
-          "date": "2026-09-23",
-          "price": 469.99
-        },
-        {
-          "date": "2026-09-25",
-          "price": 427.95
-        },
-        {
-          "date": "2026-09-29",
-          "price": 674.99
-        },
-        {
-          "date": "2026-10-12",
-          "price": 780.0
-        },
-        {
-          "date": "2026-10-18",
-          "price": 751.62
-        },
-        {
-          "date": "2026-10-24",
-          "price": 835.88
-        }
-      ],
-      "sales_count_90d": 9,
-      "sales_count_30d": 4,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/46483_in_200x200.jpg"
-    },
-    {
       "character": "カイオーガ",
       "market": "日本版",
       "market_key": "japan",
@@ -15111,73 +15031,6 @@
       "sales_count_90d": 13,
       "sales_count_30d": 8,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576227_in_200x200.jpg"
-    },
-    {
-      "character": "イワーク",
-      "market": "海外(英語版)",
-      "market_key": "overseas",
-      "card_name": "Onix GX",
-      "set_name": "Hidden Fates",
-      "rarity": "Ultra Rare",
-      "yen_increase_30d": 6377,
-      "checked_date": "2026-10-27",
-      "old_price": 67.12,
-      "new_price": 85.0,
-      "change_pct": 26.6,
-      "change_pct_30d": 91.0,
-      "old_price_30d": 44.5,
-      "old_date_30d": "2026-09-20",
-      "old_date": "2026-07-26",
-      "trend": "spike",
-      "chart": [
-        {
-          "date": "2026-07-26",
-          "price": 67.12
-        },
-        {
-          "date": "2026-08-05",
-          "price": 95.0
-        },
-        {
-          "date": "2026-08-07",
-          "price": 75.0
-        },
-        {
-          "date": "2026-08-10",
-          "price": 69.0
-        },
-        {
-          "date": "2026-08-19",
-          "price": 74.99
-        },
-        {
-          "date": "2026-09-09",
-          "price": 49.45
-        },
-        {
-          "date": "2026-09-20",
-          "price": 44.5
-        },
-        {
-          "date": "2026-09-29",
-          "price": 82.99
-        },
-        {
-          "date": "2026-10-11",
-          "price": 68.83
-        },
-        {
-          "date": "2026-10-15",
-          "price": 80.32
-        },
-        {
-          "date": "2026-10-18",
-          "price": 85.0
-        }
-      ],
-      "sales_count_90d": 11,
-      "sales_count_30d": 5,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/197680_in_200x200.jpg"
     },
     {
       "character": "ゲッコウガ",
@@ -15759,6 +15612,45 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/598766_in_200x200.jpg"
     },
     {
+      "character": "バタフリー",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Butterfree",
+      "set_name": "Flight of Legends",
+      "rarity": "Holo Rare",
+      "yen_increase_30d": 93255,
+      "checked_date": "2026-10-30",
+      "old_price": 710.0,
+      "new_price": 1300.0,
+      "change_pct": 83.1,
+      "change_pct_30d": 83.1,
+      "old_price_30d": 710.0,
+      "old_date_30d": "2026-08-08",
+      "old_date": "2026-08-08",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-08-08",
+          "price": 710.0
+        },
+        {
+          "date": "2026-10-18",
+          "price": 1349.5
+        },
+        {
+          "date": "2026-10-24",
+          "price": 1330.6
+        },
+        {
+          "date": "2026-10-25",
+          "price": 1300.0
+        }
+      ],
+      "sales_count_90d": 5,
+      "sales_count_30d": 4,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/612382_in_200x200.jpg"
+    },
+    {
       "character": "ミロカロス",
       "market": "日本版",
       "market_key": "japan",
@@ -16131,8 +16023,8 @@
       "card_name": "Falkner's Skarmory",
       "set_name": "Pokemon VS",
       "rarity": "Holo Rare",
-      "yen_increase_30d": 120448,
-      "checked_date": "2026-10-27",
+      "yen_increase_30d": 120914,
+      "checked_date": "2026-10-30",
       "old_price": 1000.0,
       "new_price": 1749.99,
       "change_pct": 75.0,
@@ -16156,7 +16048,7 @@
         },
         {
           "date": "2026-08-29",
-          "price": 774.74
+          "price": 773.53
         },
         {
           "date": "2026-09-01",
@@ -16192,7 +16084,7 @@
         },
         {
           "date": "2026-10-16",
-          "price": 1141.64
+          "price": 1138.89
         },
         {
           "date": "2026-10-17",
@@ -22906,125 +22798,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/574514_in_200x200.jpg"
     },
     {
-      "character": "ムウマージ",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Mismagius - 083/073",
-      "set_name": "SV1a: Triplet Beat",
-      "rarity": "Art Rare",
-      "yen_increase_30d": 3151,
-      "checked_date": "2026-10-27",
-      "old_price": 69.02,
-      "new_price": 65.0,
-      "change_pct": -5.8,
-      "change_pct_30d": 44.5,
-      "old_price_30d": 44.99,
-      "old_date_30d": "2026-09-26",
-      "old_date": "2026-07-27",
-      "trend": "unknown",
-      "chart": [
-        {
-          "date": "2026-07-21",
-          "price": 58.56
-        },
-        {
-          "date": "2026-07-25",
-          "price": 65.99
-        },
-        {
-          "date": "2026-07-27",
-          "price": 69.02
-        },
-        {
-          "date": "2026-08-01",
-          "price": 55.0
-        },
-        {
-          "date": "2026-08-03",
-          "price": 28.8
-        },
-        {
-          "date": "2026-08-13",
-          "price": 64.0
-        },
-        {
-          "date": "2026-08-16",
-          "price": 46.04
-        },
-        {
-          "date": "2026-08-17",
-          "price": 66.0
-        },
-        {
-          "date": "2026-08-18",
-          "price": 58.0
-        },
-        {
-          "date": "2026-08-19",
-          "price": 60.0
-        },
-        {
-          "date": "2026-08-20",
-          "price": 65.99
-        },
-        {
-          "date": "2026-08-23",
-          "price": 59.99
-        },
-        {
-          "date": "2026-08-25",
-          "price": 59.0
-        },
-        {
-          "date": "2026-08-26",
-          "price": 40.0
-        },
-        {
-          "date": "2026-09-02",
-          "price": 69.0
-        },
-        {
-          "date": "2026-09-09",
-          "price": 38.9
-        },
-        {
-          "date": "2026-09-10",
-          "price": 34.0
-        },
-        {
-          "date": "2026-09-15",
-          "price": 41.0
-        },
-        {
-          "date": "2026-09-22",
-          "price": 38.0
-        },
-        {
-          "date": "2026-09-26",
-          "price": 44.99
-        },
-        {
-          "date": "2026-09-30",
-          "price": 54.99
-        },
-        {
-          "date": "2026-10-09",
-          "price": 72.0
-        },
-        {
-          "date": "2026-10-10",
-          "price": 66.0
-        },
-        {
-          "date": "2026-10-11",
-          "price": 65.0
-        }
-      ],
-      "sales_count_90d": 21,
-      "sales_count_30d": 4,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/568206_in_200x200.jpg"
-    },
-    {
       "character": "ゴウカザル",
       "market": "日本版",
       "market_key": "japan",
@@ -26258,8 +26031,8 @@
       "card_name": "Fletchling",
       "set_name": "CP3: PokeKyun Collection",
       "rarity": "Common",
-      "yen_increase_30d": 7874,
-      "checked_date": "2026-10-27",
+      "yen_increase_30d": 7905,
+      "checked_date": "2026-10-30",
       "old_price": 120.5,
       "new_price": 200.0,
       "change_pct": 66.0,
