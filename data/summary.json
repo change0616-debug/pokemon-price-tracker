@@ -9,7 +9,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 157.25,
-  "checked_characters": 100,
+  "checked_characters": 101,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -5092,49 +5092,6 @@
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/272710_in_200x200.jpg"
     },
     {
-      "character": "エレキブル",
-      "market": "日本版",
-      "market_key": "japan",
-      "card_name": "Electivire LV.X",
-      "set_name": "DP2: Secret of the Lakes",
-      "rarity": "Holo Rare",
-      "yen_increase": 204163,
-      "checked_date": "2026-10-29",
-      "old_price": 620.0,
-      "new_price": 1912.5,
-      "change_pct": 208.5,
-      "change_pct_30d": 22.2,
-      "old_price_30d": 1564.45,
-      "old_date_30d": "2026-09-27",
-      "old_date": "2026-07-22",
-      "trend": "sustained",
-      "chart": [
-        {
-          "date": "2026-07-22",
-          "price": 620.0
-        },
-        {
-          "date": "2026-08-25",
-          "price": 780.0
-        },
-        {
-          "date": "2026-09-06",
-          "price": 1500.0
-        },
-        {
-          "date": "2026-09-27",
-          "price": 1564.45
-        },
-        {
-          "date": "2026-10-06",
-          "price": 1912.5
-        }
-      ],
-      "sales_count_90d": 6,
-      "sales_count_30d": 2,
-      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/605842_in_200x200.jpg"
-    },
-    {
       "character": "サメハダー",
       "market": "海外(英語版)",
       "market_key": "overseas",
@@ -7721,6 +7678,65 @@
       "sales_count_90d": 6,
       "sales_count_30d": 1,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/263815_in_200x200.jpg"
+    },
+    {
+      "character": "エレキブル",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Electivire FB LV.X",
+      "set_name": "Pt3: Beat of the Frontier",
+      "rarity": "Holo Rare",
+      "yen_increase": 235875,
+      "checked_date": "2026-11-01",
+      "old_price": 1000.0,
+      "new_price": 2500.0,
+      "change_pct": 150.0,
+      "change_pct_30d": 150.0,
+      "old_price_30d": 1000.0,
+      "old_date_30d": "2026-09-30",
+      "old_date": "2026-08-23",
+      "trend": "spike",
+      "chart": [
+        {
+          "date": "2026-08-23",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-09-27",
+          "price": 730.0
+        },
+        {
+          "date": "2026-09-28",
+          "price": 720.0
+        },
+        {
+          "date": "2026-09-30",
+          "price": 1000.0
+        },
+        {
+          "date": "2026-10-04",
+          "price": 2175.0
+        },
+        {
+          "date": "2026-10-09",
+          "price": 960.03
+        },
+        {
+          "date": "2026-10-12",
+          "price": 1599.97
+        },
+        {
+          "date": "2026-10-18",
+          "price": 2750.0
+        },
+        {
+          "date": "2026-10-22",
+          "price": 2500.0
+        }
+      ],
+      "sales_count_90d": 12,
+      "sales_count_30d": 6,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607436_in_200x200.jpg"
     },
     {
       "character": "アグノム",
