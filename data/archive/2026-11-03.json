@@ -9,7 +9,7 @@
   "watchlist_min_yen_increase_30d": 3000,
   "watchlist_min_sales_count_30d": 3,
   "usd_jpy_rate": 157.9,
-  "checked_characters": 100,
+  "checked_characters": 101,
   "total_characters": 301,
   "stopped_early": false,
   "psa10_data_found": true,
@@ -10513,6 +10513,61 @@
       "sales_count_90d": 6,
       "sales_count_30d": 4,
       "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/120150_in_200x200.jpg"
+    },
+    {
+      "character": "エルレイド",
+      "market": "日本版",
+      "market_key": "japan",
+      "card_name": "Gallade - 057/049",
+      "set_name": "SM11b: Dream League",
+      "rarity": "Character Rare",
+      "yen_increase": 5684,
+      "checked_date": "2026-11-03",
+      "old_price": 34.0,
+      "new_price": 70.0,
+      "change_pct": 105.9,
+      "change_pct_30d": 55.6,
+      "old_price_30d": 45.0,
+      "old_date_30d": "2026-09-29",
+      "old_date": "2026-08-02",
+      "trend": "sustained",
+      "chart": [
+        {
+          "date": "2026-08-02",
+          "price": 34.0
+        },
+        {
+          "date": "2026-08-22",
+          "price": 31.67
+        },
+        {
+          "date": "2026-08-27",
+          "price": 35.16
+        },
+        {
+          "date": "2026-09-10",
+          "price": 36.0
+        },
+        {
+          "date": "2026-09-16",
+          "price": 45.0
+        },
+        {
+          "date": "2026-09-29",
+          "price": 45.0
+        },
+        {
+          "date": "2026-10-12",
+          "price": 59.99
+        },
+        {
+          "date": "2026-10-24",
+          "price": 70.0
+        }
+      ],
+      "sales_count_90d": 7,
+      "sales_count_30d": 2,
+      "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/574888_in_200x200.jpg"
     },
     {
       "character": "ハガネール",
