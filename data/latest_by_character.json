@@ -6,8 +6,8 @@
     "card_name": "Cleffa - 095",
     "set_name": "SV: Scarlet & Violet Promo Cards",
     "rarity": "Promo",
-    "yen_increase": 43679,
-    "checked_date": "2026-11-01",
+    "yen_increase": 43968,
+    "checked_date": "2026-11-04",
     "old_price": 200.0,
     "new_price": 477.77,
     "change_pct": 138.9,
@@ -1147,16 +1147,16 @@
     "card_name": "Pidgeot",
     "set_name": "Pokemon Jungle",
     "rarity": "Holo Rare",
-    "yen_increase": 144278,
-    "checked_date": "2026-11-01",
+    "yen_increase": 109222,
+    "checked_date": "2026-11-04",
     "old_price": 249.99,
-    "new_price": 1167.5,
-    "change_pct": 367.0,
-    "change_pct_30d": 16.8,
-    "old_price_30d": 1000.0,
-    "old_date_30d": "2026-09-27",
+    "new_price": 940.0,
+    "change_pct": 276.0,
+    "change_pct_30d": 213.4,
+    "old_price_30d": 299.97,
+    "old_date_30d": "2026-10-05",
     "old_date": "2026-08-07",
-    "trend": "mixed",
+    "trend": "spike",
     "chart": [
       {
         "date": "2026-08-07",
@@ -1217,10 +1217,14 @@
       {
         "date": "2026-10-12",
         "price": 1167.5
+      },
+      {
+        "date": "2026-10-29",
+        "price": 940.0
       }
     ],
-    "sales_count_90d": 19,
-    "sales_count_30d": 5,
+    "sales_count_90d": 20,
+    "sales_count_30d": 6,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/576637_in_200x200.jpg"
   },
   "ハガネール|overseas": {
@@ -3600,21 +3604,17 @@
     "card_name": "Pidgeot EX (Full Art)",
     "set_name": "XY - Evolutions",
     "rarity": "Ultra Rare",
-    "yen_increase": 42610,
-    "checked_date": "2026-11-01",
+    "yen_increase": 42734,
+    "checked_date": "2026-11-04",
     "old_price": 129.03,
-    "new_price": 400.0,
-    "change_pct": 210.0,
-    "change_pct_30d": 158.1,
-    "old_price_30d": 155.0,
-    "old_date_30d": "2026-10-02",
+    "new_price": 399.0,
+    "change_pct": 209.2,
+    "change_pct_30d": 128.0,
+    "old_price_30d": 174.99,
+    "old_date_30d": "2026-10-03",
     "old_date": "2026-08-01",
     "trend": "spike",
     "chart": [
-      {
-        "date": "2026-07-27",
-        "price": 150.0
-      },
       {
         "date": "2026-07-30",
         "price": 137.5
@@ -3665,7 +3665,7 @@
       },
       {
         "date": "2026-10-10",
-        "price": 230.59
+        "price": 231.11
       },
       {
         "date": "2026-10-11",
@@ -3697,15 +3697,19 @@
       },
       {
         "date": "2026-10-27",
-        "price": 500.39
+        "price": 500.46
       },
       {
         "date": "2026-10-28",
         "price": 400.0
+      },
+      {
+        "date": "2026-10-30",
+        "price": 399.0
       }
     ],
-    "sales_count_90d": 25,
-    "sales_count_30d": 20,
+    "sales_count_90d": 26,
+    "sales_count_30d": 18,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/124117_in_200x200.jpg"
   },
   "ゲノセクト|overseas": {
@@ -4260,8 +4264,8 @@
     "card_name": "Cobalion GX (Full Art)",
     "set_name": "SM - Team Up",
     "rarity": "Ultra Rare",
-    "yen_increase": 38220,
-    "checked_date": "2026-11-01",
+    "yen_increase": 38472,
+    "checked_date": "2026-11-04",
     "old_price": 174.95,
     "new_price": 418.0,
     "change_pct": 138.9,
@@ -4319,16 +4323,16 @@
     "card_name": "Emboar - 098/086",
     "set_name": "SV11W: White Flare",
     "rarity": "Art Rare",
-    "yen_increase": 25710,
-    "checked_date": "2026-11-01",
+    "yen_increase": 25880,
+    "checked_date": "2026-11-04",
     "old_price": 39.0,
     "new_price": 202.5,
     "change_pct": 419.2,
-    "change_pct_30d": -31.4,
-    "old_price_30d": 295.0,
-    "old_date_30d": "2026-09-30",
+    "change_pct_30d": 350.0,
+    "old_price_30d": 45.0,
+    "old_date_30d": "2026-10-05",
     "old_date": "2026-08-03",
-    "trend": "mixed",
+    "trend": "spike",
     "chart": [
       {
         "date": "2026-08-03",
@@ -4383,7 +4387,7 @@
         "price": 202.5
       }
     ],
-    "sales_count_90d": 14,
+    "sales_count_90d": 13,
     "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/636651_in_200x200.jpg"
   },
@@ -4391,44 +4395,52 @@
     "character": "ギャラドス",
     "market": "日本版",
     "market_key": "japan",
-    "card_name": "Gyarados GX - 008/050",
-    "set_name": "SM4A: Ultradimensional Beasts",
-    "rarity": "Double Rare",
-    "yen_increase": 112094,
-    "checked_date": "2026-11-01",
-    "old_price": 87.15,
-    "new_price": 799.99,
-    "change_pct": 817.9,
-    "change_pct_30d": 501.5,
-    "old_price_30d": 132.99,
-    "old_date_30d": "2026-10-02",
-    "old_date": "2026-08-16",
+    "card_name": "Gyarados",
+    "set_name": "Pokemon TCG Classic: Blastoise",
+    "rarity": "None",
+    "yen_increase": 17345,
+    "checked_date": "2026-11-04",
+    "old_price": 90.0,
+    "new_price": 199.58,
+    "change_pct": 121.8,
+    "change_pct_30d": 85.7,
+    "old_price_30d": 107.5,
+    "old_date_30d": "2026-09-28",
+    "old_date": "2026-08-03",
     "trend": "spike",
     "chart": [
       {
-        "date": "2026-08-16",
-        "price": 87.15
+        "date": "2026-08-03",
+        "price": 90.0
       },
       {
-        "date": "2026-09-07",
-        "price": 105.6
+        "date": "2026-08-09",
+        "price": 95.75
       },
       {
-        "date": "2026-09-15",
-        "price": 120.64
+        "date": "2026-08-22",
+        "price": 94.0
       },
       {
-        "date": "2026-10-02",
-        "price": 132.99
+        "date": "2026-09-09",
+        "price": 130.0
       },
       {
-        "date": "2026-10-04",
-        "price": 799.99
+        "date": "2026-09-20",
+        "price": 62.0
+      },
+      {
+        "date": "2026-09-28",
+        "price": 107.5
+      },
+      {
+        "date": "2026-10-16",
+        "price": 199.58
       }
     ],
-    "sales_count_90d": 5,
-    "sales_count_30d": 2,
-    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/572004_in_200x200.jpg"
+    "sales_count_90d": 7,
+    "sales_count_30d": 1,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/591881_in_200x200.jpg"
   },
   "ヘルガー|overseas": {
     "character": "ヘルガー",
@@ -5679,21 +5691,17 @@
     "card_name": "Togepi & Cleffa & Igglybuff GX - 185/173",
     "set_name": "SM12a: TAG TEAM GX: Tag All Stars",
     "rarity": "Super Rare",
-    "yen_increase": 56217,
-    "checked_date": "2026-11-01",
-    "old_price": 232.5,
+    "yen_increase": 55387,
+    "checked_date": "2026-11-04",
+    "old_price": 240.09,
     "new_price": 590.0,
-    "change_pct": 153.8,
+    "change_pct": 145.7,
     "change_pct_30d": 201.8,
     "old_price_30d": 195.5,
     "old_date_30d": "2026-09-06",
-    "old_date": "2026-07-26",
+    "old_date": "2026-08-16",
     "trend": "spike",
     "chart": [
-      {
-        "date": "2026-07-26",
-        "price": 232.5
-      },
       {
         "date": "2026-08-16",
         "price": 240.09
@@ -6559,8 +6567,8 @@
     "card_name": "Gyarados (11)",
     "set_name": "Skyridge",
     "rarity": "Rare",
-    "yen_increase": 218578,
-    "checked_date": "2026-11-01",
+    "yen_increase": 220023,
+    "checked_date": "2026-11-04",
     "old_price": 1110.0,
     "new_price": 2500.0,
     "change_pct": 125.2,
@@ -6604,7 +6612,7 @@
       }
     ],
     "sales_count_90d": 9,
-    "sales_count_30d": 3,
+    "sales_count_30d": 2,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/85988_in_200x200.jpg"
   },
   "ルージュラ|japan": {
@@ -9013,8 +9021,8 @@
     "card_name": "Feraligatr",
     "set_name": "Dragon Majesty",
     "rarity": "Holo Rare",
-    "yen_increase": 385105,
-    "checked_date": "2026-11-01",
+    "yen_increase": 387652,
+    "checked_date": "2026-11-04",
     "old_price": 550.0,
     "new_price": 2999.0,
     "change_pct": 445.3,
@@ -9060,8 +9068,8 @@
     "card_name": "Azumarill",
     "set_name": "XY11-Br: Cruel Traitor",
     "rarity": "Uncommon",
-    "yen_increase": 47175,
-    "checked_date": "2026-11-01",
+    "yen_increase": 47487,
+    "checked_date": "2026-11-04",
     "old_price": 180.0,
     "new_price": 480.0,
     "change_pct": 166.7,
