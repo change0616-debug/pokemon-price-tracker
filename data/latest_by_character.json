@@ -2281,8 +2281,8 @@
     "card_name": "Heatran",
     "set_name": "Pt4: Advent of Arceus",
     "rarity": "Holo Rare",
-    "yen_increase": 47323,
-    "checked_date": "2026-11-25",
+    "yen_increase": 47463,
+    "checked_date": "2026-11-28",
     "old_price": 202.5,
     "new_price": 500.0,
     "change_pct": 146.9,
@@ -4822,15 +4822,15 @@
     "card_name": "Marill",
     "set_name": "WoTC Promo",
     "rarity": "Promo",
-    "yen_increase": 168764,
-    "checked_date": "2026-11-25",
-    "old_price": 264.0,
-    "new_price": 1324.94,
-    "change_pct": 401.9,
-    "change_pct_30d": 212.8,
-    "old_price_30d": 423.54,
+    "yen_increase": 162546,
+    "checked_date": "2026-11-28",
+    "old_price": 307.5,
+    "new_price": 1326.34,
+    "change_pct": 331.3,
+    "change_pct_30d": 211.4,
+    "old_price_30d": 425.98,
     "old_date_30d": "2026-10-22",
-    "old_date": "2026-08-24",
+    "old_date": "2026-08-30",
     "trend": "spike",
     "chart": [
       {
@@ -4867,7 +4867,7 @@
       },
       {
         "date": "2026-10-22",
-        "price": 423.54
+        "price": 425.98
       },
       {
         "date": "2026-11-02",
@@ -4875,11 +4875,11 @@
       },
       {
         "date": "2026-11-16",
-        "price": 781.92
+        "price": 786.42
       },
       {
         "date": "2026-11-22",
-        "price": 1324.94
+        "price": 1326.34
       }
     ],
     "sales_count_90d": 12,
@@ -7728,5 +7728,76 @@
     "sales_count_90d": 8,
     "sales_count_30d": 3,
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/636720_in_200x200.jpg"
+  },
+  "ナエトル|japan": {
+    "character": "ナエトル",
+    "market": "日本版",
+    "market_key": "japan",
+    "card_name": "Turtwig - 206/172",
+    "set_name": "S12a: VSTAR Universe",
+    "rarity": "Art Rare",
+    "yen_increase": 9413,
+    "checked_date": "2026-11-28",
+    "old_price": 56.0,
+    "new_price": 115.0,
+    "change_pct": 105.4,
+    "change_pct_30d": 56.1,
+    "old_price_30d": 73.67,
+    "old_date_30d": "2026-10-12",
+    "old_date": "2026-08-30",
+    "trend": "spike",
+    "chart": [
+      {
+        "date": "2026-08-24",
+        "price": 94.95
+      },
+      {
+        "date": "2026-08-30",
+        "price": 56.0
+      },
+      {
+        "date": "2026-09-06",
+        "price": 72.0
+      },
+      {
+        "date": "2026-09-12",
+        "price": 48.0
+      },
+      {
+        "date": "2026-09-22",
+        "price": 55.0
+      },
+      {
+        "date": "2026-10-12",
+        "price": 73.67
+      },
+      {
+        "date": "2026-10-30",
+        "price": 82.0
+      },
+      {
+        "date": "2026-11-04",
+        "price": 79.99
+      },
+      {
+        "date": "2026-11-09",
+        "price": 62.4
+      },
+      {
+        "date": "2026-11-12",
+        "price": 70.0
+      },
+      {
+        "date": "2026-11-16",
+        "price": 72.0
+      },
+      {
+        "date": "2026-11-24",
+        "price": 115.0
+      }
+    ],
+    "sales_count_90d": 13,
+    "sales_count_30d": 6,
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/571744_in_200x200.jpg"
   }
 }
